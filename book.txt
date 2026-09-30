@@ -194,9 +194,7 @@ Such were Arkady’s reflections;﻿ ﻿… but even as he reflected, the spri
 
 “To welcome you, my dear boy. Yes, it’s spring in its full loveliness. Though I agree with Pushkin﻿—do you remember in Yevgeny Onyegin﻿—
 
-> “To me how sad thy coming is,  
-> Spring, spring, sweet time of love!  
-> What﻿ ﻿…”
+“To me how sad thy coming is,<br>Spring, spring, sweet time of love!<br>What﻿ ﻿…”
 
 “Arkady!” called Bazarov’s voice from the coach, “send me a match; I’ve nothing to light my pipe with.”
 
@@ -1328,8 +1326,7 @@ A sudden silence followed. “No, why should we talk of love,” said Bazarov; �
 
 The lunch dragged on a long while. The first bottle of champagne was followed by another, a third, and even a fourth.﻿ ﻿… Evdoksya chattered without pause; Sitnikov seconded her. They had much discussion upon the question whether marriage was a prejudice or a crime, and whether men were born equal or not, and precisely what individuality consists in. Things came at last to Evdoksya, flushed from the wine she had drunk, tapping with her flat fingertips on the keys of a discordant piano, and beginning to sing in a hoarse voice, first gipsy songs, and then Seymour Schiff’s song, “Granada lies slumbering”; while Sitnikov tied a scarf round his head, and represented the dying lover at the words﻿—
 
-> “And thy lips to mine  
-> In burning kiss entwine.”
+“And thy lips to mine<br>In burning kiss entwine.”
 
 Arkady could not stand it at last. “Gentlemen, it’s getting something like Bedlam,” he remarked aloud. Bazarov, who had at rare intervals put in an ironical word in the conversation﻿—he paid more attention to the champagne﻿—gave a loud yawn, got up, and, without taking leave of their hostess, he walked off with Arkady. Sitnikov jumped up and followed them.
 
@@ -2333,8 +2330,7 @@ Vassily Ivanovitch turned round quickly. “Aha! you wanted to pay a visit to yo
 
 Vassily Ivanovitch jumped up briskly from the garden seat, and hummed from *Robert le Diable*﻿—
 
-> “The rule, the rule we set ourselves,  
-> To live, to live for pleasure!”
+“The rule, the rule we set ourselves,<br>To live, to live for pleasure!”
 
 “Singular vitality!” observed Bazarov, going away from the window.
 
