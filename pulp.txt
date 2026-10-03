@@ -4,11 +4,8 @@ b=title
 ## I
 r=posting-station
 
-“Well, Piotr, not in sight yet?”
-n:nikolai=?;n:piotr=Piotr;b=posting-station;x:piotr=hat;x:nikolai=overcoat;s=nikolai;e:nikolai=curious
-
-was the question asked on May the 20th, 1859, by a gentleman of a little over forty, in a dusty coat and checked trousers, who came out without his hat on to the low steps of the posting station at S﻿—﻿—.
-s=none
+“Well, Piotr, not in sight yet?” was the question asked on May the 20th, 1859, by a gentleman of a little over forty, in a dusty coat and checked trousers, who came out without his hat on to the low steps of the posting station at S﻿—﻿—.
+n:nikolai=?;n:piotr=Piotr;b=posting-station;x:piotr=hat;x:nikolai=overcoat,hat;e:nikolai=curious;m=dialogue,1
 
 He was addressing his servant, a chubby young fellow, with whitish down on his chin, and little, lacklustre eyes.
 
@@ -23,13 +20,16 @@ s=piotr;e:piotr=neutral
 s=nikolai
 
 “No, sir,” responded the man a second time.
-s=piotr
+s=piotr;i=2
 
-His master sighed, and sat down on a little bench. We will introduce him to the reader while he sits, his feet tucked under him, gazing thoughtfully round.
-s=none
+His master sighed, and sat down on a little bench.
+s=
+
+We will introduce him to the reader while he sits, his feet tucked under him, gazing thoughtfully round.
+s=none;;f:b:posting-station=blur(3px)
 
 His name was Nikolai Petrovitch Kirsanov. He had, twelve miles from the posting station, a fine property of two hundred souls, or, as he expressed it﻿—since he had arranged the division of his land with the peasants, and started “a farm”﻿—of nearly five thousand acres.
-n:nikolai=Nikolai Petrovitch Kirsanov;f:b:posting-station=blur(3px)
+n:nikolai=Nikolai Petrovitch Kirsanov;b=maryino-wide;f:b:maryino-wide=blur(3px)
 
 His father, a general in the army, who served in 1812, a coarse, half-educated, but not ill-natured man, a typical Russian, had been in harness all his life, first in command of a brigade, and then of a division, and lived constantly in the provinces, where, by virtue of his rank, he played a fairly important part.
 
@@ -50,7 +50,7 @@ but he broke his leg on the very day when the news of his commission came, and, 
 
 
 He took him to Petersburg directly he was eighteen, and placed him in the university. His brother happened about the same time to be made an officer in the Guards.
-
+b=petersburg-wide;f:b:petersburg-wide=blur(3px)
 
 The young men started living together in one set of rooms, under the remote supervision of a cousin on their mother’s side, Ilya Kolyazin, an official of high rank.
 
@@ -61,50 +61,53 @@ Their father returned to his division and his wife, and only rarely sent his son
 In 1835 Nikolai Petrovitch left the university, a graduate, and in the same year General Kirsanov was put on to the retired list after an unsuccessful review, and came to Petersburg with his wife to live.
 
 
-He was about to take a house in the Tavrichesky Gardens, and had joined the English club, but he died suddenly of an apoplectic fit. Agathokleya Kuzminishna soon followed him; she could not accustom herself to a dull life in the capital;
+He was about to take a house in the Tavrichesky Gardens, and had joined the English club, but he died suddenly of an apoplectic fit.
 
 
-she was consumed by the ennui of existence away from the regiment. Meanwhile Nikolai Petrovitch had already, in his parents’ lifetime and to their no slight chagrin, had time to fall in love with the daughter of his landlord, a petty official, Prepolovensky.
+Agathokleya Kuzminishna soon followed him; she could not accustom herself to a dull life in the capital; she was consumed by the ennui of existence away from the regiment.
 
 
-She was a pretty and, as it is called, “advanced” girl; she used to read the serious articles in the “Science” column of the journals. He married her directly the term of mourning was over;
+Meanwhile Nikolai Petrovitch had already, in his parents’ lifetime and to their no slight chagrin, had time to fall in love with the daughter of his landlord, a petty official, Prepolovensky.
 
 
-and leaving the civil service in which his father had by favour procured him a post, was perfectly blissful with his Masha, first in a country villa near the Lyesny Institute, afterwards in town in a pretty little flat with a clean staircase and a draughty drawing-room,
+She was a pretty and, as it is called, “advanced” girl; she used to read the serious articles in the “Science” column of the journals.
+
+
+He married her directly the term of mourning was over; and leaving the civil service in which his father had by favour procured him a post, was perfectly blissful with his Masha, first in a country villa near the Lyesny Institute, afterwards in town in a pretty little flat with a clean staircase and a draughty drawing-room,
 m=break,1
 
-and then in the country, where he settled finally, and where in a short time a son, Arkady, was born to him. The young couple lived very happily and peacefully; they were scarcely ever apart;
+and then in the country, where he settled finally, and where in a short time a son, Arkady, was born to him.
+b=maryino-wide
 
-
-they read together, sang and played duets together on the piano; she tended her flowers and looked after the poultry-yard; he sometimes went hunting, and busied himself with the estate, while Arkady grew and grew in the same happy and peaceful way.
+The young couple lived very happily and peacefully; they were scarcely ever apart; they read together, sang and played duets together on the piano; she tended her flowers and looked after the poultry-yard; he sometimes went hunting, and busied himself with the estate, while Arkady grew and grew in the same happy and peaceful way.
 
 
 Ten years passed like a dream. In 1847 Kirsanov’s wife died. He almost succumbed to this blow; in a few weeks his hair was grey; he was getting ready to go abroad, if possible to distract his mind﻿ ﻿… but then came the year 1848.
 
 
-He returned unwillingly to the country, and, after a rather prolonged period of inactivity, began to take an interest in improvements in the management of his land. In 1855 he brought his son to the university;
+He returned unwillingly to the country, and, after a rather prolonged period of inactivity, began to take an interest in improvements in the management of his land.
 
 
-he spent three winters with him in Petersburg, hardly going out anywhere, and trying to make acquaintance with Arkady’s young companions.
+In 1855 he brought his son to the university; he spent three winters with him in Petersburg, hardly going out anywhere, and trying to make acquaintance with Arkady’s young companions.
 
 
 The last winter he had not been able to go, and here we have him in the May of 1859, already quite grey, stoutish, and rather bent, waiting for his son, who had just taken his degree, as once he had taken it himself.
+b=posting-station
 
-
-The servant, from a feeling of propriety, and perhaps, too, not anxious to remain under the master’s eye, had gone to the gate, and was smoking a pipe. Nikolai Petrovitch bent his head, and began staring at the crumbling steps;
+The servant, from a feeling of propriety, and perhaps, too, not anxious to remain under the master’s eye, had gone to the gate, and was smoking a pipe.
 f:b:posting-station=
 
-a big mottled fowl walked sedately towards him, treading firmly with its great yellow legs; a muddy cat gave him an unfriendly look, twisting herself coyly round the railing.
+Nikolai Petrovitch bent his head, and began staring at the crumbling steps; a big mottled fowl walked sedately towards him, treading firmly with its great yellow legs; a muddy cat gave him an unfriendly look, twisting herself coyly round the railing.
 
 
 The sun was scorching; from the half-dark passage of the posting station came an odour of hot rye-bread. Nikolai Petrovitch fell to dreaming.
 
 
-“My son﻿ ﻿… a graduate﻿ ﻿… Arkasha﻿ ﻿…”
-t=nikolai;e:nikolai=thinking
+“My son﻿ ﻿… a graduate﻿ ﻿… Arkasha﻿ ﻿…” were the ideas that continually came round again and again in his head; he tried to think of something else, and again the same thoughts returned.
 
-were the ideas that continually came round again and again in his head; he tried to think of something else, and again the same thoughts returned. He remembered his dead wife.﻿ ﻿…
-t=none
+
+He remembered his dead wife.﻿ ﻿…
+
 
 “She did not live to see it!” he murmured sadly.
 s=nikolai;e:nikolai=unhappy
@@ -113,115 +116,136 @@ A plump, dark-blue pigeon flew into the road, and hurriedly went to drink in a p
 s=none
 
 “It sounds as if they’re coming sir,” announced the servant, popping in from the gateway.
-s=piotr
+s=piotr;e:piotr=neutrallook
 
 Nikolai Petrovitch jumped up, and bent his eyes on the road. A carriage appeared with three posting-horses harnessed abreast; in the carriage he caught a glimpse of the blue band of a student’s cap, the familiar outline of a dear face.
 s=none
 
-“Arkasha! Arkasha!” cried Kirsanov, and he ran waving his hands.﻿ ﻿…
-s=nikolai;e:nikolai=neutral
+“Arkasha! Arkasha!” cried Kirsanov,
+s=nikolai;e:nikolai=excited;m=break,1
+
+and he ran waving his hands.﻿ ﻿…
+s=
 
 A few instants later, his lips were pressed to the beardless, dusty, sunburnt-cheek of the youthful graduate.
-s=none
+s=none;f:b:posting-station=blur(3px)
 
 ## II
 r=title
 
-“Let me shake myself first, daddy,”
-b=posting-station;n:arkady=Arkady Kirsanov;x:arkady=hat,cloak;x:nikolai=overcoat;s=arkady;e:arkady=neutral;m=break,1
+“Let me shake myself first, daddy,” said Arkady,
+b=posting-station;n:arkady=Arkady “Arkasha” Nikolaevitch Kirsanov;x:arkady=hat,cloak;x:nikolai=hat,overcoat;s=arkady;m=break,1;e:arkady=happy
 
-said Arkady, in a voice tired from travelling, but boyish and clear as a bell, as he gaily responded to his father’s caresses;
+in a voice tired from travelling, but boyish and clear as a bell, as he gaily responded to his father’s caresses;
 s=none
 
 “I am covering you with dust.”
-s=arkady
+s=arkady;i=2
 
-“Never mind, never mind,”
-s=nikolai;e:nikolai=neutral;m=break,1
+“Never mind, never mind,” repeated Nikolai Petrovitch, smiling tenderly,
+s=nikolai;e:nikolai=happy;m=break,1
 
-repeated Nikolai Petrovitch, smiling tenderly, and twice he struck the collar of his son’s cloak and his own greatcoat with his hand.
+and twice he struck the collar of his son’s cloak and his own greatcoat with his hand.
 s=none
 
-“Let me have a look at you; let me have a look at you,”
-s=nikolai;m=break,1
+“Let me have a look at you; let me have a look at you,” he added, moving back from him,
+s=nikolai;m=break,1;e:nikolai=contemplative
 
-he added, moving back from him, but immediately he went with hurried steps towards the yard of the station, calling,
+but immediately he went with hurried steps towards the yard of the station, calling,
 s=none
 
 “This way, this way; and horses at once.”
-s=nikolai
+s=nikolai;e:nikolai=confusedlook
 
 Nikolai Petrovitch seemed far more excited than his son; he seemed a little confused, a little timid. Arkady stopped him.
 s=none
 
 “Daddy,” he said, “let me introduce you to my great friend, Bazarov, about whom I have so often written to you. He has been so good as to promise to stay with us.”
-s=arkady
+s=arkady;e:arkady=
 
 Nikolai Petrovitch went back quickly, and going up to a tall man in a long, loose, rough coat with tassels, who had only just got out of the carriage, he warmly pressed the ungloved red hand, which the latter did not at once hold out to him.
 s=none
 
-“I am heartily glad,” he began, “and very grateful for your kind intention of visiting us.﻿ ﻿… Let me know your name, and your father’s.”
-s=nikolai
+“I am heartily glad,” he began, “and very grateful for your kind intention of visiting us.﻿ ﻿…”
+s=nikolai;e:nikolai=contemplative
+
+“Let me know your name, and your father’s.”
+
 
 “Yevgeny Vassilyev,” answered Bazarov, in a lazy but manly voice;
 n:bazarov=Yevgeny Vassilyitch Bazarov;x:bazarov=hat;s=bazarov;e:bazarov=serious
 
-and turning back the collar of his rough coat, he showed Nikolai Petrovitch his whole face. It was long and lean, with a broad forehead, a nose flat at the base and sharper at the end, large greenish eyes, and drooping whiskers of a sandy colour;
+and turning back the collar of his rough coat, he showed Nikolai Petrovitch his whole face.
 s=none
 
-it was lighted up by a tranquil smile, and showed self-confidence and intelligence.
+It was long and lean, with a broad forehead, a nose flat at the base and sharper at the end, large greenish eyes, and drooping whiskers of a sandy colour; it was lighted up by a tranquil smile, and showed self-confidence and intelligence.
 
 
 “I hope, dear Yevgeny Vassilyitch, you won’t be dull with us,” continued Nikolai Petrovitch.
 s=nikolai
 
-Bazarov’s thin lips moved just perceptibly, though he made no reply, but merely took off his cap. His long, thick hair did not hide the prominent bumps on his head.
+Bazarov’s thin lips moved just perceptibly, though he made no reply, but merely took off his cap.
 x:bazarov=;s=none
 
-“Then, Arkady,” Nikolai Petrovitch began again, turning to his son, “shall the horses be put to at once? or would you like to rest?”
-s=nikolai;e:nikolai=curious
+His long, thick hair did not hide the prominent bumps on his head.
+
+
+“Then, Arkady,” Nikolai Petrovitch began again,
+s=nikolai;e:nikolai=curious;m=break,1
+
+turning to his son,
+s=
+
+“shall the horses be put to at once? or would you like to rest?”
+s=nikolai;e:nikolai=curiouslook
 
 “We will rest at home, daddy; tell them to harness the horses.”
-s=arkady
+s=arkady;e:arkady=thinking
 
-“At once, at once,” his father assented. “Hey, Piotr, do you hear? Get things ready, my good boy; look sharp.”
-s=nikolai
+“At once, at once,” his father assented.
+s=nikolai;e:nikolai=happy
+
+“Hey, Piotr, do you hear? Get things ready, my good boy; look sharp.”
+e:nikolai=seriouslook
 
 Piotr, who as a modernised servant had not kissed the young master’s hand, but only bowed to him from a distance, again vanished through the gateway.
 s=none
 
-“I came here with the carriage, but there are three horses for your coach too,”
-s=nikolai;e:nikolai=neutral;m=break,1
+“I came here with the carriage, but there are three horses for your coach too,” said Nikolai Petrovitch fussily,
+s=nikolai;e:nikolai=serious;m=break,1
 
-said Nikolai Petrovitch fussily, while Arkady drank some water from an iron dipper brought him by the woman in charge of the station, and Bazarov began smoking a pipe and went up to the driver, who was taking out the horses;
+while Arkady drank some water from an iron dipper brought him by the woman in charge of the station, and Bazarov began smoking a pipe and went up to the driver, who was taking out the horses;
 s=none
 
 “there are only two seats in the carriage, and I don’t know how your friend”﻿ ﻿…
-s=nikolai
+s=nikolai;e:nikolai=wary
 
-“He will go in the coach,” interposed Arkady in an undertone. “You must not stand on ceremony with him, please. He’s a splendid fellow, so simple﻿—you will see.”
-s=arkady
+“He will go in the coach,” interposed Arkady in an undertone.
+s=arkady;i=2
+
+“You must not stand on ceremony with him, please. He’s a splendid fellow, so simple﻿—you will see.”
+e:arkady=serious
 
 Nikolai Petrovitch’s coachman brought the horses round.
 s=none
 
 “Come, hurry up, bushy beard!” said Bazarov, addressing the driver.
-s=bazarov
+s=bazarov;e:bazarov=happylook
 
-“Do you hear, Mityuha,”
-n:driver=Driver;x:driver=hat;s=driver;e:driver=neutral;m=break,1
+“Do you hear, Mityuha,” put in another driver,
+n:driver1=Driver;x:driver1=hat;s=driver1;e:driver1=smirking;m=break,1
 
-put in another driver, standing by with his hands thrust behind him into the opening of his sheepskin coat,
+standing by with his hands thrust behind him into the opening of his sheepskin coat,
 s=none
 
 “what the gentleman called you? It’s a bushy beard you are too.”
-s=driver;e:driver=curious
+s=driver1;i=2
 
 Mityuha only gave a jog to his hat and pulled the reins off the heated shaft-horse.
 s=none
 
 “Look sharp, look sharp, lads, lend a hand,” cried Nikolai Petrovitch; “there’ll be something to drink our health with!”
-s=nikolai
+s=nikolai;e:nikolai=happy
 
 In a few minutes the horses were harnessed; the father and son were installed in the carriage; Piotr climbed up on to the box; Bazarov jumped into the coach, and nestled his head down into the leather cushion; and both the vehicles rolled away.
 f:b:posting-station=blur(3px);s=none
@@ -662,7 +686,7 @@ b=maryino-guest-night;f=fade;x:bazarov=night;x:arkady=night;s=bazarov
 s=arkady
 
 “Oh, that’s it, is it? So he keeps it up in memory of the past. It’s a pity there’s no one for him to fascinate here though. I kept staring at his exquisite collars. They’re like marble, and his chin’s shaved simply to perfection. Come, Arkady Nikolaitch, isn’t that ridiculous?”
-n:arkady=Arkady Nikolaitch Kirsanov;s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=curious
 
 “Perhaps it is; but he’s a splendid man, really.”
 s=arkady
