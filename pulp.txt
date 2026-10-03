@@ -253,149 +253,185 @@ f:b:posting-station=blur(3px);s=none
 ## III
 r=title
 
-“So here you are, a graduate at last, and come home again,” said Nikolai Petrovitch, touching Arkady now on the shoulder, now on the knee. “At last!”
-b=country-road;x:arkady=hat,cloak;x:nikolai=hat;x:piotr=hat;x:bazarov=hat;s=nikolai;e:nikolai=neutral
+“So here you are, a graduate at last, and come home again,” said Nikolai Petrovitch,
+b=country-road;x:arkady=hat,cloak;x:nikolai=hat,overcoat;x:piotr=hat;x:bazarov=hat;s=nikolai;e:nikolai=happywary;m=break,1
 
-“And how is uncle? quite well?”
-s=arkady;e:arkady=curious
+touching Arkady now on the shoulder, now on the knee.
+s=
 
-asked Arkady, who, in spite of the genuine, almost childish delight filling his heart, wanted as soon as possible to turn the conversation from the emotional into a commonplace channel.
+“At last!”
+s=nikolai;e:nikolai=thinking
+
+“And how is uncle? quite well?” asked Arkady,
+s=arkady;e:arkady=curious;m=break,1
+
+who, in spite of the genuine, almost childish delight filling his heart, wanted as soon as possible to turn the conversation from the emotional into a commonplace channel.
 s=none
 
 “Quite well. He was thinking of coming with me to meet you, but for some reason or other he gave up the idea.”
-s=nikolai
+s=nikolai;e:nikolai=
 
 “And how long have you been waiting for me?” inquired Arkady.
-s=arkady
+s=arkady;i=2
 
 “Oh, about five hours.”
-s=nikolai
+s=nikolai;e:nikolai=thinking;i=2
 
 “Dear old dad!”
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=unhappy
 
-Arkady turned round quickly to his father, and gave him a sounding kiss on the cheek. Nikolai Petrovitch gave vent to a low chuckle.
+Arkady turned round quickly to his father, and gave him a sounding kiss on the cheek.
 s=none
 
+Nikolai Petrovitch gave vent to a low chuckle.
+
+
 “I have got such a capital horse for you!” he began. “You will see. And your room has been fresh papered.”
-s=nikolai
+s=nikolai;e:nikolai=happy
 
 “And is there a room for Bazarov?”
 s=arkady;e:arkady=curious
 
 “We will find one for him too.”
-s=nikolai
+s=nikolai;i=2
 
 “Please, dad, make much of him. I can’t tell you how I prize his friendship.”
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=thinking
 
 “Have you made friends with him lately?”
 s=nikolai;e:nikolai=curious
 
 “Yes, quite lately.”
-s=arkady
+s=arkady;i=2
 
 “Ah, that’s how it is I did not see him last winter. What does he study?”
-s=nikolai
+s=nikolai;i=2
 
 “His chief subject is natural science. But he knows everything. Next year he wants to take his doctor’s degree.”
-s=arkady
+s=arkady;e:arkady=happy
 
-“Ah! he’s in the medical faculty,” observed Nikolai Petrovitch, and he was silent for a little. “Piotr,” he went on, stretching out his hand, “aren’t those our peasants driving along?”
-s=nikolai
+“Ah! he’s in the medical faculty,” observed Nikolai Petrovitch,
+s=nikolai;e:nikolai=thinking;m=break,1
+
+and he was silent for a little.
+s=
+
+“Piotr,” he went on,
+s=nikolai;e:nikolai=contemplative;m=break,1
+
+stretching out his hand,
+s=
+
+“aren’t those our peasants driving along?”
+s=nikolai;e:nikolai=seriouslook
 
 Piotr looked where his master was pointing. Some carts harnessed with unbridled horses were moving rapidly along a narrow byroad. In each cart there were one or two peasants in sheepskin coats, unbuttoned.
 s=none
 
 “Yes, sir,” replied Piotr.
-s=piotr;e:piotr=neutral
+s=piotr;e:piotr=neutrallook
 
 “Where are they going﻿—to the town?”
-s=nikolai
+s=nikolai;e:nikolai=contemplative;i=2
 
-“To the town, I suppose. To the gin-shop,” he added contemptuously, turning slightly towards the coachman, as though he would appeal to him.
-s=piotr;e:piotr=smirking
+“To the town, I suppose. To the gin-shop,” he added contemptuously,
+s=piotr;e:piotr=smirkinglook;m=break,1
+
+turning slightly towards the coachman, as though he would appeal to him.
+s=
 
 But the latter did not stir a muscle; he was a man of the old stamp, and did not share the modern views of the younger generation.
 s=none
 
-“I have had a lot of bother with the peasants this year,” pursued Nikolai Petrovitch, turning to his son. “They won’t pay their rent. What is one to do?”
-s=nikolai
+“I have had a lot of bother with the peasants this year,” pursued Nikolai Petrovitch, turning to his son.
+s=nikolai;e:nikolai=thinking
+
+“They won’t pay their rent. What is one to do?”
+
 
 “But do you like your hired labourers?”
 s=arkady;e:arkady=curious
 
 “Yes,” said Nikolai Petrovitch between his teeth.
-s=nikolai;e:nikolai=neutral
+s=nikolai;e:nikolai=serious
 
-“They’re being set against me, that’s the mischief; and they don’t do their best. They spoil the tools. But they have tilled the land pretty fairly. When things have settled down a bit, it will be all right. Do you take an interest in farming now?”
-e:nikolai=curious
+“They’re being set against me, that’s the mischief; and they don’t do their best. They spoil the tools. But they have tilled the land pretty fairly. When things have settled down a bit, it will be all right.”
+
+
+“Do you take an interest in farming now?”
+e:nikolai=contemplative
 
 “You’ve no shade; that’s a pity,” remarked Arkady, without answering the last question.
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=contemplative
 
 “I have had a great awning put up on the north side over the balcony,” observed Nikolai Petrovitch; “now we can have dinner even in the open air.”
-s=nikolai;e:nikolai=neutral
+s=nikolai;e:nikolai=wary
 
 “It’ll be rather too like a summer villa.﻿ ﻿… Still, that’s all nonsense. What air though here! How delicious it smells! Really I fancy there’s nowhere such fragrance in the world as in the meadows here! And the sky too.”
-s=arkady
+s=arkady;e:arkady=curiouslook
 
 Arkady suddenly stopped short, cast a stealthy look behind him, and said no more.
 s=none
 
 “Of course,” observed Nikolai Petrovitch, “you were born here, and so everything is bound to strike you in a special﻿—”
-s=nikolai
+s=nikolai;e:nikolai=
 
 “Come, dad, that makes no difference where a man is born.”
-s=arkady
+s=arkady;e:arkady=serious
 
 “Still﻿—”
-s=nikolai
+s=nikolai;i=2
 
 “No; it makes absolutely no difference.”
-s=arkady
+s=arkady;i=2
 
 Nikolai Petrovitch gave a sidelong glance at his son, and the carriage went on a half-a-mile further before the conversation was renewed between them.
 s=none
 
 “I don’t recollect whether I wrote to you,” began Nikolai Petrovitch, “your old nurse, Yegorovna, is dead.”
-s=nikolai
+s=nikolai;e:nikolai=thinking
 
 “Really? Poor thing! Is Prokofitch still living?”
-s=arkady;e:arkady=curious
+s=arkady;e:arkady=thinking
 
 “Yes, and not a bit changed. As grumbling as ever. In fact, you won’t find many changes at Maryino.”
-s=nikolai
+s=nikolai;e:nikolai=smirking
 
 “Have you still the same bailiff?”
-s=arkady
+s=arkady;i=2
 
 “Well, to be sure there is a change there. I decided not to keep about me any freed serfs, who have been house servants, or, at least, not to entrust them with duties of any responsibility.”
-s=nikolai
+s=nikolai;e:nikolai=
 
 (Arkady glanced towards Piotr.)
 s=none
 
-“*Il est libre, en effet*,” observed Nikolai Petrovitch in an undertone; “but, you see, he’s only a valet. Now I have a bailiff, a townsman; he seems a practical fellow. I pay him two hundred and fifty roubles a year. But,”
-s=nikolai;m=break,1
+“*Il est libre, en effet*,” observed Nikolai Petrovitch in an undertone;
+s=nikolai;m=break,1;e:nikolai=contemplativelook
 
-added Nikolai Petrovitch, rubbing his forehead and eyebrows with his hand, which was always an indication with him of inward embarrassment,
-s=none
+“but, you see, he’s only a valet. Now I have a bailiff, a townsman; he seems a practical fellow. I pay him two hundred and fifty roubles a year.”
+e:nikolai=thinking
+
+“But,” added Nikolai Petrovitch,
+e:nikolai=waryforehead;m=break,1
+
+rubbing his forehead and eyebrows with his hand, which was always an indication with him of inward embarrassment,
+s=
 
 “I told you just now that you would not find changes at Maryino.﻿ ﻿… That’s not quite correct. I think it my duty to prepare you, though.﻿ ﻿…”
-s=nikolai
+s=nikolai;i=2
 
 He hesitated for an instant, and then went on in French.
 s=none
 
 “A severe moralist would regard my openness, as improper; but, in the first place, it can’t be concealed, and secondly, you are aware I have always had peculiar ideas as regards the relation of father and son.”
-s=nikolai
+s=nikolai;e:nikolai=nervous
 
 “Though, of course, you would be right in blaming me. At my age.﻿ ﻿… In short﻿ ﻿… that﻿ ﻿… that girl, about whom you have probably heard already﻿ ﻿…”
 
 
 “Fenitchka?” asked Arkady easily.
-s=arkady
+s=arkady;e:arkady=
 
 Nikolai Petrovitch blushed.
 s=none
@@ -404,67 +440,76 @@ s=none
 s=nikolai
 
 “Goodness, daddy, what for?”
-s=arkady
+s=arkady;i=2
 
 “Your friend is going to stay with us﻿ ﻿… it would be awkward﻿ ﻿…”
-s=nikolai
+s=nikolai;e:nikolai=contemplative
 
 “Please don’t be uneasy on Bazarov’s account. He’s above all that.”
 s=arkady;e:arkady=neutral
 
-“Well, but you too,” added Nikolai Petrovitch. “The little lodge is so horrid﻿—that’s the worst of it.”
-s=nikolai
+“Well, but you too,” added Nikolai Petrovitch.
+s=nikolai;i=2
+
+“The little lodge is so horrid﻿—that’s the worst of it.”
+e:nikolai=unhappy
 
 “Goodness, dad,” interposed Arkady, “it’s as if you were apologising; I wonder you’re not ashamed.”
-s=arkady
+s=arkady;e:arkady=suspicious
 
 “Of course, I ought to be ashamed,” answered Nikolai Petrovitch, flushing more and more.
-s=nikolai
+s=nikolai;e:nikolai=unhappy;i=2
 
 “Nonsense, dad, nonsense; please don’t!”
-s=arkady
+s=arkady;e:arkady=happy
 
 Arkady smiled affectionately.
 s=none
 
-“What a thing to apologise for!”
-t=arkady;e:arkady=thinking
+“What a thing to apologise for!” he thought to himself,
+t=arkady;e:arkady=thinking;m=break,1
 
-he thought to himself, and his heart was filled with a feeling of condescending tenderness for his kind, softhearted father, mixed with a sense of secret superiority.
+and his heart was filled with a feeling of condescending tenderness for his kind, softhearted father, mixed with a sense of secret superiority.
 t=none
 
-“Please, stop,”
-s=arkady;e:arkady=neutral;m=break,1
+“Please, stop,” he repeated once more,
+s=arkady;e:arkady=serious;m=break,1
 
-he repeated once more, instinctively revelling in a consciousness of his own advanced and emancipated condition.
+instinctively revelling in a consciousness of his own advanced and emancipated condition.
 s=none
 
-Nikolai Petrovitch glanced at him from under the fingers of the hand with which he was still rubbing his forehead, and there was a pang in his heart.﻿ ﻿… But at once he blamed himself for it.
+Nikolai Petrovitch glanced at him from under the fingers of the hand with which he was still rubbing his forehead, and there was a pang in his heart.﻿ ﻿…
 
+
+But at once he blamed himself for it.
+f:b:country-road=blur(3px)
 
 “Here are our meadows at last,” he said after a long silence.
-s=nikolai
+s=nikolai;e:nikolai=waryforehead;f=fade;b=maryino-meadows-road
 
 “And that in front is our forest, isn’t it?” asked Arkady.
 s=arkady;e:arkady=curious
 
 “Yes. Only I have sold the timber. This year they will cut it down.”
-s=nikolai
+s=nikolai;e:nikolai=thinking
 
 “Why did you sell it?”
-s=arkady
+s=arkady;e:arkady=
 
 “The money was needed; besides, that land is to go to the peasants.”
-s=nikolai
+s=nikolai;i=2
 
 “Who don’t pay you their rent?”
-s=arkady
+s=arkady;e:arkady=serious
 
 “That’s their affair; besides, they will pay it some day.”
-s=nikolai
+s=nikolai;e:nikolai=contemplative
 
-“I am sorry about the forest,” observed Arkady, and he began to look about him.
-s=arkady;e:arkady=neutral
+“I am sorry about the forest,” observed Arkady,
+s=arkady;e:arkady=neutral;m=break,1
+
+and he began to look about him.
+s=
 
 The country through which they were driving could not be called picturesque. Fields upon fields stretched all along to the very horizon, now sloping gently upwards, then dropping down again;
 s=none
@@ -472,71 +517,77 @@ s=none
 in some places woods were to be seen, and winding ravines, planted with low, scanty bushes, recalling vividly the representation of them on the old-fashioned maps of the times of Catherine.
 
 
-They came upon little streams too with hollow banks; and tiny lakes with narrow dykes; and little villages, with low hovels under dark and often tumbledown roofs, and slanting barns with walls woven of brushwood and gaping doorways beside neglected threshing-floors;
+They came upon little streams too with hollow banks; and tiny lakes with narrow dykes;
 
 
-and churches, some brick-built, with stucco peeling off in patches, others wooden, with crosses fallen askew, and overgrown graveyards. Slowly Arkady’s heart sunk.
+and little villages, with low hovels under dark and often tumbledown roofs, and slanting barns with walls woven of brushwood and gaping doorways beside neglected threshing-floors; and churches, some brick-built, with stucco peeling off in patches, others wooden, with crosses fallen askew, and overgrown graveyards.
 
 
-To complete the picture, the peasants they met were all in tatters and on the sorriest little nags; the willows, with their trunks stripped of bark, and broken branches, stood like ragged beggars along the roadside;
+Slowly Arkady’s heart sunk.
 
 
-cows lean and shaggy and looking pinched up by hunger, were greedily tearing at the grass along the ditches. They looked as though they had just been snatched out of the murderous clutches of some threatening monster;
+To complete the picture, the peasants they met were all in tatters and on the sorriest little nags; the willows, with their trunks stripped of bark, and broken branches, stood like ragged beggars along the roadside; cows lean and shaggy and looking pinched up by hunger, were greedily tearing at the grass along the ditches.
 
 
-and the piteous state of the weak, starved beasts in the midst of the lovely spring day, called up, like a white phantom, the endless, comfortless winter with its storms, and frosts, and snows.﻿ ﻿…
+They looked as though they had just been snatched out of the murderous clutches of some threatening monster; and the piteous state of the weak, starved beasts in the midst of the lovely spring day, called up, like a white phantom, the endless, comfortless winter with its storms, and frosts, and snows.﻿ ﻿…
 
 
 “No,” thought Arkady, “this is not a rich country; it does not impress one by plenty or industry; it can’t, it can’t go on like this, reforms are absolutely necessary﻿ ﻿… but how is one to carry them out, how is one to begin?”
-t=arkady;e:arkady=thinking
+t=arkady;e:arkady=serious
 
-Such were Arkady’s reflections;﻿ ﻿… but even as he reflected, the spring regained its sway. All around was golden green, all﻿—trees, bushes, grass﻿—shone and stirred gently in wide waves under the soft breath of the warm wind;
+Such were Arkady’s reflections;﻿ ﻿… but even as he reflected, the spring regained its sway.
 x:arkady=hat;t=none
 
-from all sides flooded the endless trilling music of the larks; the peewits were calling as they hovered over the low-lying meadows, or noiselessly ran over the tussocks of grass;
+All around was golden green, all﻿—trees, bushes, grass﻿—shone and stirred gently in wide waves under the soft breath of the warm wind; from all sides flooded the endless trilling music of the larks; the peewits were calling as they hovered over the low-lying meadows, or noiselessly ran over the tussocks of grass;
 
 
 the rooks strutted among the half-grown short spring-corn, standing out black against its tender green; they disappeared in the already whitening rye, only from time to time their heads peeped out amid its grey waves.
 
 
-Arkady gazed and gazed, and his reflections grew slowly fainter and passed away.﻿ ﻿… He flung off his cloak and turned to his father, with a face so bright and boyish, that the latter gave him another hug.
+Arkady gazed and gazed, and his reflections grew slowly fainter and passed away.﻿ ﻿…
 
 
-“We’re not far off now,” remarked Nikolai Petrovitch;
-s=nikolai
+He flung off his cloak and turned to his father, with a face so bright and boyish, that the latter gave him another hug.
 
-“we have only to get up this hill, and the house will be in sight. We shall get on together splendidly, Arkasha; you shall help me in farming the estate, if only it isn’t a bore to you. We must draw close to one another now, and learn to know each other thoroughly, mustn’t we!”
+
+“We’re not far off now,” remarked Nikolai Petrovitch; “we have only to get up this hill, and the house will be in sight.”
+s=nikolai;e:nikolai=happy
+
+“We shall get on together splendidly, Arkasha; you shall help me in farming the estate, if only it isn’t a bore to you. We must draw close to one another now, and learn to know each other thoroughly, mustn’t we!”
 
 
 “Of course,” said Arkady; “but what an exquisite day it is today!”
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=thinkinglook
 
 “To welcome you, my dear boy. Yes, it’s spring in its full loveliness. Though I agree with Pushkin﻿—do you remember in Yevgeny Onyegin﻿—”
-s=nikolai
+s=nikolai;e:nikolai=thinking
 
 “To me how sad thy coming is,<br>Spring, spring, sweet time of love!<br>What﻿ ﻿…”
 
 
-“Arkady!” called Bazarov’s voice from the coach, “send me a match; I’ve nothing to light my pipe with.”
-s=bazarov;e:bazarov=serious
+“Arkady!” called Bazarov’s voice from the coach,
+s=bazarov;e:bazarov=serious;m=nospeaker
+
+“send me a match; I’ve nothing to light my pipe with.”
+
 
 Nikolai Petrovitch stopped, while Arkady, who had begun listening to him with some surprise, though with sympathy too, made haste to pull a silver matchbox out of his pocket, and sent it to Bazarov by Piotr.
-s=none
+s=none;m=
 
 “Will you have a cigar?” shouted Bazarov again.
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=curious;m=nospeaker,1
 
 “Thanks,” answered Arkady.
-s=arkady
+s=arkady;e:arkady=
 
-Piotr returned to the carriage, and handed him with the matchbox a thick black cigar, which Arkady began to smoke promptly, diffusing about him such a strong and pungent odour of cheap tobacco, that Nikolai Petrovitch,
-s=none;m=break,1
+Piotr returned to the carriage, and handed him with the matchbox a thick black cigar, which Arkady began to smoke promptly, diffusing about him such a strong and pungent odour of cheap tobacco, that Nikolai Petrovitch, who had never been a smoker from his youth up, was forced to turn away his head, as imperceptibly as he could for fear of wounding his son.
+s=none
 
-who had never been a smoker from his youth up, was forced to turn away his head, as imperceptibly as he could for fear of wounding his son.
+A quarter of an hour later, the two carriages drew up before the steps of a new wooden house, painted grey, with a red iron roof.
+f:b:maryino-meadows-road=blur(3px)
 
-
-A quarter of an hour later, the two carriages drew up before the steps of a new wooden house, painted grey, with a red iron roof. This was Maryino, also known as New-Wick, or, as the peasants had nicknamed it, Poverty Farm.
-b=maryino-wide
+This was Maryino, also known as New-Wick, or, as the peasants had nicknamed it, Poverty Farm.
+b=maryino-wide;f:b:maryino-wide=blur(3px)
 
 ## IV
 r=title
