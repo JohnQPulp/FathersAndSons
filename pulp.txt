@@ -1214,28 +1214,28 @@ Bazarov came back, sat down to the table, and began hastily drinking tea. The tw
 b=maryino-terrace;x:pavel=fez;x:bazarov=hat,besmeared
 
 “Did you walk far from here?” Nikolai Petrovitch asked at last.
-s=nikolai;e:nikolai=curious
+s=nikolai;e:nikolai=contemplative
 
 “Where you’ve a little swamp near the aspen wood. I started some half-dozen snipe; you might slaughter them; Arkady.”
-s=bazarov;e:bazarov=happy
+s=bazarov;e:bazarov=curious
 
 “Aren’t you a sportsman then?”
-s=nikolai
+s=nikolai;i=2
 
 “No.”
 s=bazarov;e:bazarov=serious
 
 “Is your special study physics?” Pavel Petrovitch in his turn inquired.
-s=pavel;e:pavel=curious
+s=pavel;e:pavel=suspicious
 
 “Physics, yes; and natural science in general.”
-s=bazarov
+s=bazarov;e:bazarov=thinking
 
 “They say the Teutons of late have had great success in that line.”
-s=pavel;e:pavel=serious
+s=pavel;e:pavel=smirking
 
 “Yes; the Germans are our teachers in it,” Bazarov answered carelessly.
-s=bazarov
+s=bazarov;i=2
 
 The word Teutons instead of Germans, Pavel Petrovitch had used with ironical intention; none noticed it however.
 s=none
@@ -1250,28 +1250,34 @@ This surgeon’s son was not only not overawed, he even gave abrupt and indiffer
 
 
 “The scientific men there are a clever lot.”
-s=bazarov
+s=bazarov;e:bazarov=
 
 “Ah, ah. To be sure, of Russian scientific men you have not such a flattering opinion, I dare say?”
-s=pavel
+s=pavel;i=2
 
 “That is very likely.”
-s=bazarov
+s=bazarov;e:bazarov=;i=2
 
-“That’s very praiseworthy self-abnegation,” Pavel Petrovitch declared, drawing himself up, and throwing his head back. “But how is this? Arkady Nikolaitch was telling us just now that you accept no authorities? Don’t you believe in *them*?”
-s=pavel
+“That’s very praiseworthy self-abnegation,” Pavel Petrovitch declared,
+s=pavel;e:pavel=serious;m=break,1
+
+drawing himself up, and throwing his head back.
+s=
+
+“But how is this? Arkady Nikolaitch was telling us just now that you accept no authorities? Don’t you believe in *them*?”
+s=pavel;e:pavel=seriouslookup
 
 “And how am I accepting them? And what am I to believe in? They tell me the truth, I agree, that’s all.”
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=bored
 
-“And do all Germans tell the truth?”
-s=pavel
+“And do all Germans tell the truth?” said Pavel Petrovitch,
+s=pavel;e:pavel=thinking;m=break,1
 
-said Pavel Petrovitch, and his face assumed an expression as unsympathetic, as remote, as if he had withdrawn to some cloudy height.
+and his face assumed an expression as unsympathetic, as remote, as if he had withdrawn to some cloudy height.
 s=none
 
 “Not all,” replied Bazarov, with a short yawn.
-s=bazarov;e:bazarov=weary
+s=bazarov;e:bazarov=yawning
 
 He obviously did not care to continue the discussion.
 s=none
@@ -1286,100 +1292,112 @@ s=pavel;e:pavel=serious
 
 
 “In former days there were some here and there; they had﻿—well, Schiller, to be sure, Goethe﻿ ﻿… my brother﻿—he takes a particularly favourable view of them.﻿ ﻿… But now they have all turned chemists and materialists﻿ ﻿…”
-
+e:pavel=thinking
 
 “A good chemist is twenty times as useful as any poet,” broke in Bazarov.
-s=bazarov;e:bazarov=smirking
-
-“Oh, indeed,” commented Pavel Petrovitch, and, as though falling asleep, he faintly raised his eyebrows. “You don’t acknowledge art then, I suppose?”
-s=pavel;e:pavel=annoyed
-
-“The art of making money or of advertising pills!” cried Bazarov, with a contemptuous laugh.
-s=bazarov
-
-“Ah, ah. You are pleased to jest, I see. You reject all that, no doubt? Granted. Then you believe in science only?”
-s=pavel
-
-“I have already explained to you that I don’t believe in anything; and what is science﻿—science in the abstract? There are sciences, as there are trades and crafts; but abstract science doesn’t exist at all.”
-s=bazarov;e:bazarov=curious
-
-“Very good. Well, and in regard to the other traditions accepted in human conduct, do you maintain the same negative attitude?”
-s=pavel
-
-“What’s this, an examination?” asked Bazarov.
-s=bazarov;e:bazarov=smirking
-
-Pavel Petrovitch turned slightly pale.﻿ ﻿… Nikolai Petrovitch thought it his duty to interpose in the conversation.
-s=none
-
-“We will converse on this subject with you more in detail some day, dear Yevgeny Vassilyitch; we will hear your views, and express our own. For my part, I am heartily glad you are studying the natural sciences.”
-s=nikolai;e:nikolai=serious
-
-“I have heard that Liebig has made some wonderful discoveries in the amelioration of soils. You can be of assistance to me in my agricultural labours; you can give me some useful advice.”
-
-
-“I am at your service, Nikolai Petrovitch; but Liebig’s miles over our heads! One has first to learn the A.B.C., and then begin to read, and we haven’t set eyes on the alphabet yet.”
 s=bazarov;e:bazarov=serious
 
-“You are certainly a nihilist, I see that,” thought Nikolai Petrovitch.
-s=none;t=nikolai;e:nikolai=thinking
+“Oh, indeed,” commented Pavel Petrovitch,
+s=pavel;e:pavel=suspicious;m=break,1
 
-“Still, you will allow me to apply to you on occasion,” he added aloud. “And now I fancy, brother, it’s time for us to be going to have a talk with the bailiff.”
-s=nikolai;t=none;e:nikolai=neutral
+and, as though falling asleep, he faintly raised his eyebrows.
+s=
+
+“You don’t acknowledge art then, I suppose?”
+s=pavel;i=2
+
+“The art of making money or of advertising pills!” cried Bazarov, with a contemptuous laugh.
+s=bazarov;e:bazarov=smirking
+
+“Ah, ah. You are pleased to jest, I see. You reject all that, no doubt? Granted. Then you believe in science only?”
+s=pavel;e:pavel=serious
+
+“I have already explained to you that I don’t believe in anything; and what is science﻿—science in the abstract? There are sciences, as there are trades and crafts; but abstract science doesn’t exist at all.”
+s=bazarov;e:bazarov=thinking
+
+“Very good. Well, and in regard to the other traditions accepted in human conduct, do you maintain the same negative attitude?”
+s=pavel;i=2
+
+“What’s this, an examination?” asked Bazarov.
+s=bazarov;e:bazarov=smirking;i=2
+
+Pavel Petrovitch turned slightly pale.﻿ ﻿…
+s=none
+
+Nikolai Petrovitch thought it his duty to interpose in the conversation.
+
+
+“We will converse on this subject with you more in detail some day, dear Yevgeny Vassilyitch; we will hear your views, and express our own.”
+s=nikolai;e:nikolai=wary
+
+“For my part, I am heartily glad you are studying the natural sciences. I have heard that Liebig has made some wonderful discoveries in the amelioration of soils. You can be of assistance to me in my agricultural labours; you can give me some useful advice.”
+e:nikolai=contemplative
+
+“I am at your service, Nikolai Petrovitch; but Liebig’s miles over our heads! One has first to learn the A.B.C., and then begin to read, and we haven’t set eyes on the alphabet yet.”
+s=bazarov;e:bazarov=smirking
+
+“You are certainly a nihilist, I see that,” thought Nikolai Petrovitch.
+s=none;t=nikolai;e:nikolai=contemplative
+
+“Still, you will allow me to apply to you on occasion,” he added aloud.
+s=nikolai;t=none;e:nikolai=thinking
+
+“And now I fancy, brother, it’s time for us to be going to have a talk with the bailiff.”
+e:nikolai=contemplativelook
 
 Pavel Petrovitch got up from his seat.
 s=none
 
 “Yes,” he said, without looking at anyone;
-s=pavel;e:pavel=unhappy
+s=pavel;e:pavel=serious
 
 “it’s a misfortune to live five years in the country like this, far from mighty intellects! You turn into a fool directly.”
-
+e:pavel=annoyed
 
 “You may try not to forget what you’ve been taught, but﻿—in a snap!﻿—they’ll prove all that’s rubbish, and tell you that sensible men have nothing more to do with such foolishness, and that you, if you please, are an antiquated old fogey.”
-
+e:pavel=annoyed
 
 “What’s to be done? Young people, of course, are cleverer than we are!”
-
+e:pavel=smirking
 
 Pavel Petrovitch turned slowly on his heels, and slowly walked away; Nikolai Petrovitch went after him.
 s=none
 
 “Is he always like that?” Bazarov coolly inquired of Arkady directly the door had closed behind the two brothers.
-s=bazarov;e:bazarov=curious
-
-“I must say, Yevgeny, you weren’t nice to him,” remarked Arkady. “You have hurt his feelings.”
-s=arkady;e:arkady=serious
-
-“Well, am I going to consider them, these provincial aristocrats! Why, it’s all vanity, dandy habits, fatuity. He should have continued his career in Petersburg, if that’s his bent. But there, enough of him!”
 s=bazarov;e:bazarov=smirking
 
-“I’ve found a rather rare species of a water-beetle, *Dytiscus marginatus*; do you know it? I will show you.”
+“I must say, Yevgeny, you weren’t nice to him,” remarked Arkady. “You have hurt his feelings.”
+s=arkady;e:arkady=unhappy
 
+“Well, am I going to consider them, these provincial aristocrats! Why, it’s all vanity, dandy habits, fatuity. He should have continued his career in Petersburg, if that’s his bent.”
+s=bazarov;i=2
+
+“But there, enough of him! I’ve found a rather rare species of a water-beetle, *Dytiscus marginatus*; do you know it? I will show you.”
+e:bazarov=thinking
 
 “I promised to tell you his story,” began Arkady.
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=contemplative
 
 “The story of the beetle?”
-s=bazarov
+s=bazarov;e:bazarov=curious
 
 “Come, don’t, Yevgeny. The story of my uncle. You will see he’s not the sort of man you fancy. He deserves pity rather than ridicule.”
 s=arkady;e:arkady=serious
 
 “I don’t dispute it; but why are you worrying over him?”
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=
 
 “One ought to be just, Yevgeny.”
-s=arkady
+s=arkady;i=2
 
 “How does that follow?”
-s=bazarov
+s=bazarov;e:bazarov=bored
 
 “No; listen﻿ ﻿…”
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=thinking
 
 And Arkady told him his uncle’s story. The reader will find it in the following chapter.
-s=none
+s=none;f:b:maryino-terrace=blur(3px)
 
 ## VII
 r=title
