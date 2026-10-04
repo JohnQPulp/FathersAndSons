@@ -3922,23 +3922,20 @@ She stayed later than anyone at the ball, and at four o’clock in the morning s
 ## XV
 r=title
 
-“Let’s see what species of mammalia this specimen belongs to,”
-b=town-inn;f:b:town-inn=blur(3px);s=bazarov;e:bazarov=serious;m=break,1
+“Let’s see what species of mammalia this specimen belongs to,” Bazarov said to Arkady the following day,
+b=odintsov-hotel-stairs;s=bazarov;e:bazarov=smirking;m=break,1;f=fade
 
-Bazarov said to Arkady the following day, as they mounted the staircase of the hotel in which Madame Odintsov was staying.
+as they mounted the staircase of the hotel in which Madame Odintsov was staying.
 s=none
 
 “I scent out something wrong here.”
-s=bazarov
+s=bazarov;e:bazarov=serious
 
 “I’m surprised at you!” cried Arkady. “What? You, you, Bazarov, clinging to the narrow morality, which﻿ ﻿…”
-s=arkady;e:arkady=surprised
+s=arkady;e:arkady=serious
 
-“What a funny fellow you are!”
+“What a funny fellow you are!” Bazarov cut him short, carelessly.
 s=bazarov
-
-Bazarov cut him short, carelessly.
-s=none
 
 “Don’t you know that ‘something wrong’ means ‘something right’ in my dialect and for me? It’s an advantage for me, of course.”
 s=bazarov;e:bazarov=curious
@@ -3949,7 +3946,10 @@ e:bazarov=serious
 “I don’t believe the gossip of the town; but I should like to think, as our cultivated Governor says, that it’s well-grounded.”
 
 
-Arkady made no answer, and knocked at the door of the apartments. A young servant in livery, conducted the two friends in to a large room, badly furnished, like all rooms in Russian hotels, but filled with flowers.
+Arkady made no answer, and knocked at the door of the apartments.
+s=
+
+A young servant in livery, conducted the two friends in to a large room, badly furnished, like all rooms in Russian hotels, but filled with flowers.
 b=odintsov-hotel;s=none
 
 Soon Madame Odintsov herself appeared in a simple morning dress. She seemed still younger by the light of the spring sunshine.
@@ -3958,22 +3958,22 @@ Soon Madame Odintsov herself appeared in a simple morning dress. She seemed stil
 Arkady presented Bazarov, and noticed with secret amazement that he seemed embarrassed, while Madame Odintsov remained perfectly tranquil, as she had been the previous day. Bazarov himself was conscious of being embarrassed, and was irritated by it.
 
 
-“Here’s a go!﻿—frightened of a petticoat!”
-t=bazarov;e:bazarov=thinking
+“Here’s a go!﻿—frightened of a petticoat!” he thought,
+t=bazarov;e:bazarov=annoyed;m=break,1
 
-he thought, and lolling, quite like Sitnikov, in an easy-chair, he began talking with an exaggerated appearance of ease, while Madame Odintsov kept her clear eyes fixed on him.
+and lolling, quite like Sitnikov, in an easy-chair, he began talking with an exaggerated appearance of ease, while Madame Odintsov kept her clear eyes fixed on him.
 t=none
 
 Anna Sergyevna Odintsov was the daughter of Sergay Nikolaevitch Loktev, notorious for his personal beauty, his speculations, and his gambling propensities, who after cutting a figure and making a sensation for fifteen years in Petersburg and Moscow,
 n:anna=Anna Sergyevna Odintsov;f:b:odintsov-hotel=blur(3px);m=break,1
 
 finished by ruining himself completely at cards, and was forced to retire to the country, where, however, he soon after died, leaving a very small property to his two daughters﻿—Anna, a girl of twenty, and Katya, a child of twelve.
+b=recollection;f:b:recollection=blur(3px)
+
+Their mother, who came of an impoverished line of princes﻿—the H﻿—﻿—﻿s﻿—had died at Petersburg when her husband was in his heydey.
 
 
-Their mother, who came of an impoverished line of princes﻿—the H﻿—﻿—﻿s﻿—had died at Petersburg when her husband was in his heydey. Anna’s position after her father’s death was very difficult.
-
-
-The brilliant education she had received in Petersburg had not fitted her for putting up with the cares of domestic life and economy﻿—for an obscure existence in the country.
+Anna’s position after her father’s death was very difficult. The brilliant education she had received in Petersburg had not fitted her for putting up with the cares of domestic life and economy﻿—for an obscure existence in the country.
 
 
 She knew positively no one in the whole neighbourhood, and there was no one she could consult. Her father had tried to avoid all contact with the neighbours; he despised them in his way, and they despised him in theirs.
@@ -3988,58 +3988,55 @@ scolded and grumbled from morning till night, and would not go a walk even in th
 Anna put up patiently with all her aunt’s whims, gradually set to work on her sister’s education, and was, it seemed, already getting reconciled to the idea of wasting her life in the wilds.﻿ ﻿…
 
 
-But destiny had decreed another fate for her. She chanced to be seen by Odintsov, a very wealthy man of forty-six, an eccentric hypochondriac, stout, heavy, and sour, but not stupid, and not ill-natured; he fell in love with her, and offered her his hand.
+But destiny had decreed another fate for her.
 
 
-She consented to become his wife, and he lived six years with her, and on his death settled all his property upon her. Anna Sergyevna remained in the country for nearly a year after his death;
+She chanced to be seen by Odintsov, a very wealthy man of forty-six, an eccentric hypochondriac, stout, heavy, and sour, but not stupid, and not ill-natured; he fell in love with her, and offered her his hand.
 
 
-then she went abroad with her sister, but only stopped in Germany; she got tired of it, and came back to live at her favourite Nikolskoe, which was nearly thirty miles from the town of X﻿—﻿—.
+She consented to become his wife, and he lived six years with her, and on his death settled all his property upon her. Anna Sergyevna remained in the country for nearly a year after his death; then she went abroad with her sister, but only stopped in Germany;
 
+
+she got tired of it, and came back to live at her favourite Nikolskoe, which was nearly thirty miles from the town of X﻿—﻿—.
+b=nikolskoe-wide;f:b:nikolskoe-wide=blur(3px)
 
 There she had a magnificent, splendidly furnished house and a beautiful garden, with conservatories; her late husband had spared no expense to gratify his fancies.
 
 
-Anna Sergyevna went very rarely to the town, generally only on business, and even then she did not stay long. She was not liked in the province; there had been a fearful outcry at her marriage with Odintsov, all sorts of fictions were told about her;
+Anna Sergyevna went very rarely to the town, generally only on business, and even then she did not stay long.
+b=town-wide;f:b:town-wide=blur(3px)
+
+She was not liked in the province; there had been a fearful outcry at her marriage with Odintsov, all sorts of fictions were told about her;
 
 
-it was asserted that she had helped her father in his cardsharping tricks, and even that she had gone abroad for excellent reasons, that it had been necessary to conceal the lamentable consequences﻿ ﻿…
+it was asserted that she had helped her father in his cardsharping tricks, and even that she had gone abroad for excellent reasons, that it had been necessary to conceal the lamentable consequences﻿ ﻿…<e>TODO</e>
 
 
-“You understand?”
-m=dialogue,1
+“You understand?” the indignant gossips would wind up. “She has gone through the fire,” was said of her; to which a noted provincial wit usually added: “And through all the other elements?”
 
-the indignant gossips would wind up.
-
-
-“She has gone through the fire,” was said of her;
-m=dialogue,1
-
-to which a noted provincial wit usually added:
-
-
-“And through all the other elements?”
-m=dialogue,1
 
 All this talk reached her; but she turned a deaf ear to it; there was much independence and a good deal of determination in her character.
 
 
-Madame Odintsov sat leaning back in her easy-chair, and listened with folded hands to Bazarov. He, contrary to his habit, was talking a good deal, and obviously trying to interest her﻿—again a surprise for Arkady.
-f:b:odintsov-hotel=
+Madame Odintsov sat leaning back in her easy-chair, and listened with folded hands to Bazarov.
+b=odintsov-hotel;
 
-He could not make up his mind whether Bazarov was attaining his object. It was difficult to conjecture from Anna Sergyevna’s face what impression was being made on her; it retained the same expression, gracious and refined;
-
-
-her beautiful eyes were lighted up by attention, but by quiet attention. Bazarov’s bad manners had impressed her unpleasantly for the first minutes of the visit like a bad smell or a discordant sound;
+He, contrary to his habit, was talking a good deal, and obviously trying to interest her﻿—again a surprise for Arkady. He could not make up his mind whether Bazarov was attaining his object.
 
 
-but she saw at once that he was nervous, and that even flattered her. Nothing was repulsive to her but vulgarity, and no one could have accused Bazarov of vulgarity. Arkady was fated to meet with surprises that day.
+It was difficult to conjecture from Anna Sergyevna’s face what impression was being made on her; it retained the same expression, gracious and refined; her beautiful eyes were lighted up by attention, but by quiet attention.
 
 
-He had expected that Bazarov would talk to a clever woman like Madame Odintsov about his opinions and his views; she had herself expressed a desire to listen to the man “who dares to have no belief in anything”;
+Bazarov’s bad manners had impressed her unpleasantly for the first minutes of the visit like a bad smell or a discordant sound; but she saw at once that he was nervous, and that even flattered her.
 
 
-but, instead of that, Bazarov talked about medicine, about homoeopathy, and about botany. It turned out that Madame Odintsov had not wasted her time in solitude; she had read a good many excellent books, and spoke herself in excellent Russian.
+Nothing was repulsive to her but vulgarity, and no one could have accused Bazarov of vulgarity. Arkady was fated to meet with surprises that day.
+
+
+He had expected that Bazarov would talk to a clever woman like Madame Odintsov about his opinions and his views; she had herself expressed a desire to listen to the man “who dares to have no belief in anything”; but, instead of that, Bazarov talked about medicine, about homoeopathy, and about botany.
+
+
+It turned out that Madame Odintsov had not wasted her time in solitude; she had read a good many excellent books, and spoke herself in excellent Russian.
 
 
 She turned the conversation upon music; but noticing that Bazarov did not appreciate art, she quietly brought it back to botany, even though Arkady was just launching into a discourse upon the significance of national melodies.
@@ -4048,32 +4045,41 @@ She turned the conversation upon music; but noticing that Bazarov did not apprec
 Madame Odintsov treated him as though he were a younger brother; she seemed to appreciate his good-nature and youthful simplicity﻿—and that was all. For over three hours, a lively conversation was kept up, ranging freely over various subjects.
 
 
-The friends at last got up and began to take leave. Anna Sergyevna looked cordially at them, held out her beautiful, white hand to both, and, after a moment’s thought, said with a doubtful but delightful smile.
+The friends at last got up and began to take leave.
+f:b:odintsov-hotel=
+
+Anna Sergyevna looked cordially at them, held out her beautiful, white hand to both, and, after a moment’s thought, said with a doubtful but delightful smile.
 
 
 “If you are not afraid of being dull, gentlemen, come and see me at Nikolskoe.”
-s=anna;e:anna=fearful
+s=anna;e:anna=happy
 
 “Oh, Anna Sergyevna,” cried Arkady, “I shall think it the greatest happiness﻿ ﻿…”
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=happy
 
 “And you, Monsieur Bazarov?”
 s=anna;e:anna=curious
 
-Bazarov only bowed, and a last surprise was in store for Arkady; he noticed that his friend was blushing.
+Bazarov only bowed, and a last surprise was in store for Arkady;
 s=none
 
-“Well?” he said to him in the street; “are you still of the same opinion﻿—that she’s﻿ ﻿…”
-b=town-street;x:arkady=hat;x:bazarov=hat;s=arkady;e:arkady=curious
+he noticed that his friend was blushing.
+f:b:odintsov-hotel=blur(3px)
+
+“Well?” he said to him in the street;
+b=town-street;x:arkady=hat;x:bazarov=hat;s=arkady;e:arkady=curious;f=fade
+
+“are you still of the same opinion﻿—that she’s﻿ ﻿…”
+
 
 “Who can tell? See how correct she is!” retorted Bazarov;
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=serious
 
 and after a brief pause he added,
 s=none
 
 “She’s a perfect grand-duchess, a royal personage. She only needs a train on behind, and a crown on her head.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;i=2
 
 “Our grand-duchesses don’t talk Russian like that,” remarked Arkady.
 s=arkady;e:arkady=neutral
@@ -4085,34 +4091,43 @@ s=bazarov
 s=arkady
 
 “What a magnificent body!” pursued Bazarov. “Shouldn’t I like to see it on the dissecting-table.”
-s=bazarov
+s=bazarov;e:bazarov=smirking
 
 “Hush, for mercy’s sake, Yevgeny! that’s beyond everything.”
-s=arkady
+s=arkady;e:arkady=scowling
 
 “Well, don’t get angry, you baby. I meant it’s first-rate. We must go to stay with her.”
-s=bazarov
+s=bazarov;e:bazarov=
 
 “When?”
 s=arkady;e:arkady=curious
 
-“Well, why not the day after tomorrow. What is there to do here? Drink champagne with Kukshina. Listen to your cousin, the Liberal dignitary?﻿ ﻿… Let’s be off the day after tomorrow. By the way, too﻿—my father’s little place is not far from there.”
-s=bazarov;e:bazarov=curious
+“Well, why not the day after tomorrow. What is there to do here? Drink champagne with Kukshina. Listen to your cousin, the Liberal dignitary?﻿ ﻿… Let’s be off the day after tomorrow.”
+s=bazarov;e:bazarov=thinking
 
-“This Nikolskoe’s on the S﻿—﻿— road, isn’t it?”
+“By the way, too﻿—my father’s little place is not far from there. This Nikolskoe’s on the S﻿—﻿— road, isn’t it?”
 
 
 “Yes.”
 s=arkady;e:arkady=neutral
 
 “Optime, why hesitate? leave that to fools and prigs! I say, what a splendid body!”
-s=bazarov;e:bazarov=nervous
-
-Three days later the two friends were driving along the road to Nikolskoe. The day was bright, and not too hot, and the sleek posting-horses trotted smartly along, switching their tied and plaited tails. Arkady looked at the road, and not knowing why, he smiled.
-b=country-road;f=fade;s=none
-
-“Congratulate me,” cried Bazarov suddenly, “today’s the 22nd of June, my guardian angel’s day. Let’s see how he will watch over me. Today they expect me home,” he added, dropping his voice.﻿ ﻿… “Well, they can go on expecting.﻿ ﻿… What does it matter!”
 s=bazarov;e:bazarov=serious
+
+Three days later the two friends were driving along the road to Nikolskoe.
+b=country-road-2;f=fade;s=none
+
+The day was bright, and not too hot, and the sleek posting-horses trotted smartly along, switching their tied and plaited tails. Arkady looked at the road, and not knowing why, he smiled.
+
+
+“Congratulate me,” cried Bazarov suddenly, “today’s the 22nd of June, my guardian angel’s day. Let’s see how he will watch over me.”
+s=bazarov;e:bazarov=serious
+
+“Today they expect me home,” he added, dropping his voice.﻿ ﻿…
+
+
+“Well, they can go on expecting.﻿ ﻿… What does it matter!”
+
 
 ## XVI
 r=title
