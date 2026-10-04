@@ -5,7 +5,7 @@ b=title
 r=posting-station
 
 “Well, Piotr, not in sight yet?” was the question asked on May the 20th, 1859, by a gentleman of a little over forty, in a dusty coat and checked trousers, who came out without his hat on to the low steps of the posting station at S﻿—﻿—.
-n:nikolai=?;n:piotr=Piotr;b=posting-station;x:piotr=hat;x:nikolai=overcoat,hat;e:nikolai=curious;m=dialogue,1
+n:nikolai=?;n:piotr=Piotr;b=posting-station;x:piotr=hat;x:nikolai=hat;e:nikolai=curious;m=dialogue,1
 
 He was addressing his servant, a chubby young fellow, with whitish down on his chin, and little, lacklustre eyes.
 
@@ -134,7 +134,7 @@ s=none;f:b:posting-station=blur(3px)
 r=title
 
 “Let me shake myself first, daddy,” said Arkady,
-b=posting-station;n:arkady=Arkady “Arkasha” Nikolaevitch Kirsanov;x:arkady=hat,cloak;x:nikolai=hat,overcoat;s=arkady;m=break,1;e:arkady=happy
+b=posting-station;n:arkady=Arkady “Arkasha” Nikolaevitch Kirsanov;x:arkady=hat,cloak;x:nikolai=hat;s=arkady;m=break,1;e:arkady=happy
 
 in a voice tired from travelling, but boyish and clear as a bell, as he gaily responded to his father’s caresses;
 s=none
@@ -254,7 +254,7 @@ f:b:posting-station=blur(3px);s=none
 r=title
 
 “So here you are, a graduate at last, and come home again,” said Nikolai Petrovitch,
-b=country-road;x:arkady=hat,cloak;x:nikolai=hat,overcoat;x:piotr=hat;x:bazarov=overcoat,hat;s=nikolai;e:nikolai=happywary;m=break,1
+b=country-road;x:arkady=hat,cloak;x:nikolai=hat;x:piotr=hat;x:bazarov=overcoat,hat;s=nikolai;e:nikolai=happywary;m=break,1
 
 touching Arkady now on the shoulder, now on the knee.
 s=
@@ -2567,7 +2567,7 @@ s=pavel;e:pavel=suspicious;i=2
 s=bazarov;i=2
 
 “What? not only art and poetry﻿ ﻿… but even﻿ ﻿… horrible to say﻿ ﻿…”
-s=pavel;e:pavel=serious;i=3
+s=pavel;e:pavel=serious
 
 “Everything,” repeated Bazarov, with indescribable composure.<e>"indescribable composure"</e>
 s=bazarov;e:bazarov=thinking
@@ -2609,7 +2609,7 @@ s=pavel;e:pavel=serious
 s=bazarov;i=2
 
 “It just proves nothing,” repeated Arkady,
-s=arkady;m=break,1;e:arkady=serious;i=3
+s=arkady;m=break,1;e:arkady=serious
 
 with the confidence of a practised chess-player, who has foreseen an apparently dangerous move on the part of his adversary, and so is not at all taken aback by it.
 s=none
@@ -2753,7 +2753,7 @@ e:pavel=angry;s=pavel
 
 
 “You fancy yourselves advanced people, and all the while you are only fit for the Kalmuck’s hovel! Force! And recollect, you forcible gentlemen, that you’re only four men and a half, and the others are millions, who won’t let you trample their sacred traditions under foot, who will crush you and walk over you!”
-i=3
+
 
 “If we’re crushed, serve us right,” observed Bazarov. “But that’s an open question. We are not so few as you suppose.”
 s=bazarov;e:bazarov=serious
