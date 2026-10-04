@@ -3326,7 +3326,7 @@ s=bazarov;e:bazarov=thinking
 r=title
 
 The small gentleman’s house in the Moscow style, in which Avdotya Nikitishna, otherwise Evdoksya, Kukshin, lived, was in one of the streets of X﻿—﻿—, which had been lately burnt down; it is well known that our provincial towns are burnt down every five years.
-b=town-street;x:arkady=hat;x:bazarov=hat;x:sitnikov=hat,overcoat
+b=kukshina-entrance;x:arkady=hat;x:bazarov=hat;x:sitnikov=hat,overcoat
 
 At the door, above a visiting card nailed on all askew, there was a bell-handle to be seen, and in the hall the visitors were met by someone, not exactly a servant, nor exactly a companion, in a cap﻿—unmistakable tokens of the progressive tendencies of the lady of the house.
 
@@ -3335,109 +3335,124 @@ Sitnikov inquired whether Avdotya Nikitishna was at home.
 
 
 “Is that you, *Victor*?” sounded a shrill voice from the adjoining room. “Come in.”
-n:kukshina=Avdotya “Evdoksya” Nikitishna Kukshin;m=nospeaker,1;s=kukshina;e:kukshina=curious
+m=dialogue,1
 
 The woman in the cap disappeared at once.
-s=none
+s=none;n:kukshina=Avdotya “Evdoksya” Nikitishna Kukshin
 
-“I’m not alone,”
-n:sitnikov=Victor Sitnikov;x:sitnikov=;s=sitnikov;e:sitnikov=neutral;m=break,1
+“I’m not alone,” observed Sitnikov,
+n:sitnikov=Victor Sitnikov;s=sitnikov;e:sitnikov=seriouslook;m=break,1
 
-observed Sitnikov, with a sharp look at Arkady and Bazarov as he briskly pulled off his overcoat, beneath which appeared something of the nature of a coachman’s velvet jacket.
-s=none
+with a sharp look at Arkady and Bazarov as he briskly pulled off his overcoat, beneath which appeared something of the nature of a coachman’s velvet jacket.
+s=none;x:sitnikov=
 
 “No matter,” answered the voice. “*Entrez.*”
-m=nospeaker,1;s=kukshina;e:kukshina=neutral
+m=dialogue,1
 
-The young men went in. The room into which they walked was more like a working study than a drawing-room. Papers, letters, fat numbers of Russian journals, for the most part uncut, lay at random on the dusty tables;
-b=kukshina-study;x:arkady=;x:bazarov=;s=none
+The young men went in.
+;x:arkady=;x:bazarov=;s=none;f:b:kukshina-entrance=blur(3px)
 
-white cigarette ends lay scattered in every direction. On a leather-covered sofa, a lady, still young, was half reclining. Her fair hair was rather dishevelled; she wore a silk gown, not perfectly tidy, heavy bracelets on her short arms, and a lace handkerchief on her head.
+The room into which they walked was more like a working study than a drawing-room. Papers, letters, fat numbers of Russian journals, for the most part uncut, lay at random on the dusty tables; white cigarette ends lay scattered in every direction.
+b=kukshina-study
+
+On a leather-covered sofa, a lady, still young, was half reclining. Her fair hair was rather dishevelled; she wore a silk gown, not perfectly tidy, heavy bracelets on her short arms, and a lace handkerchief on her head.
 
 
 She got up from the sofa, and carelessly drawing a velvet cape trimmed with yellowish ermine over her shoulders, she said languidly,
 
 
 “Good morning, *Victor*,”
-s=kukshina;m=break,1
+s=kukshina;m=break,1;e:kukshina=bored
 
 and pressed Sitnikov’s hand.
 s=none
 
 “Bazarov, Kirsanov,” he announced abruptly in imitation of Bazarov.
-s=sitnikov
+s=sitnikov;e:sitnikov=happy
 
-“Delighted,”
-s=kukshina;e:kukshina=happy;m=break,1
+“Delighted,” answered Madame Kukshin,
+s=kukshina;e:kukshina=happy;m=break,1;e:kukshina=contemplative
 
-answered Madame Kukshin, and fixing on Bazarov a pair of round eyes, between which was a forlorn little turned-up red nose,
+and fixing on Bazarov a pair of round eyes, between which was a forlorn little turned-up red nose,
 s=none
 
-“I know you,” she added, and pressed his hand too.
-s=kukshina;e:kukshina=neutral
+“I know you,” she added,
+s=kukshina;e:kukshina=suspicious;m=break,1
 
-Bazarov scowled. There was nothing repulsive in the little plain person of the emancipated woman; but the expression of her face produced a disagreeable effect on the spectator. One felt impelled to ask her, “What’s the matter; are you hungry?”
+and pressed his hand too.
+s=
+
+Bazarov scowled. There was nothing repulsive in the little plain person of the emancipated woman; but the expression of her face produced a disagreeable effect on the spectator.
 s=none
 
-“Or bored? Or shy? What are you in a fidget about?” Both she and Sitnikov had always the same uneasy air. She was extremely unconstrained, and at the same time awkward;
+One felt impelled to ask her, “What’s the matter; are you hungry? Or bored? Or shy? What are you in a fidget about?” Both she and Sitnikov had always the same uneasy air.
 
 
-she obviously regarded herself as a good-natured, simple creature, and all the while, whatever she did, it always struck one that it was not just what she wanted to do; everything with her seemed, as children say, done on purpose, that’s to say, not simply, not naturally.
+She was extremely unconstrained, and at the same time awkward; she obviously regarded herself as a good-natured, simple creature, and all the while, whatever she did, it always struck one that it was not just what she wanted to do; everything with her seemed, as children say, done on purpose, that’s to say, not simply, not naturally.
 
 
 “Yes, yes, I know you, Bazarov,” she repeated.
-s=kukshina
+s=kukshina;e:kukshina=thinking
 
 (She had the habit﻿—peculiar to many provincial and Moscow ladies﻿—of calling men by their surnames from the first day of acquaintance with them.)
 s=none
 
 “Will you have a cigar?”
-s=kukshina;e:kukshina=curious
+s=kukshina;e:kukshina=smirking
 
-“A cigar’s all very well,” put in Sitnikov, who by now was lolling in an armchair, his legs in the air; “but give us some lunch. We’re awfully hungry; and tell them to bring us up a little bottle of champagne.”
-s=sitnikov
+“A cigar’s all very well,” put in Sitnikov,
+s=sitnikov;e:sitnikov=;m=break,1
 
-“Sybarite,” commented Evdoksya, and she laughed.
-s=kukshina;e:kukshina=happy
+who by now was lolling in an armchair, his legs in the air;
+s=
+
+“but give us some lunch. We’re awfully hungry; and tell them to bring us up a little bottle of champagne.”
+s=sitnikov;e:sitnikov=thinking
+
+“Sybarite,” commented Evdoksya,
+s=kukshina;e:kukshina=smirking;i=2;m=break,1
+
+and she laughed.
+s=
 
 (When she laughed the gum showed above her upper teeth.)
 s=none
 
 “Isn’t it true, Bazarov; he’s a Sybarite?”
-s=kukshina;e:kukshina=curious
+s=kukshina;e:kukshina=happy
 
-“I like comfort in life,”
-s=sitnikov;m=break,1
-
-Sitnikov brought out, with dignity.
-s=none
+“I like comfort in life,” Sitnikov brought out, with dignity.
+s=sitnikov;m=break,1;e:sitnikov=serious
 
 “That does not prevent my being a Liberal.”
 s=sitnikov
 
 “No, it does; it does prevent it!” cried Evdoksya.
-s=kukshina;e:kukshina=neutral
+s=kukshina;e:kukshina=upset
 
 She gave directions, however, to her maid, both as regards the lunch and the champagne.
 s=none
 
-“What do you think about it?” she added, turning to Bazarov. “I’m persuaded you share my opinion.”
+“What do you think about it?” she added, turning to Bazarov.
 s=kukshina;e:kukshina=curious
+
+“I’m persuaded you share my opinion.”
+
 
 “Well, no,” retorted Bazarov; “a piece of meat’s better than a piece of bread even from the chemical point of view.”
 s=bazarov;e:bazarov=serious
 
 “You are studying chemistry? That is my passion. I’ve even invented a new sort of composition myself.”
-s=kukshina
+s=kukshina;e:kukshina=happy
 
 “A composition? You?”
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=suspicious
 
 “Yes. And do you know for what purpose? To make dolls’ heads so that they shouldn’t break. I’m practical, too, you see. But everything’s not quite ready yet. I’ve still to read Liebig.”
-s=kukshina
+s=kukshina;e:kukshina=thinking
 
 “By the way, have you read Kislyakov’s article on Female Labour, in the *Moscow Gazette*? Read it please. You’re interested in the woman question, I suppose? And in the schools too? What does your friend do? What is his name?”
-
+;e:kukshina=serious
 
 Madame Kukshin shed her questions one after another with affected negligence, not waiting for an answer; spoilt children talk so to their nurses.
 s=none
@@ -3448,56 +3463,56 @@ s=arkady;e:arkady=neutral
 Evdoksya giggled.
 s=none
 
-“How charming! What, don’t you smoke? Victor, do you know, I’m very angry with you.”
-s=kukshina
+“How charming! What, don’t you smoke?”
+s=kukshina;e:kukshina=happy
+
+“Victor, do you know, I’m very angry with you.”
+e:kukshina=annoyedlook
 
 “What for?”
-s=sitnikov;e:sitnikov=curious
+s=sitnikov;e:sitnikov=wary
 
 “They tell me you’ve begun singing the praises of George Sand again. A retrograde woman, and nothing else! How can people compare her with Emerson! She hasn’t an idea on education, nor physiology, nor anything.”
-s=kukshina;e:kukshina=neutral
+s=kukshina;e:kukshina=annoyed
 
 “She’d never, I’m persuaded, heard of embryology, and in these days﻿—what can be done without that?”
-e:kukshina=curious
+e:kukshina=serious
 
 (Evdoksya even threw up her hands.)
 s=none
 
 “Ah, what a wonderful article Elisyevitch has written on that subject! He’s a gentleman of genius.”
-s=kukshina;e:kukshina=neutral
+s=kukshina;e:kukshina=happyhands
 
 (Evdoksya constantly made use of the word “gentleman” instead of the word “man.”)
 s=none
 
 “Bazarov, sit by me on the sofa. You don’t know, perhaps, I’m awfully afraid of you.”
-s=kukshina;e:kukshina=fearful
+s=kukshina;e:kukshina=wary
 
 “Why so? Allow me to ask.”
-s=bazarov
+s=bazarov;e:bazarov=
 
 “You’re a dangerous gentleman; you’re such a critic. Good God! yes! why, how absurd, I’m talking like some country lady. I really am a country lady, though.”
-s=kukshina;e:kukshina=neutral
+s=kukshina;e:kukshina=thinking
 
 “I manage my property myself; and only fancy, my bailiff Erofay’s a wonderful type, quite like Cooper’s Pathfinder; something in him so spontaneous! I’ve come to settle here finally; it’s an intolerable town, isn’t it? But what’s one to do?”
-e:kukshina=curious
+
 
 “The town’s like every town,” Bazarov remarked coolly.
 s=bazarov;e:bazarov=serious
 
-“All its interests are so petty, that’s what’s so awful! I used to spend the winters in Moscow﻿ ﻿… but now my lawful spouse, Monsieur Kukshin’s residing there. And besides, Moscow nowadays﻿ ﻿…”
-s=kukshina;e:kukshina=neutral
-
-“there, I don’t know﻿—it’s not the same as it was. I’m thinking of going abroad; last year I was on the point of setting off.”
-
+“All its interests are so petty, that’s what’s so awful! I used to spend the winters in Moscow﻿ ﻿… but now my lawful spouse, Monsieur Kukshin’s residing there. And besides, Moscow nowadays﻿ ﻿… there, I don’t know﻿—it’s not the same as it was. I’m thinking of going abroad; last year I was on the point of setting off.”
+s=kukshina;e:kukshina=unhappy
 
 “To Paris, I suppose?” queried Bazarov.
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=annoyed
 
 “To Paris and to Heidelberg.”
-s=kukshina
+s=kukshina;e:kukshina=contemplative
 
 “Why to Heidelberg?”
-s=bazarov
+s=bazarov;i=2
 
 “How can you ask? Why, Bunsen’s there!”
 s=kukshina;e:kukshina=curious
@@ -3506,7 +3521,7 @@ To this Bazarov could find no reply.
 s=none
 
 “Pierre Sapozhnikov﻿ ﻿… do you know him?”
-s=kukshina
+s=kukshina;i=2
 
 “No, I don’t.”
 s=bazarov;e:bazarov=serious
@@ -3515,43 +3530,46 @@ s=bazarov;e:bazarov=serious
 s=kukshina;e:kukshina=neutral
 
 “I don’t know her either.”
-s=bazarov
+s=bazarov;e:bazarov=bored
 
 “Well, it was he undertook to escort me. Thank God, I’m independent; I’ve no children.﻿ ﻿… What was that I said: *thank God!* It’s no matter though.”
-s=kukshina
+s=kukshina;e:kukshina=thinking;i=2
 
-Evdoksya rolled a cigarette up between her fingers, which were brown with tobacco stains, put it to her tongue, licked it up, and began smoking. The maid came in with a tray.
+Evdoksya rolled a cigarette up between her fingers, which were brown with tobacco stains, put it to her tongue, licked it up, and began smoking.
 s=none
 
+The maid came in with a tray.
+
+
 “Ah, here’s lunch! Will you have an appetiser first? Victor, open the bottle; that’s in your line.”
-s=kukshina;e:kukshina=curious
+s=kukshina;e:kukshina=happylook
 
-“Yes, it’s in my line,” muttered Sitnikov, and again he gave vent to the same convulsive laugh.
-s=sitnikov;e:sitnikov=happy
+“Yes, it’s in my line,” muttered Sitnikov,
+s=sitnikov;e:sitnikov=unhappy;m=break,1
 
-“Are there any pretty women here?” inquired Bazarov, as he drank off a third glass.
-s=bazarov;e:bazarov=curious
+and again he gave vent to the same convulsive laugh.
+s=
 
-“Yes, there are,” answered Evdoksya;
-s=kukshina;e:kukshina=neutral
+“Are there any pretty women here?” inquired Bazarov,
+s=bazarov;e:bazarov=curious;m=break,1
 
-“but they’re all such empty-headed creatures. *Mon amie*, Odintsova, for instance, is nice-looking. It’s a pity her reputation’s rather doubtful.﻿ ﻿… That wouldn’t matter, though, but she’s no independence in her views, no width, nothing﻿ ﻿…”
+as he drank off a third glass.
+s=
 
+“Yes, there are,” answered Evdoksya; “but they’re all such empty-headed creatures. *Mon amie*, Odintsova, for instance, is nice-looking. It’s a pity her reputation’s rather doubtful.﻿ ﻿…”
+s=kukshina;e:kukshina=suspicious
 
-“of all that. The whole system of education wants changing. I’ve thought a great deal about it, our women are very badly educated.”
+“That wouldn’t matter, though, but she’s no independence in her views, no width, nothing﻿ ﻿… of all that. The whole system of education wants changing. I’ve thought a great deal about it, our women are very badly educated.”
 
 
 “There’s no doing anything with them,” put in Sitnikov; “one ought to despise them, and I do despise them fully and completely!”
-s=sitnikov;e:sitnikov=neutral
+s=sitnikov;e:sitnikov=serious
 
-(The possibility of feeling and expressing contempt was the most agreeable sensation to Sitnikov;
+(The possibility of feeling and expressing contempt was the most agreeable sensation to Sitnikov; he used to attack women in especial, never suspecting that it was to be his fate a few months later to be cringing before his wife merely because she had been born a princess Durdoleosov.)
 s=none
 
-he used to attack women in especial, never suspecting that it was to be his fate a few months later to be cringing before his wife merely because she had been born a princess Durdoleosov.)
-
-
 “Not a single one of them would be capable of understanding our conversation; not a single one deserves to be spoken of by serious men like us!”
-s=sitnikov
+s=sitnikov;i=2
 
 “But there’s not the least need for them to understand our conversation,” observed Bazarov.
 s=bazarov;e:bazarov=serious
@@ -3560,67 +3578,70 @@ s=bazarov;e:bazarov=serious
 s=kukshina;e:kukshina=curious
 
 “Pretty women.”
-s=bazarov
+s=bazarov;i=2
 
 “What? Do you adopt Proudhon’s ideas, then?”
-s=kukshina
+s=kukshina;e:kukshina=contemplative
 
 Bazarov drew himself up haughtily.
 s=none
 
 “I don’t adopt anyone’s ideas; I have my own.”
-s=bazarov
+s=bazarov;e:bazarov=smirking
 
-“Damn all authorities!”
-s=sitnikov
+“Damn all authorities!” shouted Sitnikov,
+s=sitnikov;e:sitnikov=excited;m=break,1
 
-shouted Sitnikov, delighted to have a chance of expressing himself boldly before the man he slavishly admired.
+delighted to have a chance of expressing himself boldly before the man he slavishly admired.
 s=none
 
-“But even Macaulay,”
-s=kukshina;e:kukshina=neutral;m=break,1
-
-Madame Kukshin was beginning﻿ ﻿…
-s=none
+“But even Macaulay,” Madame Kukshin was beginning﻿ ﻿…
+s=kukshina;i=2;
 
 “Damn Macaulay,” thundered Sitnikov. “Are you going to stand up for the silly hussies?”
-s=sitnikov;e:sitnikov=curious
+s=sitnikov;e:sitnikov=serious
 
 “For silly hussies, no, but for the rights of women, which I have sworn to defend to the last drop of my blood.”
-s=kukshina
+s=kukshina;e:kukshina=thinking
 
 “Damn!”
-s=sitnikov;e:sitnikov=neutral;m=nospace,1;m=break,1
+s=sitnikov;i=2;m=nospace,1;m=break,1
 
 ﻿—but here Sitnikov stopped.
 s=none
 
 “But I don’t deny them,” he said.
-s=sitnikov
+s=sitnikov;e:sitnikov=contemplative
 
 “No, I see you’re a Slavophil.”
-s=kukshina
+s=kukshina;e:kukshina=suspicious
 
 “No, I’m not a Slavophil, though, of course﻿ ﻿…”
-s=sitnikov
+s=sitnikov;i=2
 
 “No, no, no! You are a Slavophil. You’re an advocate of patriarchal despotism. You want to have the whip in your hand!”
-s=kukshina
+s=kukshina;e:kukshina=serious
 
 “A whip’s an excellent thing,” remarked Bazarov; “but we’ve got to the last drop.”
-s=bazarov
+s=bazarov;e:bazarov=
 
 “Of what?” interrupted Evdoksya.
 s=kukshina;e:kukshina=curious
 
 “Of champagne, most honoured Avdotya Nikitishna, of champagne﻿—not of your blood.”
-s=bazarov
+s=bazarov;i=2
 
-“I can never listen calmly when women are attacked,” pursued Evdoksya.
-s=kukshina;e:kukshina=neutral
+“I can never listen calmly when women are attacked,” pursued Evdoksya. “It’s awful, awful.”
+s=kukshina;e:kukshina=unhappy
 
-“It’s awful, awful. Instead of attacking them, you’d better read Michelet’s book, *De l’amour*. That’s exquisite! Gentlemen, let us talk of love,” added Evdoksya, letting her arm fall languidly on the rumpled sofa cushion.
-e:kukshina=weary
+“Instead of attacking them, you’d better read Michelet’s book, *De l’amour*. That’s exquisite!”
+e:kukshina=thinking
+
+“Gentlemen, let us talk of love,” added Evdoksya,
+e:kukshina=weary;m=break,1
+
+letting her arm fall languidly on the rumpled sofa cushion.
+s=
 
 A sudden silence followed.
 s=none
@@ -3629,46 +3650,58 @@ s=none
 s=bazarov;e:bazarov=curious
 
 “She’s charming, charming!” piped Sitnikov.
-s=sitnikov
+s=sitnikov;e:sitnikov=smirking
 
 “I will introduce you. Clever, rich, a widow. It’s a pity, she’s not yet advanced enough; she ought to see more of our Evdoksya. I drink to your health, *Evdoxie!* Let us clink glasses! *Et toc, et toc, et tin-tin-tin! Et toc, et toc, et tin-tin-tin!!!*”
 
 
 “Victor, you’re a wretch.”
-s=kukshina;e:kukshina=neutral
+s=kukshina;e:kukshina=annoyed
 
 The lunch dragged on a long while. The first bottle of champagne was followed by another, a third, and even a fourth.﻿ ﻿… Evdoksya chattered without pause; Sitnikov seconded her.
-s=none
+s=none;f:b:kukshina-study=blur(3px)
 
 They had much discussion upon the question whether marriage was a prejudice or a crime, and whether men were born equal or not, and precisely what individuality consists in.
 
 
-Things came at last to Evdoksya, flushed from the wine she had drunk, tapping with her flat fingertips on the keys of a discordant piano, and beginning to sing in a hoarse voice, first gipsy songs, and then Seymour Schiff’s song, “Granada lies slumbering”;
-
-
-while Sitnikov tied a scarf round his head, and represented the dying lover at the words﻿—
+Things came at last to Evdoksya, flushed from the wine she had drunk, tapping with her flat fingertips on the keys of a discordant piano, and beginning to sing in a hoarse voice, first gipsy songs, and then Seymour Schiff’s song, “Granada lies slumbering”; while Sitnikov tied a scarf round his head, and represented the dying lover at the words﻿—
 
 
 “And thy lips to mine<br>In burning kiss entwine.”
-s=kukshina
+
 
 Arkady could not stand it at last.
-s=none
+s=none;f:b:kukshina-study=
 
 “Gentlemen, it’s getting something like Bedlam,” he remarked aloud.
-s=arkady
+s=arkady;e:arkady=annoyed
 
-Bazarov, who had at rare intervals put in an ironical word in the conversation﻿—he paid more attention to the champagne﻿—gave a loud yawn, got up, and, without taking leave of their hostess, he walked off with Arkady. Sitnikov jumped up and followed them.
+Bazarov, who had at rare intervals put in an ironical word in the conversation﻿—he paid more attention to the champagne﻿—gave a loud yawn, got up, and, without taking leave of their hostess, he walked off with Arkady.
 s=none
 
-“Well, what do you think of her?” he inquired, skipping obsequiously from right to left of them. “I told you, you see, a remarkable personality! If we only had more women like that! She is, in her own way, an expression of the highest morality.”
-b=town-street;x:arkady=hat;x:bazarov=hat;x:sitnikov=hat,overcoat;s=sitnikov;e:sitnikov=curious
+Sitnikov jumped up and followed them.
+;f:b:kukshina-study=blur(3px)
 
-“And is that establishment of your governor’s an expression of the highest morality too?” observed Bazarov, pointing to a ginshop which they were passing at that instant.
-s=bazarov
+“Well, what do you think of her?” he inquired,
+b=town-street;x:arkady=hat;x:bazarov=hat;x:sitnikov=hat,overcoat;s=sitnikov;e:sitnikov=curious;f=fade;m=break,1
 
-Sitnikov again went off into a shrill laugh. He was greatly ashamed of his origin, and did not know whether to feel flattered or offended at Bazarov’s unexpected familiarity.
+skipping obsequiously from right to left of them.
+s=
+
+“I told you, you see, a remarkable personality! If we only had more women like that! She is, in her own way, an expression of the highest morality.”
+s=sitnikov;e:sitnikov=smirking
+
+“And is that establishment of your governor’s an expression of the highest morality too?” observed Bazarov,
+s=bazarov;e:bazarov=annoyedlook;m=break,1
+
+pointing to a ginshop which they were passing at that instant.
+s=
+
+Sitnikov again went off into a shrill laugh.
 s=none
+
+He was greatly ashamed of his origin, and did not know whether to feel flattered or offended at Bazarov’s unexpected familiarity.
+f:b:town-street=blur(3px)
 
 ## XIV
 r=title
