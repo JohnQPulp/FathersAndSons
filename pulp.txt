@@ -5521,10 +5521,10 @@ Under the influence of various vague emotions, the sense of life passing by, the
 ## XIX
 r=title
 
-Great as was Madame Odintsov’s self-control, and superior as she was to every kind of prejudice, she felt awkward when she went into the dining-room to dinner. The meal went off fairly successfully, however.
+Great as was Madame Odintsov’s self-control, and superior as she was to every kind of prejudice, she felt awkward when she went into the dining-room to dinner.
 b=nikolskoe-dining
 
-Porfiry Platonovitch made his appearance and told various anecdotes; he had just come back from the town.
+The meal went off fairly successfully, however. Porfiry Platonovitch made his appearance and told various anecdotes; he had just come back from the town.
 
 
 Among other things, he informed them that the governor had ordered his secretaries on special commissions to wear spurs, in case he might send them off anywhere for greater speed on horseback.
@@ -5539,20 +5539,26 @@ Madame Odintsov looked at him twice, not stealthily, but straight in the face, w
 “No﻿ ﻿… no﻿ ﻿… no.”
 t=anna;e:anna=thinking;m=nospace,1;m=break,1
 
-﻿ ﻿… After dinner, she went with the whole company into the garden, and seeing that Bazarov wanted to speak to her, she took a few steps to one side and stopped. He went up to her, but even then did not raise his eyes, and said hoarsely﻿—
-t=none
+﻿ ﻿… After dinner, she went with the whole company into the garden, and seeing that Bazarov wanted to speak to her, she took a few steps to one side and stopped.
+t=none;b=nikolskoe-garden;f=fade
+
+He went up to her, but even then did not raise his eyes, and said hoarsely﻿—
+
 
 “I have to apologise to you, Anna Sergyevna. You must be in a fury with me.”
-b=nikolskoe-garden;x:bazarov=hat;x:anna=hat;s=bazarov;e:bazarov=weary
+;x:bazarov=hat;x:anna=hat;s=bazarov;e:bazarov=serious
 
-“No, I’m not angry with you, Yevgeny Vassilyitch,” answered Madame Odintsov; “but I am sorry.”
-s=anna;e:anna=neutral
+“No, I’m not angry with you, Yevgeny Vassilyitch,” answered Madame Odintsov;
+s=anna;e:anna=thinking
+
+“but I am sorry.”
+
 
 “So much the worse. Any way, I’m sufficiently punished. My position, you will certainly agree, is most foolish. You wrote to me, ‘Why go away?’ But I cannot stay, and don’t wish to. Tomorrow I shall be gone.”
 s=bazarov
 
 “Yevgeny Vassilyitch, why are you﻿ ﻿…”
-s=anna
+s=anna;e:anna=contemplative
 
 “Why am I going away?”
 s=bazarov
@@ -5560,10 +5566,10 @@ s=bazarov
 “No; I didn’t mean to say that.”
 s=anna
 
-“There’s no recalling the past, Anna Sergyevna﻿ ﻿… and this was bound to come about sooner or later. Consequently I must go. I can only conceive of one condition upon which I could remain; but that condition will never be.”
+“There’s no recalling the past, Anna Sergyevna﻿ ﻿… and this was bound to come about sooner or later. Consequently I must go.”
 s=bazarov
 
-“Excuse my impertinence, but you don’t love me, and you never will love me, I suppose?”
+“I can only conceive of one condition upon which I could remain; but that condition will never be. Excuse my impertinence, but you don’t love me, and you never will love me, I suppose?”
 
 
 Bazarov’s eyes glittered for an instant under their dark brows.
@@ -5573,33 +5579,36 @@ Anna Sergyevna did not answer him.
 
 
 “I’m afraid of this man,” flashed through her brain.
-t=anna;e:anna=fearful
+t=anna;e:anna=unhappy
 
-“Goodbye, then,” said Bazarov, as though he guessed her thought, and he went back into the house.
-s=bazarov;t=none
+“Goodbye, then,” said Bazarov, as though he guessed her thought,
+s=bazarov;t=none;m=break,1
 
-Anna Sergyevna walked slowly after him, and calling Katya to her, she took her arm. She did not leave her side till quite evening. She did not play cards, and was constantly laughing, which did not at all accord with her pale and perplexed face.
+and he went back into the house.
+s=
+
+Anna Sergyevna walked slowly after him, and calling Katya to her, she took her arm.
+f:b:nikolskoe-garden=blur(3px)
+
+She did not leave her side till quite evening. She did not play cards, and was constantly laughing, which did not at all accord with her pale and perplexed face.
 b=nikolskoe-drawing-night;x:bazarov=;x:anna=;s=none
 
 Arkady was bewildered, and looked on at her as all young people look on﻿—that’s to say, he was constantly asking himself,
 
 
 “What is the meaning of that?”
-t=arkady;e:arkady=thinking
+t=arkady;e:arkady=confused
 
 Bazarov shut himself up in his room; he came back to tea, however. Anna Sergyevna longed to say some friendly word to him, but she did not know how to address him.﻿ ﻿…
 t=none
 
 An unexpected incident relieved her from her embarrassment; a steward announced the arrival of Sitnikov.
-
+f:b:nikolskoe-drawing-night=blur(3px)
 
 It is difficult to do justice in words to the strange figure cut by the young apostle of progress as he fluttered into the room.
 
 
-Though, with his characteristic impudence, he had made up his mind to go into the country to visit a woman whom he hardly knew, who had never invited him;
-
-
-but with whom, according to information he had gathered, such talented and intimate friends were staying, he was nevertheless trembling to the marrow of his bones;
+Though, with his characteristic impudence, he had made up his mind to go into the country to visit a woman whom he hardly knew, who had never invited him; but with whom, according to information he had gathered, such talented and intimate friends were staying, he was nevertheless trembling to the marrow of his bones;
 
 
 and instead of bringing out the apologies and compliments he had learned by heart beforehand, he muttered some absurdity about Evdoksya Kukshin having sent him to inquire after Anna Sergyevna’s health, and Arkady Nikolaevitch’s too, having always spoken to him in the highest terms.﻿ ﻿…
@@ -5612,34 +5621,40 @@ The introduction of the commonplace is often an advantage in life; it relieves o
 
 
 With Sitnikov’s appearance everything became somehow duller and simpler; they all even ate a more solid supper, and retired to bed half-an-hour earlier than usual.
+f:b:nikolskoe-drawing-night=blur(6px)
 
+“I might now repeat to you,” said Arkady,
+b=nikolskoe-guest-night;f=fade;x:arkady=night;x:bazarov=night;s=arkady;e:arkady=serious;m=break,1
 
-“I might now repeat to you,” said Arkady, as he lay down in bed, to Bazarov, who was also undressing, “what you once said to me, ‘Why are you so melancholy? One would think you had fulfilled some sacred duty.’ ”
-b=nikolskoe-guest-night;f=fade;x:arkady=night;x:bazarov=night;s=arkady;e:arkady=curious
+as he lay down in bed, to Bazarov, who was also undressing,
+s=
+
+“what you once said to me, ‘Why are you so melancholy? One would think you had fulfilled some sacred duty.’ ”
+s=arkady;i=2
 
 For some time past a sort of pretence of free-and-easy banter had sprung up between the two young men, which is always an unmistakable sign of secret displeasure or unexpressed suspicions.
 s=none
 
 “I’m going to my father’s tomorrow,” said Bazarov.
-s=bazarov
+s=bazarov;e:bazarov=thinking
 
 Arkady raised himself and leaned on his elbow. He felt both surprised, and for some reason or other pleased.
 s=none
 
 “Ah!” he commented, “and is that why you’re sad?”
-s=arkady
+s=arkady;e:arkady=confused
 
 Bazarov yawned.
 s=none
 
 “You’ll get old if you know too much.”
-s=bazarov
+s=bazarov;e:bazarov=bored
 
 “And Anna Sergyevna?” persisted Arkady.
-s=arkady
+s=arkady;e:arkady=contemplative
 
 “What about Anna Sergyevna?”
-s=bazarov
+s=bazarov;e:bazarov=annoyed
 
 “I mean, will she let you go?”
 s=arkady
@@ -5651,94 +5666,103 @@ Arkady grew thoughtful, while Bazarov lay down and turned with his face to the w
 s=none
 
 Some minutes went by in silence.
-
+f:b:nikolskoe-guest-night=blur(3px)
 
 “Yevgeny?” cried Arkady suddenly.
-s=arkady
+s=arkady;f:b:nikolskoe-guest-night=;e:arkady=
 
 “Well?”
 s=bazarov
 
 “I will leave with you tomorrow too.”
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=neutral;i=2
 
 Bazarov made no answer.
 s=none
 
-“Only I will go home,” continued Arkady.
+“Only I will go home,” continued Arkady. “We will go together as far as Hohlovsky, and there you can get horses at Fedot’s.”
 s=arkady
 
-“We will go together as far as Hohlovsky, and there you can get horses at Fedot’s. I should be delighted to make the acquaintance of your people, but I’m afraid of being in their way and yours. You are coming to us again later, of course?”
-e:arkady=fearful
+“I should be delighted to make the acquaintance of your people, but I’m afraid of being in their way and yours. You are coming to us again later, of course?”
+e:arkady=contemplative
 
 “I’ve left all my things with you,” Bazarov said, without turning round.
 s=bazarov
 
-“Why doesn’t he ask me why I am going, and just as suddenly as he?” thought Arkady. “In reality, why am I going, and why is he going?” he pursued his reflections.
+“Why doesn’t he ask me why I am going, and just as suddenly as he?” thought Arkady.
 s=none;t=arkady;e:arkady=unhappy
+
+“In reality, why am I going, and why is he going?” he pursued his reflections.
+e:arkady=thinking
 
 He could find no satisfactory answer to his own question, though his heart was filled with some bitter feeling. He felt it would be hard to part from this life to which he had grown so accustomed; but for him to remain alone would be rather odd.
 t=none
 
-“Something has passed between them,”
-t=arkady;m=break,1
-
-he reasoned to himself;
-t=none
-
-“what good would it be for me to hang on after he’s gone? She’s utterly sick of me; I’m losing the last that remained to me.”
-t=arkady
+“Something has passed between them,” he reasoned to himself; “what good would it be for me to hang on after he’s gone? She’s utterly sick of me; I’m losing the last that remained to me.”
+t=arkady;m=break,1;e:arkady=contemplative
 
 He began to imagine Anna Sergyevna to himself, then other features gradually eclipsed the lovely image of the young widow.
 t=none
 
-“I’m sorry to lose Katya too!” Arkady whispered to his pillow, on which a tear had already fallen.﻿ ﻿…
-s=arkady
+“I’m sorry to lose Katya too!” Arkady whispered to his pillow,
+s=arkady;e:arkady=unhappy;m=break,1
+
+on which a tear had already fallen.﻿ ﻿…
+s=
 
 All at once he shook back his hair and said aloud﻿—
 s=none
 
 “What the devil made that fool of a Sitnikov turn up here?”
-s=arkady;e:arkady=curious
+s=arkady;e:arkady=anoyed
 
 Bazarov at first stirred a little in his bed, then he uttered the following rejoinder:
 s=none
 
 “You’re still a fool, my boy, I see. Sitnikovs are indispensable to us. I﻿—do you understand? I need dolts like him. It’s not for the gods to bake bricks, in fact!”﻿ ﻿…
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=serious
 
-“Oho!”
-s=none;t=arkady;e:arkady=unhappy
+“Oho!” Arkady thought to himself,
+s=none;t=arkady;e:arkady=confused;m=break,1
 
-Arkady thought to himself, and then in a flash all the fathomless depths of Bazarov’s conceit dawned upon him.
+and then in a flash all the fathomless depths of Bazarov’s conceit dawned upon him.
 t=none
 
 “Are you and I gods then? at least, you’re a god; am not I a dolt then?”
-t=arkady
+t=arkady;e:arkady=thinking;i=2
 
 “Yes,” repeated Bazarov; “you’re still a fool.”
 s=bazarov;t=none;e:bazarov=serious
 
-Madame Odintsov expressed no special surprise when Arkady told her the next day that he was going with Bazarov; she seemed tired and absorbed. Katya looked at him silently and seriously;
+Madame Odintsov expressed no special surprise when Arkady told her the next day that he was going with Bazarov; she seemed tired and absorbed.
 b=nikolskoe-drawing;f=fade;x:arkady=;x:bazarov=;s=none
 
-the princess went so far as to cross herself under her shawl so that he could not help noticing it. Sitnikov, on the other hand, was completely disconcerted.
+Katya looked at him silently and seriously; the princess went so far as to cross herself under her shawl so that he could not help noticing it.
+
+
+Sitnikov, on the other hand, was completely disconcerted.
 
 
 He had only just come in to lunch in a new and fashionable getup, not on this occasion of a Slavophil cut; the evening before he had astonished the man told off to wait on him by the amount of linen he had brought with him, and now all of a sudden his comrades were deserting him!
 
 
-He took a few tiny steps, doubled back like a hunted hare at the edge of a copse, and abruptly, almost with dismay, almost with a wail, announced that he proposed going too. Madame Odintsov did not attempt to detain him.
+He took a few tiny steps, doubled back like a hunted hare at the edge of a copse, and abruptly, almost with dismay, almost with a wail, announced that he proposed going too.
 
 
-“I have a very comfortable carriage,” added the luckless young man, turning to Arkady; “I can take you, while Yevgeny Vassilyitch can take your coach, so it will be even more convenient.”
-s=sitnikov;e:sitnikov=neutral
+Madame Odintsov did not attempt to detain him.
+
+
+“I have a very comfortable carriage,” added the luckless young man, turning to Arkady;
+s=sitnikov;e:sitnikov=wary
+
+“I can take you, while Yevgeny Vassilyitch can take your coach, so it will be even more convenient.”
+
 
 “But, really, it’s not at all in your way, and it’s a long way to my place.”
 s=arkady;e:arkady=neutral
 
 “That’s nothing, nothing; I’ve plenty of time; besides, I have business in that direction.”
-s=sitnikov
+s=sitnikov;e:sitnikov=thinking
 
 “Gin-selling?” asked Arkady, rather too contemptuously.
 s=arkady;e:arkady=smirking
@@ -5755,14 +5779,17 @@ s=anna;e:anna=neutral
 Arkady glanced at her, and bowed his head significantly.
 s=none
 
-The visitors started off after lunch. As she said goodbye to Bazarov, Madame Odintsov held out her hand to him, and said,
+The visitors started off after lunch.
 b=nikolskoe-wide;x:arkady=hat;x:bazarov=hat;x:sitnikov=hat,overcoat
 
+As she said goodbye to Bazarov, Madame Odintsov held out her hand to him, and said,
+
+
 “We shall meet again, shan’t we?”
-s=anna;e:anna=curious
+s=anna;e:anna=contemplative
 
 “As you command,” answered Bazarov.
-s=bazarov;e:bazarov=weary
+s=bazarov;e:bazarov=thinking
 
 “In that case, we shall.”
 s=anna;e:anna=neutral
@@ -5770,35 +5797,32 @@ s=anna;e:anna=neutral
 Arkady was the first to descend the steps; he got into Sitnikov’s carriage. A steward tucked him in respectfully, but he could have killed him with pleasure, or have burst into tears.
 s=none
 
-Bazarov took his seat in the coach. When they reached Hohlovsky, Arkady waited till Fedot, the keeper of the posting-station, had put in the horses, and going up to the coach, he said, with his old smile, to Bazarov,
-b=country-road
+Bazarov took his seat in the coach.
+
+
+When they reached Hohlovsky, Arkady waited till Fedot, the keeper of the posting-station, had put in the horses, and going up to the coach, he said, with his old smile, to Bazarov,
+b=country-road-2
 
 “Yevgeny, take me with you; I want to come to you.”
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=happy
 
-“Get in,”
-s=bazarov;m=break,1
+“Get in,” Bazarov brought out through his teeth.
+s=bazarov;;e:bazarov=annoyed
 
-Bazarov brought out through his teeth.
-s=none
-
-Sitnikov, who had been walking to and fro round the wheels of his carriage, whistling briskly, could only gape when he heard these words;
-
-
-while Arkady coolly pulled his luggage out of the carriage, took his seat beside Bazarov, and bowing politely to his former fellow-traveller, he called,
-
+Sitnikov, who had been walking to and fro round the wheels of his carriage, whistling briskly, could only gape when he heard these words; while Arkady coolly pulled his luggage out of the carriage, took his seat beside Bazarov, and bowing politely to his former fellow-traveller, he called,
+s=
 
 “Whip up!”
-s=arkady
+s=arkady;e:arkady=serious
 
-The coach rolled away, and was soon out of sight.﻿ ﻿… Sitnikov, utterly confused, looked at his coachman, but the latter was flicking his whip about the tail of the off horse. Then Sitnikov jumped into the carriage, and growling at two passing peasants,
-s=none
+The coach rolled away, and was soon out of sight.﻿ ﻿…
+s=none;f:b:country-road-2=blur(3px)
 
-“Put on your caps, idiots!”
-s=sitnikov
+Sitnikov, utterly confused, looked at his coachman, but the latter was flicking his whip about the tail of the off horse.
 
-he drove to the town, where he arrived very late, and where, next day, at Madame Kukshin’s, he dealt very severely with two “disgusting stuck-up churls.”
-s=none
+
+Then Sitnikov jumped into the carriage, and growling at two passing peasants, “Put on your caps, idiots!” he drove to the town, where he arrived very late, and where, next day, at Madame Kukshin’s, he dealt very severely with two “disgusting stuck-up churls.”
+m=dialogue,1
 
 When he was seated in the coach by Bazarov, Arkady pressed his hand warmly, and for a long while he said nothing. It seemed as though Bazarov understood and appreciated both the pressure and the silence.
 
@@ -5807,10 +5831,10 @@ He had not slept all the previous night, and had not smoked, and had eaten scarc
 
 
 “Well, brother,” he said at last, “give us a cigarette. But look, I say, is my tongue yellow?”
-s=bazarov
+s=bazarov;f:b:country-road-2=;e:bazarov=thinking
 
 “Yes, it is,” answered Arkady.
-s=arkady
+s=arkady;e:arkady=
 
 “Hm﻿ ﻿… and the cigarette’s tasteless. The machine’s out of gear.”
 s=bazarov
@@ -5818,41 +5842,47 @@ s=bazarov
 “You look changed lately certainly,” observed Arkady.
 s=arkady
 
-“It’s nothing! we shall soon be all right. One thing’s a bother﻿—my mother’s so tenderhearted; if you don’t grow as round as a tub, and eat ten times a day, she’s quite upset. My father’s all right, he’s known all sorts of ups and downs himself.”
-s=bazarov
+“It’s nothing! we shall soon be all right.”
+s=bazarov;e:bazarov=annoyed
 
-“No, I can’t smoke,” he added, and he flung the cigarette into the dust of the road.
+“One thing’s a bother﻿—my mother’s so tenderhearted; if you don’t grow as round as a tub, and eat ten times a day, she’s quite upset. My father’s all right, he’s known all sorts of ups and downs himself.”
+e:bazarov=contemplative
 
+“No, I can’t smoke,” he added,
+e:bazarov=annoyedlook;m=break,1
+
+and he flung the cigarette into the dust of the road.
+s=
 
 “Do you think it’s twenty miles?” asked Arkady.
 s=arkady;e:arkady=curious
 
 “Yes. But ask this sage here.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=annoyedlook
 
 He indicated the peasant sitting on the box, a labourer of Fedot’s.
 s=none
 
 But the sage only answered,
-n:coachman=Coachman;x:coachman=hat
+n:coachman1=Coachman;x:coachman1=hat
 
-“Who’s to know﻿—miles hereabout aren’t measured,” and went on swearing in an undertone at the shaft horse for
-s=coachman;e:coachman=neutral;m=break,1
+“Who’s to know﻿—miles hereabout aren’t measured,”
+s=coachman1;e:coachman1=contemplative;m=break,1
 
-“kicking with her headpiece,” that is, shaking with her head down.
+and went on swearing in an undertone at the shaft horse for “kicking with her headpiece,” that is, shaking with her head down.
 s=none
 
-“Yes, yes,” began Bazarov;
-s=bazarov;e:bazarov=weary
+“Yes, yes,” began Bazarov; “it’s a lesson to you, my young friend, an instructive example.”
+s=bazarov;e:bazarov=thinking
 
-“it’s a lesson to you, my young friend, an instructive example. God knows, what rot it is? Every man hangs on a thread, the abyss may open under his feet any minute, and yet he must go and invent all sorts of discomforts for himself, and spoil his life.”
-
+“God knows, what rot it is? Every man hangs on a thread, the abyss may open under his feet any minute, and yet he must go and invent all sorts of discomforts for himself, and spoil his life.”
+;e:bazarov=weary
 
 “What are you alluding to?” asked Arkady.
-s=arkady
+s=arkady;e:arkady=confused
 
 “I’m not alluding to anything; I’m saying straight out that we’ve both behaved like fools. What’s the use of talking about it! Still, I’ve noticed in hospital practice, the man who’s furious at his illness﻿—he’s sure to get over it.”
-s=bazarov
+s=bazarov;e:bazarov=serious
 
 “I don’t quite understand you,” observed Arkady; “I should have thought you had nothing to complain of.”
 s=arkady;e:arkady=neutral
@@ -5866,23 +5896,23 @@ s=none
 “rubbish. You don’t believe me now, but I tell you; you and I have been in feminine society, and very nice we found it; but to throw up society like that is for all the world like a dip in cold water on a hot day.”
 s=bazarov
 
-“A man hasn’t time to attend to such trifles; a man ought not to be tame, says an excellent Spanish proverb. Now, you, I suppose, my sage friend,” he added, turning to the peasant sitting on the box﻿—
-m=nospace,1;m=break,1
+“A man hasn’t time to attend to such trifles; a man ought not to be tame, says an excellent Spanish proverb.”
 
-“you’ve a wife?”
 
+“Now, you, I suppose, my sage friend,” he added, turning to the peasant sitting on the box﻿—“you’ve a wife?”
+e:bazarov=seriouslook
 
 The peasant showed both the friends his dull blear-eyed face.
 s=none
 
 “A wife? Yes. Every man has a wife.”
-s=coachman;e:coachman=curious
+s=coachman1;e:coachman1=confused
 
 “Do you beat her?”
 s=bazarov;e:bazarov=curious
 
 “My wife? Everything happens sometimes. We don’t beat her without good reason!”
-s=coachman
+s=coachman1;e:coachman1=thinking
 
 “That’s excellent. Well, and does she beat you?”
 s=bazarov
@@ -5890,38 +5920,38 @@ s=bazarov
 The peasant gave a tug at the reins.
 s=none
 
-“That’s a strange thing to say, sir. You like your joke.”
-s=coachman;e:coachman=neutral;m=nospace,1;m=break,1
+“That’s a strange thing to say, sir. You like your joke.”﻿ ﻿…
+s=coachman1;e:coachman1=annoyed
 
-﻿ ﻿… He was obviously offended.
+﻿﻿He was obviously offended.
 s=none
 
 “You hear, Arkady Nikolaevitch! But we have taken a beating﻿ ﻿… that’s what comes of being educated people.”
 s=bazarov;e:bazarov=weary
 
 Arkady gave a forced laugh, while Bazarov turned away, and did not open his mouth again the whole journey.
-s=none
+s=none;
 
-The twenty miles seemed to Arkady quite forty. But at last, on the slope of some rising ground, appeared the small hamlet where Bazarov’s parents lived. Beside it, in a young birch copse, could be seen a small house with a thatched roof.
-b=bazarov-wide
+The twenty miles seemed to Arkady quite forty.
+f:b:country-road-2=blur(3px)
+
+But at last, on the slope of some rising ground, appeared the small hamlet where Bazarov’s parents lived. Beside it, in a young birch copse, could be seen a small house with a thatched roof.
+b=bazarov-wide;f:b:bazarov-wide=blur(3px)
 
 Two peasants stood with their hats on at the first hut, abusing each other.
-n:peasant1=Peasant;x:peasant1=hat;n:peasant2=Second peasant;x:peasant2=hat
+n:peasant1=Peasant;x:peasant1=hat;n:peasant2=Peasant;x:peasant2=hat;f:b:bazarov-wide=
 
 “You’re a great sow,” said one; “and worse than a little sucking pig.”
-s=peasant1;e:peasant1=neutral
+s=peasant1;e:peasant1=annoyed
 
 “And your wife’s a witch,” retorted the other.
-s=peasant2;e:peasant2=neutral
+s=peasant2;e:peasant2=smirking
 
-“From their unconstrained behaviour,” Bazarov remarked to Arkady,
+“From their unconstrained behaviour,” Bazarov remarked to Arkady, “and the playfulness of their retorts, you can guess that my father’s peasants are not too much oppressed.”
 s=bazarov;e:bazarov=serious
 
-“and the playfulness of their retorts, you can guess that my father’s peasants are not too much oppressed. Why, there he is himself coming out on the steps of his house. They must have heard the bells.”
-
-
-“It’s he; it’s he﻿—I know his figure. Ay, ay! how grey he’s grown though, poor chap!”
-
+“Why, there he is himself coming out on the steps of his house. They must have heard the bells. It’s he; it’s he﻿—I know his figure. Ay, ay! how grey he’s grown though, poor chap!”
+e:bazarov=seriouslook
 
 ## XX
 r=title
@@ -7232,13 +7262,13 @@ s=none
 r=title
 
 In silence, only rarely exchanging a few insignificant words, our friends travelled as far as Fedot’s. Bazarov was not altogether pleased with himself. Arkady was displeased with him.
-b=country-road;x:arkady=hat;x:bazarov=hat;x:coachman=hat
+b=country-road;x:arkady=hat;x:bazarov=hat;x:coachman1=hat
 
 He was feeling, too, that causeless melancholy which is only known to very young people. The coachman changed the horses, and getting up on to the box, inquired,
 
 
 “To the right or to the left?”
-s=coachman;e:coachman=curious
+s=coachman1;e:coachman1=curious
 
 Arkady started. The road to the right led to the town, and from there home; the road to the left led to Madame Odintsov’s.
 s=none
