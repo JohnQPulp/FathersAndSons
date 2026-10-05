@@ -7147,41 +7147,44 @@ but Arina Vlasyevna’s eyes, bent steadfastly on Bazarov, did not express only 
 Bazarov, however, was not in a humour to analyse the exact expression of his mother’s eyes; he seldom turned to her, and then only with some short question. Once he asked her for her hand “for luck”; she gently laid her soft, little hand on his rough, broad palm.
 
 
-“Well,” she asked, after waiting a little, “has it been any use?”
-s=arina;e:arina=curious
+“Well,” she asked, after waiting a little,
+s=arina;e:arina=wary
+
+“has it been any use?”
+
 
 “Worse luck than ever,” he answered, with a careless laugh.
 s=bazarov;e:bazarov=happy
 
 “He plays too rashly,” pronounced Father Alexey, as it were compassionately, and he stroked his beard.
-n:alexey=Father Alexey;s=alexey;e:alexey=angry
+n:alexey=Father Alexey;s=alexey;e:alexey=contemplativestroke
 
 “Napoleon’s rule, good Father, Napoleon’s rule,” put in Vassily Ivanovitch, leading an ace.
-s=vassily
+s=vassily;e:vassily=thinkinglookdown
 
 “It brought him to St. Helena, though,” observed Father Alexey, as he trumped the ace.
-s=alexey;e:alexey=neutral
+s=alexey;e:alexey=neutrallookdown
 
 “Wouldn’t you like some currant tea, Enyusha?” inquired Arina Vlasyevna.
-s=arina
+s=arina;e:arina=contemplative
 
 Bazarov merely shrugged his shoulders.
 s=none
 
 “No!” he said to Arkady the next day.
-b=bazarov-study;f=fade;s=bazarov;e:bazarov=serious
+b=bazarov-guest;f=fade;s=bazarov;e:bazarov=serious
 
 “I’m off from here tomorrow. I’m bored; I want to work, but I can’t work here. I will come to your place again; I’ve left all my apparatus there too. In your house one can at any rate shut oneself up.”
 
 
 “While here my father repeats to me, ‘My study is at your disposal﻿—nobody shall interfere with you,’ and all the time he himself is never a yard away. And I’m ashamed somehow to shut myself away from him.”
-
+e:bazarov=scowling
 
 “It’s the same thing too with mother. I hear her sighing the other side of the wall, and if one goes in to her, one’s nothing to say to her.”
 
 
 “She will be very much grieved,” observed Arkady, “and so will he.”
-s=arkady
+s=arkady;e:arkady=contemplative
 
 “I shall come back again to them.”
 s=bazarov
@@ -7193,10 +7196,10 @@ s=arkady;e:arkady=curious
 s=bazarov
 
 “I feel sorry for your mother particularly.”
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=unhappy
 
 “Why’s that? Has she won your heart with strawberries, or what?”
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=annoyed
 
 Arkady dropped his eyes.
 s=none
@@ -7216,23 +7219,23 @@ s=bazarov;e:bazarov=serious
 “It won’t be very easy for you to break it to them. They are always making plans for what we are to do in a fortnight’s time.”
 s=arkady
 
-“No; it won’t be easy. Some demon drove me to tease my father today; he had one of his rent-paying peasants flogged the other day, and quite right too﻿—yes, yes, you needn’t look at me in such horror﻿—he did quite right, because he’s an awful thief and drunkard;”
+“No; it won’t be easy.”
 s=bazarov
 
-“only my father had no idea that I, as they say, was cognisant of the facts. He was greatly perturbed, and now I shall have to upset him more than ever.﻿ ﻿… Never mind! Never say die! He’ll get over it!”
+“Some demon drove me to tease my father today; he had one of his rent-paying peasants flogged the other day, and quite right too﻿—yes, yes, you needn’t look at me in such horror﻿—he did quite right, because he’s an awful thief and drunkard; only my father had no idea that I, as they say, was cognisant of the facts.”
 
 
-Bazarov said,
-b=bazarov-study-night;f=fade;s=none
+“He was greatly perturbed, and now I shall have to upset him more than ever.﻿ ﻿… Never mind! Never say die! He’ll get over it!”
 
-“Never mind”
-s=bazarov;m=nospace,1;m=break,1
 
-; but the whole day passed before he could make up his mind to inform Vassily Ivanovitch of his intentions. At last, when he was just saying good night to him in the study, he observed, with a feigned yawn﻿—
-s=none
+Bazarov said, “Never mind”; but the whole day passed before he could make up his mind to inform Vassily Ivanovitch of his intentions.
+s=;f:b:bazarov-guest=blur(3px)
+
+At last, when he was just saying good night to him in the study, he observed, with a feigned yawn﻿—
+s=none;b=bazarov-study-night
 
 “Oh﻿ ﻿… I was almost forgetting to tell you.﻿ ﻿… Send to Fedot’s for our horses tomorrow.”
-s=bazarov
+s=bazarov;e:bazarov=bored
 
 Vassily Ivanovitch was dumbfounded.
 s=none
@@ -7241,7 +7244,7 @@ s=none
 s=vassily;e:vassily=upset
 
 “Yes; and I’m going with him.”
-s=bazarov
+s=bazarov;e:bazarov=serious
 
 Vassily Ivanovitch positively reeled.
 s=none
@@ -7252,14 +7255,17 @@ s=vassily
 “Yes﻿ ﻿… I must. Make the arrangements about the horses, please.”
 s=bazarov
 
-“Very good.﻿ ﻿…” faltered the old man; “to Fedot’s﻿ ﻿… very good﻿ ﻿… only﻿ ﻿… only.﻿ ﻿… How is it?”
-s=vassily
+“Very good.﻿ ﻿…” faltered the old man;
+s=vassily;e:vassily=unhappy
+
+“to Fedot’s﻿ ﻿… very good﻿ ﻿… only﻿ ﻿… only.﻿ ﻿… How is it?”
+
 
 “I must go to stay with him for a little time. I will come back again later.”
 s=bazarov
 
 “Ah! For a little time﻿ ﻿… very good.”
-s=vassily
+s=vassily;e:vassily=sadsmile
 
 Vassily Ivanovitch drew out his handkerchief, and, blowing his nose, doubled up almost to the ground.
 s=none
@@ -7273,14 +7279,11 @@ s=bazarov
 “Necessary.﻿ ﻿… Well! Duty before everything. So the horses shall be in readiness. Very good. Arina and I, of course, did not anticipate this. She has just begged some flowers from a neighbour; she meant to decorate the room for you.”
 s=vassily
 
-(Vassily Ivanovitch did not even mention that every morning almost at dawn he took counsel with Timofeitch, standing with his bare feet in his slippers, and pulling out with trembling fingers one dog’s-eared rouble note after another,
-s=none;m=break,1
-
-charged him with various purchases, with special reference to good things to eat, and to red wine, which, as far as he could observe, the young men liked extremely.)
-
+(Vassily Ivanovitch did not even mention that every morning almost at dawn he took counsel with Timofeitch, standing with his bare feet in his slippers, and pulling out with trembling fingers one dog’s-eared rouble note after another, charged him with various purchases, with special reference to good things to eat, and to red wine, which, as far as he could observe, the young men liked extremely.)
+s=none;
 
 “Liberty﻿ ﻿… is the great thing; that’s my rule.﻿ ﻿… I don’t want to hamper you﻿ ﻿… not﻿ ﻿…”
-s=vassily
+s=vassily;e:vassily=contemplative
 
 He suddenly ceased, and made for the door.
 s=none
@@ -7288,26 +7291,38 @@ s=none
 “We shall soon see each other again, father, really.”
 s=bazarov
 
-But Vassily Ivanovitch, without turning round, merely waved his hand and was gone. When he got back to his bedroom he found his wife in bed, and began to say his prayers in a whisper, so as not to wake her up. She woke, however.
-b=bazarov-bedroom-night;f=fade;x:arina=night;x:vassily=night;s=none
+But Vassily Ivanovitch, without turning round, merely waved his hand and was gone.
+s=;f:b:bazarov-study-night=blur(3px)
+
+When he got back to his bedroom he found his wife in bed, and began to say his prayers in a whisper, so as not to wake her up.
+b=bazarov-bedroom-night;x:arina=night;x:vassily=;s=none
+
+She woke, however.
+
 
 “Is that you, Vassily Ivanovitch?” she asked.
-s=arina
+s=arina;e:arina=contemplative
 
 “Yes, mother.”
 s=vassily;e:vassily=unhappy
 
-“Have you come from Enyusha? Do you know, I’m afraid of his not being comfortable on that sofa. I told Anfisushka to put him on your travelling mattress and the new pillows; I should have given him our featherbed, but I seem to remember he doesn’t like too soft a bed.﻿ ﻿…”
-s=arina;e:arina=fearful
+“Have you come from Enyusha? Do you know, I’m afraid of his not being comfortable on that sofa.”
+s=arina;e:arina=wary
+
+“I told Anfisushka to put him on your travelling mattress and the new pillows; I should have given him our featherbed, but I seem to remember he doesn’t like too soft a bed.﻿ ﻿…”
+e:arina=unhappy
 
 “Never mind, mother; don’t worry yourself. He’s all right. Lord, have mercy on me, a sinner,” he went on with his prayer in a low voice.
 s=vassily
 
 Vassily Ivanovitch was sorry for his old wife; he did not mean to tell her over night what a sorrow there was in store for her.
-s=none
+s=none;f:b:bazarov-bedroom-night=blur(3px)
 
-Bazarov and Arkady set off the next day. From early morning all was dejection in the house; Anfisushka let the tray slip out of her hands; even Fedka was bewildered, and was reduced to taking off his boots.
-b=bazarov-wide;f=fade;x:arina=;x:vassily=
+Bazarov and Arkady set off the next day.
+b=bazarov-wide;x:arina=;x:vassily=
+
+From early morning all was dejection in the house; Anfisushka let the tray slip out of her hands; even Fedka was bewildered, and was reduced to taking off his boots.
+
 
 Vassily Ivanitch was more fussy than ever; he was obviously trying to put a good face on it, talked loudly, and stamped with his feet, but his face looked haggard, and his eyes were continually avoiding his son.
 
@@ -7325,19 +7340,19 @@ when the old people were left alone in their little house, which seemed suddenly
 
 
 “He has cast us off; he has forsaken us,” he faltered; “forsaken us; he was dull with us. Alone, alone!” he repeated several times.
-s=vassily;e:vassily=happy
+s=vassily;e:vassily=upset
 
 Then Arina Vlasyevna went up to him, and, leaning her grey head against his grey head, said,
 s=none
 
 “There’s no help for it, Vasya! A son is a separate piece cut off. He’s like the falcon that flies home and flies away at his pleasure; while you and I are like funguses in the hollow of a tree, we sit side by side, and don’t move from our place.”
-s=arina;e:arina=happy
+s=arina;e:arina=sadsmile;x:arina=
 
 “Only I am left you unchanged forever, as you for me.”
 
 
 Vassily Ivanovitch took his hands from his face and clasped his wife, his friend, as warmly as he had never clasped in youth; she comforted him in his grief.
-s=none
+s=none;f:b:bazarov-wide=blur(3px)
 
 ## XXII
 r=title
