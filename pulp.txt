@@ -7496,7 +7496,7 @@ his peasant women demanded unheard-of sums, and the corn meanwhile went to waste
 
 
 “I can do nothing!” Nikolai Petrovitch cried more than once in despair.
-b=maryino-study;s=nikolai;e:nikolai=upset;f=fade
+b=maryino-nikolai-study;s=nikolai;e:nikolai=upset;f=fade
 
 “I can’t flog them myself; and as for calling in the police captain, my principles don’t allow of it, while you can do nothing with them without the fear of punishment!”
 
@@ -7526,7 +7526,7 @@ He tried going long walks till he was tired, but that was no use.
 
 
 In conversation with his father one day, he found out that Nikolai Petrovitch had in his possession rather interesting letters, written by Madame Odintsov’s mother to his wife, and he gave him no rest till he got hold of the letters, for which Nikolai Petrovitch had to rummage in twenty drawers and boxes.
-b=maryino-study
+b=maryino-nikolai-study
 
 Having gained possession of these half-crumbling papers, Arkady felt, as it were, soothed, just as though he had caught a glimpse of the goal towards which he ought now to go.
 
@@ -7541,10 +7541,10 @@ s=
 s=arkady;e:arkady=serious
 
 But he recalled the last visit, the cold reception, and his former embarrassment, and timidity got the better of him.
-s=;f:b:maryino-study=blur(3px)
+s=;f:b:maryino-nikolai-study=blur(3px)
 
 The “go-ahead” feeling of youth, the secret desire to try his luck, to prove his powers in solitude, without the protection of anyone whatever, gained the day at last.
-;f:b:maryino-study=blur(6px)
+;f:b:maryino-nikolai-study=blur(6px)
 
 Before ten days had passed after his return to Maryino, on the pretext of studying the working of the Sunday schools, he galloped off to the town again, and from there to Nikolskoe.
 b=country-road-2;x:arkady=hat;f:b:country-road-2=blur(3px)
@@ -7619,22 +7619,28 @@ s=anna;e:anna=thinking
 r=title
 
 Having seen Arkady off with ironical compassion, and given him to understand that he was not in the least deceived as to the real object of his journey, Bazarov shut himself up in complete solitude; he was overtaken by a fever for work.
-b=maryino-guest
+b=maryino-guest;f:b:maryino-guest=blur(3px)
 
 He did not dispute now with Pavel Petrovitch, especially as the latter assumed an excessively aristocratic demeanour in his presence, and expressed his opinions more in inarticulate sounds than in words.
 
 
 Only on one occasion Pavel Petrovitch fell into a controversy with the *nihilist* on the subject of the question then much discussed of the rights of the nobles of the Baltic province; but suddenly he stopped of his own accord, remarking with chilly politeness,
-
+f:b:maryino-guest=
 
 “However, we cannot understand one another; I, at least, have not the honour of understanding you.”
 s=pavel;e:pavel=serious
 
-“I should think not!” cried Bazarov. “A man’s capable of understanding anything﻿—how the aether vibrates, and what’s going on in the sun﻿—but how any other man can blow his nose differently from him, that he’s incapable of understanding.”
+“I should think not!” cried Bazarov.
 s=bazarov;e:bazarov=serious
 
-“What, is that an epigram?” observed Pavel Petrovitch inquiringly, and he walked away.
-s=pavel;e:pavel=curious
+“A man’s capable of understanding anything﻿—how the aether vibrates, and what’s going on in the sun﻿—but how any other man can blow his nose differently from him, that he’s incapable of understanding.”
+
+
+“What, is that an epigram?” observed Pavel Petrovitch inquiringly,
+s=pavel;e:pavel=suspicious;m=break,1
+
+and he walked away.
+s=;f:b:maryino-guest=blur(3px)
 
 However, he sometimes asked permission to be present at Bazarov’s experiments, and once even placed his perfumed face, washed with the very best soap, near the microscope to see how a transparent infusoria swallowed a green speck, and busily munched it with two very rapid sort of clappers which were in its throat.
 s=none
@@ -7648,26 +7654,35 @@ He did not hinder the young man in his scientific researches; he used to sit dow
 During dinner and suppertime he used to try to turn the conversation upon physics, geology, or chemistry, seeing that all other topics, even agriculture, to say nothing of politics, might lead, if not to collisions, at least to mutual unpleasantness.
 
 
-Nikolai Petrovitch surmised that his brother’s dislike for Bazarov was no less. An unimportant incident, among many others, confirmed his surmises.
+Nikolai Petrovitch surmised that his brother’s dislike for Bazarov was no less.
 
+
+An unimportant incident, among many others, confirmed his surmises.
+b=maryino-wide;f:b:maryino-wide=blur(3px)
 
 The cholera began to make its appearance in some places in the neighbourhood, and even “carried off” two persons from Maryino itself. In the night Pavel Petrovitch happened to have rather severe symptoms.
 
 
-He was in pain till the morning, but did not have recourse to Bazarov’s skill. And when he met him the following day, in reply to his question,
+He was in pain till the morning, but did not have recourse to Bazarov’s skill.
 
 
-“Why he had not sent for him?” answered, still quite pale, but scrupulously brushed and shaved,
-s=bazarov;e:bazarov=curious
+And when he met him the following day, in reply to his question, “Why he had not sent for him?” answered, still quite pale, but scrupulously brushed and shaved,
+b=maryino-drawing
 
 “Why, I seem to recollect you said yourself you didn’t believe in medicine.”
-s=pavel;e:pavel=serious
+s=pavel;e:pavel=weary
 
-So the days went by. Bazarov went on obstinately and grimly working﻿ ﻿… and meanwhile there was in Nikolai Petrovitch’s house one creature to whom, if he did not open his heart, he at least was glad to talk.﻿ ﻿… That creature was Fenitchka.
+So the days went by.
+s=;f:b:maryino-drawing=blur(3px)
+
+Bazarov went on obstinately and grimly working﻿ ﻿… and meanwhile there was in Nikolai Petrovitch’s house one creature to whom, if he did not open his heart, he at least was glad to talk.﻿ ﻿…
 s=none
 
+That creature was Fenitchka.
+
+
 He used to meet her for the most part early in the morning, in the garden, or the farmyard; he never used to go to her room to see her, and she had only once been to his door to inquire﻿—ought she to let Mitya have his bath or not?
-b=maryino-garden;f:b:maryino-garden=blur(3px)
+b=maryino-rye;f:b:maryino-rye=blur(3px)
 
 It was not only that she confided in him, that she was not afraid of him﻿—she was positively freer and more at her ease in her behaviour with him than with Nikolai Petrovitch himself.
 
@@ -7678,68 +7693,74 @@ It is hard to say how it came about; perhaps it was because she unconsciously fe
 In her eyes he was both an excellent doctor and a simple man. She looked after her baby without constraint in his presence; and once when she was suddenly attacked with giddiness and headache﻿—she took a spoonful of medicine from his hand.
 
 
-Before Nikolai Petrovitch she kept, as it were, at a distance from Bazarov; she acted in this way not from hypocrisy, but from a kind of feeling of propriety. Pavel Petrovitch she was more afraid of than ever;
+Before Nikolai Petrovitch she kept, as it were, at a distance from Bazarov; she acted in this way not from hypocrisy, but from a kind of feeling of propriety.
 
 
-for some time he had begun to watch her, and would suddenly make his appearance, as though he sprang out of the earth behind her back, in his English suit, with his immovable vigilant face, and his hands in his pockets.
+Pavel Petrovitch she was more afraid of than ever; for some time he had begun to watch her, and would suddenly make his appearance, as though he sprang out of the earth behind her back, in his English suit, with his immovable vigilant face, and his hands in his pockets.
 
 
-“It’s like a bucket of cold water on one,”
-s=fenitchka;e:fenitchka=neutral;m=break,1
+“It’s like a bucket of cold water on one,” Fenitchka complained to Dunyasha,
+s=none;m=dialogue,1;m=break,1;b=maryino-nursery;f=fade
 
-Fenitchka complained to Dunyasha, and the latter sighed in response, and thought of another “heartless” man. Bazarov, without the least suspicion of the fact, had become the *cruel tyrant* of her heart.
-s=none
+and the latter sighed in response, and thought of another “heartless” man. Bazarov, without the least suspicion of the fact, had become the *cruel tyrant* of her heart.
 
-Fenitchka liked Bazarov; but he liked her too. His face was positively transformed when he talked to her; it took a bright, almost kind expression, and his habitual nonchalance was replaced by a sort of jesting attentiveness.
+
+Fenitchka liked Bazarov; but he liked her too.
+f:b:maryino-nursery=blur(3px)
+
+His face was positively transformed when he talked to her; it took a bright, almost kind expression, and his habitual nonchalance was replaced by a sort of jesting attentiveness.
 
 
 Fenitchka was growing prettier every day. There is a time in the life of young women when they suddenly begin to expand and blossom like summer roses; this time had come for Fenitchka.
 
 
-Dressed in a delicate white dress, she seemed herself slighter and whiter; she was not tanned by the sun;
-
-
-but the heat, from which she could not shield herself, spread a slight flush over her cheeks and ears, and, shedding a soft indolence over her whole body, was reflected in a dreamy languor in her pretty eyes.
+Dressed in a delicate white dress, she seemed herself slighter and whiter; she was not tanned by the sun; but the heat, from which she could not shield herself, spread a slight flush over her cheeks and ears, and, shedding a soft indolence over her whole body, was reflected in a dreamy languor in her pretty eyes.
 
 
 She was almost unable to work; her hands seem to fall naturally into her lap. She scarcely walked at all, and was constantly sighing and complaining with comic helplessness.
 
 
-“You should go oftener to bathe,”
-x:nikolai=hat;s=nikolai;e:nikolai=neutral;m=break,1
+“You should go oftener to bathe,” Nikolai Petrovitch told her.
+x:nikolai=hat;s=nikolai;e:nikolai=neutral;m=break,1;f:b:maryino-nursery=;f=fade
 
-Nikolai Petrovitch told her. He had made a large bath covered in with an awning in one of his ponds which had not yet quite disappeared.
+He had made a large bath covered in with an awning in one of his ponds which had not yet quite disappeared.
 s=none
 
 “Oh, Nikolai Petrovitch! But by the time one gets to the pond, one’s utterly dead, and, coming back, one’s dead again. You see, there’s no shade in the garden.”
-s=fenitchka
+s=fenitchka;e:fenitchka=unhappy
 
 “That’s true, there’s no shade,” replied Nikolai Petrovitch, rubbing his forehead.
-s=nikolai
+s=nikolai;e:nikolai=contemplativeforehead
 
 One day at seven o’clock in the morning Bazarov, returning from a walk, came upon Fenitchka in the lilac arbour, which was long past flowering, but was still thick and green.
 b=maryino-arbour;f=fade;x:fenitchka=kerchief;x:bazarov=hat;s=none
 
-She was sitting on the garden seat, and had as usual thrown a white kerchief over her head; near her lay a whole heap of red and white roses still wet with dew. He said good morning to her.
+She was sitting on the garden seat, and had as usual thrown a white kerchief over her head; near her lay a whole heap of red and white roses still wet with dew.
 
 
-“Ah! Yevgeny Vassilyitch!”
-s=fenitchka
+He said good morning to her.
 
-she said, and lifted the edge of her kerchief a little to look at him, in doing which her arm was left bare to the elbow.
+
+“Ah! Yevgeny Vassilyitch!” she said,
+s=fenitchka;m=break,1;e:fenitchka=wary
+
+and lifted the edge of her kerchief a little to look at him, in doing which her arm was left bare to the elbow.
 s=none
 
-“What are you doing here?” said Bazarov, sitting down beside her. “Are you making a nosegay?”
-s=bazarov
+“What are you doing here?” said Bazarov, sitting down beside her.
+s=bazarov;e:bazarov=
+
+“Are you making a nosegay?”
+
 
 “Yes, for the table at lunch. Nikolai Petrovitch likes it.”
-s=fenitchka
+s=fenitchka;e:fenitchka=contemplative
 
 “But it’s a long while yet to lunch time. What a heap of flowers!”
 s=bazarov;e:bazarov=serious
 
 “I gathered them now, for it will be hot then, and one can’t go out. One can only just breathe now. I feel quite weak with the heat. I’m really afraid whether I’m not going to be ill.”
-s=fenitchka;e:fenitchka=fearful
+s=fenitchka;e:fenitchka=unhappy
 
 “What an idea! Let me feel your pulse.”
 s=bazarov
@@ -7748,34 +7769,34 @@ Bazarov took her hand, felt for the evenly-beating pulse, but did not even begin
 s=none
 
 “You’ll live a hundred years!” he said, dropping her hand.
-s=bazarov
+s=bazarov;e:bazarov=smirking
 
 “Ah, God forbid!” she cried.
-s=fenitchka;e:fenitchka=neutral
+s=fenitchka;e:fenitchka=upset
 
 “Why? Don’t you want a long life?”
 s=bazarov;e:bazarov=curious
 
 “Well, but a hundred years! There was an old woman near us eighty-five years old﻿—and what a martyr she was! Dirty and deaf and bent and coughing all the time; nothing but a burden to herself. That’s a dreadful life!”
-s=fenitchka
+s=fenitchka;e:fenitchka=thinking
 
 “So it’s better to be young?”
 s=bazarov
 
 “Well, isn’t it?”
-s=fenitchka;e:fenitchka=curious
+s=fenitchka;e:fenitchka=confused
 
 “But why is it better? Tell me!”
 s=bazarov
 
 “How can you ask why? Why, here I now, while I’m young, I can do everything﻿—go and come and carry, and needn’t ask anyone for anything.﻿ ﻿… What can be better?”
-s=fenitchka
+s=fenitchka;i=2
 
 “And to me it’s all the same whether I’m young or old.”
 s=bazarov;e:bazarov=serious
 
 “How do you mean﻿—it’s all the same? It’s not possible what you say.”
-s=fenitchka
+s=fenitchka;e:fenitchka=contemplative
 
 “Well, judge for yourself, Fedosya Nikolaevna, what good is my youth to me. I live alone, a poor lonely creature﻿ ﻿…”
 s=bazarov
@@ -7801,8 +7822,14 @@ s=fenitchka
 “It seems not everything. You try to read a little.”
 s=bazarov;e:bazarov=serious
 
-“But I don’t understand anything here. Is it Russian?” asked Fenitchka, taking the heavily bound book in both hands. “How thick it is!”
-s=fenitchka
+“But I don’t understand anything here. Is it Russian?” asked Fenitchka,
+s=fenitchka;m=break,1
+
+taking the heavily bound book in both hands.
+s=
+
+“How thick it is!”
+s=fenitchka;e:fenitchka=warylookdown
 
 “Yes, it’s Russian.”
 s=bazarov
@@ -7817,7 +7844,7 @@ Fenitchka, who had set to work to spell out in a low voice the article on “Cre
 s=none
 
 “Nonsense!”
-s=fenitchka
+s=fenitchka;e:fenitchka=happy
 
 “I like it too when you laugh,” observed Bazarov.
 s=bazarov;e:bazarov=happy
@@ -7828,11 +7855,17 @@ e:bazarov=serious
 Fenitchka turned her head away.
 s=none
 
-“What a person you are to talk!” she commented, picking the flowers over with her finger. “And how can you care to listen to me? You have talked with such clever ladies.”
-s=fenitchka;e:fenitchka=curious
+“What a person you are to talk!” she commented,
+s=fenitchka;e:fenitchka=nervouslookdown;m=break,1
+
+picking the flowers over with her finger.
+s=
+
+“And how can you care to listen to me? You have talked with such clever ladies.”
+s=fenitchka;e:fenitchka=contemplative
 
 “Ah, Fedosya Nikolaevna! believe me; all the clever ladies in the world are not worth your little elbow.”
-s=bazarov
+s=bazarov;e:bazarov=serious
 
 “Come, there’s another invention!” murmured Fenitchka, clasping her hands.
 s=fenitchka;e:fenitchka=neutral
@@ -7843,20 +7876,35 @@ s=none
 “That’s a medical book; why do you throw it away?”
 s=bazarov;e:bazarov=curious
 
-“Medical?” repeated Fenitchka, and she turned to him again. “Do you know, ever since you gave me those drops﻿—do you remember?﻿—Mitya has slept so well! I really can’t think how to thank you; you are so good, really.”
-s=fenitchka;e:fenitchka=curious
+“Medical?” repeated Fenitchka,
+s=fenitchka;e:fenitchka=curious;m=break,1
 
-“But you have to pay doctors,” observed Bazarov with a smile. “Doctors, you know yourself, are grasping people.”
-s=bazarov;e:bazarov=serious
+and she turned to him again.
+s=
 
-Fenitchka raised her eyes, which seemed still darker from the whitish reflection cast on the upper part of her face, and looked at Bazarov. She did not know whether he was joking or not.
+“Do you know, ever since you gave me those drops﻿—do you remember?﻿—Mitya has slept so well! I really can’t think how to thank you; you are so good, really.”
+s=fenitchka
+
+“But you have to pay doctors,” observed Bazarov with a smile.
+s=bazarov;e:bazarov=smirking
+
+“Doctors, you know yourself, are grasping people.”
+
+
+Fenitchka raised her eyes, which seemed still darker from the whitish reflection cast on the upper part of her face, and looked at Bazarov.
 s=none
+
+She did not know whether he was joking or not.
+
 
 “If you please, we shall be delighted.﻿ ﻿… I must ask Nikolai Petrovitch﻿ ﻿…”
 s=fenitchka;e:fenitchka=happy
 
-“Why, do you think I want money?” Bazarov interposed. “No; I don’t want money from you.”
+“Why, do you think I want money?” Bazarov interposed.
 s=bazarov;e:bazarov=curious
+
+“No; I don’t want money from you.”
+
 
 “What then?” asked Fenitchka.
 s=fenitchka;e:fenitchka=curious
@@ -7865,16 +7913,19 @@ s=fenitchka;e:fenitchka=curious
 s=bazarov
 
 “A likely person I am to guess!”
-s=fenitchka;e:fenitchka=neutral
+s=fenitchka;e:fenitchka=confused
 
 “Well, I will tell you; I want﻿ ﻿… one of those roses.”
 s=bazarov;e:bazarov=serious
 
-Fenitchka laughed again, and even clapped her hands, so amusing Bazarov’s request seemed to her. She laughed, and at the same time felt flattered. Bazarov was looking intently at her.
+Fenitchka laughed again, and even clapped her hands, so amusing Bazarov’s request seemed to her. She laughed, and at the same time felt flattered.
 s=none
 
+Bazarov was looking intently at her.
+
+
 “By all means,” she said at last;
-s=fenitchka
+s=fenitchka;e:fenitchka=happy
 
 and, bending down to the seat, she began picking over the roses.
 s=none
@@ -7888,17 +7939,17 @@ s=bazarov
 She sat up again.
 s=none
 
-“Here, take it,”
+“Here, take it,” she said,
 s=fenitchka;e:fenitchka=neutral;m=break,1
 
-she said, but at once drew back her outstretched hand, and, biting her lips, looked towards the entrance of the arbour, then listened.
+but at once drew back her outstretched hand, and, biting her lips, looked towards the entrance of the arbour, then listened.
 s=none
 
 “What is it?” asked Bazarov. “Nikolai Petrovitch?”
 s=bazarov;e:bazarov=curious
 
 “No﻿ ﻿… Mr. Kirsanov has gone to the fields﻿ ﻿… besides, I’m not afraid of him﻿ ﻿… but Pavel Petrovitch﻿ ﻿… I fancied﻿ ﻿…”
-s=fenitchka;e:fenitchka=fearful
+s=fenitchka;e:fenitchka=wary
 
 “What?”
 s=bazarov
@@ -7910,10 +7961,13 @@ Fenitchka gave Bazarov the rose.
 s=none
 
 “On what grounds are you afraid of Pavel Petrovitch?”
-s=bazarov;e:bazarov=fearful
+s=bazarov;e:bazarov=suspicious
 
-“He always scares me. And I know you don’t like him. Do you remember, you always used to quarrel with him? I don’t know what your quarrel was about, but I can see you turn him about like this and like that.”
-s=fenitchka;e:fenitchka=curious
+“He always scares me. And I know you don’t like him.”
+s=fenitchka;e:fenitchka=unhappy
+
+“Do you remember, you always used to quarrel with him? I don’t know what your quarrel was about, but I can see you turn him about like this and like that.”
+
 
 Fenitchka showed with her hands how in her opinion Bazarov turned Pavel Petrovitch about.
 s=none
@@ -7925,16 +7979,16 @@ Bazarov smiled.
 s=bazarov;e:bazarov=curious
 
 “How could I stand up for you? but no, no one will get the better of you.”
-s=fenitchka
+s=fenitchka;e:fenitchka=confused
 
 “Do you think so? But I know a hand which could overcome me if it liked.”
 s=bazarov
 
 “What hand?”
-s=fenitchka
+s=fenitchka;i=2
 
 “Why, don’t you know, really? Smell, how delicious this rose smells you gave me.”
-s=bazarov
+s=bazarov;e:bazarov=smirking
 
 Fenitchka stretched her little neck forward, and put her face close to the flower.﻿ ﻿… The kerchief slipped from her head on to her shoulders; her soft mass of dark, shining, slightly ruffled hair was visible.
 x:fenitchka=;s=none
@@ -7948,35 +8002,44 @@ s=none
 She started, pushed him back with both her hands on his breast, but pushed feebly, and he was able to renew and prolong his kiss.
 
 
-A dry cough was heard behind the lilac bushes. Fenitchka instantly moved away to the other end of the seat. Pavel Petrovitch showed himself, made a slight bow, and saying with a sort of malicious mournfulness,
-x:pavel=hat
+A dry cough was heard behind the lilac bushes. Fenitchka instantly moved away to the other end of the seat.
+x:pavel=fez
+
+Pavel Petrovitch showed himself, made a slight bow, and saying with a sort of malicious mournfulness,
+
 
 “You are here,”
-s=pavel;m=break,1
+s=pavel;m=break,1;e:pavel=suspicious
 
-he retreated. Fenitchka at once gathered up all her roses and went out of the arbour.
+he retreated.
 s=none
 
+Fenitchka at once gathered up all her roses and went out of the arbour.
+
+
 “It was wrong of you, Yevgeny Vassilyevitch,” she whispered as she went.
-s=fenitchka;e:fenitchka=neutral
+s=fenitchka;e:fenitchka=upset
 
 There was a note of genuine reproach in her whisper.
 s=none
 
-Bazarov remembered another recent scene, and he felt both shame and contemptuous annoyance. But he shook his head directly, ironically congratulated himself
+Bazarov remembered another recent scene, and he felt both shame and contemptuous annoyance.
 m=break,1
 
-“on his final assumption of the part of the gay Lothario,”
-t=bazarov;e:bazarov=thinking;m=break,1
+But he shook his head directly, ironically congratulated himself “on his final assumption of the part of the gay Lothario,” and went off to his own room.
+f:b:maryino-arbour=blur(3px)
 
-and went off to his own room.
-t=none
+Pavel Petrovitch went out of the garden, and made his way with deliberate steps to the copse.
 
-Pavel Petrovitch went out of the garden, and made his way with deliberate steps to the copse. He stayed there rather a long while; and when he returned to lunch, Nikolai Petrovitch inquired anxiously whether he were quite well﻿—his face looked so gloomy.
-b=maryino-garden;f:b:maryino-garden=blur(3px)
+
+He stayed there rather a long while;
+
+
+and when he returned to lunch, Nikolai Petrovitch inquired anxiously whether he were quite well﻿—his face looked so gloomy.
+b=maryino-dining
 
 “You know, I sometimes suffer with my liver,” Pavel Petrovitch answered tranquilly.
-b=maryino-dining;x:pavel=;s=pavel
+s=pavel;e:pavel=thinking
 
 ## XXIV
 r=title
