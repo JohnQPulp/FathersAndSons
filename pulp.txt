@@ -5536,10 +5536,10 @@ Arkady talked in an undertone to Katya, and diplomatically attended to the princ
 Madame Odintsov looked at him twice, not stealthily, but straight in the face, which was bilious and forbidding, with downcast eyes, and contemptuous determination stamped on every feature, and thought:
 
 
-“No﻿ ﻿… no﻿ ﻿… no.”
-t=anna;e:anna=thinking;m=nospace,1;m=break,1
+“No﻿ ﻿… no﻿ ﻿… no.”﻿ ﻿…
+t=anna;e:anna=thinking
 
-﻿ ﻿… After dinner, she went with the whole company into the garden, and seeing that Bazarov wanted to speak to her, she took a few steps to one side and stopped.
+After dinner, she went with the whole company into the garden, and seeing that Bazarov wanted to speak to her, she took a few steps to one side and stopped.
 t=none;b=nikolskoe-garden;f=fade
 
 He went up to her, but even then did not raise his eyes, and said hoarsely﻿—
@@ -5965,137 +5965,164 @@ He was standing, his legs wide apart, smoking a long pipe and screwing up his ey
 The horses stopped.
 
 
-“Arrived at last,”
-n:vassily=Bazarov’s father;s=vassily;e:vassily=happy;m=break,1
+“Arrived at last,” said Bazarov’s father,
+n:vassily=Vassily Bazarov;s=vassily;e:vassily=happy;m=break,1;m=break,1;x:vassily=hat,pipe
 
-said Bazarov’s father, still going on smoking though the pipe was fairly dancing up and down between his fingers.
+still going on smoking though the pipe was fairly dancing up and down between his fingers.
 s=none
 
 “Come, get out; get out; let me hug you.”
-s=vassily
+s=vassily;e:vassily=happy;i=2
 
 He began embracing his son﻿ ﻿…
 s=none
 
 “Enyusha, Enyusha,” was heard a trembling woman’s voice.
-n:arina=Arina Vlasyevna Bazarov;s=arina;e:arina=happy
+n:arina=Arina Vlasyevna Bazarov;m=nospeaker,1;n:bazarov=Yevgeny “Enyusha” Vassilyevitch Bazarov
 
-The door was flung open, and in the doorway was seen a plump, short, little old woman in a white cap and a short striped jacket. She moaned, staggered, and would certainly have fallen, had not Bazarov supported her.
+The door was flung open, and in the doorway was seen a plump, short, little old woman in a white cap and a short striped jacket.
 s=none
 
-Her plump little hands were instantly twined round his neck, her head was pressed to his breast, and there was a complete hush. The only sound heard was her broken sobs.
+She moaned, staggered, and would certainly have fallen, had not Bazarov supported her. Her plump little hands were instantly twined round his neck, her head was pressed to his breast, and there was a complete hush. The only sound heard was her broken sobs.
 
 
 Old Bazarov breathed hard and screwed his eyes up more than ever.
 
 
-“There, that’s enough, that’s enough, Arisha! give over,”
-s=vassily;m=break,1
+“There, that’s enough, that’s enough, Arisha! give over,” he said,
+s=vassily;m=break,1;e:vassily=contemplative
 
-he said, exchanging a glance with Arkady, who remained motionless in the coach, while the peasant on the box even turned his head away;
+exchanging a glance with Arkady, who remained motionless in the coach, while the peasant on the box even turned his head away;
 s=none
 
 “that’s not at all necessary, please give over.”
-s=vassily
+s=vassily;e:vassily=wary
 
-“Ah, Vassily Ivanitch,” faltered the old woman, “for what ages, my dear one, my darling, Enyusha,”
-n:vassily=Vassily Ivanitch Bazarov;s=arina;m=nospace,1;m=break,1
+“Ah, Vassily Ivanitch,” faltered the old woman, “for what ages, my dear one, my darling, Enyusha,”﻿ ﻿…
+n:vassily=Vassily Ivanitch Bazarov;s=arina;m=break,1;e:arina=sadsmile
 
-﻿ ﻿… and, not unclasping her hands, she drew her wrinkled face, wet with tears and working with tenderness, a little away from Bazarov, and gazed at him with blissful and comic-looking eyes, and again fell on his neck.
+and, not unclasping her hands, she drew her wrinkled face, wet with tears and working with tenderness, a little away from Bazarov, and gazed at him with blissful and comic-looking eyes, and again fell on his neck.
 s=none
 
-“Well, well, to be sure, that’s all in the nature of things,” commented Vassily Ivanitch, “only we’d better come indoors. Here’s a visitor come with Yevgeny. You must excuse it,” he added, turning to Arkady, and scraping with his foot;
-s=vassily
+“Well, well, to be sure, that’s all in the nature of things,” commented Vassily Ivanitch,
+s=vassily;e:vassily=contemplative
+
+“only we’d better come indoors. Here’s a visitor come with Yevgeny. You must excuse it,” he added,
+m=break,1;e:vassily=contemplativelook
+
+turning to Arkady, and scraping with his foot;
+s=
 
 “you understand, a woman’s weakness; and well, a mother’s heart﻿ ﻿…”
-
+e:vassily=sadsmile;s=vassily
 
 His lips and eyebrows too were twitching, and his beard was quivering﻿ ﻿… but he was obviously trying to control himself and appear almost indifferent.
 s=none
 
-“Let’s come in, mother, really,” said Bazarov, and he led the enfeebled old woman into the house.
-b=bazarov-parlour;x:arkady=;x:bazarov=;s=bazarov;e:bazarov=serious
+“Let’s come in, mother, really,” said Bazarov,
+;s=bazarov;e:bazarov=serious;m=break,1
+
+and he led the enfeebled old woman into the house.
+b=bazarov-parlour;f=fade;x:arkady=;x:bazarov=;x:vassily=;s=
 
 Putting her into a comfortable armchair, he once more hurriedly embraced his father and introduced Arkady to him.
 s=none
 
-“Heartily glad to make your acquaintance,” said Vassily Ivanovitch,
-n:vassily=Vassily Ivanovitch Bazarov;s=vassily
+“Heartily glad to make your acquaintance,” said Vassily Ivanovitch, “but you mustn’t expect great things; everything here in my house is done in a plain way, on a military footing.”
+n:vassily=Vassily Ivanovitch Bazarov;s=vassily;e:vassily=happy
 
-“but you mustn’t expect great things; everything here in my house is done in a plain way, on a military footing. Arina Vlasyevna, calm yourself, pray; what weakness! The gentleman our guest will think ill of you.”
+“Arina Vlasyevna, calm yourself, pray; what weakness! The gentleman our guest will think ill of you.”
+e:vassily=thinking
 
+“My dear sir,” said the old lady through her tears,
+s=arina;e:arina=sadsmile
 
-“My dear sir,” said the old lady through her tears, “your name and your father’s I haven’t the honour of knowing.﻿ ﻿…”
-s=arina
+“your name and your father’s I haven’t the honour of knowing.﻿ ﻿…”
+
 
 “Arkady Nikolaitch,” put in Vassily Ivanitch solemnly, in a low voice.
-s=vassily
+s=vassily;e:vassily=serious
 
 “You must excuse a silly old woman like me.”
-s=arina
+s=arina;e:arina=unhappy
 
 The old woman blew her nose, and bending her head to right and to left, carefully wiped one eye after the other.
 s=none
 
 “You must excuse me. You see, I thought I should die, that I should not live to see my da﻿ ﻿… arling.”
-s=arina
+s=arina;e:arina=unhappy;i=2
 
-“Well, here we have lived to see him, madam,” put in Vassily Ivanovitch. “Tanyushka,”
-s=vassily;m=break,1
+“Well, here we have lived to see him, madam,” put in Vassily Ivanovitch.
+s=vassily;e:vassily=thinking
+
+“Tanyushka,”
+m=break,1;e:vassily=seriouslook
 
 he turned to a bare-legged little girl of thirteen in a bright red cotton dress, who was timidly peeping in at the door,
 s=none
 
-“bring your mistress a glass of water﻿—on a tray, do you hear?﻿—and you, gentlemen,” he added, with a kind of old-fashioned playfulness, “let me ask you into the study of a retired old veteran.”
-s=vassily;e:vassily=weary
+“bring your mistress a glass of water﻿—on a tray, do you hear?﻿—”
+s=vassily;e:vassily=thinking;m=break,1;m=nospace,1
 
-“Just once more let me embrace you, Enyusha,”
+“and you, gentlemen,” he added, with a kind of old-fashioned playfulness,
+e:vassily=happy
+
+“let me ask you into the study of a retired old veteran.”
+
+
+“Just once more let me embrace you, Enyusha,” moaned Arina Vlasyevna.
 s=arina;m=break,1
 
-moaned Arina Vlasyevna. Bazarov bent down to her.
+Bazarov bent down to her.
 s=none
 
 “Why, what a handsome fellow you have grown!”
-s=arina
+s=arina;e:arina=sadsmile
 
-“Well, I don’t know about being handsome,” remarked Vassily Ivanovitch,
-s=vassily;e:vassily=happy
+“Well, I don’t know about being handsome,” remarked Vassily Ivanovitch, “but he’s a man, as the saying is, *ommfay*.”
+s=vassily;e:vassily=smirking
 
-“but he’s a man, as the saying is, *ommfay*. And now I hope, Arina Vlasyevna, that having satisfied your maternal heart, you will turn your thoughts to satisfying the appetites of our dear guests, because, as you’re aware, even nightingales can’t be fed on fairy tales.”
-
+“And now I hope, Arina Vlasyevna, that having satisfied your maternal heart, you will turn your thoughts to satisfying the appetites of our dear guests, because, as you’re aware, even nightingales can’t be fed on fairy tales.”
+e:vassily=smirking
 
 The old lady got up from her chair.
 s=none
 
-“This minute, Vassily Ivanovitch, the table shall be laid. I will run myself to the kitchen and order the samovar to be brought in; everything shall be ready, everything. Why, I have not seen him, not given him food or drink these three years; is that nothing?”
-s=arina;e:arina=curious
+“This minute, Vassily Ivanovitch, the table shall be laid. I will run myself to the kitchen and order the samovar to be brought in; everything shall be ready, everything.”
+s=arina;e:arina=unhappy
 
-“There, mind, good mother, bustle about; don’t put us to shame; while you, gentlemen, I beg you to follow me. Here’s Timofeitch come to pay his respects to you, Yevgeny. He, too, I daresay, is delighted, the old dog. Eh, aren’t you delighted, old dog? Be so good as to follow me.”
-s=vassily
+“Why, I have not seen him, not given him food or drink these three years; is that nothing?”
+
+
+“There, mind, good mother, bustle about; don’t put us to shame; while you, gentlemen, I beg you to follow me.”
+s=vassily;e:vassily=thinking
+
+“Here’s Timofeitch come to pay his respects to you, Yevgeny. He, too, I daresay, is delighted, the old dog. Eh, aren’t you delighted, old dog? Be so good as to follow me.”
+e:vassily=smirking
 
 And Vassily Ivanovitch went bustling forward, scraping and flapping with his slippers trodden down at heel.
-s=none
+s=none;f:b:bazarov-parlour=blur(3px)
 
 His whole house consisted of six tiny rooms. One of them﻿—the one to which he led our friends﻿—was called the study.
 b=bazarov-study
 
-A thick-legged table, littered over with papers black with the accumulation of ancient dust as though they had been smoked, occupied all the space between the two windows;
-
-
-on the walls hung Turkish firearms, whips, a sabre, two maps, some anatomical diagrams, a portrait of Hoffland, a monogram woven in hair in a blackened frame, and a diploma under glass;
+A thick-legged table, littered over with papers black with the accumulation of ancient dust as though they had been smoked, occupied all the space between the two windows; on the walls hung Turkish firearms, whips, a sabre, two maps, some anatomical diagrams, a portrait of Hoffland, a monogram woven in hair in a blackened frame, and a diploma under glass;
 
 
 a leather sofa, torn and worn into hollows in parts, was placed between two huge cupboards of birch-wood; on the shelves books, boxes, stuffed birds, jars, and phials were huddled together in confusion; in one corner stood a broken galvanic battery.
 
 
 “I warned you, my dear Arkady Nikolaitch,” began Vassily Ivanitch, “that we live, so to say, bivouacking.﻿ ﻿…”
-s=vassily
+s=vassily;e:vassily=contemplative
 
-“There, stop that, what are you apologising for?” Bazarov interrupted. “Kirsanov knows very well we’re not Croesuses, and that you have no butler. Where are we going to put him, that’s the question?”
-s=bazarov;e:bazarov=curious
+“There, stop that, what are you apologising for?” Bazarov interrupted.
+s=bazarov;e:bazarov=serious
+
+“Kirsanov knows very well we’re not Croesuses, and that you have no butler. Where are we going to put him, that’s the question?”
+
 
 “To be sure, Yevgeny; I have a capital room there in the little lodge; he will be very comfortable there.”
-s=vassily
+s=vassily;i=2
 
 “Have you had a lodge put up then?”
 s=bazarov
@@ -6103,11 +6130,17 @@ s=bazarov
 “Why, where the bathhouse is,” put in Timofeitch.
 s=timofeitch;e:timofeitch=neutral
 
-“That is next to the bathroom,” Vassily Ivanitch added hurriedly. “It’s summer now﻿ ﻿… I will run over there at once, and make arrangements; and you, Timofeitch, meanwhile bring in their things. You, Yevgeny, I shall of course offer my study. *Suum cuique.*”
-s=vassily
+“That is next to the bathroom,” Vassily Ivanitch added hurriedly.
+s=vassily;e:vassily=wary
 
-“There you have him! A comical old chap, and very good-natured,” remarked Bazarov, directly Vassily Ivanitch had gone. “Just such a queer fish as yours, only in another way. He chatters too much.”
-s=bazarov;e:bazarov=serious
+“It’s summer now﻿ ﻿… I will run over there at once, and make arrangements; and you, Timofeitch, meanwhile bring in their things. You, Yevgeny, I shall of course offer my study. *Suum cuique.*”
+e:vassily=thinking
+
+“There you have him! A comical old chap, and very good-natured,” remarked Bazarov, directly Vassily Ivanitch had gone.
+s=bazarov;e:bazarov=serious;f=fade
+
+“Just such a queer fish as yours, only in another way. He chatters too much.”
+
 
 “And your mother seems an awfully nice woman,” observed Arkady.
 s=arkady;e:arkady=neutral
@@ -6115,8 +6148,11 @@ s=arkady;e:arkady=neutral
 “Yes, there’s no humbug about her. You’ll see what a dinner she’ll give us.”
 s=bazarov
 
-“They didn’t expect you today, sir; they’ve not brought any beef?” observed Timofeitch, who was just dragging in Bazarov’s box.
-s=timofeitch;e:timofeitch=curious
+“They didn’t expect you today, sir; they’ve not brought any beef?” observed Timofeitch,
+s=timofeitch;e:timofeitch=seriouslookdown;m=break,1
+
+who was just dragging in Bazarov’s box.
+s=
 
 “We shall get on very well without beef. It’s no use crying for the moon. Poverty, they say, is no vice.”
 s=bazarov
@@ -6128,19 +6164,22 @@ s=arkady;e:arkady=curious
 s=bazarov
 
 “Twenty-two in all,” Timofeitch added, with an air of displeasure.
-s=timofeitch;e:timofeitch=neutral
+s=timofeitch;e:timofeitch=annoyed
 
 The flapping of slippers was heard, and Vassily Ivanovitch reappeared.
 s=none
 
-“In a few minutes your room will be ready to receive you,” he cried triumphantly. “Arkady﻿ ﻿… Nikolaitch? I think that is right? And here is your attendant,”
-s=vassily;e:vassily=curious;m=break,1
+“In a few minutes your room will be ready to receive you,” he cried triumphantly.
+s=vassily;e:vassily=happy;m=break,1
 
-he added, indicating a short-cropped boy, who had come in with him in a blue full-skirted coat with ragged elbows and a pair of boots which did not belong to him.
+“Arkady﻿ ﻿… Nikolaitch? I think that is right? And here is your attendant,” he added,
+e:vassily=curious;m=break,1
+
+indicating a short-cropped boy, who had come in with him in a blue full-skirted coat with ragged elbows and a pair of boots which did not belong to him.
 s=none
 
 “His name is Fedka. Again, I repeat, even though my son tells me not to, you mustn’t expect great things. He knows how to fill a pipe, though. You smoke, of course?”
-s=vassily
+s=vassily;e:vassily=
 
 “I generally smoke cigars,” answered Arkady.
 s=arkady;e:arkady=neutral
@@ -6148,20 +6187,23 @@ s=arkady;e:arkady=neutral
 “And you do very sensibly. I myself give the preference to cigars, but in these solitudes it is exceedingly difficult to obtain them.”
 s=vassily;e:vassily=happy
 
-“There, that’s enough humble pie,” Bazarov interrupted again. “You’d much better sit here on the sofa and let us have a look at you.”
+“There, that’s enough humble pie,” Bazarov interrupted again.
 s=bazarov
 
-Vassily Ivanovitch laughed and sat down. He was very like his son in face, only his brow was lower and narrower, and his mouth rather wider, and he was forever restless, shrugging up his shoulder as though his coat cut him under the armpits,
-s=none;m=break,1
+“You’d much better sit here on the sofa and let us have a look at you.”
 
-blinking, clearing his throat, and gesticulating with his fingers, while his son was distinguished by a kind of nonchalant immobility.
+
+Vassily Ivanovitch laughed and sat down.
+s=none
+
+He was very like his son in face, only his brow was lower and narrower, and his mouth rather wider, and he was forever restless, shrugging up his shoulder as though his coat cut him under the armpits, blinking, clearing his throat, and gesticulating with his fingers, while his son was distinguished by a kind of nonchalant immobility.
 
 
 “Humble-pie!” repeated Vassily Ivanovitch.
-s=vassily
+s=vassily;e:vassily=smirking
 
 “You must not imagine, Yevgeny, I want to appeal, so to speak, to our guest’s sympathies by making out we live in such a wilderness. Quite the contrary, I maintain that for a thinking man nothing is a wilderness.”
-
+e:vassily=happy
 
 “At least, I try as far as possible not to get rusty, so to speak, not to fall behind the age.”
 
@@ -6170,7 +6212,7 @@ Vassily Ivanovitch drew out of his pocket a new yellow silk handkerchief, which 
 s=none
 
 “I am not now alluding to the fact that, for example, at the cost of sacrifices not inconsiderable for me, I have put my peasants on the rent-system and given up my land to them on half profits.”
-s=vassily
+s=vassily;e:vassily=
 
 “I regarded that as my duty; common sense itself enjoins such a proceeding, though other proprietors do not even dream of it; I am alluding to the sciences, to culture.”
 
@@ -6178,41 +6220,38 @@ s=vassily
 “Yes; I see you have here *The Friend of Health* for 1855,” remarked Bazarov.
 s=bazarov
 
-“It’s sent me by an old comrade out of friendship,”
-s=vassily;m=break,1
+“It’s sent me by an old comrade out of friendship,” Vassily Ivanovitch made haste to answer;
+s=vassily;e:vassily=wary
 
-Vassily Ivanovitch made haste to answer;
-s=none
+“but we have, for instance, some idea even of phrenology,” he added,
+e:vassily=thinking;m=break,1
 
-“but we have, for instance, some idea even of phrenology,”
-s=vassily;m=break,1
-
-he added, addressing himself principally, however, to Arkady, and pointing to a small plaster head on the cupboard, divided into numbered squares;
+addressing himself principally, however, to Arkady, and pointing to a small plaster head on the cupboard, divided into numbered squares;
 s=none
 
 “we are not unacquainted even with Schenlein and Rademacher.”
-s=vassily
+s=vassily;e:vassily=contemplativelook
 
 “Why do people still believe in Rademacher in this province?” asked Bazarov.
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=serious
 
 Vassily Ivanovitch cleared his throat.
 s=none
 
 “In this province.﻿ ﻿… Of course, gentlemen, you know best; how could we keep pace with you? You are here to take our places.”
-s=vassily;e:vassily=curious
+s=vassily;e:vassily=contemplative
 
 “In my day, too, there was some sort of a Humouralist school, Hoffmann, and Brown too with his vitalism﻿—they seemed very ridiculous to us, but, of course, they too had been great men at one time or other.”
-e:vassily=happy
+e:vassily=thinking
 
 “Someone new has taken the place of Rademacher with you; you bow down to him, but in another twenty years it will be his turn to be laughed at.”
 
 
 “For your consolation I will tell you,” observed Bazarov, “that nowadays we laugh at medicine altogether, and don’t bow down to anyone.”
-s=bazarov;e:bazarov=happy
+s=bazarov;e:bazarov=smirking
 
 “How’s that? Why, you’re going to be a doctor, aren’t you?”
-s=vassily;e:vassily=curious
+s=vassily;e:vassily=confused
 
 “Yes, but the one fact doesn’t prevent the other.”
 s=bazarov;e:bazarov=serious
@@ -6220,16 +6259,16 @@ s=bazarov;e:bazarov=serious
 Vassily Ivanovitch poked his third finger into his pipe, where a little smouldering ash was still left.
 s=none
 
-“Well, perhaps, perhaps﻿—I am not going to dispute. What am I? A retired army-doctor, *volla-too*; now fate has made me take to farming. I served in your grandfather’s brigade,”
-s=vassily;e:vassily=weary;m=break,1
+“Well, perhaps, perhaps﻿—I am not going to dispute. What am I? A retired army-doctor, *volla-too*; now fate has made me take to farming.”
+s=vassily;e:vassily=thinking;m=break,1
 
-he addressed himself again to Arkady;
-s=none
+“I served in your grandfather’s brigade,” he addressed himself again to Arkady;
+s=none;e:vassily=curious
 
-“yes, yes, I have seen many sights in my day. And I was thrown into all kinds of society, brought into contact with all sorts of people! I myself, the man you see before you now, have felt the pulse of Prince Wittgenstein and of Zhukovsky!”
+“yes, yes, I have seen many sights in my day. And I was thrown into all kinds of society, brought into contact with all sorts of people!”
 s=vassily;e:vassily=happy
 
-“They were in the southern army, in the fourteenth, you understand”
+“I myself, the man you see before you now, have felt the pulse of Prince Wittgenstein and of Zhukovsky! They were in the southern army, in the fourteenth, you understand”
 m=break,1
 
 (and here Vassily Ivanovitch pursed his mouth up significantly).
@@ -6239,46 +6278,49 @@ s=none
 s=vassily
 
 “Confess, now, he was rather a blockhead,” remarked Bazarov lazily.
-s=bazarov
+s=bazarov;e:bazarov=bored
 
 “Ah, Yevgeny, how can you use such an expression! Do consider.﻿ ﻿… Of course, General Kirsanov was not one of the﻿ ﻿…”
-s=vassily
+s=vassily;e:vassily=unhappy
 
 “Come, drop him,” broke in Bazarov; “I was pleased as I was driving along here to see your birch copse; it has shot up capitally.”
-s=bazarov
+s=bazarov;e:bazarov=
 
 Vassily Ivanovitch brightened up.
 s=none
 
-“And you must see what a little garden I’ve got now! I planted every tree myself. I’ve fruit, and raspberries, and all kinds of medicinal herbs. However clever you young gentlemen may be, old Paracelsus spoke the holy truth:”
-s=vassily
-
-“*in herbis verbis et lapidibus*.﻿ ﻿… I’ve retired from practice, you know, of course, but two or three times a week it will happen that I’m brought back to my old work. They come for advice﻿—I can’t drive them away.”
-e:vassily=weary
-
-“Sometimes the poor have recourse to me for help. And indeed there are no doctors here at all. There’s one of the neighbours here, a retired major, only fancy, he doctors the people too. I asked the question, ‘Has he studied medicine?’”
-
-
-“And they told me, ‘No, he’s not studied; he does it more from philanthropy.’﻿ ﻿… Ha! ha! ha! from philanthropy! What do you think of that? Ha! ha! ha!”
-e:vassily=curious
-
-“Fedka, fill me a pipe!” said Bazarov rudely.
-s=bazarov
-
-“And there’s another doctor here who just got to a patient,” Vassily Ivanovitch persisted in a kind of desperation,
+“And you must see what a little garden I’ve got now! I planted every tree myself. I’ve fruit, and raspberries, and all kinds of medicinal herbs. However clever you young gentlemen may be, old Paracelsus spoke the holy truth: *in herbis verbis et lapidibus*.﻿ ﻿…”
 s=vassily;e:vassily=happy
 
-“when the patient had gone *ad patres*; the servant didn’t let the doctor speak; you’re no longer wanted, he told him. He hadn’t expected this, got confused, and asked, ‘Why, did your master hiccup before his death?’”
-e:vassily=curious
+“I’ve retired from practice, you know, of course, but two or three times a week it will happen that I’m brought back to my old work. They come for advice﻿—I can’t drive them away. Sometimes the poor have recourse to me for help. And indeed there are no doctors here at all.”
+e:vassily=thinking
 
-“‘Yes.’ ‘Did he hiccup much?’ ‘Yes.’ ‘Ah, well, that’s all right,’ and off he set back again. Ha! ha! ha!”
+“There’s one of the neighbours here, a retired major, only fancy, he doctors the people too. I asked the question, ‘Has he studied medicine?’ And they told me, ‘No, he’s not studied; he does it more from philanthropy.’﻿ ﻿… Ha! ha! ha! from philanthropy! What do you think of that? Ha! ha! ha!”
+e:vassily=smirking
+
+“Fedka, fill me a pipe!” said Bazarov rudely.
+s=bazarov;e:bazarov=scowling
+
+“And there’s another doctor here who just got to a patient,” Vassily Ivanovitch persisted in a kind of desperation,
+s=vassily;e:vassily=sadsmile
+
+“when the patient had gone *ad patres*; the servant didn’t let the doctor speak; you’re no longer wanted, he told him.”
 
 
-The old man was alone in his laughter; Arkady forced a smile on his face. Bazarov simply stretched. The conversation went on in this way for about an hour;
+“He hadn’t expected this, got confused, and asked, ‘Why, did your master hiccup before his death?’ ‘Yes.’ ‘Did he hiccup much?’ ‘Yes.’ ‘Ah, well, that’s all right,’ and off he set back again. Ha! ha! ha!”
+e:vassily=smirking
+
+The old man was alone in his laughter; Arkady forced a smile on his face.
 s=none
 
-Arkady had time to go to his room, which turned out to be the anteroom attached to the bathroom, but was very snug and clean. At last Tanyusha came in and announced that dinner was ready.
+Bazarov simply stretched.
 
+
+The conversation went on in this way for about an hour; Arkady had time to go to his room, which turned out to be the anteroom attached to the bathroom, but was very snug and clean.
+f:b:bazarov-study=blur(3px)
+
+At last Tanyusha came in and announced that dinner was ready.
+f:b:bazarov-study=
 
 Vassily Ivanovitch was the first to get up.
 
@@ -6286,19 +6328,19 @@ Vassily Ivanovitch was the first to get up.
 “Come, gentlemen. You must be magnanimous and pardon me if I’ve bored you. I daresay my good wife will give you more satisfaction.”
 s=vassily;e:vassily=happy
 
-The dinner, though prepared in haste, turned out to be very good, even abundant; only the wine was not quite up to the mark;
-b=bazarov-parlour;f=fade;s=none
-
-it was almost black sherry, bought by Timofeitch in the town at a well-known merchant’s, and had a faint coppery, resinous taste, and the flies were a great nuisance.
-
+The dinner, though prepared in haste, turned out to be very good, even abundant; only the wine was not quite up to the mark; it was almost black sherry, bought by Timofeitch in the town at a well-known merchant’s, and had a faint coppery, resinous taste, and the flies were a great nuisance.
+b=bazarov-parlour;f=fade;s=none;f:b:bazarov-parlour=blur(3px)
 
 On ordinary days a serf-boy used to keep driving them away with a large green branch; but on this occasion Vassily Ivanovitch had sent him away through dread of the criticism of the younger generation.
 
 
-Arina Vlasyevna had had time to dress: she had put on a high cap with silk ribbons and a pale blue flowered shawl. She broke down again directly she caught sight of her Enyusha, but her husband had no need to admonish her;
+Arina Vlasyevna had had time to dress: she had put on a high cap with silk ribbons and a pale blue flowered shawl.
+x:arina=cap
+
+She broke down again directly she caught sight of her Enyusha, but her husband had no need to admonish her; she made haste to wipe away her tears herself, for fear of spotting her shawl.
 
 
-she made haste to wipe away her tears herself, for fear of spotting her shawl. Only the young men ate anything; the master and mistress of the house had dined long ago.
+Only the young men ate anything; the master and mistress of the house had dined long ago.
 
 
 Fedka waited at table, obviously encumbered by having boots on for the first time; he was assisted by a woman of a masculine cast of face and one eye, by name Anfisushka, who performed the duties of housekeeper, poultry-woman, and laundress.
@@ -6307,53 +6349,56 @@ Fedka waited at table, obviously encumbered by having boots on for the first tim
 Vassily Ivanovitch walked up and down during the whole of dinner, and with a perfectly happy, positively beatific countenance, talked about the serious anxiety he felt at Napoleon’s policy, and the intricacy of the Italian question.
 
 
-Arina Vlasyevna took no notice of Arkady. She did not press him to eat; leaning her round face, to which the full cherry-coloured lips and the little moles on the cheeks and over the eyebrows gave a very simple good-natured expression, on her little closed fist, she did not take her eyes off her son, and kept constantly sighing;
+Arina Vlasyevna took no notice of Arkady.
 
 
-she was dying to know for how long he had come, but she was afraid to ask him.
+She did not press him to eat; leaning her round face, to which the full cherry-coloured lips and the little moles on the cheeks and over the eyebrows gave a very simple good-natured expression, on her little closed fist, she did not take her eyes off her son, and kept constantly sighing; she was dying to know for how long he had come, but she was afraid to ask him.
 
 
 “What if he says for two days,” she thought, and her heart sank.
-t=arina;e:arina=thinking
+m=dialogue,1
 
 After the roast Vassily Ivanovitch disappeared for an instant, and returned with an opened half-bottle of champagne.
-t=none
+t=none;f:b:bazarov-parlour=
 
 “Here,” he cried, “though we do live in the wilds, we have something to make merry with on festive occasions!”
-s=vassily
+s=vassily;e:vassily=excited
 
 He filled three champagne glasses and a little wineglass, proposed the health of “our inestimable guests,” and at once tossed off his glass in military fashion; while he made Arina Vlasyevna drink her wineglass to the last drop.
 s=none
 
 When the time came in due course for preserves, Arkady, who could not bear anything sweet, thought it his duty, however, to taste four different kinds which had been freshly made, all the more as Bazarov flatly refused them and began at once smoking a cigarette.
+;f:b:bazarov-parlour=blur(3px)
+
+Then tea came on the scene with cream, butter, and cracknels;
 
 
-Then tea came on the scene with cream, butter, and cracknels; then Vassily Ivanovitch took them all into the garden to admire the beauty of the evening. As they passed a garden seat he whispered to Arkady﻿—
+then Vassily Ivanovitch took them all into the garden to admire the beauty of the evening.
+b=bazarov-garden;f:b:bazarov-garden=blur(3px)
 
+As they passed a garden seat he whispered to Arkady﻿—
+f:b:bazarov-garden=
 
 “At this spot I love to meditate, as I watch the sunset; it suits a recluse like me. And there, a little farther off, I have planted some of the trees beloved of Horace.”
-b=bazarov-garden;x:arkady=hat;x:bazarov=hat;x:vassily=hat;s=vassily
+b=bazarov-garden;x:arkady=hat;x:bazarov=hat;x:vassily=hat;s=vassily;e:vassily=happy
 
 “What trees?” asked Bazarov, overhearing.
 s=bazarov;e:bazarov=curious
 
 “Oh﻿ ﻿… acacias.”
-s=vassily
+s=vassily;e:vassily=
 
 Bazarov began to yawn.
 s=none
 
 “I imagine it’s time our travellers were in the arms of Morpheus,” observed Vassily Ivanovitch.
-s=vassily
+s=vassily;e:vassily=curious
 
 “That is, it’s time for bed,” Bazarov put in. “That’s a correct idea. It is time, certainly.”
 s=bazarov;e:bazarov=serious
 
-As he said good night to his mother, he kissed her on the forehead, while she embraced him, and stealthily behind his back she gave him her blessing three times. Vassily Ivanovitch conducted Arkady to his room, and wished him
-b=bazarov-wide-night;f=fade;x:bazarov=;x:vassily=;s=none;m=break,1
-
-“as refreshing repose as I enjoyed at your happy years.”
-s=vassily
+As he said good night to his mother, he kissed her on the forehead, while she embraced him, and stealthily behind his back she gave him her blessing three times. Vassily Ivanovitch conducted Arkady to his room, and wished him “as refreshing repose as I enjoyed at your happy years.”
+b=bazarov-wide-night;f=fade;x:bazarov=;x:vassily=;s=none;f:b:bazarov-wide-night=blur(3px)
 
 And Arkady did as a fact sleep excellently in his bathhouse; there was a smell of mint in it, and two crickets behind the stove rivalled each other in their drowsy chirping.
 s=none
@@ -6370,47 +6415,44 @@ Arina Vlasyevna first prayed to her heart’s content, then she had a long, long
 The old lady’s head was giddy with happiness and wine and tobacco smoke; her husband tried to talk to her, but with a wave of his hand gave it up in despair.
 
 
-Arina Vlasyevna was a genuine Russian gentlewoman of the olden times; she ought to have lived two centuries before, in the old Moscow days. She was very devout and emotional;
-f:b:bazarov-wide-night=blur(3px)
-
-she believed in fortune-telling, charms, dreams, and omens of every possible kind; she believed in the prophecies of crazy people, in house-spirits, in wood-spirits, in unlucky meetings, in the evil eye, in popular remedies, she ate specially prepared salt on Holy Thursday, and believed that the end of the world was at hand;
+Arina Vlasyevna was a genuine Russian gentlewoman of the olden times; she ought to have lived two centuries before, in the old Moscow days.
 
 
-she believed that if on Easter Sunday the lights did not go out at vespers, then there would be a good crop of buckwheat, and that a mushroom will not grow after it has been looked on by the eye of man;
+She was very devout and emotional; she believed in fortune-telling, charms, dreams, and omens of every possible kind; she believed in the prophecies of crazy people, in house-spirits, in wood-spirits, in unlucky meetings, in the evil eye, in popular remedies, she ate specially prepared salt on Holy Thursday, and believed that the end of the world was at hand;
 
 
-she believed that the devil likes to be where there is water, and that every Jew has a bloodstained patch on his breast;
+she believed that if on Easter Sunday the lights did not go out at vespers, then there would be a good crop of buckwheat, and that a mushroom will not grow after it has been looked on by the eye of man; she believed that the devil likes to be where there is water, and that every Jew has a bloodstained patch on his breast;
 
 
 she was afraid of mice, of snakes, of frogs, of sparrows, of leeches, of thunder, of cold water, of draughts, of horses, of goats, of red-haired people, and black cats, and she regarded crickets and dogs as unclean beasts;
 
 
-she never ate veal, doves, crayfishes, cheese, asparagus, artichokes, hares, nor watermelons, because a cut watermelon suggested the head of John the Baptist, and of oysters she could not speak without a shudder;
+she never ate veal, doves, crayfishes, cheese, asparagus, artichokes, hares, nor watermelons, because a cut watermelon suggested the head of John the Baptist, and of oysters she could not speak without a shudder; she was fond of eating﻿—and fasted rigidly;
 
 
-she was fond of eating﻿—and fasted rigidly; she slept ten hours out of the twenty-four﻿—and never went to bed at all if Vassily Ivanovitch had so much as a headache; she had never read a single book except *Alexis or the Cottage in the Forest*;
+she slept ten hours out of the twenty-four﻿—and never went to bed at all if Vassily Ivanovitch had so much as a headache; she had never read a single book except *Alexis or the Cottage in the Forest*;
 
 
 she wrote one, or at the most two letters in a year, but was great in housewifery, preserving, and jam-making, though with her own hands she never touched a thing, and was generally disinclined to move from her place.
 
 
-Arina Vlasyevna was very kindhearted, and in her way not at all stupid. She knew that the world is divided into masters whose duty it is to command, and simple folk whose duty it is to serve them﻿—and so she felt no repugnance to servility and prostrations to the ground;
+Arina Vlasyevna was very kindhearted, and in her way not at all stupid.
 
 
-but she treated those in subjection to her kindly and gently, never let a single beggar go away empty-handed, and never spoke ill of anyone, though she was fond of gossip.
+She knew that the world is divided into masters whose duty it is to command, and simple folk whose duty it is to serve them﻿—and so she felt no repugnance to servility and prostrations to the ground; but she treated those in subjection to her kindly and gently, never let a single beggar go away empty-handed, and never spoke ill of anyone, though she was fond of gossip.
 
 
 In her youth she had been pretty, had played the clavichord, and spoken French a little; but in the course of many years’ wanderings with her husband, whom she had married against her will, she had grown stout, and forgotten music and French.
 
 
-Her son she loved and feared unutterably; she had given up the management of the property to Vassily Ivanovitch﻿—and now did not interfere in anything;
+Her son she loved and feared unutterably; she had given up the management of the property to Vassily Ivanovitch﻿—and now did not interfere in anything; she used to groan, wave her handkerchief, and raise her eyebrows higher and higher with horror directly her old husband began to discuss the impending government reforms and his own plans.
 
 
-she used to groan, wave her handkerchief, and raise her eyebrows higher and higher with horror directly her old husband began to discuss the impending government reforms and his own plans.
+She was apprehensive, and constantly expecting some great misfortune, and began to weep directly she remembered anything sorrowful.﻿ ﻿… Such women are not common nowadays.
 
 
-She was apprehensive, and constantly expecting some great misfortune, and began to weep directly she remembered anything sorrowful.﻿ ﻿… Such women are not common nowadays. God knows whether we ought to rejoice!
-
+God knows whether we ought to rejoice!
+;f:b:bazarov-wide-night=blur(6px)
 
 ## XXI
 r=title
@@ -9235,10 +9277,10 @@ s=anna
 “Is he still as shy in your company?” queried Bazarov.
 s=bazarov
 
-“Why, was he?”
-s=anna;e:anna=curious;m=nospace,1;m=break,1
+“Why, was he?”﻿ ﻿… Anna Sergyevna began,
+s=anna;e:anna=curious;m=break,1
 
-﻿ ﻿… Anna Sergyevna began, and after a brief pause she went on:
+and after a brief pause she went on:
 s=none
 
 “He has grown more confiding now; he talks to me. He used to avoid me before. Though, indeed, I didn’t seek his society either. He’s more friends with Katya.”
