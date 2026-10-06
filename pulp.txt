@@ -563,7 +563,7 @@ s=arkady;e:arkady=thinkinglook
 s=nikolai;e:nikolai=thinking
 
 “To me how sad thy coming is,<br>Spring, spring, sweet time of love!<br>What﻿ ﻿…”
-
+m=margin,1
 
 “Arkady!” called Bazarov’s voice from the coach,
 s=bazarov;e:bazarov=serious;m=nospeaker
@@ -3668,7 +3668,7 @@ Things came at last to Evdoksya, flushed from the wine she had drunk, tapping wi
 
 
 “And thy lips to mine<br>In burning kiss entwine.”
-
+m=margin,1
 
 Arkady could not stand it at last.
 s=none;f:b:kukshina-study=
@@ -6644,7 +6644,7 @@ Vassily Ivanovitch jumped up briskly from the garden seat, and hummed from *Robe
 s=none
 
 “The rule, the rule we set ourselves,<br>To live, to live for pleasure!”
-
+m=margin,1
 
 “Singular vitality!” observed Bazarov,
 s=bazarov;e:bazarov=serious;m=break,1
