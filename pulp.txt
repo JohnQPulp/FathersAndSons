@@ -28,7 +28,7 @@ s=
 We will introduce him to the reader while he sits, his feet tucked under him, gazing thoughtfully round.
 s=none;;f:b:posting-station=blur(3px)
 
-His name was Nikolai Petrovitch Kirsanov. He had, twelve miles from the posting station, a fine property of two hundred souls, or, as he expressed it﻿—since he had arranged the division of his land with the peasants, and started “a farm”﻿—of nearly five thousand acres.
+His name was Nikolai Petrovitch Kirsanov. He had, twelve miles from the posting station, a fine property of two hundred souls, or, as he expressed it﻿—since he had arranged the division of his land with the peasants, and started “a farm”﻿—of nearly five thousand acres.<e>"two hundred souls" -> the book's a <book>Dead Souls|Gogol-like</book>.</e>
 n:nikolai=Nikolai Petrovitch Kirsanov;b=maryino-wide;f:b:maryino-wide=blur(3px)
 
 His father, a general in the army, who served in 1812, a coarse, half-educated, but not ill-natured man, a typical Russian, had been in harness all his life, first in command of a brigade, and then of a division, and lived constantly in the provinces, where, by virtue of his rank, he played a fairly important part.
@@ -130,7 +130,7 @@ s=
 A few instants later, his lips were pressed to the beardless, dusty, sunburnt-cheek of the youthful graduate.
 s=none;f:b:posting-station=blur(3px)
 
-## II
+## II<e>The "Daddy" Chapter</e>
 r=title
 
 “Let me shake myself first, daddy,” said Arkady,
@@ -187,7 +187,7 @@ s=nikolai
 Bazarov’s thin lips moved just perceptibly, though he made no reply, but merely took off his cap.
 x:bazarov=overcoat;s=none
 
-His long, thick hair did not hide the prominent bumps on his head.
+His long, thick hair did not hide the prominent bumps on his head.<e>TODO: phrenology</e>
 
 
 “Then, Arkady,” Nikolai Petrovitch began again,
@@ -1039,7 +1039,7 @@ s=arkady;e:arkady=happy
 “Yes, that’s obvious.”
 s=pavel;e:pavel=contemplative
 
-Pavel Petrovitch began deliberately spreading butter on his bread.
+Pavel Petrovitch began deliberately spreading butter on his bread.<e>Banger adverb.</e>
 s=
 
 “Is he going to stay long with us?”
@@ -1243,7 +1243,7 @@ s=none
 “Have you such a high opinion of the Germans?” said Pavel Petrovitch, with exaggerated courtesy.
 s=pavel;e:pavel=annoyed
 
-He was beginning to feel a secret irritation. His aristocratic nature was revolted by Bazarov’s absolute nonchalance.
+He was beginning to feel a secret irritation. His aristocratic nature was revolted by Bazarov’s absolute nonchalance.<e>TODO: overexplaining</e>
 s=none
 
 This surgeon’s son was not only not overawed, he even gave abrupt and indifferent answers, and in the tone of his voice there was something churlish, almost insolent.
@@ -1519,7 +1519,7 @@ He wandered from place to place like a man possessed; he still went into society
 He grew old and grey; spending all his evenings at the club, jaundiced and bored, and arguing in bachelor society became a necessity for him﻿—a bad sign, as we all know. Marriage, of course, he did not even think of.
 ;f:b:petersburg-wide-night=blur(10px)
 
-Ten years passed in this way; they passed by colourless and fruitless﻿—and quickly, fearfully quickly. Nowhere does time fly past as in Russia; in prison they say it flies even faster.
+Ten years passed in this way; they passed by colourless and fruitless﻿—and quickly, fearfully quickly. Nowhere does time fly past as in Russia; in prison they say it flies even faster.<e>Solzhenitsyn's <book>The Gulag Archipelago|words words words</book> would disagree.</e>
 
 
 One day at dinner at the club, Pavel Petrovitch heard of the death of the Princess R﻿—﻿—. She had died at Paris in a state bordering on insanity.
@@ -1606,7 +1606,7 @@ s=arkady;e:arkady=serious
 “And who does despise him?” retorted Bazarov.
 s=bazarov;e:bazarov=smirking
 
-“Still, I must say that a fellow who stakes his whole life on one card﻿—a woman’s love﻿—and when that card fails, turns sour, and lets himself go till he’s fit for nothing, is not a man, but a male.”<e>TODO</e>
+“Still, I must say that a fellow who stakes his whole life on one card﻿—a woman’s love﻿—and when that card fails, turns sour, and lets himself go till he’s fit for nothing, is not a man, but a male.”<e>TODO: male</e>
 e:bazarov=serious
 
 “You say he’s unhappy; you ought to know best; to be sure, he’s not got rid of all his fads. I’m convinced that he solemnly imagines himself a superior creature because he reads that wretched *Galignani*, and once a month saves a peasant from a flogging.”
@@ -1888,7 +1888,7 @@ s=fenitchka;e:fenitchka=thinking
 “N﻿ ﻿… no,” Nikolai Petrovitch brought out hesitatingly, rubbing his forehead. “We ought to have done it before.﻿ ﻿…”
 s=nikolai;e:nikolai=contemplativerubbing
 
-“How are you, fatty?” he said, suddenly brightening,
+“How are you, fatty?” he said, suddenly brightening,<e>TODO</e>
 s=nikolai;e:nikolai=happylookdown;m=break,1
 
 and going up to the baby, he kissed him on the cheek; then he bent a little and pressed his lips to Fenitchka’s hand, which lay white as milk upon Mitya’s little red smock.
@@ -2056,7 +2056,7 @@ s=arkady;e:arkady=unhappy
 “mind what you are about, for mercy’s sake.”
 
 
-“Don’t worry yourself,” said Bazarov; “I know how to behave myself﻿—I’m not a booby.”
+“Don’t worry yourself,” said Bazarov; “I know how to behave myself﻿—I’m not a booby.”<e>TODO</e>
 s=bazarov;e:bazarov=smirking;i=2
 
 Going up to Fenitchka, he took off his cap.
@@ -2797,7 +2797,7 @@ s=
 “Our argument has gone too far; it’s better to cut it short, I think. I shall be quite ready to agree with you,” he added, getting up, “when you bring forward a single institution in our present mode of life, in family or in social life, which does not call for complete and unqualified destruction.”
 s=bazarov;i=2
 
-“I will bring forward millions of such institutions,” cried Pavel Petrovitch﻿—“millions! Well﻿—the Mir, for instance.”
+“I will bring forward millions of such institutions,” cried Pavel Petrovitch﻿—“millions! Well﻿—the Mir, for instance.”<e>"Mir" as in <a href="https://en.wikipedia.org/wiki/Obshchina">the commune</a>. Not "mir" as in "peace" or "world" or the space station.</e>
 s=pavel;e:pavel=serious
 
 A cold smile curved Bazarov’s lips.
@@ -2809,7 +2809,7 @@ s=bazarov;e:bazarov=smirking
 “The family, then, the family as it exists among our peasants!” cried Pavel Petrovitch.
 s=pavel;i=2
 
-“And that subject, too, I imagine, it will be better for yourselves not to go into in detail. Don’t you realise all the advantages of the head of the family choosing his daughters-in-law?”
+“And that subject, too, I imagine, it will be better for yourselves not to go into in detail. Don’t you realise all the advantages of the head of the family choosing his daughters-in-law?”<e><a href="https://en.wikipedia.org/wiki/Snokhachestvo">Hmmm…</a></e>
 s=bazarov;e:bazarov=serious
 
 “Take my advice, Pavel Petrovitch, allow yourself two days to think about it; you’re not likely to find anything on the spot. Go through all our classes, and think well over each, while I and Arkady will﻿ ﻿…”
@@ -2848,8 +2848,11 @@ s=pavel;e:pavel=serious
 “I’m convinced, on the contrary, that you and I are far more in the right than these young gentlemen, though we do perhaps express ourselves in old-fashioned language, *vieilli*, and have not the same insolent conceit.﻿ ﻿…”
 
 
-“And the swagger of the young men nowadays! You ask one, ‘Do you take red wine or white?’ ‘It is my custom to prefer red!’ he answers in a deep bass, with a face as solemn as if the whole universe had its eyes on him at that instant.﻿ ﻿…”
+“And the swagger of the young men nowadays!”<e>"The exaggerated swagger of a Russian nihilist."</e>
 e:pavel=annoyed
+
+“You ask one, ‘Do you take red wine or white?’ ‘It is my custom to prefer red!’ he answers in a deep bass, with a face as solemn as if the whole universe had its eyes on him at that instant.﻿ ﻿…”
+
 
 “Do you care for any more tea?” asked Fenitchka, putting her head in at the door;
 s=fenitchka;e:fenitchka=wary
@@ -3028,7 +3031,7 @@ s=arkady;e:arkady=;i=2
 In his heart he was highly delighted with his friend’s suggestion, but he thought it a duty to conceal his feeling.
 s=none;f:b:maryino-arkady-night=blur(3px)
 
-He was not a nihilist for nothing!
+He was not a nihilist for nothing!<e>Actual best exclamation point in all of literature.</e>
 
 
 The next day he set off with Bazarov to X﻿—﻿—. The younger part of the household at Maryino were sorry at their going; Dunyasha even cried﻿ ﻿… but the old folks breathed more easily.
@@ -3046,7 +3049,7 @@ Before the end of the first year of his government, he had managed to quarrel no
 The feuds arising from this cause assumed at last such proportions that the ministry in Petersburg had found it necessary to send down a trusted personage with a commission to investigate it all on the spot.
 
 
-The choice of the authorities fell upon Matvy Ilyitch Kolyazin, the son of the Kolyazin, under whose protection the brothers Kirsanov had once found themselves.
+The choice of the authorities fell upon Matvy Ilyitch Kolyazin, the son of the Kolyazin, under whose protection the brothers Kirsanov had once found themselves.<e>TODO: Karamazov</e>
 
 
 He, too, was a “young man”; that is to say, he had not long passed forty, but he was already on the high road to becoming a statesman, and wore a star on each side of his breast﻿—one, to be sure, a foreign star, not of the first magnitude.
@@ -3454,7 +3457,7 @@ s=kukshina;e:kukshina=thinking
 “By the way, have you read Kislyakov’s article on Female Labour, in the *Moscow Gazette*? Read it please. You’re interested in the woman question, I suppose? And in the schools too? What does your friend do? What is his name?”
 ;e:kukshina=serious
 
-Madame Kukshin shed her questions one after another with affected negligence, not waiting for an answer; spoilt children talk so to their nurses.
+Madame Kukshin shed her questions one after another with affected negligence, not waiting for an answer; spoilt children talk so to their nurses.<e><book>The Secret Garden|Mistress Kukshin, quite contrary.</book></e>
 s=none
 
 “My name’s Arkady Nikolaitch Kirsanov,” said Arkady, “and I’m doing nothing.”
@@ -3496,7 +3499,7 @@ s=bazarov;e:bazarov=
 “You’re a dangerous gentleman; you’re such a critic. Good God! yes! why, how absurd, I’m talking like some country lady. I really am a country lady, though.”
 s=kukshina;e:kukshina=thinking
 
-“I manage my property myself; and only fancy, my bailiff Erofay’s a wonderful type, quite like Cooper’s Pathfinder; something in him so spontaneous! I’ve come to settle here finally; it’s an intolerable town, isn’t it? But what’s one to do?”
+“I manage my property myself; and only fancy, my bailiff Erofay’s a wonderful type, quite like Cooper’s Pathfinder; something in him so spontaneous! I’ve come to settle here finally; it’s an intolerable town, isn’t it? But what’s one to do?”<e>TODO: <book>Pathfinder</book>, Soviet stamp: https://en.wikipedia.org/wiki/The_Pathfinder,_or_The_Inland_Sea</e>
 
 
 “The town’s like every town,” Bazarov remarked coolly.
@@ -3565,7 +3568,7 @@ s=kukshina;e:kukshina=suspicious
 “There’s no doing anything with them,” put in Sitnikov; “one ought to despise them, and I do despise them fully and completely!”
 s=sitnikov;e:sitnikov=serious
 
-(The possibility of feeling and expressing contempt was the most agreeable sensation to Sitnikov; he used to attack women in especial, never suspecting that it was to be his fate a few months later to be cringing before his wife merely because she had been born a princess Durdoleosov.)
+(The possibility of feeling and expressing contempt was the most agreeable sensation to Sitnikov; he used to attack women in especial, never suspecting that it was to be his fate a few months later to be cringing before his wife merely because she had been born a princess Durdoleosov.)<e>(Whipped.)</e>
 s=none
 
 “Not a single one of them would be capable of understanding our conversation; not a single one deserves to be spoken of by serious men like us!”
@@ -3652,7 +3655,7 @@ s=bazarov;e:bazarov=curious
 “She’s charming, charming!” piped Sitnikov.
 s=sitnikov;e:sitnikov=smirking
 
-“I will introduce you. Clever, rich, a widow. It’s a pity, she’s not yet advanced enough; she ought to see more of our Evdoksya. I drink to your health, *Evdoxie!* Let us clink glasses! *Et toc, et toc, et tin-tin-tin! Et toc, et toc, et tin-tin-tin!!!*”<e>Prose level: <book>Dr. Jekyll and Mr. Hyde|"total failure!!!"</book>.</e>
+“I will introduce you. Clever, rich, a widow. It’s a pity, she’s not yet advanced enough; she ought to see more of our Evdoksya. I drink to your health, *Evdoxie!* Let us clink glasses! *Et toc, et toc, et tin-tin-tin! Et toc, et toc, et tin-tin-tin!!!*”<e>Literature's greatest triple-exclamation until <book>Dr. Jekyll and Mr. Hyde|"total failure!!!"</book>.</e>
 
 
 “Victor, you’re a wretch.”
@@ -4009,7 +4012,7 @@ b=town-wide;f:b:town-wide=blur(3px)
 She was not liked in the province; there had been a fearful outcry at her marriage with Odintsov, all sorts of fictions were told about her;
 
 
-it was asserted that she had helped her father in his cardsharping tricks, and even that she had gone abroad for excellent reasons, that it had been necessary to conceal the lamentable consequences﻿ ﻿…<e>TODO</e>
+it was asserted that she had helped her father in his cardsharping tricks, and even that she had gone abroad for excellent reasons, that it had been necessary to conceal the lamentable consequences﻿ ﻿…<e>seeeeeeeeeex</e>
 
 
 “You understand?” the indignant gossips would wind up. “She has gone through the fire,” was said of her; to which a noted provincial wit usually added: “And through all the other elements?”
@@ -4090,7 +4093,7 @@ s=bazarov
 “Any way, she’s charming,” observed Arkady.
 s=arkady
 
-“What a magnificent body!” pursued Bazarov. “Shouldn’t I like to see it on the dissecting-table.”
+“What a magnificent body!” pursued Bazarov. “Shouldn’t I like to see it on the dissecting-table.”<e>"Let me exbilify your spleen, baby."</e>
 s=bazarov;e:bazarov=smirking
 
 “Hush, for mercy’s sake, Yevgeny! that’s beyond everything.”
@@ -4489,7 +4492,7 @@ s=arkady;e:arkady=thinking
 “Do you like Mozart?”
 s=katya;e:katya=wary
 
-“Yes, I like Mozart.”
+“Yes, I like Mozart.”<e>TODO: Turgenev's most intentionally unsophisticated dialogue</e>
 s=arkady
 
 Katya pulled out Mozart’s Sonata-Fantasia in C minor.
@@ -4501,7 +4504,7 @@ She played very well, though rather over correctly and precisely. She sat uprigh
 Arkady was particularly struck by the last part of the sonata, the part in which, in the midst of the bewitching gaiety of the careless melody, the pangs of such mournful, almost tragic suffering, suddenly break in.﻿ ﻿…
 
 
-But the ideas stirred in him by Mozart’s music had no reference to Katya.<e>The author assures the reader that he has no prurient thoughts.</e>
+But the ideas stirred in him by Mozart’s music had no reference to Katya.<e>Horny Turgenev protesting too much.</e>
 
 
 Looking at her, he simply thought,
@@ -4552,7 +4555,7 @@ b=nikolskoe-guest-night;f=fade;s=arkady;e:arkady=happy;m=break,1
 when he was alone with his friend in the room assigned to them.
 s=
 
-“Yes,” answered Bazarov, “a female with brains. Yes, and she’s seen life too.”
+“Yes,” answered Bazarov, “a female with brains. Yes, and she’s seen life too.”<e>TODO</e>
 s=bazarov;e:bazarov=suspicious
 
 “In what sense do you mean that, Yevgeny Vassilyitch?”
@@ -6223,7 +6226,7 @@ s=bazarov
 “It’s sent me by an old comrade out of friendship,” Vassily Ivanovitch made haste to answer;
 s=vassily;e:vassily=wary
 
-“but we have, for instance, some idea even of phrenology,” he added,
+“but we have, for instance, some idea even of phrenology,” he added,<e>TODO</e>
 e:vassily=thinking;m=break,1
 
 addressing himself principally, however, to Arkady, and pointing to a small plaster head on the cupboard, divided into numbered squares;
@@ -6754,7 +6757,7 @@ s=bazarov;e:bazarov=curious
 “I remember everything, but still I don’t admit that you have any right to be angry. You’re unlucky, I’ll allow, but﻿ ﻿…”
 s=arkady;e:arkady=neutral
 
-“Pooh! then you, Arkady Nikolaevitch, I can see, regard love like all modern young men; cluck, cluck, cluck you call to the hen, but if the hen comes near you, you run away. I’m not like that.”
+“Pooh! then you, Arkady Nikolaevitch, I can see, regard love like all modern young men; cluck, cluck, cluck you call to the hen, but if the hen comes near you, you run away. I’m not like that.”<e>TODO</e>
 s=bazarov;e:bazarov=serious
 
 “But that’s enough of that. What can’t be helped, it’s shameful to talk about.”
@@ -6796,7 +6799,7 @@ s=arkady
 “H’m﻿ ﻿… what you’ve just said is a commonplace reversed.”
 s=bazarov;e:bazarov=serious
 
-“What? What do you mean by that term?”
+“What? What do you mean by that term?”<e>Idiot Arkady hasn't read <book>The Sequences</book>.</e>
 s=arkady;e:arkady=curious
 
 “I’ll tell you; saying, for instance, that education is beneficial, that’s a commonplace; but to say that education is injurious, that’s a commonplace turned upside down. There’s more style about it, so to say, but in reality it’s one and the same.”
@@ -8167,8 +8170,11 @@ s=bazarov;e:bazarov=serious
 “To fire twice; and, to be ready for any result, let each put a letter in his pocket, in which he accuses himself of his end.”
 s=pavel
 
-“Now, that I don’t approve of at all,” observed Bazarov. “There’s a slight flavour of the French novel about it, something not very plausible.”
+“Now, that I don’t approve of at all,” observed Bazarov.
 s=bazarov;e:bazarov=annoyed
+
+“There’s a slight flavour of the French novel about it, something not very plausible.”<e>The Russian novelist and his incapability to write a non-deconstructive dueling scene.</e>
+
 
 “Perhaps. You will agree, however, that it would be unpleasant to incur a suspicion of murder?”
 s=pavel;e:pavel=serious
@@ -8248,7 +8254,7 @@ t=bazarov;e:bazarov=serious
 “Bah! isn’t he perhaps in love with her himself? To be sure, he’s in love; it’s as clear as day. What a complication! It’s a nuisance!” he decided at last;
 ;e:bazarov=annoyed
 
-“it’s a bad job, look at it which way you will. In the first place, to risk a bullet through one’s brains, and in any case to go away; and then Arkady﻿ ﻿… and that dear innocent pussy, Nikolai Petrovitch. It’s a bad job, an awfully bad job.”
+“it’s a bad job, look at it which way you will. In the first place, to risk a bullet through one’s brains, and in any case to go away; and then Arkady﻿ ﻿… and that dear innocent pussy, Nikolai Petrovitch. It’s a bad job, an awfully bad job.”<e>TODO</e>
 t=bazarov;e:bazarov=serious;i=2
 
 The day passed in a kind of peculiar stillness and languor.
@@ -8560,7 +8566,7 @@ s=none
 “There’s no deceiving my brother; we shall have to tell him we quarrelled over politics.”
 s=pavel;i=2
 
-“Very good,” assented Bazarov. “You can say I insulted all anglomaniacs.”
+“Very good,” assented Bazarov. “You can say I insulted all anglomaniacs.”<e>Slavo<i>phil</i> on one side. Anglo<i>maniac</i> on the other. I see how it is.</e>
 s=bazarov;e:bazarov=
 
 “That will do capitally. What do you imagine that man thinks of us now?” continued Pavel Petrovitch,
@@ -9106,7 +9112,7 @@ s=katya;e:katya=confused
 “How’s that?”
 s=arkady;e:arkady=curious
 
-“How can I tell you.﻿ ﻿… He’s a wild animal, and you and I are tame.”
+“How can I tell you.﻿ ﻿… He’s a wild animal, and you and I are tame.”<e>"You see I always think of people as feline or canine, irrespective of sex." —<book>"The Ice Palace"|F. Scott Fitzgerald</book></e>
 s=katya;e:katya=
 
 “Am I tame too?”
@@ -9373,7 +9379,7 @@ s=
 “How solemnly you answer! I expected to find him here, and meant to suggest his coming a walk with me. That’s what he is always asking for.”
 s=anna;e:anna=suspicious
 
-“They have sent you some shoes from the town; go and try them on; I noticed only yesterday your old ones are quite shabby. You never think enough about it, and you have such charming little feet!”
+“They have sent you some shoes from the town; go and try them on; I noticed only yesterday your old ones are quite shabby. You never think enough about it, and you have such charming little feet!”<e>Start the "charming little feet" counter.</e>
 e:anna=thinking
 
 “Your hands are nice too﻿ ﻿… though they’re large; so you must make the most of your little feet. But you’re not vain.”
@@ -9490,7 +9496,7 @@ s=arkady
 “My dear soul, there’s no great harm in that. One gets tired of much more than that in this life.”
 s=bazarov
 
-“And now I suppose we’d better say goodbye, hadn’t we? Ever since I’ve been here I’ve had such a loathsome feeling, just as if I’d been reading Gogol’s effusions to the governor of Kalouga’s wife.”
+“And now I suppose we’d better say goodbye, hadn’t we? Ever since I’ve been here I’ve had such a loathsome feeling, just as if I’d been reading Gogol’s effusions to the governor of Kalouga’s wife.”<e>Erm ackchyually, that letter was written in 1860, when this story is meant to take place in 1859. <i>Idiot.</i></e>
 
 
 “By the way, I didn’t tell them to take the horses out.”
@@ -9556,7 +9562,7 @@ s=anna
 So Anna Sergyevna spoke, and so spoke Bazarov; they both supposed they were speaking the truth.
 s=none
 
-Was the truth, the whole truth, to be found in their words? They could not themselves have said, and much less could the author.
+Was the truth, the whole truth, to be found in their words? They could not themselves have said, and much less could the author.<e>Hack!</e>
 f:b:nikolskoe-drawing=blur(3px)
 
 But a conversation followed between them precisely as though they completely believed one another.
@@ -9808,7 +9814,7 @@ m=nospeaker,1
 “The word *fascination* is most usual in such cases,” Bazarov interrupted;
 m=nospeaker,1;s=bazarov;e:bazarov=serious
 
-the effervescence of his spleen could be heard in his choked though steady voice.
+the effervescence of his spleen could be heard in his choked though steady voice.<e>I hate when my black bile is effervescent.</e>
 s=none
 
 “Arkady was mysterious over something with me yesterday, and didn’t talk either of you or your sister.﻿ ﻿… That’s a serious symptom.”
@@ -10891,7 +10897,7 @@ s=bazarov
 “People like them aren’t to be found in your great world if you look by daylight with a candle.﻿ ﻿… I was needed by Russia.﻿ ﻿… No, it’s clear, I wasn’t needed.”
 
 
-“And who is needed? The shoemaker’s needed, the tailor’s needed, the butcher﻿ ﻿… gives us meat﻿ ﻿… the butcher﻿ ﻿… wait a little, I’m getting mixed.﻿ ﻿… There’s a forest here﻿ ﻿…”
+“And who is needed? The shoemaker’s needed, the tailor’s needed, the butcher﻿ ﻿… gives us meat﻿ ﻿… the butcher﻿ ﻿… wait a little, I’m getting mixed.﻿ ﻿… There’s a forest here﻿ ﻿…”<e>TODO: die already</e>
 
 
 Bazarov put his hand to his brow.
@@ -11011,7 +11017,7 @@ s=nikolai;e:nikolai=happy
 “There, the worst of it is, we don’t know how to make speeches. Arkady, you speak.”
 
 
-“No, daddy, I’ve not prepared anything.”
+“No, daddy, I’ve not prepared anything.”<e>Full-circle on "daddy".</e>
 s=arkady;e:arkady=happy
 
 “As though I were so well prepared! Well, brother, I will simply say, let us embrace you, wish you all good luck, and come back to us as quickly as you can!”
@@ -11032,8 +11038,11 @@ s=katya;e:katya=contemplative
 Arkady pressed her hand warmly in response, but he did not venture to propose this toast aloud.
 s=none
 
-The end, would it seem? But perhaps someone of our readers would care to know what each of the characters we have introduced is doing in the present, the actual present. We are ready to satisfy him.
+The end, would it seem?<e>Prose.</e>
 ;f:b:maryino-dining-winter=blur(3px)
+
+But perhaps someone of our readers would care to know what each of the characters we have introduced is doing in the present, the actual present. We are ready to satisfy him.
+
 
 Anna Sergyevna has recently made a marriage, not of love but of good sense, with one of the future leaders of Russia, a very clever man, a lawyer, possessed of vigorous practical sense, a strong will, and remarkable fluency﻿—still young, good-natured, and cold as ice.
 b=recollections;f:b:recollections=blur(3px)
@@ -11080,7 +11089,7 @@ With Russians he is more free and easy, gives vent to his spleen, and makes fun 
 He holds Slavophil views; it is well known that in the highest society this is regarded as *très distingué*! He reads nothing in Russian, but on his writing table there is a silver ashpan in the shape of a peasant’s plaited shoe.
 
 
-He is much run after by our tourists. Matvy Ilyitch Kolyazin, happening to be in temporary opposition, paid him a majestic visit; while the natives, with whom, however, he is very little seen, positively grovel before him.
+He is much run after by our tourists. Matvy Ilyitch Kolyazin, happening to be in temporary opposition, paid him a majestic visit; while the natives, with whom, however, he is very little seen, positively grovel before him.<e>Closure on the memorable character of Matvy.</e>
 
 
 No one can so readily and quickly obtain a ticket for the court chapel, for the theatre, and such things as *der Herr Baron von Kirsanoff*.
