@@ -1,5 +1,5 @@
-Fathers and Sons<br>Ivan Turgenev<e>TODO</e>
-b=title
+Fathers and Sons<br>Ivan Turgenev<e>Constance Garnett once again delivers on the Victorianisms: "booby", "toilet", &lt;redacted&gt;, and more!</e>
+b=title;t=author;z:author=82,,9
 
 ## I
 r=posting-station
