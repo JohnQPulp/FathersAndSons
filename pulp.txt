@@ -1865,7 +1865,7 @@ and looking at his watch,
 s=
 
 “I came in here to speak about some tea.”
-s=pavel;e:pavel=watchlookdown
+s=pavel;e:pavel=contemplativelookdown
 
 And, assuming an expression of indifference, Pavel Petrovitch at once went out of the room.
 s=none
