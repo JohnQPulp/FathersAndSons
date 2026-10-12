@@ -1889,7 +1889,7 @@ s=nikolai;e:nikolai=contemplative
 s=fenitchka;e:fenitchka=thinking
 
 “N﻿ ﻿… no,” Nikolai Petrovitch brought out hesitatingly, rubbing his forehead. “We ought to have done it before.﻿ ﻿…”
-s=nikolai;e:nikolai=contemplativerubbing
+s=nikolai;e:nikolai=contemplativeforehead
 
 “How are you, fatty?” he said, suddenly brightening,<e>Comedy = Dialogue - Context</e>
 s=nikolai;e:nikolai=happylookdown;m=break,1
