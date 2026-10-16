@@ -1,26 +1,26 @@
-Fathers and Sons<br>Ivan Turgenev<e>Constance Garnett once again delivers on the Victorianisms: "booby", "toilet", &lt;redacted&gt;, and more!</e>
-b=title;t=author;z:author=82,,9
+Fathers and Sons<br>Ivan Turgenev<e>Constance Garnett once again delivers on the Victorianisms: "booby", "toilet", [REDACTED], etc.</e>
+b=title;t=author;z:author=84,52,9
 
 ## I
 r=posting-station
 
 “Well, Piotr, not in sight yet?” was the question asked on May the 20th, 1859, by a gentleman of a little over forty, in a dusty coat and checked trousers, who came out without his hat on to the low steps of the posting station at S﻿—﻿—.
-n:nikolai=?;n:piotr=Piotr;b=posting-station;x:piotr=hat;x:nikolai=hat;e:nikolai=curious;m=dialogue,1
+n:nikolai=?;n:piotr=Piotr;b=posting-station;x:piotr=hat;x:nikolai=;e:nikolai=curious;s=nikolai;z:nikolai=83,53,9;e:nikolai=contemplativelook;i=
 
 He was addressing his servant, a chubby young fellow, with whitish down on his chin, and little, lacklustre eyes.
-
+s=
 
 The servant, in whom everything﻿—the turquoise ring in his ear, the streaky hair plastered with grease, and the civility of his movements﻿—indicated a man of the new, improved generation, glanced with an air of indulgence along the road, and made answer:
 
 
 “No, sir; not in sight.”
-s=piotr;e:piotr=neutral
+s=piotr;e:piotr=neutral;z:piotr=85,,11;e:piotr=;i=2
 
 “Not in sight?” repeated his master.
-s=nikolai
+s=nikolai;e:nikolai=unhappy;i=2;e:nikolai=wary;i=;e:nikolai=confused;i=;e:nikolai=contemplativeforehead;i=
 
 “No, sir,” responded the man a second time.
-s=piotr;i=2
+s=piotr;i=
 
 His master sighed, and sat down on a little bench.
 s=
@@ -29,7 +29,7 @@ We will introduce him to the reader while he sits, his feet tucked under him, ga
 s=none;;f:b:posting-station=blur(3px)
 
 His name was Nikolai Petrovitch Kirsanov. He had, twelve miles from the posting station, a fine property of two hundred souls, or, as he expressed it﻿—since he had arranged the division of his land with the peasants, and started “a farm”﻿—of nearly five thousand acres.<e>"Souls" mentioned, so you know it's a <book>Dead Souls|Gogol-like</book>.</e>
-n:nikolai=Nikolai Petrovitch Kirsanov;b=maryino-wide;f:b:maryino-wide=blur(3px)
+n:nikolai=Nikolai Petrovitch Kirsanov
 
 His father, a general in the army, who served in 1812, a coarse, half-educated, but not ill-natured man, a typical Russian, had been in harness all his life, first in command of a brigade, and then of a division, and lived constantly in the provinces, where, by virtue of his rank, he played a fairly important part.
 
@@ -43,13 +43,10 @@ His mother, one of the Kolyazin family, as a girl called Agathe, but as a genera
 She wore gorgeous caps and rustling silk dresses; in church she was the first to advance to the cross; she talked a great deal in a loud voice, let her children kiss her hand in the morning, and gave them her blessing at night﻿—in fact, she got everything out of life she could.
 
 
-Nikolai Petrovitch, as a general’s son﻿—though so far from being distinguished by courage that he even deserved to be called “a funk”﻿—was intended, like his brother Pavel, to enter the army;
+Nikolai Petrovitch, as a general’s son﻿—though so far from being distinguished by courage that he even deserved to be called “a funk”﻿—was intended, like his brother Pavel, to enter the army; but he broke his leg on the very day when the news of his commission came, and, after being two months in bed, retained a slight limp to the end of his days.
 
 
-but he broke his leg on the very day when the news of his commission came, and, after being two months in bed, retained a slight limp to the end of his days. His father gave him up as a bad job, and let him go into the civil service.
-
-
-He took him to Petersburg directly he was eighteen, and placed him in the university. His brother happened about the same time to be made an officer in the Guards.
+His father gave him up as a bad job, and let him go into the civil service. He took him to Petersburg directly he was eighteen, and placed him in the university. His brother happened about the same time to be made an officer in the Guards.
 b=petersburg-wide;f:b:petersburg-wide=blur(3px)
 
 The young men started living together in one set of rooms, under the remote supervision of a cousin on their mother’s side, Ilya Kolyazin, an official of high rank.
@@ -62,7 +59,7 @@ In 1835 Nikolai Petrovitch left the university, a graduate, and in the same year
 
 
 He was about to take a house in the Tavrichesky Gardens, and had joined the English club, but he died suddenly of an apoplectic fit.
-
+b=recollection;f:b:recollection=blur(3px)
 
 Agathokleya Kuzminishna soon followed him; she could not accustom herself to a dull life in the capital; she was consumed by the ennui of existence away from the regiment.
 
@@ -77,7 +74,7 @@ He married her directly the term of mourning was over; and leaving the civil ser
 m=break,1
 
 and then in the country, where he settled finally, and where in a short time a son, Arkady, was born to him.
-b=maryino-wide
+
 
 The young couple lived very happily and peacefully; they were scarcely ever apart; they read together, sang and played duets together on the piano; she tended her flowers and looked after the poultry-yard; he sometimes went hunting, and busied himself with the estate, while Arkady grew and grew in the same happy and peaceful way.
 
@@ -110,7 +107,7 @@ He remembered his dead wife.﻿ ﻿…
 
 
 “She did not live to see it!” he murmured sadly.
-s=nikolai;e:nikolai=unhappy
+s=nikolai;e:nikolai=unhappy;x:nikolai=hat
 
 A plump, dark-blue pigeon flew into the road, and hurriedly went to drink in a puddle near the well. Nikolai Petrovitch began looking at it, but his ear had already caught the sound of approaching wheels.
 s=none
