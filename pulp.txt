@@ -3323,10 +3323,13 @@ s=bazarov;e:bazarov=thinking
 r=title
 
 The small gentleman’s house in the Moscow style, in which Avdotya Nikitishna, otherwise Evdoksya, Kukshin, lived, was in one of the streets of X﻿—﻿—, which had been lately burnt down; it is well known that our provincial towns are burnt down every five years.
-b=kukshina-entrance;x:arkady=hat;x:bazarov=hat;x:sitnikov=hat,overcoat
+b=kukshina-entrance;x:arkady=hat;x:bazarov=hat;x:sitnikov=hat,overcoat;f:b:kukshina-entrance=blur(3px)
 
-At the door, above a visiting card nailed on all askew, there was a bell-handle to be seen, and in the hall the visitors were met by someone, not exactly a servant, nor exactly a companion, in a cap﻿—unmistakable tokens of the progressive tendencies of the lady of the house.
+At the door, above a visiting card nailed on all askew, there was a bell-handle to be seen,
+m=break,1
 
+and in the hall the visitors were met by someone, not exactly a servant, nor exactly a companion, in a cap﻿—unmistakable tokens of the progressive tendencies of the lady of the house.
+f:b:kukshina-entrance=
 
 Sitnikov inquired whether Avdotya Nikitishna was at home.
 
