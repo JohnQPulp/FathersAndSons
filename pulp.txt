@@ -133,50 +133,50 @@ s=
 A few instants later, his lips were pressed to the beardless, dusty, sunburnt-cheek of the youthful graduate.
 s=none;f:b:posting-station=blur(3px)
 
-## II<e>The "Daddy" Chapter</e>
+## II<e>The "Daddy" Chapter.</e>
 r=title
 
 “Let me shake myself first, daddy,” said Arkady,
-b=posting-station;n:arkady=Arkady “Arkasha” Nikolaevitch Kirsanov;x:arkady=hat,cloak;x:nikolai=hat;s=arkady;m=break,1;e:arkady=happy
+b=posting-station;n:arkady=Arkady “Arkasha” Nikolaevitch Kirsanov;x:arkady=hat,cloak;x:nikolai=hat;s=arkady;m=break,1;e:arkady=happy;z:arkady=86,52,8;e:arkady=happy;i=2
 
 in a voice tired from travelling, but boyish and clear as a bell, as he gaily responded to his father’s caresses;
 s=none
 
 “I am covering you with dust.”
-s=arkady;i=2
+s=arkady;i=2;e:arkady=curiouslook;i=;e:arkady=curious;i=;e:arkady=unhappy;i=
 
 “Never mind, never mind,” repeated Nikolai Petrovitch, smiling tenderly,
-s=nikolai;e:nikolai=happy;m=break,1
+s=nikolai;e:nikolai=happy;m=break,1;e:nikolai=happywary;i=
 
 and twice he struck the collar of his son’s cloak and his own greatcoat with his hand.
 s=none
 
 “Let me have a look at you; let me have a look at you,” he added, moving back from him,
-s=nikolai;m=break,1;e:nikolai=contemplative
+s=nikolai;m=break,1;e:nikolai=contemplative;e:nikolai=happy;i=
 
 but immediately he went with hurried steps towards the yard of the station, calling,
 s=none
 
 “This way, this way; and horses at once.”
-s=nikolai;e:nikolai=confusedlook
+s=nikolai;e:nikolai=confusedlook;e:nikolai=curious;i=
 
 Nikolai Petrovitch seemed far more excited than his son; he seemed a little confused, a little timid. Arkady stopped him.
 s=none
 
 “Daddy,” he said, “let me introduce you to my great friend, Bazarov, about whom I have so often written to you. He has been so good as to promise to stay with us.”
-s=arkady;e:arkady=
+s=arkady;e:arkady=;e:arkady=happy;i=2
 
 Nikolai Petrovitch went back quickly, and going up to a tall man in a long, loose, rough coat with tassels, who had only just got out of the carriage, he warmly pressed the ungloved red hand, which the latter did not at once hold out to him.
 s=none
 
 “I am heartily glad,” he began, “and very grateful for your kind intention of visiting us.﻿ ﻿…”
-s=nikolai;e:nikolai=contemplative
+s=nikolai;e:nikolai=contemplative;e:nikolai=smirking;i=;e:nikolai=happy;i=2
 
 “Let me know your name, and your father’s.”
-
+;e:nikolai=thinking;i=;e:nikolai=;i=2
 
 “Yevgeny Vassilyev,” answered Bazarov, in a lazy but manly voice;
-n:bazarov=Yevgeny Vassilyevitch Bazarov;x:bazarov=overcoat,hat;s=bazarov;e:bazarov=serious
+n:bazarov=Yevgeny Vassilyevitch Bazarov;x:bazarov=overcoat,hat;s=bazarov;z:bazarov=85,53,10;e:bazarov=neutrallookdown;i=
 
 and turning back the collar of his rough coat, he showed Nikolai Petrovitch his whole face.
 s=none
@@ -185,49 +185,46 @@ It was long and lean, with a broad forehead, a nose flat at the base and sharper
 
 
 “I hope, dear Yevgeny Vassilyitch, you won’t be dull with us,” continued Nikolai Petrovitch.
-s=nikolai
+s=nikolai;e:nikolai=smirking;i=;e:nikolai=thinking;i=
 
 Bazarov’s thin lips moved just perceptibly, though he made no reply, but merely took off his cap.
 x:bazarov=overcoat;s=none
 
-His long, thick hair did not hide the prominent bumps on his head.<e>Phrenology-maxxing.</e>
+His long, thick hair did not hide the prominent bumps on his head.<e>Phrenologycore.</e>
 
 
-“Then, Arkady,” Nikolai Petrovitch began again,
-s=nikolai;e:nikolai=curious;m=break,1
-
-turning to his son,
-s=
+“Then, Arkady,” Nikolai Petrovitch began again, turning to his son,
+s=nikolai;e:nikolai=curious;m=break,1;e:nikolai=curiouslook;i=
 
 “shall the horses be put to at once? or would you like to rest?”
-s=nikolai;e:nikolai=curiouslook
+s=nikolai;e:nikolai=curiouslook;e:nikolai=curiouslook;i=2;e:nikolai=curious;i=2
 
 “We will rest at home, daddy; tell them to harness the horses.”
-s=arkady;e:arkady=thinking
+s=arkady;e:arkady=thinking;e:arkady=unhappy;i=
 
 “At once, at once,” his father assented.
 s=nikolai;e:nikolai=happy
 
 “Hey, Piotr, do you hear? Get things ready, my good boy; look sharp.”
-e:nikolai=seriouslook
+e:nikolai=seriouslook;e:nikolai=contemplative;i=
 
 Piotr, who as a modernised servant had not kissed the young master’s hand, but only bowed to him from a distance, again vanished through the gateway.
 s=none
 
 “I came here with the carriage, but there are three horses for your coach too,” said Nikolai Petrovitch fussily,
-s=nikolai;e:nikolai=serious;m=break,1
+s=nikolai;e:nikolai=serious;m=break,1;e:nikolai=thinking;i=2
 
 while Arkady drank some water from an iron dipper brought him by the woman in charge of the station, and Bazarov began smoking a pipe and went up to the driver, who was taking out the horses;
 s=none
 
 “there are only two seats in the carriage, and I don’t know how your friend”﻿ ﻿…
-s=nikolai;e:nikolai=wary
+s=nikolai;e:nikolai=wary;e:nikolai=fearful;i=;e:nikolai=nervous;i=;
 
 “He will go in the coach,” interposed Arkady in an undertone.
-s=arkady;i=2
+s=arkady;i=2;e:arkady=;i=
 
 “You must not stand on ceremony with him, please. He’s a splendid fellow, so simple﻿—you will see.”
-e:arkady=serious
+e:arkady=serious;e:arkady=curiouslook;i=
 
 Nikolai Petrovitch’s coachman brought the horses round.
 s=none
@@ -236,19 +233,19 @@ s=none
 s=bazarov;e:bazarov=happylook
 
 “Do you hear, Mityuha,” put in another driver,
-n:driver1=Driver;x:driver1=hat;s=driver1;e:driver1=smirking;m=break,1
+n:driver1=Driver;x:driver1=hat;s=driver1;e:driver1=smirking;m=break,1;z:driver1=87,52,11;e:driver1=
 
 standing by with his hands thrust behind him into the opening of his sheepskin coat,
 s=none
 
 “what the gentleman called you? It’s a bushy beard you are too.”
-s=driver1;i=2
+s=driver1;i=;e:driver1=smirking;i=
 
 Mityuha only gave a jog to his hat and pulled the reins off the heated shaft-horse.
 s=none
 
 “Look sharp, look sharp, lads, lend a hand,” cried Nikolai Petrovitch; “there’ll be something to drink our health with!”
-s=nikolai;e:nikolai=happy
+s=nikolai;e:nikolai=happy;e:nikolai=curious;i=
 
 In a few minutes the horses were harnessed; the father and son were installed in the carriage; Piotr climbed up on to the box; Bazarov jumped into the coach, and nestled his head down into the leather cushion; and both the vehicles rolled away.
 f:b:posting-station=blur(3px);s=none
