@@ -593,28 +593,28 @@ Without speaking, he opened the door of the carriage, and unbuttoned the apron o
 
 
 Nikolai Petrovitch with his son and Bazarov walked through a dark and almost empty hall, from behind the door of which they caught a glimpse of a young woman’s face,
-f:b:maryino-wide=blur(3px);m=break,1
+b=maryino-hall;m=break,1
 
 into a drawing-room furnished in the most modern style.
 b=maryino-drawing;
 
 “Here we are at home,” said Nikolai Petrovitch,
-b=maryino-drawing;x:bazarov=overcoat;s=nikolai;e:nikolai=happy;m=break,1
+b=maryino-drawing;x:bazarov=overcoat;s=nikolai;e:nikolai=happy;m=break,1;x:nikolai=hat;e:nikolai=happy;i=;e:nikolai=;i=
 
 taking off his cap, and shaking back his hair.
 s=
 
 “That’s the great thing; now we must have supper and rest.”
-s=nikolai;i=2
+s=nikolai;i=2;x:nikolai=;e:nikolai=happylookdown;i=
 
 “A meal would not come amiss, certainly,” observed Bazarov, stretching,
-s=bazarov;e:bazarov=serious;m=break,1
+s=bazarov;e:bazarov=serious;m=break,1;e:bazarov=bored
 
 and he dropped on to a sofa.
 s=
 
 “Yes, yes, let us have supper, supper directly.”
-s=nikolai;e:nikolai=contemplative
+s=nikolai;e:nikolai=contemplative;e:nikolai=thinking;i=
 
 Nikolai Petrovitch with no apparent reason stamped his foot.
 s=none
@@ -628,13 +628,16 @@ s=none
 He smirked, went up to kiss Arkady’s hand, and bowing to the guest retreated to the door, and put his hands behind him.
 
 
-“Here he is, Prokofitch,” began Nikolai Petrovitch; “he’s come back to us at last.﻿ ﻿… Well, how do you think him looking?”
-s=nikolai;e:nikolai=curious
+“Here he is, Prokofitch,” began Nikolai Petrovitch; “he’s come back to us at last.﻿ ﻿…”
+s=nikolai;e:nikolai=curious;e:nikolai=happy;i=2
 
-“As well as could be,” said the old man, and was grinning again,
-n:prokofitch=Prokofitch;s=prokofitch;e:prokofitch=smirking;m=break,1
+“Well, how do you think him looking?”
+;e:nikolai=curious;i=
 
-but he quickly knitted his bushy brows.
+“As well as could be,” said the old man,
+n:prokofitch=Prokofitch;s=prokofitch;e:prokofitch=smirking;m=break,1;z:prokofitch=86,53,9
+
+and was grinning again, but he quickly knitted his bushy brows.
 s=
 
 “You wish supper to be served?” he said impressively.
@@ -643,17 +646,20 @@ s=prokofitch;e:prokofitch=serious
 “Yes, yes, please. But won’t you like to go to your room first, Yevgeny Vassilyitch?”
 s=nikolai;e:nikolai=contemplative
 
-“No, thanks; I don’t care about it. Only give orders for my little box to be taken there, and this garment, too,” he added, taking off his frieze overcoat.
-x:bazarov=;s=bazarov;e:bazarov=removing
+“No, thanks; I don’t care about it. Only give orders for my little box to be taken there, and this garment, too,” he added,
+x:bazarov=;s=bazarov;e:bazarov=removing;m=break,1
+
+taking off his frieze overcoat.
+s=
 
 “Certainly. Prokofitch, take the gentleman’s coat.”
-s=nikolai;e:nikolai=serious
+s=nikolai;e:nikolai=serious;e:nikolai=confused;i=
 
 (Prokofitch, with an air of perplexity, picked up Bazarov’s “garment” in both hands, and holding it high above his head, retreated on tiptoe.)
 s=none
 
 “And you, Arkady, are you going to your room for a minute?”
-s=nikolai;e:nikolai=curious
+s=nikolai;e:nikolai=curious;e:nikolai=contemplativelook;i=
 
 “Yes, I must wash,” answered Arkady,
 s=arkady;e:arkady=neutral;m=break,1
@@ -674,28 +680,28 @@ After a preliminary handshake in the European style, he kissed him thrice after 
 
 
 “Welcome.”
-n:pavel=Pavel Petrovitch Kirsanov;s=pavel;e:pavel=serious
+n:pavel=Pavel Petrovitch Kirsanov;s=pavel;e:pavel=serious;z:pavel=87,53,10;e:pavel=suspicious;i=2
 
 Nikolai Petrovitch presented him to Bazarov; Pavel Petrovitch greeted him with a slight inclination of his supple figure, and a slight smile, but he did not give him his hand, and even put it back into his pocket.
 s=none
 
-“I had begun to think you were not coming today,” he began in a musical voice, with a genial swing and shrug of the shoulders, as he showed his splendid white teeth.
-s=pavel;m=break,1;e:pavel=teeth
+“I had begun to think you were not coming today,” he began in a musical voice,
+s=pavel;m=break,1;e:pavel=teeth;e:pavel=thinking;i=;m=break,1
+
+with a genial swing and shrug of the shoulders, as he showed his splendid white teeth.
+s=
 
 “Did anything happen on the road.”
-s=pavel;e:pavel=serious;i=2
+s=pavel;e:pavel=serious;i=2;e:pavel=contemplative;i=
 
 “Nothing happened,” answered Arkady; “we were rather slow. But we’re as hungry as wolves now.”
-s=arkady;e:arkady=thinking
+s=arkady;e:arkady=thinking;e:arkady=curious;i=;e:arkady=smirking;i=
 
 “Hurry up Prokofitch, dad; and I’ll be back directly.”
-e:arkady=seriouslook
+e:arkady=curious
 
-“Stay, I’m coming with you,” cried Bazarov,
-s=bazarov;m=break,1;e:bazarov=seriouslook
-
-pulling himself up suddenly from the sofa.
-s=
+“Stay, I’m coming with you,” cried Bazarov, pulling himself up suddenly from the sofa.
+s=bazarov;;e:bazarov=seriouslook;e:bazarov=nervous;i=
 
 Both the young men went out.
 s=none
@@ -707,25 +713,22 @@ s=pavel;e:pavel=suspicious
 s=nikolai;e:nikolai=contemplative
 
 “Is he going to stay with us?”
-s=pavel;i=2
+s=pavel;i=2;e:pavel=thinking;i=2
 
 “Yes.”
-s=nikolai;i=2
+s=nikolai;i=2;e:nikolai=thinking;i=
 
 “That unkempt creature?”
 s=pavel;e:pavel=scowling
 
 “Why, yes.”
-s=nikolai
+s=nikolai;e:nikolai=confused;i=2
 
 Pavel Petrovitch drummed with his finger tips on the table.
 s=none
 
-“I fancy Arkady *s’est dégourdi*,” he remarked.
-s=pavel;e:pavel=thinking
-
-“I’m glad he has come back.”
-
+“I fancy Arkady *s’est dégourdi*,” he remarked. “I’m glad he has come back.”
+s=pavel;e:pavel=thinking;e:pavel=suspicious;i=2
 
 At supper there was little conversation. Bazarov especially said nothing, but he ate a great deal.
 b=maryino-dining-night;s=none;f=fade
@@ -742,7 +745,10 @@ s=none
 He made his sentences quite unnecessarily long, avoided the word “daddy,” and even sometimes replaced it by the word “father,” mumbled, it is true, between his teeth; with an exaggerated carelessness he poured into his glass far more wine than he really wanted, and drank it all off.
 
 
-Prokofitch did not take his eyes off him, and kept chewing his lips. After supper they all separated at once.
+Prokofitch did not take his eyes off him, and kept chewing his lips.
+
+
+After supper they all separated at once.
 f:b:maryino-dining-night=blur(3px)
 
 “Your uncle’s a queer fish,” Bazarov said to Arkady,
@@ -755,40 +761,37 @@ s=
 s=bazarov;e:bazarov=smirking
 
 “Why of course, you don’t know,” replied Arkady. “He was a great swell in his own day, you know. I will tell you his story one day. He was very handsome, you know, used to turn all the women’s heads.”
-s=arkady;e:arkady=thinking
+s=arkady;e:arkady=thinking;e:arkady=unhappy;i=
 
-“Oh, that’s it, is it? So he keeps it up in memory of the past. It’s a pity there’s no one for him to fascinate here though.”
-s=bazarov;e:bazarov=curious
-
-“I kept staring at his exquisite collars. They’re like marble, and his chin’s shaved simply to perfection. Come, Arkady Nikolaitch, isn’t that ridiculous?”
-e:bazarov=smirking;i=2
+“Oh, that’s it, is it? So he keeps it up in memory of the past. It’s a pity there’s no one for him to fascinate here though. I kept staring at his exquisite collars. They’re like marble, and his chin’s shaved simply to perfection. Come, Arkady Nikolaitch, isn’t that ridiculous?”
+s=bazarov;e:bazarov=curious;e:bazarov=smirking;i=2
 
 “Perhaps it is; but he’s a splendid man, really.”
-s=arkady;e:arkady=contemplative
+s=arkady;e:arkady=contemplative;e:arkady=;i=2
 
 “An antique survival! But your father’s a capital fellow. He wastes his time reading poetry, and doesn’t know much about farming, but he’s a good-hearted fellow.”
-s=bazarov;e:bazarov=thinking;i=2
+s=bazarov;e:bazarov=thinking;i=2;e:bazarov=serious;i=2
 
 “My father’s a man in a thousand.”
-s=arkady;i=2
+s=arkady;i=2;e:arkady=contemplative;i=2;e:arkady=contemplative;i=;e:arkady=contemplative;i=2
 
 “Did you notice how shy and nervous he is?”
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=curious;e:bazarov=thinking;i=2;x:bazarov=night;e:bazarov=;i=;
 
 Arkady shook his head as though he himself were not shy and nervous.
 s=none
 
 “It’s something astonishing,” pursued Bazarov, “these old idealists, they develop their nervous systems till they break down﻿ ﻿… so balance is lost.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=thinking;i=;e:bazarov=;i=2;e:bazarov=thinking;i=
 
-“But good night. In my room there’s an English washstand, but the door won’t fasten.”
-e:bazarov=thinking
+“But good night. In my room there’s an English washstand, but the door won’t fasten. Anyway that ought to be encouraged﻿—an English washstand stands for progress!”
+e:bazarov=thinking;e:bazarov=bored;i=
 
-“Anyway that ought to be encouraged﻿—an English washstand stands for progress!”
-e:bazarov=serious;i=2
+Bazarov went away, and a sense of great happiness came over Arkady.
+s=
 
-Bazarov went away, and a sense of great happiness came over Arkady. Sweet it is to fall asleep in one’s own home, in the familiar bed, under the quilt worked by loving hands, perhaps a dear nurse’s hands, those kind, tender, untiring hands.
-s=none
+Sweet it is to fall asleep in one’s own home, in the familiar bed, under the quilt worked by loving hands, perhaps a dear nurse’s hands, those kind, tender, untiring hands.
+s=none;f:b:maryino-arkady-night=blur(3px)
 
 Arkady remembered Yegorovna, and sighed and wished her peace in heaven.﻿ ﻿… For himself he made no prayer.
 f:b:maryino-arkady-night=blur(3px)
@@ -809,7 +812,7 @@ God knows where his thoughts were rambling, but they were not rambling in the pa
 
 
 In a small back room there sat, on a large chest, a young woman in a blue dressing jacket with a white kerchief thrown over her dark hair, Fenitchka.
-
+;f:b:maryino-wide-night=blur(6px)
 
 She was half listening, half dozing, and often looked across towards the open door through which a child’s cradle was visible, and the regular breathing of a sleeping baby could be heard.
 
@@ -9499,7 +9502,7 @@ s=arkady
 “My dear soul, there’s no great harm in that. One gets tired of much more than that in this life.”
 s=bazarov
 
-“And now I suppose we’d better say goodbye, hadn’t we? Ever since I’ve been here I’ve had such a loathsome feeling, just as if I’d been reading Gogol’s effusions to the governor of Kalouga’s wife.”<e>Erm ackchyually, that letter was written in 1860, when this story is meant to take place in 1859.</e>
+“And now I suppose we’d better say goodbye, hadn’t we? Ever since I’ve been here I’ve had such a loathsome feeling, just as if I’d been reading Gogol’s effusions to the governor of Kalouga’s wife.”<e>Erm ackchyually, that letter was written in 1860, when this story is meant to take place in 1859. TODO: true?</e>
 
 
 “By the way, I didn’t tell them to take the horses out.”
