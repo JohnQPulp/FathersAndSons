@@ -821,13 +821,10 @@ She was half listening, half dozing, and often looked across towards the open do
 r=title
 
 The next morning Bazarov woke up earlier than anyone and went out of the house.
-b=maryino-wide;x:bazarov=hat
+b=maryino-terrace;x:bazarov=hat
 
-“Oh, my!” he thought, looking about him,
-t=bazarov;e:bazarov=serious
-
-“the little place isn’t much to boast of!”
-e:bazarov=seriouslook
+“Oh, my!” he thought, looking about him, “the little place isn’t much to boast of!”
+t=bazarov;e:bazarov=serious;e:bazarov=suspicious;i=
 
 When Nikolai Petrovitch had divided the land with his peasants, he had had to build his new manor-house on four acres of perfectly flat and barren land.
 t=none
@@ -839,13 +836,13 @@ Only one arbour of lilac and acacia had grown fairly well; they sometimes had te
 
 
 In a few minutes Bazarov had traversed all the little paths of the garden; he went into the cattle-yard and the stable, routed out two farm-boys, with whom he made friends at once,
-f:b:maryino-wide=blur(3px);m=break,1
+f:b:maryino-terrace=blur(3px);m=break,1
 
 and set off with them to a small swamp about a mile from the house to look for frogs.
 b=maryino-marsh
 
 “What do you want frogs for, sir?” one of the boys asked him.
-b=maryino-marsh;n:boy=Boy;s=boy;e:boy=curious
+b=maryino-marsh;n:boy=?;s=boy;e:boy=curious;z:boy=77,54,6
 
 “I’ll tell you what for,” answered Bazarov,
 s=bazarov;e:bazarov=;m=break,1
@@ -854,25 +851,25 @@ who possessed the special faculty of inspiring confidence in people of a lower c
 s=none
 
 “I shall cut the frog open, and see what’s going on in his inside, and then, as you and I are much the same as frogs, only that we walk on legs, I shall know what’s going on inside us too.”
-s=bazarov;i=2
+s=bazarov;i=2;e:bazarov=smirkinglook;i=
 
 “And what do you want to know that for?”
 s=boy;e:boy=confused
 
 “So as not to make a mistake, if you’re taken ill, and I have to cure you.”
-s=bazarov;e:bazarov=smirking
+s=bazarov;e:bazarov=smirking;e:bazarov=smirking;i=2
 
 “Are you a doctor then?”
 s=boy;e:boy=curious;i=2
 
 “Yes.”
-s=bazarov;e:bazarov=
+s=bazarov;e:bazarov=;e:bazarov=contemplative;i=
 
 “Vaska, do you hear, the gentleman says you and I are the same as frogs, that’s funny!”
 s=boy;e:boy=happylook
 
 “I’m afraid of frogs,” observed Vaska,
-n:vaska=Vaska;s=vaska;e:vaska=wary;m=break,1
+n:vaska=Vaska;s=vaska;e:vaska=wary;m=break,1;z:vaska=74,52,7
 
 a boy of seven, with a head as white as flax, and bare feet, dressed in a grey smock with a stand-up collar.
 s=none
@@ -881,76 +878,76 @@ s=none
 s=boy;e:boy=contemplative
 
 “There, paddle into the water, philosophers,” said Bazarov.
-s=bazarov;e:bazarov=smirking;i=2
+s=bazarov;e:bazarov=smirking;i=2;e:bazarov=smirkinglook;i=
 
 Meanwhile Nikolai Petrovitch too had waked up, and gone in to see Arkady, whom he found dressed. The father and son went out on to the terrace under the shelter of the awning; near the balustrade, on the table, among great bunches of lilacs, the samovar was already boiling.
-b=maryino-terrace;f=fade;s=none
+b=maryino-terrace;f=fade;s=none;f:b:maryino-terrace=
 
 A little girl came up, the same who had been the first to meet them at the steps on their arrival the evening before. In a shrill voice she said﻿—
 
 
 “Fedosya Nikolaevna is not quite well, she cannot come; she gave orders to ask you, will you please to pour out tea yourself, or should she send Dunyasha?”
-n:girl=Girl;s=girl;e:girl=wary
+n:girl=?;s=girl;e:girl=wary;z:girl=84,52,7
 
 “I will pour out myself, myself,” interposed Nikolai Petrovitch hurriedly.
 s=nikolai;e:nikolai=contemplative
 
 “Arkady, how do you take your tea, with cream, or with lemon?”
-e:nikolai=curious
+e:nikolai=curious;e:nikolai=thinking;i=
 
 “With cream,” answered Arkady;
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=neutral;e:arkady=;i=
 
 and after a brief silence, he uttered interrogatively,
 s=none
 
 “Daddy?”
-s=arkady;e:arkady=contemplative
+s=arkady;e:arkady=contemplative;e:arkady=nervous;i=;e:arkady=contemplative;i=
 
 Nikolai Petrovitch in confusion looked at his son.
 s=none
 
 “Well?” he said.
-s=nikolai;e:nikolai=confused
+s=nikolai;e:nikolai=confused;e:nikolai=confused;i=2;e:nikolai=unhappy;i=
 
 Arkady dropped his eyes.
 s=none
 
 “Forgive me, dad, if my question seems unsuitable to you,” he began, “but you yourself, by your openness yesterday, encourage me to be open﻿ ﻿… you will not be angry﻿ ﻿… ?”
-s=arkady;e:arkady=warylookdown
+s=arkady;e:arkady=warylookdown;e:arkady=;i=2
 
 “Go on.”
-s=nikolai;i=2
+s=nikolai;i=2;e:nikolai=confused;i=2
 
 “You give me confidence to ask you.﻿ ﻿… Isn’t the reason, Fen﻿ ﻿… isn’t the reason she will not come here to pour out tea, because I’m here?”
-s=arkady;e:arkady=suspicious
+s=arkady;e:arkady=suspicious;e:arkady=warylookdown;i=
 
 Nikolai Petrovitch turned slightly away.
 s=none
 
 “Perhaps,” he said, at last, “she supposes﻿ ﻿… she is ashamed.”
-s=nikolai;e:nikolai=contemplativelook
+s=nikolai;e:nikolai=contemplativelook;e:nikolai=unhappy;i=2
 
 Arkady turned a rapid glance on his father.
 s=none
 
 “She has no need to be ashamed. In the first place, you are aware of my views”
-s=arkady;e:arkady=thinking;m=break,1
+s=arkady;e:arkady=thinking;m=break,1;e:arkady=serious;i=;e:arkady=nervous;i=
 
 (it was very sweet to Arkady to utter that word);
 s=none
 
 “and secondly, could I be willing to hamper your life, your habits in the least thing?”
-s=arkady;i=2
+s=arkady;i=2;e:arkady=thinking;i=2;e:arkady=confused;i=
 
 “Besides, I am sure you could not make a bad choice; if you have allowed her to live under the same roof with you, she must be worthy of it; in any case, a son cannot judge his father﻿—least of all, I, and least of all such a father who, like you, has never hampered my liberty in anything.”
-e:arkady=serious
+e:arkady=serious;e:arkady=thinking;i=2;e:arkady=contemplative;i=;e:arkady=serious;i=
 
 Arkady’s voice had been shaky at the beginning; he felt himself magnanimous, though at the same time he realised he was delivering something of the nature of a lecture to his father; but the sound of one’s own voice has a powerful effect on any man, and Arkady brought out his last words resolutely, even with emphasis.
 s=none
 
 “Thanks, Arkasha,” said Nikolai Petrovitch thickly,
-s=nikolai;m=break,1;e:nikolai=contemplative
+s=nikolai;m=break,1;e:nikolai=contemplative;e:nikolai=unhappy;i=
 
 and his fingers again strayed over his eyebrows and forehead.
 s=
@@ -959,22 +956,25 @@ s=
 s=nikolai;e:nikolai=contemplativeforehead
 
 “In that case I will go to her,” cried Arkady,
-s=arkady;i=2;m=break,1
+s=arkady;i=2;m=break,1;e:arkady=confused;i=
 
 with a fresh rush of magnanimous feeling, and he jumped up from his seat.
 s=
 
 “I will explain to her that she has no need to be ashamed before me.”
-s=arkady;e:arkady=seriouslook
+s=arkady;e:arkady=seriouslook;e:arkady=serious;i=
 
 Nikolai Petrovitch too got up.
 s=none
 
 “Arkady,” he began, “be so good﻿ ﻿… how can﻿ ﻿… there﻿ ﻿… I have not told you yet﻿ ﻿…”
-s=nikolai;e:nikolai=wary
+s=nikolai;e:nikolai=wary;e:nikolai=upset;i=2
 
-But Arkady did not listen to him, and ran off the terrace. Nikolai Petrovitch looked after him, and sank into his chair overcome by confusion. His heart began to throb.
-s=none
+But Arkady did not listen to him, and ran off the terrace.
+s=none;
+
+Nikolai Petrovitch looked after him, and sank into his chair overcome by confusion. His heart began to throb.
+f:b:maryino-terrace=blur(3px)
 
 Did he at that moment realise the inevitable strangeness of the future relations between him and his son? Was he conscious that Arkady would perhaps have shown him more respect if he had never touched on this subject at all?
 f:b:maryino-terrace=blur(3px)
@@ -991,8 +991,11 @@ s=arkady;e:arkady=happy;m=break,1
 with an expression of a kind of affectionate and good-natured triumph on his face.
 s=
 
-“Fedosya Nikolaevna is not quite well today really, and she will come a little later. But why didn’t you tell me I had a brother? I should have kissed him last night, as I have kissed him just now.”
-e:arkady=curious;s=arkady
+“Fedosya Nikolaevna is not quite well today really, and she will come a little later.”
+e:arkady=curious;s=arkady;e:arkady=happy;i=2;e:arkady=;i=;e:arkady=curious;i=
+
+“But why didn’t you tell me I had a brother? I should have kissed him last night, as I have kissed him just now.”
+;e:arkady=confused;i=;e:arkady=happy;i=
 
 Nikolai Petrovitch tried to articulate something, tried to get up and open his arms.
 s=none
@@ -1001,19 +1004,16 @@ Arkady flung himself on his neck.
 
 
 “What’s this? embracing again?” sounded the voice of Pavel Petrovitch behind them.
-x:pavel=fez;s=pavel;e:pavel=smirking
+x:pavel=fez;s=pavel;e:pavel=smirking;e:pavel=curious;i=
 
 Father and son were equally rejoiced at his appearance at that instant; there are positions, genuinely affecting, from which one longs to escape as soon as possible.
 s=none
 
-“Why should you be surprised at that?” said Nikolai Petrovitch gaily.
-s=nikolai;e:nikolai=happy
-
-“Think what ages I have been waiting for Arkasha. I’ve not had time to get a good look at him since yesterday.”
-
+“Why should you be surprised at that?” said Nikolai Petrovitch gaily. “Think what ages I have been waiting for Arkasha. I’ve not had time to get a good look at him since yesterday.”
+s=nikolai;e:nikolai=sadsmile;e:nikolai=sadsmile;i=2
 
 “I’m not at all surprised,” observed Pavel Petrovitch; “I feel not indisposed to be embracing him myself.”
-s=pavel;e:pavel=curious
+s=pavel;e:pavel=curious;e:pavel=curious;i=2
 
 Arkady went up to his uncle, and again felt his cheeks caressed by his perfumed moustache.
 s=none
@@ -1025,10 +1025,10 @@ This fez and the carelessly tied little cravat carried a suggestion of the freed
 
 
 “Where’s your new friend?” he asked Arkady.
-s=pavel;e:pavel=curious;i=2
+s=pavel;e:pavel=curious;i=2;e:pavel=suspicious;i=2
 
 “He’s not in the house; he usually gets up early and goes off somewhere. The great thing is, we mustn’t pay any attention to him; he doesn’t like ceremony.”
-s=arkady;e:arkady=happy
+s=arkady;e:arkady=happy;e:arkady=smirking;i=
 
 “Yes, that’s obvious.”
 s=pavel;e:pavel=contemplative
@@ -1043,19 +1043,22 @@ s=pavel;e:pavel=contemplativelookdown
 s=arkady;e:arkady=
 
 “And where does his father live?”
-s=pavel;e:pavel=suspicious
+s=pavel;e:pavel=suspicious;e:pavel=contemplative;i=
 
 “In our province, sixty-four miles from here. He has a small property there. He was formerly an army doctor.”
-s=arkady;i=2
+s=arkady;i=2;e:arkady=curious;i=
 
-“Tut, tut, tut! To be sure, I kept asking myself, ‘Where have I heard that name, Bazarov?’ Nikolai, do you remember, in our father’s division there was a surgeon Bazarov?”
-s=pavel;e:pavel=serious
+“Tut, tut, tut! To be sure, I kept asking myself, ‘Where have I heard that name, Bazarov?’”
+s=pavel;e:pavel=serious;e:pavel=contemplative;i=2
+
+“Nikolai, do you remember, in our father’s division there was a surgeon Bazarov?”
+;e:pavel=suspicious;i=2
 
 “I believe there was.”
-s=nikolai;e:nikolai=contemplative
+s=nikolai;e:nikolai=contemplative;e:nikolai=thinking;i=;e:nikolai=confused;i=
 
 “Yes, yes, to be sure. So that surgeon was his father. Hm!”
-s=pavel;e:pavel=serious;i=2
+s=pavel;e:pavel=serious;i=2;e:pavel=thinking;i=
 
 Pavel Petrovitch pulled his moustaches.
 s=none
@@ -1064,28 +1067,28 @@ s=none
 s=pavel;e:pavel=seriousmoustache
 
 “What is Bazarov?” Arkady smiled. “Would you like me, uncle, to tell you what he really is?”
-s=arkady;e:arkady=happy
+s=arkady;e:arkady=happy;e:arkady=smirking;i=
 
 “If you will be so good, nephew.”
-s=pavel;e:pavel=thinking
+s=pavel;e:pavel=thinking;e:pavel=contemplative;i=
 
 “He’s a nihilist.”
-s=arkady;e:arkady=thinking
+s=arkady;e:arkady=thinking;e:arkady=;i=
 
 “Eh?” inquired Nikolai Petrovitch,
-s=nikolai;e:nikolai=confused;m=break,1
+s=nikolai;e:nikolai=confused;m=break,1;e:nikolai=confused;i=2
 
 while Pavel Petrovitch lifted a knife in the air with a small piece of butter on its tip, and remained motionless.
 s=none
 
 “He’s a nihilist,” repeated Arkady.
-s=arkady;i=2
+s=arkady;i=2;e:arkady=curious;i=
 
 “A nihilist,” said Nikolai Petrovitch. “That’s from the Latin, *nihil*, *nothing*, as far as I can judge; the word must mean a man who﻿ ﻿… who accepts nothing?”
-s=nikolai;e:nikolai=confused;i=2
+s=nikolai;e:nikolai=confused;i=2;e:nikolai=confused;i=
 
 “Say, ‘who respects nothing,’ ” put in Pavel Petrovitch,
-s=pavel;e:pavel=suspicious;i=2;m=break,1
+s=pavel;e:pavel=suspicious;i=2;m=break,1;e:pavel=annoyed;i=2
 
 and he set to work on the butter again.
 s=
@@ -1097,28 +1100,28 @@ s=arkady;e:arkady=serious
 s=pavel;e:pavel=contemplative
 
 “No, it’s not the same thing. A nihilist is a man who does not bow down before any authority, who does not take any principle on faith, whatever reverence that principle may be enshrined in.”
-s=arkady;i=2
+s=arkady;i=2;e:arkady=thinking;i=2
 
 “Well, and is that good?” interrupted Pavel Petrovitch.
-s=pavel;e:pavel=annoyed
+s=pavel;e:pavel=annoyed;e:pavel=contemplative;i=;e:pavel=annoyedlook;i=
 
 “That depends, uncle. Some people it will do good to, but some people will suffer for it.”
-s=arkady;e:arkady=thinking
+s=arkady;e:arkady=thinking;e:arkady=suspicious;i=
 
 “Indeed. Well, I see it’s not in our line. We are old-fashioned people; we imagine that without principles, taken as you say on faith, there’s no taking a step, no breathing. *Vous avez changé tout cela.*”
-s=pavel;e:pavel=serious
+s=pavel;e:pavel=serious;e:pavel=contemplative;i=
 
 “God give you good health and the rank of a general, while we will be content to look on and admire, worthy﻿ ﻿… what was it?”
-e:pavel=thinking
+e:pavel=thinking;e:pavel=curious;i=2;e:pavel=curious;i=
 
 “Nihilists,” Arkady said, speaking very distinctly.
-s=arkady;i=2
+s=arkady;i=2;e:arkady=serious;i=
 
 “Yes. There used to be Hegelists, and now there are nihilists. We shall see how you will exist in void, in vacuum;”
-s=pavel;i=2
+s=pavel;i=2;e:pavel=thinking;i=
 
 “and now ring, please, brother Nikolai Petrovitch; it’s time I had my cocoa.”
-e:pavel=bored
+e:pavel=bored;e:pavel=curious;i=2
 
 Nikolai Petrovitch rang the bell and called,
 n:fenitchka=Fedosya “Fenitchka” Nikolaevna;s=none
@@ -1142,10 +1145,10 @@ Pavel Petrovitch knitted his brows severely, while Nikolai Petrovitch looked emb
 
 
 “Good morning, Fenitchka,” he muttered through his teeth.
-s=nikolai;e:nikolai=unhappy
+s=nikolai;e:nikolai=unhappy;e:nikolai=serious;i=;e:nikolai=confused;i=2
 
 “Good morning,” she replied in a voice not loud but resonant,
-s=fenitchka;e:fenitchka=nervous;m=break,1;x:fenitchka=kerchief
+s=fenitchka;e:fenitchka=nervous;m=break,1;x:fenitchka=kerchief;z:fenitchka=78,53,8;e:fenitchka=confusedlook;i=
 
 and with a sidelong glance at Arkady, who gave her a friendly smile, she went gently away.
 s=none
@@ -1169,19 +1172,19 @@ He quickly drew near the terrace, and said with a nod,
 
 
 “Good morning, gentlemen; sorry I was late for tea; I’ll be back directly; I must just put these captives away.”
-s=bazarov;e:bazarov=
+s=bazarov;e:bazarov=;e:bazarov=smirking;i=2
 
 “What have you there﻿—leeches?” asked Pavel Petrovitch.
 s=pavel;e:pavel=confused
 
 “No, frogs.”
-s=bazarov;i=2
+s=bazarov;i=2;e:bazarov=;i=
 
 “Do you eat them﻿—or keep them?”
-s=pavel;i=2
+s=pavel;i=2;e:pavel=serious;i=2
 
 “For experiment,” said Bazarov indifferently,
-s=bazarov;e:bazarov=bored;m=break,1
+s=bazarov;e:bazarov=bored;m=break,1;e:bazarov=thinking;i=
 
 and he went off into the house.
 s=
@@ -1192,10 +1195,10 @@ s=pavel;e:pavel=suspicious
 “He has no faith in principles, but he has faith in frogs.”
 
 
-Arkady looked compassionately at his uncle; Nikolai Petrovitch shrugged his shoulders stealthily.
-s=none
+Arkady looked compassionately at his uncle; Nikolai Petrovitch shrugged his shoulders stealthily. Pavel Petrovitch himself felt that his epigram was unsuccessful,
+s=none;m=break,1
 
-Pavel Petrovitch himself felt that his epigram was unsuccessful, and began to talk about husbandry and the new bailiff, who had come to him the evening before to complain that a labourer, Foma, “was deboshed,” and quite unmanageable.
+and began to talk about husbandry and the new bailiff, who had come to him the evening before to complain that a labourer, Foma, “was deboshed,” and quite unmanageable.
 f:b:maryino-terrace=blur(3px)
 
 “He’s such an Aesop,” he said among other things; “in all places he has protested himself a worthless fellow; he’s not a man to keep his place; he’ll walk off in a huff like a fool.”
