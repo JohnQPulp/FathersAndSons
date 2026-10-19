@@ -3053,7 +3053,7 @@ but the old folks breathed more easily.
 r=title
 
 The town of X﻿—﻿— to which our friends set off was in the jurisdiction of a governor who was a young man, and at once a progressive and a despot, as often happens with Russians.
-b=town-wide;f:b:town-wide=blur(3px)
+b=town-wide
 
 Before the end of the first year of his government, he had managed to quarrel not only with the marshal of nobility, a retired officer of the guards, who kept open house and a stud of horses, but even with his own subordinates.
 
@@ -3061,7 +3061,7 @@ Before the end of the first year of his government, he had managed to quarrel no
 The feuds arising from this cause assumed at last such proportions that the ministry in Petersburg had found it necessary to send down a trusted personage with a commission to investigate it all on the spot.
 
 
-The choice of the authorities fell upon Matvy Ilyitch Kolyazin, the son of the Kolyazin, under whose protection the brothers Kirsanov had once found themselves.<e>"Dostoevsky, where do you get <book>The Brothers Karamazov|your ideas</book> from?"</e>
+The choice of the authorities fell upon Matvy Ilyitch Kolyazin, the son of the Kolyazin, under whose protection the brothers Kirsanov had once found themselves.<e>"the brothers Kirsanov" — one syllable and one brother short of a <book>The Brothers Karamazov|good book</book>.</e>
 
 
 He, too, was a “young man”; that is to say, he had not long passed forty, but he was already on the high road to becoming a statesman, and wore a star on each side of his breast﻿—one, to be sure, a foreign star, not of the first magnitude.
@@ -3092,15 +3092,15 @@ He was an adroit courtier, a great hypocrite, and nothing more; he had no specia
 
 
 Matvy Ilyitch received Arkady with the good-nature, we might even call it playfulness, characteristic of the enlightened higher official.
-b=official-reception;x:matvy=night;f:b:official-reception=blur(3px)
+b=official-reception;x:matvy=night;
 
 He was astonished, however, when he heard that the cousins he had invited had remained at home in the country.
 f:b:official-reception=
 
-“Your father was always a queer fellow,” he remarked,
-s=matvy;m=break,1;e:matvy=contemplative
+“Your father was always a queer fellow,” he remarked, playing with the tassels of his magnificent velvet dressing-gown,
+s=matvy;m=break,1;e:matvy=contemplative;z:matvy=84,54,8
 
-playing with the tassels of his magnificent velvet dressing-gown, and suddenly turning to a young official in a discreetly buttoned-up uniform, he cried, with an air of concentrated attention,
+and suddenly turning to a young official in a discreetly buttoned-up uniform, he cried, with an air of concentrated attention,
 s=none
 
 “What?”
@@ -3109,14 +3109,17 @@ s=matvy;e:matvy=seriouslook
 The young man, whose lips were glued together from prolonged silence, got up and looked in perplexity at his chief.
 s=none
 
-But, having nonplussed his subordinate, Matvy Ilyitch paid him no further attention. Our higher officials are fond as a rule of nonplussing their subordinates; the methods to which they have recourse to attain that end are rather various.
+But, having nonplussed his subordinate, Matvy Ilyitch paid him no further attention.
+
+
+Our higher officials are fond as a rule of nonplussing their subordinates; the methods to which they have recourse to attain that end are rather various.
 ;f:b:official-reception=blur(3px)
 
 The following means, among others, is in great vogue, “*is quite a favourite,*” as the English say; a high official suddenly ceases to understand the simplest words, assuming total deafness.
 
 
 He will ask, for instance, “What’s today?”
-
+m=dialogue
 
 He is respectfully informed, “Today’s Friday, your Ex-s-s-s-lency.”
 
@@ -3133,29 +3136,29 @@ He is respectfully informed, “Today’s Friday, your Ex-s-s-s-lency.”
 “Friday, your Ex﻿—s﻿—s﻿—s﻿—lency, the day of the week.”
 
 
-“What, do you pretend to teach me, eh?”
+“What, do you pretend to teach me, eh?”<e>Abbott and Costello: The Novelization</e>
 
 
 Matvy Ilyitch was a higher official all the same, though he was reckoned a liberal.
-
+m=
 
 “I advise you, my dear boy, to go and call on the Governor,” he said to Arkady;
-s=matvy;e:matvy=;f:b:official-reception=
+s=matvy;e:matvy=;f:b:official-reception=;e:matvy=smirking;i=
 
 “you understand, I don’t advise you to do so because I adhere to old-fashioned ideas of the necessity of paying respect to authorities, but simply because the Governor’s a very decent fellow; besides, you probably want to make acquaintance with the society here.﻿ ﻿…”
-;e:matvy=contemplative;i=2
+;e:matvy=contemplative;i=2;e:matvy=smirking;i=;e:matvy=thinking;i=;e:matvy=;i=2
 
 “You’re not a bear, I hope? And he’s giving a great ball the day after tomorrow.”
-e:matvy=smirking
+e:matvy=smirking;e:matvy=happy;i=
 
 “Will you be at the ball?” inquired Arkady.
 s=arkady;e:arkady=curious
 
 “He gives it in my honour,” answered Matvy Ilyitch, almost pityingly.
-s=matvy;e:matvy=thinking
+s=matvy;e:matvy=thinking;e:matvy=thinking;i=
 
 “Do you dance?”
-e:matvy=;i=2
+e:matvy=;i=2;e:matvy=contemplative;i=2
 
 “Yes; I dance, but not well.”
 s=arkady;e:arkady=neutral
@@ -3164,7 +3167,7 @@ s=arkady;e:arkady=neutral
 s=matvy;e:matvy=thinking;i=2
 
 “But, uncle, it’s not through Byronism, I﻿ ﻿…”
-s=arkady;e:arkady=serious
+s=arkady;e:arkady=serious;e:arkady=thinking;i=2;e:arkady=confused;i=
 
 “I will introduce you to the ladies here; I will take you under my wing,” interrupted Matvy Ilyitch,
 s=matvy;e:matvy=happy;m=break,1
@@ -3185,22 +3188,25 @@ He found Bazarov at the tavern where they were staying, and was a long while per
 b=town-wide
 
 “Well, there’s no help for it,” said Bazarov at last.
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=suspicious;i=
 
 “It’s no good doing things by halves. We came to look at the gentry; let’s look at them!”
+;e:bazarov=annoyed;i=
 
+The Governor received the young men affably, but he did not ask them to sit down, nor did he sit down himself.
+s=;b=town-street;f=fade;f:b:town-street=blur(3px)
 
-The Governor received the young men affably, but he did not ask them to sit down, nor did he sit down himself. He was in an everlasting fuss and hurry; in the morning he used to put on a tight uniform and an excessively stiff cravat; he never ate or drank enough; he was forever making arrangements.
-f:b:town-wide=blur(3px);s=
+He was in an everlasting fuss and hurry; in the morning he used to put on a tight uniform and an excessively stiff cravat; he never ate or drank enough; he was forever making arrangements.
+
 
 He invited Kirsanov and Bazarov to his ball, and within a few minutes invited them a second time, regarding them as brothers, and calling them Kisarov.
 
 
 They were on their way home from the Governor’s, when suddenly a short man, in a Slavophil national dress, leaped out of a trap that was passing them, and crying,
-b=town-street;x:arkady=hat;x:bazarov=hat;n:sitnikov=?;x:sitnikov=hat,overcoat
+b=town-street;x:arkady=hat;x:bazarov=hat;n:sitnikov=?;x:sitnikov=hat,overcoat;f:b:town-street=
 
 “Yevgeny Vassilyitch!”
-s=sitnikov;e:sitnikov=excited
+s=sitnikov;e:sitnikov=excited;z:sitnikov=81,53,9;e:sitnikov=curious;i=
 
 dashed up to Bazarov.
 s=none;n:sitnikov=Sitnikov
@@ -3212,7 +3218,7 @@ still stepping along on the pavement;
 s=
 
 “by what chance did you come here?”
-s=bazarov;i=2
+s=bazarov;i=2;e:bazarov=bored;i=
 
 “Fancy, absolutely by chance,” he replied,
 s=sitnikov;e:sitnikov=happy;m=break,1
@@ -3221,79 +3227,82 @@ and returning to the trap, he waved his hand several times, and shouted,
 s=
 
 “Follow, follow us! My father had business here,”
-e:sitnikov=seriouslook;s=sitnikov;m=break,1
+e:sitnikov=seriouslook;s=sitnikov;m=break,1;e:sitnikov=wary;i=
 
 he went on, hopping across the gutter,
 s=
 
 “and so he asked me.﻿ ﻿… I heard today of your arrival, and have already been to see you.﻿ ﻿…”
-;s=sitnikov;e:sitnikov=happy;i=2
+;s=sitnikov;e:sitnikov=happy;i=2;e:sitnikov=curious;i=2;e:sitnikov=;i=
 
 (The friends did, in fact, on returning to their room, find there a card, with the corners turned down, bearing the name of Sitnikov, on one side in French, on the other in Slavonic characters.)
-s=none;f:b:town-street=blur(3px)
+s=none
 
 “I hope you are not coming from the Governor’s?”
-s=sitnikov;e:sitnikov=curious;f:b:town-street=
+s=sitnikov;e:sitnikov=curious;f:b:town-street=;e:sitnikov=curious;i=2
 
 “It’s no use to hope; we come straight from him.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=thinking;i=;e:bazarov=contemplative;i=
 
-“Ah! in that case I will call on him too.﻿ ﻿… Yevgeny Vassilyitch, introduce me to your﻿ ﻿… to the﻿ ﻿…”
-s=sitnikov;e:sitnikov=contemplative
+“Ah! in that case I will call on him too.﻿ ﻿…”
+s=sitnikov;e:sitnikov=contemplative;e:sitnikov=;i=
+
+“Yevgeny Vassilyitch, introduce me to your﻿ ﻿… to the﻿ ﻿…”
+;e:sitnikov=wary;i=
 
 “Sitnikov, Kirsanov,” mumbled Bazarov, not stopping.
-s=bazarov;i=2
+s=bazarov;i=2;e:bazarov=seriouslookdown;i=2
 
 “I am greatly flattered,” began Sitnikov, walking sidewise, smirking,
-s=sitnikov;e:sitnikov=smirking;m=break,1
+s=sitnikov;e:sitnikov=smirking;m=break,1;e:sitnikov=smirking;i=2
 
 and hurriedly pulling off his really over-elegant gloves.
 s=
 
 “I have heard so much.﻿ ﻿… I am an old acquaintance of Yevgeny Vassilyitch, and, I may say﻿—his disciple. I am indebted to him for my regeneration.﻿ ﻿…”
-s=sitnikov;i=2
+s=sitnikov;i=2;e:sitnikov=smirking;i=;e:sitnikov=curious;i=2
 
 Arkady looked at Bazarov’s disciple. There was an expression of excitement and dullness imprinted on the small but pleasant features of his well-groomed face; his small eyes, that seemed squeezed in, had a fixed and uneasy look, and his laugh, too, was uneasy﻿—a sort of short, wooden laugh.
 s=none
 
 “Would you believe it,” he pursued, “when Yevgeny Vassilyitch for the first time said before me that it was not right to accept any authorities, I felt such enthusiasm﻿ ﻿… as though my eyes were opened! Here, I thought, at last I have found a man!”
-s=sitnikov;e:sitnikov=excited;i=2
+s=sitnikov;e:sitnikov=excited;i=2;e:sitnikov=happy;i=
 
 “By the way, Yevgeny Vassilyitch, you positively must come to know a lady here, who is really capable of understanding you, and for whom your visit would be a real festival; you have heard of her, I suppose?”
-e:sitnikov=curious
+e:sitnikov=curious;e:sitnikov=smirking;i=
 
 “Who is it?” Bazarov brought out unwillingly.
-s=bazarov;e:bazarov=annoyed
+s=bazarov;e:bazarov=annoyed;e:bazarov=seriouslookdown;i=2
 
 “Kukshina, *Eudoxie*, Evdoksya Kukshin. She’s a remarkable nature, *émancipée* in the true sense of the word, an advanced woman.”
-s=sitnikov;e:sitnikov=happy
+s=sitnikov;e:sitnikov=happy;e:sitnikov=excited;i=2
 
 “Do you know what? We’ll all go together to see her now. She lives only two steps from here. We will have lunch there. I suppose you have not lunched yet?”
-
+;e:sitnikov=curious;i=
 
 “No; not yet.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=bored;i=
 
 “Well, that’s capital. She has separated, you understand, from her husband; she is not dependent on anyone.”
-s=sitnikov;e:sitnikov=neutral
+s=sitnikov;e:sitnikov=neutral;e:sitnikov=;i=
 
 “Is she pretty?” Bazarov cut in.
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=curious;e:bazarov=smirking;i=2;e:bazarov=suspicious;i=
 
 “N-no, one couldn’t say that.”
-s=sitnikov;e:sitnikov=contemplative
+s=sitnikov;e:sitnikov=contemplative;e:sitnikov=seriouslook;i=
 
 “Then, what the devil are you asking us to see her for?”
-s=bazarov;e:bazarov=annoyed
+s=bazarov;e:bazarov=annoyed;e:bazarov=annoyed;i=2
 
 “Fie; you must have your joke.﻿ ﻿… She will give us a bottle of champagne.”
-s=sitnikov;e:sitnikov=
+s=sitnikov;e:sitnikov=;e:sitnikov=curious;i=2
 
 “Oh, that’s it. One can see the practical man at once.”
-s=bazarov;i=2
+s=bazarov;i=2;e:bazarov=contemplative;i=;e:bazarov=thinking;i=
 
 “By the way, is your father still in the gin business?”
-e:bazarov=smirking
+e:bazarov=smirking;e:bazarov=smirking;i=2
 
 “Yes,” said Sitnikov, hurriedly,
 s=sitnikov;e:sitnikov=wary;m=break,1
@@ -3302,22 +3311,19 @@ and he gave a shrill spasmodic laugh.
 s=
 
 “Well? Will you come?”
-e:sitnikov=happy;s=sitnikov
+e:sitnikov=happy;s=sitnikov;e:sitnikov=curious;i=2;e:sitnikov=;i=
 
 “I don’t really know.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=seriouslookdown;i=2
 
 “You wanted to see people, go along,” said Arkady in an undertone.
-s=arkady
+s=arkady;e:arkady=contemplativelook;i=
 
-“And what do you say to it, Mr. Kirsanov?” Sitnikov put in.
+“And what do you say to it, Mr. Kirsanov?” Sitnikov put in. “You must come too; we can’t go without you.”
 s=sitnikov;e:sitnikov=curious
 
-“You must come too; we can’t go without you.”
-
-
 “But how can we burst in upon her all at once?”
-s=arkady;e:arkady=contemplative
+s=arkady;e:arkady=contemplative;e:arkady=;i=
 
 “That’s no matter. Kukshina’s a brick!”
 s=sitnikov;e:sitnikov=happy
@@ -3326,16 +3332,19 @@ s=sitnikov;e:sitnikov=happy
 s=bazarov;e:bazarov=bored
 
 “Three!” cried Sitnikov; “that I answer for.”
-s=sitnikov;i=2
+s=sitnikov;i=2;e:sitnikov=smirking;i=2
 
 “What with?”
-s=bazarov;i=2
+s=bazarov;i=2;e:bazarov=annoyed;i=2;e:bazarov=contemplative;i=
 
 “My own head.”
-s=sitnikov;e:sitnikov=smirking
+s=sitnikov;e:sitnikov=smirking;e:sitnikov=curious;i=2
 
-“Your father’s purse would be better. However, we are coming.”
-s=bazarov;e:bazarov=thinking
+“Your father’s purse would be better.”
+s=bazarov;e:bazarov=thinking;e:bazarov=annoyed;i=2;e:bazarov=smirking;i=2
+
+“However, we are coming.”
+;e:bazarov=annoyed;i=2;e:bazarov=contemplative;i=
 
 ## XIII
 r=title
