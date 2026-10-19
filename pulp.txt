@@ -1466,7 +1466,7 @@ Sometimes, for the most part suddenly, this bewilderment passed into chill horro
 
 
 More than once, as he went home after a tender interview, Kirsanov felt within him that heartrending, bitter vexation which follows on a total failure.
-;f:b:petersburg-wide-night=
+
 
 “What more do I want?” he asked himself, while his heart was heavy.
 t=pavel;e:pavel=thinking;x:pavel=hat
@@ -1475,19 +1475,19 @@ He once gave her a ring with a sphinx engraved on the stone.
 t=none;b=princess-tryst;f=fade
 
 “What’s that?” she asked; “a sphinx?”
-n:princess=Princess R——;s=princess;e:princess=curious;x:pavel=
+n:princess=Princess R——;s=princess;e:princess=curious;x:pavel=;z:princess=89,55,11
 
 “Yes,” he answered, “and that sphinx is you.”
 s=pavel;e:pavel=serious
 
 “I?” she queried,
-s=princess;e:princess=confused;m=break,1
+s=princess;e:princess=confusedlookdown;m=break,1
 
 and slowly raising her enigmatical glance upon him.
 s=
 
 “Do you know that’s awfully flattering?” she added with a meaningless smile, while her eyes still kept the same strange look.
-e:princess=happyfake
+s=princess;e:princess=contemplativehappy
 
 Pavel Petrovitch suffered even while Princess R﻿—﻿— loved him; but when she grew cold to him, and that happened rather quickly, he almost went out of his mind.
 s=none;f:b:princess-tryst=blur(3px)
@@ -1519,20 +1519,20 @@ He grew old and grey; spending all his evenings at the club, jaundiced and bored
 Ten years passed in this way; they passed by colourless and fruitless﻿—and quickly, fearfully quickly.
 
 
-Nowhere does time fly past as in Russia; in prison they say it flies even faster.<e>Conversely, time slows down when reading <book>The Gulag Archipelago|Solzhenitsyn</book>.</e>
+Nowhere does time fly past as in Russia; in prison they say it flies even faster.<e>For counterexample, see <book>The Gulag Archipelago|Solzhenitsyn</book>.</e>
 
 
 One day at dinner at the club, Pavel Petrovitch heard of the death of the Princess R﻿—﻿—. She had died at Paris in a state bordering on insanity.
-
+;f:b:petersburg-wide-night=blur(5px)
 
 He got up from the table, and a long time he paced about the rooms of the club, or stood stockstill near the cardplayers, but he did not go home earlier than usual.
 
 
 Some time later he received a packet addressed to him; in it was the ring he had given the princess. She had drawn lines in the shape of a cross over the sphinx and sent him word that the solution of the enigma﻿—was the cross.
-
+b=petersburg-conversation;f=fade;f:b:petersburg-conversation=blur(3px)
 
 This happened at the beginning of the year 1848, at the very time when Nikolai Petrovitch came to Petersburg, after the loss of his wife.
-b=petersburg-wide
+
 
 Pavel Petrovitch had scarcely seen his brother since the latter had settled in the country; the marriage of Nikolai Petrovitch had coincided with the very first days of Pavel Petrovitch’s acquaintance with the princess.
 
@@ -1543,26 +1543,23 @@ When he came back from abroad, he had gone to him with the intention of staying 
 In 1848, this difference had grown less; Nikolai Petrovitch had lost his wife, Pavel Petrovitch had lost his memories; after the death of the princess he tried not to think of her. But to Nikolai, there remained the sense of a well-spent life, his son was growing up under his eyes;
 
 
-Pavel, on the contrary, a solitary bachelor, was entering upon that indefinite twilight period of regrets that are akin to hopes, and hopes that are akin to regrets, when youth is over, while old age has not yet come.<e>Russian literature may be an awful slog, but all if forgiven when you get a sentence like this.</e>
+Pavel, on the contrary, a solitary bachelor, was entering upon that indefinite twilight period of regrets that are akin to hopes, and hopes that are akin to regrets, when youth is over, while old age has not yet come.<e>Damn.</e>
 
 
 This time was harder for Pavel Petrovitch than for another man; in losing his past, he lost everything.
 
 
 “I will not invite you to Maryino now,” Nikolai Petrovitch said to him one day,
-a:pavel=;b=petersburg-conversation;s=nikolai;e:nikolai=thinking;f=fade;m=break,1
+a:pavel=;b=petersburg-conversation;s=nikolai;e:nikolai=thinking;m=break,1;f:b:petersburg-conversation=;e:nikolai=wary;i=
 
 (he had called his property by that name in honour of his wife);
 s=
 
 “you were dull there in my dear wife’s time, and now I think you would be bored to death.”
-s=nikolai;i=2
+s=nikolai;i=2;e:nikolai=sadsmile;i=2
 
-“I was stupid and fidgety then,” answered Pavel Petrovitch;
-s=pavel;e:pavel=contemplative
-
-“since then I have grown quieter, if not wiser. On the contrary, now, if you will let me, I am ready to settle with you for good.”
-e:pavel=serious
+“I was stupid and fidgety then,” answered Pavel Petrovitch; “since then I have grown quieter, if not wiser. On the contrary, now, if you will let me, I am ready to settle with you for good.”
+s=pavel;e:pavel=contemplative;e:pavel=serious;i=2
 
 For all answer Nikolai Petrovitch embraced him; but a year and a half passed after this conversation, before Pavel Petrovitch made up his mind to carry out his intention.
 s=none;f:b:petersburg-conversation=blur(3px)
@@ -1586,43 +1583,46 @@ Ladies considered him enchantingly romantic, but he did not cultivate ladies’ 
 
 
 “So you see, Yevgeny,” observed Arkady, as he finished his story,
-b=maryino-terrace;f=fade;s=arkady;e:arkady=thinking;x:bazarov=hat,besmeared
+b=maryino-terrace;f=fade;s=arkady;e:arkady=thinking;x:bazarov=hat,besmeared;e:arkady=nervous;i=
 
-“how unjustly you judge of my uncle! To say nothing of his having more than once helped my father out of difficulties, given him all his money﻿—the property, perhaps you don’t know, wasn’t divided﻿—he’s glad to help anyone, among other things he always sticks up for the peasants; it’s true, when he talks to them he frowns and sniffs eau de cologne.”﻿ ﻿…
-e:arkady=unhappy
+“how unjustly you judge of my uncle! To say nothing of his having more than once helped my father out of difficulties, given him all his money﻿—the property, perhaps you don’t know, wasn’t divided﻿—”
+e:arkady=unhappy;m=allowbreak,1;m=nospace,1
+
+“he’s glad to help anyone, among other things he always sticks up for the peasants; it’s true, when he talks to them he frowns and sniffs eau de cologne.”﻿ ﻿…
+;e:arkady=confused;i=
 
 “His nerves, no doubt,” put in Bazarov.
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=thinking;i=
 
 “Perhaps; but his heart is very good. And he’s far from being stupid. What useful advice he has given me especially﻿ ﻿… especially in regard to relations with women.”
-s=arkady;e:arkady=sadsmile
+s=arkady;e:arkady=sadsmile;e:arkady=contemplative;i=
 
 “Aha! a scalded dog fears cold water, we know that!”
-s=bazarov;i=2
+s=bazarov;i=2;e:bazarov=smirking;i=2
 
 “In short,” continued Arkady, “he’s profoundly unhappy, believe me; it’s a sin to despise him.”
 s=arkady;e:arkady=serious
 
 “And who does despise him?” retorted Bazarov.
-s=bazarov;e:bazarov=smirking
+s=bazarov;e:bazarov=smirking;e:bazarov=serious;i=2
 
-“Still, I must say that a fellow who stakes his whole life on one card﻿—a woman’s love﻿—and when that card fails, turns sour, and lets himself go till he’s fit for nothing, is not a man, but a male.”<e><s>male</s> moid</e>
-e:bazarov=serious
+“Still, I must say that a fellow who stakes his whole life on one card﻿—a woman’s love﻿—and when that card fails, turns sour, and lets himself go till he’s fit for nothing, is not a man, but a male.”<e>moid</e>
+e:bazarov=serious;e:bazarov=annoyed;i=
 
 “You say he’s unhappy; you ought to know best; to be sure, he’s not got rid of all his fads. I’m convinced that he solemnly imagines himself a superior creature because he reads that wretched *Galignani*, and once a month saves a peasant from a flogging.”
-
+;e:bazarov=smirking;i=
 
 “But remember his education, the age in which he grew up,” observed Arkady.
-s=arkady;e:arkady=unhappy;i=2
+s=arkady;e:arkady=unhappy;i=2;e:arkady=nervous;i=
 
 “Education?” broke in Bazarov. “Every man must educate himself, just as I’ve done, for instance.﻿ ﻿… And as for the age, why should I depend on it? Let it rather depend on me. No, my dear fellow, that’s all shallowness, want of backbone!”
-s=bazarov;e:bazarov=annoyed
+s=bazarov;e:bazarov=annoyed;e:bazarov=annoyed;i=2
 
-“And what stuff it all is, about these mysterious relations between a man and woman? We physiologists know what these relations are. You study the anatomy of the eye; where does the enigmatical glance you talk about come in there?”
+“And what stuff it all is, about these mysterious relations between a man and woman? We physiologists know what these relations are. You study the anatomy of the eye; where does the enigmatical glance you talk about come in there? That’s all romantic, nonsensical, aesthetic rot.”
+;e:bazarov=annoyed;i=
 
-
-“That’s all romantic, nonsensical, aesthetic rot. We had much better go and look at the beetle.”
-e:bazarov=serious
+“We had much better go and look at the beetle.”
+e:bazarov=smirking;i=2
 
 And the two friends went off to Bazarov’s room, which was already pervaded by a sort of medico-surgical odour, mingled with the smell of cheap tobacco.
 s=;f:b:maryino-terrace=blur(3px)
