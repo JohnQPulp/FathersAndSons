@@ -2017,11 +2017,14 @@ b=maryino-arbour;x:bazarov=hat;x:arkady=hat
 He was walking with Arkady in the garden, and explaining to him why some of the trees, especially the oaks, had not done well.
 
 
-“You ought to have planted silver poplars here by preference, and spruce firs, and perhaps limes, giving them some loam. The arbour there has done well,” he added, “because it’s acacia and lilac; they’re accommodating good fellows, those trees, they don’t want much care.”
-s=bazarov;e:bazarov=serious
+“You ought to have planted silver poplars here by preference, and spruce firs, and perhaps limes, giving them some loam.”
+s=bazarov;e:bazarov=serious;e:bazarov=smirkinglook;i=;e:bazarov=bored;i=2;e:bazarov=;i=
+
+“The arbour there has done well,” he added, “because it’s acacia and lilac; they’re accommodating good fellows, those trees, they don’t want much care.”
+;e:bazarov=smirking;i=2
 
 “But there’s someone in here.”
-
+;e:bazarov=suspicious;i=
 
 In the arbour was sitting Fenitchka, with Dunyasha and Mitya. Bazarov stood still, while Arkady nodded to Fenitchka like an old friend.
 s=
@@ -2030,19 +2033,19 @@ s=
 s=bazarov;e:bazarov=curious
 
 “What a pretty girl!”
-e:bazarov=smirkinglook
+e:bazarov=smirkinglook;e:bazarov=smirking;i=2
 
 “Whom are you speaking of?”
-s=arkady;e:arkady=contemplative
+s=arkady;e:arkady=contemplative;e:arkady=contemplativelook;i=
 
 “You know; only one of them was pretty.”
-s=bazarov;e:bazarov=
+s=bazarov;e:bazarov=;e:bazarov=smirkinglook;i=
 
 Arkady, not without embarrassment, explained to him briefly who Fenitchka was.
 s=none
 
 “Aha!” commented Bazarov; “your father’s got good taste, one can see. I like him, your father, ay, ay! He’s a jolly fellow.”
-s=bazarov;e:bazarov=smirking
+s=bazarov;e:bazarov=smirking;e:bazarov=smirking;i=2
 
 “We must make friends though,” he added,
 e:bazarov=happy;m=break,1
@@ -2051,37 +2054,37 @@ and turned back towards the arbour.
 s=
 
 “Yevgeny!” Arkady cried after him in dismay;
-s=arkady;e:arkady=unhappy
+s=arkady;e:arkady=unhappy;e:arkady=nervous;i=
 
 “mind what you are about, for mercy’s sake.”
+;e:arkady=wary;i=;e:arkady=confused;i=2
 
-
-“Don’t worry yourself,” said Bazarov; “I know how to behave myself﻿—I’m not a booby.”<e>"Yevgeny Vassilyevitch, Boobzarov-limits."</e>
-s=bazarov;e:bazarov=smirking;i=2
+“Don’t worry yourself,” said Bazarov; “I know how to behave myself﻿—I’m not a booby.”
+s=bazarov;e:bazarov=smirking;i=2;e:bazarov=smirkinglook;i=
 
 Going up to Fenitchka, he took off his cap.
 x:bazarov=;s=none
 
 “Allow me to introduce myself,” he began, with a polite bow.
-s=bazarov;e:bazarov=neutrallookdown
+s=bazarov;e:bazarov=neutrallookdown;e:bazarov=curious;i=2
 
 “I’m a harmless person, and a friend of Arkady Nikolaevitch’s.”
-e:bazarov=happylook
+e:bazarov=happylook;e:bazarov=smirkinglook;i=
 
 Fenitchka got up from the garden seat and looked at him without speaking.
 s=none
 
-“What a splendid baby!” continued Bazarov; “don’t be uneasy, my praises have never brought ill-luck yet.”
+“What a splendid baby!” continued Bazarov;
 s=bazarov;e:bazarov=happy
 
-“Why is it his cheeks are so flushed? Is he cutting his teeth?”
-
+“don’t be uneasy, my praises have never brought ill-luck yet. Why is it his cheeks are so flushed? Is he cutting his teeth?”
+;e:bazarov=curious;i=
 
 “Yes,” said Fenitchka; “he has cut four teeth already, and now the gums are swollen again.”
-s=fenitchka;e:fenitchka=wary;x:fenitchka=kerchief
+s=fenitchka;e:fenitchka=wary;x:fenitchka=kerchief;e:fenitchka=confused;i=
 
 “Show me, and don’t be afraid, I’m a doctor.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=thinking;i=
 
 Bazarov took the baby up in his arms, and to the great astonishment both of Fenitchka and Dunyasha the child made no resistance, and was not frightened.
 s=none
@@ -2090,16 +2093,16 @@ s=none
 s=bazarov;e:bazarov=seriouslookdown
 
 “If anything goes wrong, tell me. And are you quite well yourself?”
-e:bazarov=seriouslook
+e:bazarov=seriouslook;e:bazarov=curious;i=2
 
 “Quite, thank God.”
-s=fenitchka;e:fenitchka=
+s=fenitchka;e:fenitchka=;e:fenitchka=wary;i=
 
 “Thank God, indeed﻿—that’s the great thing.”
 s=bazarov;e:bazarov=
 
 “And you?” he added, turning to Dunyasha.
-e:bazarov=neutrallook
+e:bazarov=neutrallook;e:bazarov=smirkinglook;i=
 
 Dunyasha, a girl very prim in the master’s house, and a romp outside the gates, only giggled in answer.
 s=none
@@ -2111,19 +2114,19 @@ Fenitchka received the baby in her arms.
 s=none
 
 “How good he was with you!” she commented in an undertone.
-s=fenitchka;e:fenitchka=thinking
+s=fenitchka;e:fenitchka=thinking;e:fenitchka=unhappy;i=2
 
 “Children are always good with me,” answered Bazarov; “I have a way with them.”
-s=bazarov;e:bazarov=
+s=bazarov;e:bazarov=;e:bazarov=happy;i=2
 
 “Children know who loves them,” remarked Dunyasha.
 s=dunyasha;e:dunyasha=curious
 
 “Yes, they certainly do,” Fenitchka said. “Why, Mitya will not go to some people for anything.”
-s=fenitchka;e:fenitchka=contemplative
+s=fenitchka;e:fenitchka=contemplative;e:fenitchka=contemplativelookdown;i=
 
 “Will he come to me?” asked Arkady,
-s=arkady;e:arkady=wary;m=break,1
+s=arkady;e:arkady=wary;m=break,1;e:arkady=confused;i=
 
 who, after standing in the distance for some time, had gone up to the arbour.
 s=
@@ -2132,10 +2135,10 @@ He tried to entice Mitya to come to him, but Mitya threw his head back and screa
 s=none
 
 “Another day, when he’s had time to get used to me,” said Arkady indulgently,
-m=break,1;s=arkady;e:arkady=happy
+m=break,1;s=arkady;e:arkady=happy;e:arkady=happy;i=2
 
 and the two friends walked away.
-b=maryino-wide;x:bazarov=hat;s=;e:arkady=neutral;f=fade
+x:bazarov=hat;s=;e:arkady=neutral
 
 “What’s her name?” asked Bazarov.
 s=bazarov;e:bazarov=curious
@@ -2153,22 +2156,22 @@ s=arkady;e:arkady=thinking
 s=bazarov;e:bazarov=thinking
 
 “She’s all right,” observed Arkady﻿—“but my father.”
-s=arkady;i=2
+s=arkady;i=2;e:arkady=;i=2
 
 “And he’s right too,” put in Bazarov.
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=smirking;i=2;e:bazarov=smirkinglook;i=
 
 “Well, no, I don’t think so.”
-s=arkady;e:arkady=unhappy
+s=arkady;e:arkady=unhappy;e:arkady=unhappy;i=2;e:arkady=unhappy;i=
 
 “I suppose an extra heir’s not to your liking?”
-s=bazarov;e:bazarov=smirking
+s=bazarov;e:bazarov=smirking;e:bazarov=smirking;i=2
 
 “I wonder you’re not ashamed to attribute such ideas to me!” retorted Arkady hotly;
-s=arkady;e:arkady=annoyed
+s=arkady;e:arkady=annoyed;e:arkady=serious;i=
 
 “I don’t consider my father wrong from that point of view; I think he ought to marry her.”
-e:arkady=unhappy;i=2
+e:arkady=unhappy;i=2;e:arkady=serious;i=2
 
 “Hoity-toity!” responded Bazarov tranquilly. “What magnanimous fellows we are! You still attach significance to marriage; I did not expect that of you.”
 s=bazarov;e:bazarov=suspicious
@@ -2177,31 +2180,31 @@ The friends walked a few paces in silence.
 s=none
 
 “I have looked at all your father’s establishment,” Bazarov began again.
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=contemplative;i=
 
 “The cattle are inferior, the horses are broken down; the buildings aren’t up to much, and the workmen look confirmed loafers; while the superintendent is either a fool, or a knave, I haven’t quite found out which yet.”
-
+;e:bazarov=suspicious;i=
 
 “You are rather hard on everything today, Yevgeny Vassilyevitch.”
-s=arkady;e:arkady=contemplative
+s=arkady;e:arkady=contemplative;e:arkady=contemplativelook;i=
 
 “And the dear good peasants are taking your father in to a dead certainty. You know the Russian proverb, ‘The Russian peasant will cheat God Himself.’ ”
-s=bazarov
+s=bazarov;e:bazarov=seriouslookdown;i=2;e:bazarov=annoyedlookdown;i=
 
 “I begin to agree with my uncle,” remarked Arkady; “you certainly have a poor opinion of Russians.”
-s=arkady;i=2
+s=arkady;i=2;e:arkady=curious;i=
 
 “As though that mattered! The only good point in a Russian is his having the lowest possible opinion of himself. What does matter is that two and two make four, and the rest is all foolery.”
-s=bazarov;e:bazarov=scowling
+s=bazarov;e:bazarov=scowling;e:bazarov=serious;i=
 
 “And is nature foolery?” said Arkady,
-s=arkady;e:arkady=contemplativelook;m=break,1
+s=arkady;e:arkady=contemplativelook;m=break,1;e:arkady=unhappy;i=2
 
 looking pensively at the bright-coloured fields in the distance, in the beautiful soft light of the sun, which was not yet high up in the sky.
 s=none
 
 “Nature, too, is foolery in the sense you understand it. Nature’s not a temple, but a workshop, and man’s the workman in it.”
-s=bazarov;e:bazarov=thinking
+s=bazarov;e:bazarov=thinking;e:bazarov=suspicious;i=
 
 At that instant, the long drawn notes of a violoncello floated out to them from the house.
 s=none
@@ -2210,22 +2213,22 @@ Someone was playing Schubert’s “Expectation” with much feeling, though wit
 
 
 “What’s that?” cried Bazarov in amazement.
-s=bazarov;e:bazarov=surprised
+s=bazarov;e:bazarov=surprised;i=2
 
 “It’s my father.”
-s=arkady;e:arkady=
+s=arkady;e:arkady=;e:arkady=;i=
 
 “Your father plays the violoncello?”
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=curious;e:bazarov=curious;i=
 
 “Yes.”
-s=arkady;i=2
+s=arkady;i=2;e:arkady=thinking;i=
 
 “And how old is your father?”
 s=bazarov;e:bazarov=suspicious
 
 “Forty-four.”
-s=arkady
+s=arkady;e:arkady=unhappy;i=2
 
 Bazarov suddenly burst into a roar of laughter.
 s=none
@@ -2234,10 +2237,10 @@ s=none
 s=arkady;e:arkady=confused
 
 “Upon my word, a man of forty-four, a *paterfamilias* in this out-of-the-way district, playing on the violoncello!”
-s=bazarov;e:bazarov=smirking
+s=bazarov;e:bazarov=smirking;e:bazarov=happy;i=
 
 Bazarov went on laughing; but much as he revered his master, this time Arkady did not even smile.
-s=none;f:b:maryino-wide=blur(3px)
+s=none;f:b:maryino-arbour=blur(3px)
 
 ## X
 r=title
