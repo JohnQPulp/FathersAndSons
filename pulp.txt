@@ -2888,19 +2888,22 @@ In vain, then, had he spent whole days sometimes in the winter at Petersburg ove
 
 
 “My brother says we are right,” he thought, “and apart from all vanity, I do think myself that they are further from the truth than we are, though at the same time I feel there is something behind them we have not got, some superiority over us.﻿ ﻿…”
-t=nikolai;e:nikolai=unhappy
+t=nikolai;e:nikolai=unhappy;e:nikolai=contemplative;i=
 
 “Is it youth? No; not only youth. Doesn’t their superiority consist in there being fewer traces of the slaveowner in them than in us?”
-
+;e:nikolai=thinking;i=
 
 Nikolai Petrovitch’s head sank despondently, and he passed his hand over his face.
 t=none
 
 “But to renounce poetry?” he thought again; “to have no feeling for art, for nature﻿ ﻿…”
-t=nikolai;e:nikolai=unhappyhand
+t=nikolai;e:nikolai=unhappyhand;e:nikolai=unhappy;i=
 
-And he looked round, as though trying to understand how it was possible to have no feeling for nature. It was already evening; the sun was hidden behind a small copse of aspens which lay a quarter of a mile from the garden; its shadow stretched indefinitely across the still fields.
+And he looked round, as though trying to understand how it was possible to have no feeling for nature.
 t=none
+
+It was already evening; the sun was hidden behind a small copse of aspens which lay a quarter of a mile from the garden; its shadow stretched indefinitely across the still fields.
+
 
 A peasant on a white nag went at a trot along the dark, narrow path close beside the copse; his whole figure was clearly visible even to the patch on his shoulder, in spite of his being in the shade; the horse’s hoofs flew along bravely.
 
@@ -2915,10 +2918,10 @@ The swallows flew high; the wind had quite died away, belated bees hummed slowly
 t=nikolai;m=break,1;e:nikolai=sadsmile
 
 and his favourite verses were almost on his lips; he remembered Arkady’s *Stoff und Kraft*﻿—and was silent, but still he sat there, still he gave himself up to the sorrowful consolation of solitary thought.
-t=none;f:b:maryino-arbour=blur(3px)
+t=none;
 
 He was fond of dreaming; his country life had developed the tendency in him.
-
+f:b:maryino-arbour=blur(3px)
 
 How short a time ago, he had been dreaming like this, waiting for his son at the posting station, and what a change already since that day; their relations that were then undefined, were defined now﻿—and how defined!
 
@@ -2939,7 +2942,7 @@ Where had it all vanished? She had been his wife, he had been happy as few on ea
 
 
 “But,” he mused, “these sweet first moments, why could one not live an eternal, undying life in them?”
-t=nikolai;e:nikolai=thinking
+m=dialogue,1
 
 He did not try to make his thought clear to himself; but he felt that he longed to keep that blissful time by something stronger than memory; he longed to feel his Marya near him again to have the sense of her warmth and breathing, and already he could fancy that over him.﻿ ﻿…
 t=none
@@ -2950,20 +2953,17 @@ m=nospeaker,1;s=fenitchka;e:fenitchka=curious;x:fenitchka=kerchief;
 He started.
 s=;b=maryino-arbour-night
 
-He felt no pang, no shame. He never even admitted the possibility of comparison between his wife and Fenitchka, but he was sorry she had thought of coming to look for him.
+He felt no pang, no shame. He never even admitted the possibility of comparison between his wife and Fenitchka, but he was sorry she had thought of coming to look for him. Her voice had brought back to him at once his grey hairs, his age, his reality.﻿ ﻿…
 s=none
-
-Her voice had brought back to him at once his grey hairs, his age, his reality.﻿ ﻿…
-
 
 The enchanted world into which he was just stepping, which was just rising out of the dim mists of the past, was shaken﻿—and vanished.
 
 
 “I’m here,” he answered; “I’m coming, run along.”
-s=nikolai;e:nikolai=neutral
+s=nikolai;e:nikolai=neutral;e:nikolai=confusedlook;i=
 
 “There it is, the traces of the slave owner,” flashed through his mind.
-s=none;t=nikolai;e:nikolai=contemplative
+s=none;m=dialogue,1
 
 Fenitchka peeped into the arbour at him without speaking, and disappeared; while he noticed with astonishment that the night had come on while he had been dreaming.
 t=none
@@ -2980,17 +2980,20 @@ f:b:maryino-arbour-night=blur(3px)
 Arkady himself would have condemned him. He, a man forty-four years old, an agriculturist and a farmer, was shedding tears, causeless tears; this was a hundred times worse than the violoncello.
 
 
-Nikolai Petrovitch continued walking, and could not make up his mind to go into the house, into the snug peaceful nest, which looked out at him so hospitably from all its lighted windows; he had not the force to tear himself away from the darkness, the garden, the sense of the fresh air in his face, from that melancholy, that restless craving.
+Nikolai Petrovitch continued walking, and could not make up his mind to go into the house, into the snug peaceful nest, which looked out at him so hospitably from all its lighted windows;
+
+
+he had not the force to tear himself away from the darkness, the garden, the sense of the fresh air in his face, from that melancholy, that restless craving.
 
 
 At a turn in the path, he was met by Pavel Petrovitch.
 x:pavel=fez;f:b:maryino-arbour-night=
 
 “What’s the matter with you?” he asked Nikolai Petrovitch; “you are as white as a ghost; you are not well; why don’t you go to bed?”
-s=pavel;e:pavel=serious
+s=pavel;e:pavel=serious;e:pavel=confused;i=2
 
 Nikolai Petrovitch explained to him briefly his state of feeling and moved away.
-s=none
+s=none;
 
 Pavel Petrovitch went to the end of the garden, and he too grew thoughtful, and he too raised his eyes toward the heavens.
 
@@ -2999,25 +3002,22 @@ But in his beautiful dark eyes, nothing was reflected but the light of the stars
 f:b:maryino-arbour-night=blur(3px)
 
 “Do you know what?” Bazarov was saying to Arkady the same night.
-b=maryino-arkady-night;f=fade;x:bazarov=night;x:arkady=night;s=bazarov;e:bazarov=
+b=maryino-arkady-night;f=fade;x:bazarov=night;x:arkady=night;s=bazarov;e:bazarov=;e:bazarov=bored;i=
 
 “I’ve got a splendid idea. Your father was saying today that he’d had an invitation from your illustrious relative. Your father’s not going; let us be off to X﻿—﻿—; you know the worthy man invites you too.”
-s=bazarov;e:bazarov=happy
+s=bazarov;e:bazarov=happy;e:bazarov=serious;i=;e:bazarov=;i=
 
 “You see what fine weather it is; we’ll stroll about and look at the town. We’ll have five or six days’ outing, and enjoy ourselves.”
-e:bazarov=happy
+e:bazarov=happy;e:bazarov=serious;i=
 
 “And you’ll come back here again?”
-s=arkady;e:arkady=curious
+s=arkady;e:arkady=curious;e:arkady=contemplative;i=
 
-“No; I must go to my father’s. You know, he lives about twenty-five miles from X﻿—﻿—. I’ve not seen him for a long while, and my mother too; I must cheer the old people up.”
-s=bazarov;e:bazarov=serious
-
-“They’ve been good to me, especially my father; he’s awfully funny. I’m their only one too.”
-e:bazarov=thinking
+“No; I must go to my father’s. You know, he lives about twenty-five miles from X﻿—﻿—. I’ve not seen him for a long while, and my mother too; I must cheer the old people up. They’ve been good to me, especially my father; he’s awfully funny. I’m their only one too.”
+s=bazarov;e:bazarov=serious;e:bazarov=thinking;i=
 
 “And will you be long with them?”
-s=arkady;e:arkady=contemplative
+s=arkady;e:arkady=contemplative;e:arkady=;i=2
 
 “I don’t suppose so. It will be dull, of course.”
 s=bazarov;e:bazarov=;i=2
@@ -3026,22 +3026,28 @@ s=bazarov;e:bazarov=;i=2
 s=arkady;e:arkady=thinking
 
 “I don’t know﻿ ﻿… I’ll see.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=;i=;e:bazarov=bored;i=
 
 “Well, what do you say? Shall we go?”
-e:bazarov=
+e:bazarov=;e:bazarov=;i=
 
 “If you like,” observed Arkady languidly.
-s=arkady;e:arkady=;i=2
+s=arkady;e:arkady=;i=2;e:arkady=contemplative;i=2
 
 In his heart he was highly delighted with his friend’s suggestion, but he thought it a duty to conceal his feeling.
-s=none;f:b:maryino-arkady-night=blur(3px)
+s=none
 
-He was not a nihilist for nothing!<e>Cheekiest exclamation point in all literature.</e>
+He was not a nihilist for nothing!<e>Literature's cheekiest exclamation.</e>
+;f:b:maryino-arkady-night=blur(3px)
+
+The next day he set off with Bazarov to X﻿—﻿—.
+b=maryino-meadows-road
+
+The younger part of the household at Maryino were sorry at their going; Dunyasha even cried﻿ ﻿…
 
 
-The next day he set off with Bazarov to X﻿—﻿—. The younger part of the household at Maryino were sorry at their going; Dunyasha even cried﻿ ﻿… but the old folks breathed more easily.
-b=maryino-wide;f:b:maryino-wide=blur(3px)
+but the old folks breathed more easily.
+;f:b:maryino-meadows-road=blur(3px)
 
 ## XII
 r=title
