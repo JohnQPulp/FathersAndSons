@@ -2282,64 +2282,55 @@ Prokofitch in his own way was quite as much of an aristocrat as Pavel Petrovitch
 
 
 The best days of the year had come﻿—the first days of June. The weather kept splendidly fine; in the distance, it is true, the cholera was threatening, but the inhabitants of that province had had time to get used to its visits.
+
+
+Bazarov used to get up very early and go out for two or three miles, not for a walk﻿—he couldn’t bear walking without an object﻿—but to collect specimens of plants and insects. Sometimes he took Arkady with him.
 b=maryino-marsh;f:b:maryino-marsh=blur(3px)
-
-Bazarov used to get up very early and go out for two or three miles, not for a walk﻿—he couldn’t bear walking without an object﻿—but to collect specimens of plants and insects.
-
-
-Sometimes he took Arkady with him.
-
 
 On the way home an argument usually sprang up, and Arkady was usually vanquished in it, though he said more than his companion.
 
 
-One day they had lingered rather late; Nikolai Petrovitch went to meet them in the garden,
-b=maryino-arbour;x:arkady=hat;x:bazarov=hat;f:b:maryino-arbour=blur(3px);m=break,1
-
-and as he reached the arbour he suddenly heard the quick steps and voices of the two young men.
-f:b:maryino-arbour=
+One day they had lingered rather late; Nikolai Petrovitch went to meet them in the garden, and as he reached the arbour he suddenly heard the quick steps and voices of the two young men.
+b=maryino-arbour;x:arkady=hat;x:bazarov=hat
 
 They were walking on the other side of the arbour, and could not see him.
 
 
 “You don’t know my father well enough,” said Arkady.
-s=arkady;e:arkady=contemplative
+s=arkady;e:arkady=contemplative;e:arkady=thinking;i=
 
 “Your father’s a nice chap,” said Bazarov, “but he’s behind the times; his day is done.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=suspicious;i=
 
-Nikolai Petrovitch listened intently.﻿ ﻿…
-s=none
-
-Arkady made no answer.
-
+Nikolai Petrovitch listened intently.﻿ ﻿… Arkady made no answer.
+s=none;
 
 The man whose day was done remained two minutes motionless, and stole slowly home.
 f:b:maryino-arbour=blur(3px)
 
 “The day before yesterday I saw him reading Pushkin,” Bazarov was continuing meanwhile.
-s=bazarov;m=break,1;f=fade;e:bazarov=serious
+s=bazarov;m=break,1;e:bazarov=serious;f:b:maryino-arbour=
 
 “Explain to him, please, that that’s no earthly use. He’s not a boy, you know; it’s time to throw up that rubbish. And what an idea to be a romantic at this time of day! Give him something sensible to read.”
-s=bazarov;e:bazarov=smirking
+s=bazarov;e:bazarov=smirking;e:bazarov=annoyed;i=2
 
 “What ought I to give him?” asked Arkady.
-s=arkady;e:arkady=curious
+s=arkady;e:arkady=curious;e:arkady=confused;i=
 
 “Oh, I think Büchner’s *Stoff und Kraft* to begin with.”
-s=bazarov;e:bazarov=
+s=bazarov;e:bazarov=;e:bazarov=smirking;i=2
 
 “I think so too,” observed Arkady approving,
-s=arkady;e:arkady=happy
+s=arkady;e:arkady=happy;e:arkady=;i=;e:arkady=contemplativelook;i=
 
 “*Stoff und Kraft* is written in popular language.﻿ ﻿…”
-
+;e:arkady=curious;i=
 
 “So it seems,” Nikolai Petrovitch said the same day after dinner to his brother, as he sat in his study,
-b=maryino-nikolai-study;f=fade;s=nikolai;e:nikolai=sadsmile;f:b:maryino-nikolai-study=
+b=maryino-nikolai-study;f=fade;s=nikolai;e:nikolai=sadsmile;f:b:maryino-nikolai-study=;e:nikolai=wary;i=
 
 “you and I are behind the times, our day’s over. Well, well. Perhaps Bazarov is right;”
-
+;e:nikolai=sadsmile;i=
 
 “but one thing I confess, makes me feel sore; I did so hope, precisely now, to get on to such close intimate terms with Arkady, and it turns out I’m left behind, and he has gone forward, and we can’t understand one another.”
 e:nikolai=unhappy
@@ -2348,31 +2339,31 @@ e:nikolai=unhappy
 s=pavel;e:pavel=scowling;x:pavel=fez
 
 “It’s that high and mighty gentleman, that nihilist, who’s knocked all that into his head. I hate that doctor fellow; in my opinion, he’s simply a quack; I’m convinced, for all his tadpoles, he’s not got very far even in medicine.”
-
+;e:pavel=seriousmoustache;i=
 
 “No, brother, you mustn’t say that; Bazarov is clever, and knows his subject.”
-s=nikolai;e:nikolai=neutral
+s=nikolai;e:nikolai=neutral;e:nikolai=contemplativeforehead;i=
 
 “And his conceit’s something revolting,” Pavel Petrovitch broke in again.
-s=pavel;e:pavel=annoyed
+s=pavel;e:pavel=annoyed;e:pavel=angry;i=2
 
-“Yes,” observed Nikolai Petrovitch, “he is conceited. But there’s no doing without that, it seems; only that’s what I did not take into account.”
-s=nikolai;e:nikolai=thinking
+“Yes,” observed Nikolai Petrovitch, “he is conceited. But there’s no doing without that, it seems; only that’s what I did not take into account. I thought I was doing everything to keep up with the times;”
+s=nikolai;e:nikolai=thinking;e:nikolai=unhappy;i=;e:nikolai=wary;i=
 
-“I thought I was doing everything to keep up with the times; I have started a model farm; I have done well by the peasants, so that I am positively called a ‘Red Radical’ all over the province; I read, I study, I try in every way to keep abreast with the requirements of the day﻿—and they say my day’s over.”
-
+“I have started a model farm; I have done well by the peasants, so that I am positively called a ‘Red Radical’ all over the province; I read, I study, I try in every way to keep abreast with the requirements of the day﻿—and they say my day’s over.”
+;e:nikolai=unhappy;
 
 “And, brother, I begin to think that it is.”
-e:nikolai=serious
+e:nikolai=serious;e:nikolai=unhappy;i=2;e:nikolai=sadsmile;i=2
 
 “Why so?”
-s=pavel;e:pavel=serious
+s=pavel;e:pavel=serious;e:pavel=serious;i=2
 
 “I’ll tell you why. This morning I was sitting reading Pushkin.﻿ ﻿… I remember, it happened to be *The Gipsies*﻿ ﻿…”
-s=nikolai;e:nikolai=contemplative
+s=nikolai;e:nikolai=contemplative;e:nikolai=confused;i=;e:nikolai=confused;i=
 
 “all of a sudden Arkady came up to me, and, without speaking, with such a kindly compassion on his face, as gently as if I were a baby, took the book away from me, and laid another before me﻿—a German book﻿ ﻿… smiled, and went away, carrying Pushkin off with him.”
-
+;e:nikolai=unhappy;i=2;e:nikolai=confused;i=2
 
 “Upon my word! What book did he give you?”
 s=pavel;e:pavel=confused
@@ -2386,11 +2377,8 @@ s=none
 Pavel Petrovitch turned it over in his hands.
 
 
-“Hm!” he growled.
-t=pavel;e:pavel=serious
-
-“Arkady Nikolaevitch is taking your education in hand. Well, did you try reading it?”
-t=;s=pavel;e:pavel=suspicious
+“Hm!” he growled. “Arkady Nikolaevitch is taking your education in hand. Well, did you try reading it?”
+s=pavel;e:pavel=serious;e:pavel=confused;i=;e:pavel=contemplative;i=
 
 “Yes, I tried it.”
 s=nikolai;e:nikolai=thinking
@@ -2402,10 +2390,10 @@ s=pavel;i=2
 s=nikolai;e:nikolai=unhappy
 
 “Haven’t you forgotten your German?” queried Pavel Petrovitch.
-s=pavel;e:pavel=serious
+s=pavel;e:pavel=serious;e:pavel=confused;i=
 
 “Oh, I understand the German.”
-s=nikolai;e:nikolai=thinking
+s=nikolai;e:nikolai=thinking;e:nikolai=unhappy;i=2;e:nikolai=wary;i=
 
 Pavel Petrovitch again turned the book over in his hands, and glanced from under his brows at his brother.
 s=none
@@ -2413,14 +2401,11 @@ s=none
 Both were silent.
 
 
-“Oh, by the way,” began Nikolai Petrovitch,
-s=nikolai;m=break,1;e:nikolai=contemplative;m=break,1
-
-obviously wishing to change the subject,
-s=
+“Oh, by the way,” began Nikolai Petrovitch, obviously wishing to change the subject,
+s=nikolai;m=break,1;e:nikolai=contemplative;m=break,1;e:nikolai=contemplativelookdown;i=
 
 “I’ve got a letter from Kolyazin.”
-s=nikolai;e:nikolai=curious
+s=nikolai;e:nikolai=curious;e:nikolai=contemplativelook;i=
 
 “Matvy Ilyitch?”
 s=pavel;e:pavel=contemplative
@@ -2429,19 +2414,19 @@ s=pavel;e:pavel=contemplative
 s=nikolai;e:nikolai=thinking
 
 “Are you going?” asked Pavel Petrovitch.
-s=pavel;i=2
+s=pavel;i=2;e:pavel=suspicious;i=2
 
 “No; are you?”
-s=nikolai;i=2
+s=nikolai;i=2;e:nikolai=contemplative;i=
 
 “No, I shan’t go either. Much object there would be in dragging oneself over forty miles on a wild-goose chase. *Mathieu* wants to show himself in all his glory.”
-s=pavel;e:pavel=serious
+s=pavel;e:pavel=serious;e:pavel=suspicious;i=;e:pavel=annoyedlook;i=
 
 “Damn him! he will have the whole province doing him homage; he can get on without the likes of us. A grand dignity, indeed, a privy councillor!”
-e:pavel=angry
+e:pavel=angry;e:pavel=scowling;i=;e:pavel=serious;i=
 
 “If I had stayed in the service, if I had drudged on in official harness, I should have been a general-adjutant by now. Besides, you and I are behind the times, you know.”
-e:pavel=annoyed
+e:pavel=annoyed;e:pavel=suspicious;i=2
 
 “Yes, brother; it’s time, it seems, to order a coffin and cross one’s arms on one’s breast,” remarked Nikolai Petrovitch, with a sigh.
 s=nikolai;e:nikolai=unhappy
@@ -2450,7 +2435,7 @@ s=nikolai;e:nikolai=unhappy
 s=pavel;e:pavel=annoyed;i=2
 
 A tussle came off that same day at evening tea.
-b=maryino-drawing-night;f=fade;x:arkady=;x:bazarov=;s=none
+b=maryino-drawing;f=fade;x:arkady=;x:bazarov=;s=none
 
 Pavel Petrovitch came into the drawing-room, all ready for the fray, irritable and determined. He was only waiting for an excuse to fall upon the enemy; but for a long while an excuse did not present itself.
 
@@ -2462,73 +2447,73 @@ The conversation turned on one of the neighbouring landowners.
 
 
 “Rotten aristocratic snob,” observed Bazarov indifferently.
-s=bazarov;e:bazarov=
+s=bazarov;e:bazarov=;e:bazarov=thinking;i=
 
 He had met him in Petersburg.
 s=none
 
-“Allow me to ask you,” began Pavel Petrovitch,
-s=pavel;e:pavel=annoyed;m=break,1
-
-and his lips were trembling,
-s=
+“Allow me to ask you,” began Pavel Petrovitch, and his lips were trembling,
+s=pavel;e:pavel=annoyed;m=break,1;e:pavel=serious;i=2
 
 “according to your ideas, have the words ‘rotten’ and ‘aristocrat’ the same meaning?”
-s=pavel;i=2
+s=pavel;i=2;e:pavel=angry;i=2
 
 “I said ‘aristocratic snob,’ ” replied Bazarov,
-s=bazarov;e:bazarov=bored;m=break,1
+s=bazarov;e:bazarov=bored;m=break,1;e:bazarov=neutrallookdown;i=
 
 lazily swallowing a sip of tea.
 s=
 
 “Precisely so; but I imagine you have the same opinion of aristocrats as of aristocratic snobs. I think it my duty to inform you that I do not share that opinion.”
-s=pavel;e:pavel=scowling
+s=pavel;e:pavel=scowling;e:pavel=seriousmoustache;i=;e:pavel=suspicious;i=
 
 “I venture to assert that everyone knows me for a man of liberal ideas and devoted to progress; but, exactly for that reason, I respect aristocrats﻿—real aristocrats. Kindly remember, sir”
-m=break,1
+m=break,1;e:pavel=seriousmoustache;i=;e:pavel=annoyedlook;i=
 
 (at these words Bazarov lifted his eyes and looked at Pavel Petrovitch),
 s=none
 
 “kindly remember, sir,” he repeated, with acrimony﻿—“the English aristocracy. They do not abate one iota of their rights, and for that reason they respect the rights of others; they demand the performance of what is due to them, and for that reason they perform their own duties.”
-s=pavel;e:pavel=serious
+s=pavel;e:pavel=serious;e:pavel=angry;i=2
 
 “The aristocracy has given freedom to England, and maintains it for her.”
-
+;e:pavel=annoyed;i=2
 
 “We’ve heard that story a good many times,” replied Bazarov; “but what are you trying to prove by that?”
-s=bazarov;e:bazarov=smirking
+s=bazarov;e:bazarov=smirking;e:bazarov=smirkinglook;i=
 
 “I am tryin’ to prove by that, sir”
-s=pavel;m=break,1;e:pavel=angry
+s=pavel;m=break,1;e:pavel=angry;e:pavel=serious;i=
 
-(when Pavel Petrovitch was angry he intentionally clipped his words in this way, though, of course, he knew very well that such forms are not strictly grammatical. In this fashionable whim could be discerned a survival of the habits of the times of Alexander. The exquisites of those days, on the rare occasions when they spoke their own language, made use of such slipshod forms; as much as to say, “We, of course, are born Russians, at the same time we are great swells, who are at liberty to neglect the rules of scholars”);
+(when Pavel Petrovitch was angry he intentionally clipped his words in this way, though, of course, he knew very well that such forms are not strictly grammatical. In this fashionable whim could be discerned a survival of the habits of the times of Alexander.
 s=none
+
+The exquisites of those days, on the rare occasions when they spoke their own language, made use of such slipshod forms; as much as to say, “We, of course, are born Russians, at the same time we are great swells, who are at liberty to neglect the rules of scholars”);
+
 
 “I am tryin’ to prove by that, sir, that without the sense of personal dignity, without self-respect﻿—and these two sentiments are well developed in the aristocrat﻿—there is no secure foundation for the social﻿ ﻿… *bien public*﻿ ﻿… the social fabric.”
 s=pavel;i=2
 
 “Personal character, sir﻿—that is the chief thing; a man’s personal character must be firm as a rock, since everything is built on it. I am very well aware, for instance, that you are pleased to consider my habits, my dress, my refinements, in fact, ridiculous;”
-e:pavel=serious
+e:pavel=serious;e:pavel=suspicious;i=
 
 “but all that proceeds from a sense of self-respect, from a sense of duty﻿—yes, indeed, of duty. I live in the country, in the wilds, but I will not lower myself. I respect the dignity of man in myself.”
-
+;e:pavel=annoyedlook;i=
 
 “Let me ask you, Pavel Petrovitch,” commented Bazarov; “you respect yourself, and sit with your hands folded; what sort of benefit does that do to the *bien public*? If you didn’t respect yourself, you’d do just the same.”
-s=bazarov;e:bazarov=smirking
+s=bazarov;e:bazarov=smirking;e:bazarov=suspicious;i=
 
 Pavel Petrovitch turned white.
 s=none
 
 “That’s a different question. It’s absolutely unnecessary for me to explain to you now why I sit with folded hands, as you are pleased to express yourself.”
-s=pavel;e:pavel=annoyed
+s=pavel;e:pavel=annoyed;e:pavel=serious;i=
 
 “I wish only to tell you that aristocracy is a principle, and in our days none but immoral or silly people can live without principles. I said that to Arkady the day after he came home, and I repeat it now.”
-
+;e:pavel=suspicious;i=
 
 “Isn’t it so, Nikolai?”
-e:pavel=annoyedlook
+e:pavel=annoyedlook;e:pavel=suspicious;i=2
 
 Nikolai Petrovitch nodded his head.
 s=none
@@ -2537,10 +2522,10 @@ s=none
 s=bazarov;e:bazarov=thinking
 
 “if you think of it, what a lot of foreign﻿ ﻿… and useless words! To a Russian they’re good for nothing.”
-s=bazarov
+s=bazarov;e:bazarov=annoyed;i=
 
 “What is good for something according to you? If we listen to you, we shall find ourselves outside humanity, outside its laws. Come﻿—the logic of history demands﻿ ﻿…”
-s=pavel;e:pavel=serious
+s=pavel;e:pavel=serious;e:pavel=serious;i=2
 
 “But what’s that logic to us? We can get on without that too.”
 s=bazarov;e:bazarov=serious
@@ -2558,16 +2543,16 @@ s=none
 s=pavel;e:pavel=annoyedhands
 
 “I’ve told you already, uncle, that we don’t accept any authorities,” put in Arkady.
-s=arkady;e:arkady=
+s=arkady;e:arkady=;e:arkady=serious;i=
 
 “We act by virtue of what we recognise as beneficial,” observed Bazarov. “At the present time, negation is the most beneficial of all﻿—and we deny﻿—”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=suspicious;i=
 
 “Everything?”
-s=pavel;e:pavel=suspicious;i=2
+s=pavel;e:pavel=suspicious;i=2;e:pavel=scowling;i=2
 
 “Everything!”
-s=bazarov;i=2
+s=bazarov;i=2;e:bazarov=serious;i=
 
 “What? not only art and poetry﻿ ﻿… but even﻿ ﻿… horrible to say﻿ ﻿…”
 s=pavel;e:pavel=serious
@@ -2582,37 +2567,40 @@ He had not expected this; while Arkady fairly blushed with delight.
 
 
 “Allow me, though,” began Nikolai Petrovitch.
-s=nikolai;e:nikolai=contemplative
+s=nikolai;e:nikolai=contemplative;e:nikolai=unhappy;i=
 
 “You deny everything; or, speaking more precisely, you destroy everything.﻿ ﻿… But one must construct too, you know.”
-
+;e:nikolai=wary;i=
 
 “That’s not our business now.﻿ ﻿… The ground wants clearing first.”
-s=bazarov;e:bazarov=
+s=bazarov;e:bazarov=;e:bazarov=seriouslookdown;i=
 
-“The present condition of the people requires it,” added Arkady, with dignity; “we are bound to carry out these requirements, we have no right to yield to the satisfaction of our personal egoism.”
-s=arkady;e:arkady=thinking
+“The present condition of the people requires it,” added Arkady, with dignity;
+s=arkady;e:arkady=thinking;e:arkady=thinking;i=
+
+“we are bound to carry out these requirements, we have no right to yield to the satisfaction of our personal egoism.”
+;e:arkady=suspicious;i=
 
 This last phrase obviously displeased Bazarov; there was a flavour of philosophy, that is to say, romanticism about it, for Bazarov called philosophy, too, romanticism, but he did not think it necessary to correct his young disciple.
 s=none
 
 “No, no!” cried Pavel Petrovitch, with sudden energy.
-s=pavel;e:pavel=angry
+s=pavel;e:pavel=angry;e:pavel=scowling;i=
 
 “I’m not willing to believe that you, young men, know the Russian people really, that you are the representatives of their requirements, their efforts! No; the Russian people is not what you imagine it. Tradition it holds sacred; it is a patriarchal people; it cannot live without faith﻿ ﻿…”
-
+;e:pavel=angrylook;i=
 
 “I’m not going to dispute that,” Bazarov interrupted. “I’m even ready to agree that in that you’re right.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=thinking;i=
 
 “But if I am right﻿ ﻿…”
-s=pavel;e:pavel=serious
+s=pavel;e:pavel=serious;e:pavel=scowling;i=2
 
 “And, all the same, that proves nothing.”
-s=bazarov;i=2
+s=bazarov;i=2;e:bazarov=thinking;i=;e:bazarov=suspicious;i=
 
 “It just proves nothing,” repeated Arkady,
-s=arkady;m=break,1;e:arkady=serious
+s=arkady;m=break,1;e:arkady=serious;e:arkady=thinking;i=2
 
 with the confidence of a practised chess-player, who has foreseen an apparently dangerous move on the part of his adversary, and so is not at all taken aback by it.
 s=none
@@ -2621,25 +2609,25 @@ s=none
 s=pavel;e:pavel=confused
 
 “You must be going against the people then?”
-e:pavel=serious
+e:pavel=serious;e:pavel=confused;i=2
 
 “And what if we are?” shouted Bazarov. “The people imagine that, when it thunders, the prophet Ilya’s riding across the sky in his chariot. What then? Are we to agree with them? Besides, the people’s Russian; but am I not Russian too?”
-s=bazarov;e:bazarov=scowling
+s=bazarov;e:bazarov=scowling;e:bazarov=serious;i=2
 
 “No, you are not Russian, after all you have just been saying! I can’t acknowledge you as Russian.”
-s=pavel;e:pavel=angry
+s=pavel;e:pavel=angry;e:pavel=serious;i=
 
 “My grandfather ploughed the land,” answered Bazarov with haughty pride.
 s=bazarov;e:bazarov=smirking
 
 “Ask any one of your peasants which of us﻿—you or me﻿—he’d more readily acknowledge as a fellow-countryman. You don’t even know how to talk to them.”
-
+;e:bazarov=smirkinglook;i=
 
 “While you talk to him and despise him at the same time.”
-s=pavel;e:pavel=serious
+s=pavel;e:pavel=serious;e:pavel=angry;i=2
 
 “Well, suppose he deserves contempt. You find fault with my attitude, but how do you know that I have got it by chance, that it’s not a product of that very national spirit, in the name of which you wage war on it?”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=thinking;i=
 
 “What an idea! Much use in nihilists!”
 s=pavel;e:pavel=smirking
@@ -2648,16 +2636,16 @@ s=pavel;e:pavel=smirking
 s=bazarov;e:bazarov=suspicious
 
 “Gentlemen, gentlemen, no personalities, please!” cried Nikolai Petrovitch, getting up.
-s=nikolai;e:nikolai=upset
+s=nikolai;e:nikolai=upset;e:nikolai=upset;i=2
 
 Pavel Petrovitch smiled, and laying his hand on his brother’s shoulder, forced him to sit down again.
 s=none
 
 “Don’t be uneasy,” he said; “I shall not forget myself, just through that sense of dignity which is made fun of so mercilessly by our friend﻿—our friend, the doctor.”
-s=pavel;e:pavel=smirkinglookdown;m=break,1;i=2
+s=pavel;e:pavel=smirkinglookdown;m=break,1;i=2;e:pavel=smirking;i=2;e:pavel=curious;i=2
 
 “Let me ask,” he resumed, turning again to Bazarov;
-e:pavel=serious
+e:pavel=serious;e:pavel=suspicious;i=
 
 “you suppose, possibly, that your doctrine is a novelty? That is quite a mistake. The materialism you advocate has been more than once in vogue already, and has always proved insufficient﻿ ﻿…”
 s=pavel;e:pavel=smirking;i=2
@@ -2669,31 +2657,31 @@ He was beginning to feel vicious, and his face assumed a peculiar coarse coppery
 s=none
 
 “In the first place, we advocate nothing; that’s not our way.”
-s=bazarov;i=2
+s=bazarov;i=2;e:bazarov=serious;i=
 
 “What do you do, then?”
 s=pavel;e:pavel=suspicious
 
 “I’ll tell you what we do. Not long ago we used to say that our officials took bribes, that we had no roads, no commerce, no real justice﻿ ﻿…”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=seriouslookdown;i=
 
 “Oh, I see, you are reformers﻿—that’s what that’s called, I fancy. I too should agree to many of your reforms, but﻿ ﻿…”
 s=pavel;e:pavel=serious
 
 “Then we suspected that talk, perpetual talk, and nothing but talk, about our social diseases, was not worth while, that it all led to nothing but superficiality and pedantry;”
-s=bazarov
+s=bazarov;e:bazarov=suspicious;i=
 
 “we saw that our leading men, so-called advanced people and reformers, are no good; that we busy ourselves over foolery, talk rubbish about art, unconscious creativeness, parliamentarism, trial by jury, and the deuce knows what all;”
-
+;e:bazarov=annoyed;i=
 
 “while, all the while, it’s a question of getting bread to eat, while we’re stifling under the grossest superstition, while all our enterprises come to grief, simply because there aren’t honest men enough to carry them on,”
-m=break,1;e:bazarov=scowling
+m=break,1;e:bazarov=scowling;e:bazarov=serious;i=2
 
 “while the very emancipation our Government’s busy upon will hardly come to any good, because peasants are glad to rob even themselves to get drunk at the gin-shop.”
-
+;e:bazarov=serious;i=2;e:bazarov=seriouslookdown;i=
 
 “Yes,” interposed Pavel Petrovitch, “yes; you were convinced of all this, and decided not to undertake anything seriously, yourselves.”
-s=pavel
+s=pavel;e:pavel=annoyedlook;i=
 
 “We decided not to undertake anything,” repeated Bazarov grimly.
 s=bazarov;e:bazarov=annoyed
@@ -2702,16 +2690,16 @@ He suddenly felt vexed with himself for having, without reason, been so expansiv
 s=none
 
 “But to confine yourselves to abuse?”
-s=pavel;e:pavel=contemplative
+s=pavel;e:pavel=contemplative;e:pavel=suspicious;i=
 
 “To confine ourselves to abuse.”
 s=bazarov;e:bazarov=thinking
 
 “And that is called nihilism?”
-s=pavel;i=2
+s=pavel;i=2;e:pavel=contemplative;i=
 
 “And that’s called nihilism,” Bazarov repeated again, this time with peculiar rudeness.
-s=bazarov;e:bazarov=annoyed
+s=bazarov;e:bazarov=annoyed;e:bazarov=serious;i=
 
 Pavel Petrovitch puckered up his face a little.
 s=none
@@ -2720,28 +2708,31 @@ s=none
 s=pavel;e:pavel=thinking
 
 “Nihilism is to cure all our woes, and you, you are our heroes and saviours. But why do you abuse others, those reformers even? Don’t you do as much talking as everyone else?”
-
+;e:pavel=annoyedlook;i=
 
 “Whatever faults we have, we do not err in that way,” Bazarov muttered between his teeth.
 s=bazarov;e:bazarov=annoyed
 
 “What, then? Do you act, or what? Are you preparing for action?”
-s=pavel
+s=pavel;e:pavel=serious;i=2
 
-Bazarov made no answer. Something like a tremor passed over Pavel Petrovitch, but he at once regained control of himself.
+Bazarov made no answer.
 s=none
 
+Something like a tremor passed over Pavel Petrovitch, but he at once regained control of himself.
+
+
 “Hm!﻿ ﻿… Action, destruction﻿ ﻿…” he went on. “But how destroy without even knowing why?”
-s=pavel;e:pavel=smirking
+s=pavel;e:pavel=smirking;e:pavel=curious;i=2
 
 “We shall destroy, because we are a force,” observed Arkady.
-s=arkady;e:arkady=serious
+s=arkady;e:arkady=serious;e:arkady=warylookdown;i=
 
 Pavel Petrovitch looked at his nephew and laughed.
 s=none
 
 “Yes, a force is not to be called to account,” said Arkady, drawing himself up.
-s=arkady;i=2
+s=arkady;i=2;e:arkady=serious;i=
 
 “Unhappy boy!” wailed Pavel Petrovitch,
 s=pavel;e:pavel=upset;m=break,1
@@ -2750,34 +2741,37 @@ he was positively incapable of maintaining his firm demeanour any longer.
 s=
 
 “If you could only realise what it is you are doing for your country. No; it’s enough to try the patience of an angel! Force! There’s force in the savage Kalmuck, in the Mongolian; but what is it to us? What is precious to us is civilisation; yes, yes, sir, its fruits are precious to us.”
-e:pavel=angry;s=pavel
+e:pavel=angry;s=pavel;e:pavel=angrylook;i=
 
 “And don’t tell me those fruits are worthless; the poorest dauber, *un barbouilleur*, the man who plays dance music for five farthings an evening, is of more use than you, because they are the representatives of civilisation, and not of brute Mongolian force!”
-
+e:pavel=angry;i=2;e:pavel=seriouslookdown;i=
 
 “You fancy yourselves advanced people, and all the while you are only fit for the Kalmuck’s hovel! Force! And recollect, you forcible gentlemen, that you’re only four men and a half, and the others are millions, who won’t let you trample their sacred traditions under foot, who will crush you and walk over you!”
-
+;e:pavel=angry;i=;e:pavel=scowling;i=2;e:pavel=angry;i=2
 
 “If we’re crushed, serve us right,” observed Bazarov. “But that’s an open question. We are not so few as you suppose.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=annoyed;i=
 
 “What? You seriously suppose you will come to terms with a whole people?”
 s=pavel;e:pavel=suspicious
 
 “All Moscow was burnt down, you know, by a farthing dip,” answered Bazarov.
-s=bazarov;i=2
+s=bazarov;i=2;e:bazarov=seriouslookdown;i=;e:bazarov=suspicious;i=
 
 “Yes, yes. First a pride almost Satanic, then ridicule﻿—that, that’s what it is attracts the young, that’s what gains an ascendancy over the inexperienced hearts of boys! Here’s one of them sitting beside you, ready to worship the ground under your feet. Look at him!”
-s=pavel;e:pavel=angrylook
+s=pavel;e:pavel=angrylook;e:pavel=scowling;i=2
 
 (Arkady turned away and frowned.)
 s=
 
 “And this plague has spread far already. I have been told that in Rome our artists never set foot in the Vatican.”
-s=pavel;e:pavel=scowling
+s=pavel;e:pavel=scowling;e:pavel=serious;i=
 
-“Raphael they regard as almost a fool, because, if you please, he’s an authority; while they’re all the while most disgustingly sterile and unsuccessful, men whose imagination does not soar beyond *Girls at a Fountain*, however they try! And the girls even out of drawing. They are fine fellows to your mind, are they not?”
+“Raphael they regard as almost a fool, because, if you please, he’s an authority; while they’re all the while most disgustingly sterile and unsuccessful, men whose imagination does not soar beyond *Girls at a Fountain*, however they try! And the girls even out of drawing.”
+;e:pavel=suspicious;i=
 
+“They are fine fellows to your mind, are they not?”
+;e:pavel=annoyedlook;i=
 
 “To my mind,” retorted Bazarov, “Raphael’s not worth a brass farthing; and they’re no better than he.”
 s=bazarov;e:bazarov=annoyed
@@ -2789,19 +2783,22 @@ s=pavel;e:pavel=smirking
 
 
 “And, to be sure, they were simply geese before, and now they have suddenly turned nihilists.”
-e:pavel=serious
+e:pavel=serious;e:pavel=suspicious;i=2
 
 “Your praiseworthy sense of personal dignity has given way,” remarked Bazarov phlegmatically,
-s=bazarov;m=break,1;e:bazarov=serious
+s=bazarov;m=break,1;e:bazarov=serious;e:bazarov=serious;i=2
 
 while Arkady was hot all over, and his eyes were flashing.
 s=
 
-“Our argument has gone too far; it’s better to cut it short, I think. I shall be quite ready to agree with you,” he added, getting up, “when you bring forward a single institution in our present mode of life, in family or in social life, which does not call for complete and unqualified destruction.”
-s=bazarov;i=2
+“Our argument has gone too far; it’s better to cut it short, I think. I shall be quite ready to agree with you,” he added, getting up,
+s=bazarov;i=2;e:bazarov=annoyed;i=
 
-“I will bring forward millions of such institutions,” cried Pavel Petrovitch﻿—“millions! Well﻿—the Mir, for instance.”<e>"Mir" as in <a href="https://en.wikipedia.org/wiki/Obshchina">the commune</a>. Not "mir" as in the seventeen other meanings the word has.</e>
-s=pavel;e:pavel=serious
+“when you bring forward a single institution in our present mode of life, in family or in social life, which does not call for complete and unqualified destruction.”
+;e:bazarov=angry;i=
+
+“I will bring forward millions of such institutions,” cried Pavel Petrovitch﻿—“millions! Well﻿—the Mir, for instance.”<e>"Mir" as in <a href="https://en.wikipedia.org/wiki/Obshchina">the commune</a>. Not "mir" as in the millions of other meanings.</e>
+s=pavel;e:pavel=serious;e:pavel=angry;i=2
 
 A cold smile curved Bazarov’s lips.
 s=none
@@ -2810,19 +2807,22 @@ s=none
 s=bazarov;e:bazarov=smirking
 
 “The family, then, the family as it exists among our peasants!” cried Pavel Petrovitch.
-s=pavel;i=2
+s=pavel;i=2;e:pavel=serious;i=
 
 “And that subject, too, I imagine, it will be better for yourselves not to go into in detail. Don’t you realise all the advantages of the head of the family choosing his daughters-in-law?”<e><a href="https://en.wikipedia.org/wiki/Snokhachestvo">Hmmm…</a></e>
 s=bazarov;e:bazarov=serious
 
 “Take my advice, Pavel Petrovitch, allow yourself two days to think about it; you’re not likely to find anything on the spot. Go through all our classes, and think well over each, while I and Arkady will﻿ ﻿…”
-
+;e:bazarov=annoyed;i=
 
 “Will go on turning everything into ridicule,” broke in Pavel Petrovitch.
 s=pavel;e:pavel=scowling
 
-“No, will go on dissecting frogs. Come, Arkady; goodbye for the present, gentlemen!”
+“No, will go on dissecting frogs.”
 s=bazarov;e:bazarov=thinking
+
+“Come, Arkady; goodbye for the present, gentlemen!”
+;e:bazarov=smirkinglook;i=
 
 The two friends walked off.
 s=none
@@ -2834,7 +2834,7 @@ The brothers were left alone, and at first they only looked at one another.
 s=pavel;e:pavel=serious
 
 “Our successors!” repeated Nikolai Petrovitch, with a dejected smile.
-s=nikolai;e:nikolai=sadsmile
+s=nikolai;e:nikolai=sadsmile;e:nikolai=sadsmile;i=2
 
 He had been sitting on thorns, all through the argument, and had done nothing but glance stealthily, with a sore heart, at Arkady.
 s=none
@@ -2846,31 +2846,34 @@ s=nikolai;e:nikolai=unhappy
 
 
 “You are beyond everything in your generosity and modesty,” replied Pavel Petrovitch.
-s=pavel;e:pavel=serious
+s=pavel;e:pavel=serious;e:pavel=angry;i=2
 
 “I’m convinced, on the contrary, that you and I are far more in the right than these young gentlemen, though we do perhaps express ourselves in old-fashioned language, *vieilli*, and have not the same insolent conceit.﻿ ﻿…”
-
+;e:pavel=serious;i=2
 
 “And the swagger of the young men nowadays!”<e>"The exaggerated swagger of a Russian nihilist."</e>
-e:pavel=annoyed
+e:pavel=annoyed;e:pavel=annoyedlook;i=;e:pavel=scowling;i=
 
 “You ask one, ‘Do you take red wine or white?’ ‘It is my custom to prefer red!’ he answers in a deep bass, with a face as solemn as if the whole universe had its eyes on him at that instant.﻿ ﻿…”
-
+;e:pavel=annoyedlook;i=
 
 “Do you care for any more tea?” asked Fenitchka, putting her head in at the door;
-s=fenitchka;e:fenitchka=wary
+s=fenitchka;e:fenitchka=wary;e:fenitchka=unhappy;i=;x:fenitchka=kerchief;e:fenitchka=nervous;i=2
 
 she had not been able to make up her mind to come into the drawing-room while there was the sound of voices in dispute there.
 s=none
 
 “No, you can tell them to take the samovar,” answered Nikolai Petrovitch,
-s=nikolai;e:nikolai=contemplative;m=break,1
+s=nikolai;e:nikolai=contemplative;m=break,1;e:nikolai=contemplativeforehead;i=
 
 and he got up to meet her.
 s=
 
-Pavel Petrovitch said “*bonsoir*” to him abruptly, and went away to his study.
-s=none;m=dialogue;f:b:maryino-drawing-night=blur(3px)
+Pavel Petrovitch said “*bonsoir*” to him abruptly,
+s=none;m=dialogue;m=break,1
+
+and went away to his study.
+;f:b:maryino-drawing=blur(3px)
 
 ## XI
 r=title
