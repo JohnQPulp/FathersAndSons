@@ -6572,22 +6572,25 @@ He perceived his young visitor, and leaning on his spade, he called,
 
 
 “The best of health to you! How have you slept?”
-s=vassily;e:vassily=curious
+s=vassily;e:vassily=curious;e:vassily=curious;i=
 
 “Capitally,” answered Arkady.
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=neutral;x:arkady=night;e:arkady=;i=2
 
 “Here am I, as you see, like some Cincinnatus, marking out a bed for late turnips. The time has come now﻿—and thank God for it!﻿—when everyone ought to obtain his sustenance with his own hands; it’s useless to reckon on others; one must labour oneself.”
 s=vassily;e:vassily=happy
 
-“And it turns out that Jean Jacques Rousseau is right. Half an hour ago, my dear young gentleman, you might have seen me in a totally different position. One peasant woman, who complained of looseness﻿—that’s how they express it, but in our language, dysentery﻿—I﻿ ﻿… how can I express it best?”
-e:vassily=thinking
+“And it turns out that Jean Jacques Rousseau is right. Half an hour ago, my dear young gentleman, you might have seen me in a totally different position.”
+e:vassily=thinking;e:vassily=thinking;i=2
+
+“One peasant woman, who complained of looseness﻿—that’s how they express it, but in our language, dysentery﻿—I﻿ ﻿… how can I express it best?”
+;e:vassily=contemplative;i=2
 
 “I administered opium, and for another I extracted a tooth. I proposed an anaesthetic to her﻿ ﻿… but she would not consent. All that I do *gratis*﻿—*anamatyer* (*en amateur*). I’m used to it, though; you see, I’m a plebeian, *homo novus*﻿—not one of the old stock, not like my spouse.﻿ ﻿…”
-e:vassily=contemplative
+e:vassily=contemplative;e:vassily=contemplative;i=;e:vassily=thinking;i=;e:vassily=wary;i=;e:vassily=sadsmile;i=2
 
 “Wouldn’t you like to come this way into the shade, to breathe the morning freshness a little before tea?”
-e:vassily=happy;i=2
+e:vassily=happy;i=2;e:vassily=happy;i=;e:vassily=happylookdown;i=;e:vassily=happy;i=
 
 Arkady went out to him.
 x:arkady=hat;s=none;b=bazarov-garden;f=fade
@@ -6599,52 +6602,52 @@ raising his hand in a military salute to the greasy skullcap which covered his h
 s=none
 
 “You, I know, are accustomed to luxury, to amusements, but even the great ones of this world do not disdain to spend a brief space under a cottage roof.”
-s=vassily;e:vassily=happy
+s=vassily;e:vassily=happy;e:vassily=happylookdown;i=
 
 “Good heavens,” protested Arkady, “as though I were one of the great ones of this world! And I’m not accustomed to luxury.”
-s=arkady
+s=arkady;e:arkady=confused;i=
 
 “Pardon me, pardon me,” rejoined Vassily Ivanovitch with a polite simper.
-s=vassily;e:vassily=contemplative
+s=vassily;e:vassily=contemplative;e:vassily=sadsmile;i=2
 
 “Though I am laid on the shelf now, I have knocked about the world too﻿—I can tell a bird by its flight. I am something of a psychologist too in my own way, and a physiognomist.”
-
+;e:vassily=thinking;i=2
 
 “If I had not, I will venture to say, been endowed with that gift, I should have come to grief long ago; I should have stood no chance, a poor man like me.”
-e:vassily=
+e:vassily=;e:vassily=thinking;i=
 
 “I tell you without flattery, I am sincerely delighted at the friendship I observe between you and my son. I have just seen him; he got up as he usually does﻿—no doubt you are aware of it﻿—very early, and went a ramble about the neighbourhood.”
-e:vassily=happy
+e:vassily=happy;e:vassily=happylookdown;i=
 
 “Permit me to inquire﻿—have you known my son long?”
-e:vassily=curious
+e:vassily=curious;e:vassily=contemplative;i=;e:vassily=contemplative;i=2
 
 “Since last winter.”
-s=arkady
+s=arkady;e:arkady=thinking;i=
 
 “Indeed. And permit me to question you further﻿—but hadn’t we better sit down? Permit me, as a father, to ask without reserve, What is your opinion of my Yevgeny?”
-s=vassily
+s=vassily;e:vassily=contemplative;i=
 
 “Your son is one of the most remarkable men I have ever met,” Arkady answered emphatically.
-s=arkady;e:arkady=happy
+s=arkady;e:arkady=happy;e:arkady=happy;i=2
 
 Vassily Ivanovitch’s eyes suddenly grew round, and his cheeks were suffused with a faint flush. The spade fell out of his hand.
 s=none
 
 “And so you expect,” he began﻿ ﻿…
-s=vassily;e:vassily=wary
+s=vassily;e:vassily=wary;e:vassily=sadsmile;i=
 
 “I’m convinced,” Arkady put in, “that your son has a great future before him; that he will do honour to your name. I’ve been certain of that ever since I first met him.”
-s=arkady
+s=arkady;e:arkady=curious;i=
 
 “How﻿ ﻿… how was that?” Vassily Ivanovitch articulated with an effort.
-s=vassily;e:vassily=sadsmile
+s=vassily;e:vassily=sadsmile;e:vassily=sadsmile;i=2
 
 His wide mouth was relaxed in a triumphant smile, which would not leave it.
 s=none
 
 “Would you like me to tell you how we met?”
-s=arkady;e:arkady=curious
+s=arkady;e:arkady=curious;e:arkady=thinking;i=;e:arkady=;i=
 
 “Yes﻿ ﻿… and altogether.﻿ ﻿…”
 s=vassily;e:vassily=happy
@@ -6656,22 +6659,25 @@ Vassily Ivanovitch listened and listened, blinked, and rolled his handkerchief u
 
 
 “You have made me perfectly happy,” he said, never ceasing to smile.
-s=vassily;f:b:bazarov-garden=
+s=vassily;f:b:bazarov-garden=;e:vassily=sadsmile;i=2
 
 “I ought to tell you, I﻿ ﻿… idolise my son; my old wife I won’t speak of﻿—we all know what mothers are!﻿—but I dare not show my feelings before him, because he doesn’t like it.”
-
+;e:vassily=sadsmile;i=
 
 “He is averse to every kind of demonstration of feeling; many people even find fault with him for such firmness of character, and regard it as a proof of pride or lack of feeling, but men like him ought not to be judged by the common standard, ought they?”
-e:vassily=sadsmile
+e:vassily=sadsmile;e:vassily=happy;i=
 
 “And here, for example, many another fellow in his place would have been a constant drag on his parents; but he, would you believe it? has never from the day he was born taken a farthing more than he could help, that’s God’s truth!”
-
+;e:vassily=happylookdown;i=
 
 “He is a disinterested, honest man,” observed Arkady.
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=neutral;e:arkady=contemplativelook;i=
 
-“Exactly so; he is disinterested. And I don’t only idolise him, Arkady Nikolaitch, I am proud of him, and the height of my ambition is that some day there will be the following lines in his biography: ‘The son of a simple army-doctor, who was, however, capable of divining his greatness betimes, and spared nothing for his education﻿ ﻿…’ ”
-s=vassily
+“Exactly so; he is disinterested. And I don’t only idolise him, Arkady Nikolaitch, I am proud of him, and the height of my ambition is that some day there will be the following lines in his biography:”
+s=vassily;e:vassily=sadsmile;i=2;e:vassily=thinking;i=2
+
+“‘The son of a simple army-doctor, who was, however, capable of divining his greatness betimes, and spared nothing for his education﻿ ﻿…’”
+;e:vassily=happylookdown;i=
 
 The old man’s voice broke.
 s=
@@ -6680,28 +6686,28 @@ Arkady pressed his hand.
 s=none
 
 “What do you think,” inquired Vassily Ivanovitch, after a short silence,
-s=vassily;e:vassily=contemplative
+s=vassily;e:vassily=contemplative;e:vassily=contemplative;i=2
 
 “will it be in the career of medicine that he will attain the celebrity you anticipate for him?”
-
+;e:vassily=contemplative;i=
 
 “Of course, not in medicine, though even in that department he will be one of the leading scientific men.”
-s=arkady
+s=arkady;e:arkady=thinking;i=
 
 “In what then, Arkady Nikolaitch?”
-s=vassily
+s=vassily;e:vassily=;i=
 
 “It would be hard to say now, but he will be famous.”
-s=arkady
+s=arkady;e:arkady=;i=2
 
 “He will be famous!” repeated the old man,
-s=vassily;e:vassily=happylookdown;m=break,1
+s=vassily;e:vassily=happylookdown;m=break,1;e:vassily=sadsmile;i=2
 
 and he sank into a reverie.
 s=
 
 “Arina Vlasyevna sent me to call you in to tea,” announced Anfisushka,
-n:anfisushka=Anfisushka;s=anfisushka;e:anfisushka=neutral;m=break,1
+n:anfisushka=Anfisushka;s=anfisushka;e:anfisushka=neutral;m=break,1;z:anfisushka=84,,9;e:anfisushka=;i=2
 
 coming by with an immense dish of ripe raspberries.
 s=
@@ -6710,40 +6716,43 @@ Vassily Ivanovitch started.
 s=none
 
 “And will there be cooled cream for the raspberries?”
-s=vassily;e:vassily=curious
+s=vassily;e:vassily=curious;e:vassily=wary;i=
 
 “Yes.”
-s=anfisushka;e:anfisushka=;i=2
+s=anfisushka;e:anfisushka=;i=
 
-“Cold now, mind! Don’t stand on ceremony, Arkady Nikolaitch; take some more. How is it Yevgeny doesn’t come?”
-s=vassily
+“Cold now, mind! Don’t stand on ceremony, Arkady Nikolaitch; take some more.”
+s=vassily;e:vassily=happy;i=
+
+“How is it Yevgeny doesn’t come?”
+;e:vassily=thinking;i=2
 
 “I’m here,” was heard Bazarov’s voice from Arkady’s room.
 x:bazarov=;s=bazarov;e:bazarov=serious;m=nospeaker,1
 
 Vassily Ivanovitch turned round quickly.
-s=none
+s=none;b=bazarov-window
 
 “Aha! you wanted to pay a visit to your friend; but you were too late, *amice*, and we have already had a long conversation with him. Now we must go in to tea, mother summons us.”
 s=vassily;e:vassily=happy
 
 “By the way, I want to have a little talk with you.”
-e:vassily=thinking
+e:vassily=thinking;e:vassily=contemplative;i=2
 
 “What about?”
-s=bazarov;e:bazarov=
+s=bazarov;e:bazarov=;e:bazarov=contemplative;i=
 
 “There’s a peasant here; he’s suffering from icterus.﻿ ﻿…”
 s=vassily
 
 “You mean jaundice?”
-s=bazarov
+s=bazarov;e:bazarov=contemplative;i=2
 
 “Yes, a chronic and very obstinate case of icterus. I have prescribed him centaury and St. John’s wort, ordered him to eat carrots, given him soda; but all that’s merely palliative measures; we want some more decided treatment.”
-s=vassily
+s=vassily;e:vassily=thinking;i=2
 
 “Though you do laugh at medicine, I am certain you can give me practical advice. But we will talk of that later. Now come in to tea.”
-
+;e:vassily=thinking;i=;e:vassily=curious;i=
 
 Vassily Ivanovitch jumped up briskly from the garden seat, and hummed from *Robert le Diable*﻿—
 s=none
@@ -6752,10 +6761,10 @@ s=none
 m=margin,1
 
 “Singular vitality!” observed Bazarov,
-s=bazarov;e:bazarov=serious;m=break,1
+s=bazarov;e:bazarov=serious;m=break,1;e:bazarov=seriouslookdown;i=
 
 going away from the window.
-s=
+s=;f:b:bazarov-window=blur(3px)
 
 It was midday. The sun was burning hot behind a thin veil of unbroken whitish clouds.
 ;s=none;b=bazarov-haystack;f=fade
@@ -6770,28 +6779,28 @@ Arkady and Bazarov lay in the shade of a small haystack, putting under themselve
 s=bazarov;e:bazarov=contemplative
 
 “I did not understand then that I was not dull, because I was a child. Well, now I’m grown up, the talisman’s lost its power.”
-
+;e:bazarov=thinking;i=;x:arkady=
 
 “How long did you live here altogether?” asked Arkady.
-s=arkady;e:arkady=curious
+s=arkady;e:arkady=curious;e:arkady=thinking;i=;e:arkady=contemplative;i=
 
 “Two years on end; then we travelled about. We led a roving life, wandering from town to town for the most part.”
-s=bazarov
+s=bazarov;e:bazarov=contemplative;i=
 
 “And has this house been standing long?”
-s=arkady
+s=arkady;e:arkady=thinking;i=
 
 “Yes. My grandfather built it﻿—my mother’s father.”
-s=bazarov
+s=bazarov;e:bazarov=nervous;i=2
 
 “Who was he﻿—your grandfather?”
-s=arkady
+s=arkady;e:arkady=thinking;i=2
 
 “Devil knows. Some second-major. He served with Suvorov, and was always telling stories about the crossing of the Alps﻿—inventions probably.”
 s=bazarov
 
 “You have a portrait of Suvorov hanging in the drawing-room. I like these dear little houses like yours; they’re so warm and old-fashioned; and there’s always a special sort of scent about them.”
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=neutral;e:arkady=curious;i=;e:arkady=thinking;i=
 
 “A smell of lamp-oil and clover,” Bazarov remarked, yawning.
 s=bazarov;e:bazarov=bored
@@ -6800,145 +6809,148 @@ s=bazarov;e:bazarov=bored
 e:bazarov=annoyed
 
 “Tell me,” began Arkady, after a brief pause,
-s=arkady;e:arkady=curious
+s=arkady;e:arkady=curious;e:arkady=;i=
 
 “were they strict with you when you were a child?”
-
+;e:arkady=suspicious;i=
 
 “You can see what my parents are like. They’re not a severe sort.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=seriouslookdown;i=
 
 “Are you fond of them, Yevgeny?”
 s=arkady;e:arkady=contemplative
 
 “I am, Arkady.”
-s=bazarov
+s=bazarov;e:bazarov=suspicious;i=
 
 “How fond they are of you!”
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=neutral;e:arkady=thinking;i=
 
 Bazarov was silent for a little.
 s=none
 
-“Do you know what I’m thinking about?” he brought out at last,
-s=bazarov;e:bazarov=clasping;m=break,1
-
-clasping his hands behind his head.
-s=
+“Do you know what I’m thinking about?” he brought out at last, clasping his hands behind his head.
+s=bazarov;e:bazarov=clasping
 
 “No. What is it?”
-s=arkady;e:arkady=curious
+s=arkady;e:arkady=curious;e:arkady=thinking;i=2
 
-“I’m thinking life is a happy thing for my parents. My father at sixty is fussing around, talking about ‘palliative’ measures, doctoring people, playing the bountiful master with the peasants﻿—having a festive time, in fact; and my mother’s happy too; her day’s so chockful of duties of all sorts, and sighs and groans that she’s no time even to think of herself; while I﻿ ﻿…”
-s=bazarov;e:bazarov=claspingserious
+“I’m thinking life is a happy thing for my parents. My father at sixty is fussing around, talking about ‘palliative’ measures, doctoring people, playing the bountiful master with the peasants﻿—having a festive time, in fact;”
+s=bazarov;e:bazarov=claspingserious;e:bazarov=contemplative;i=
+
+“and my mother’s happy too; her day’s so chockful of duties of all sorts, and sighs and groans that she’s no time even to think of herself; while I﻿ ﻿…”
+;e:bazarov=weary;i=2
 
 “While you?”
-s=arkady
+s=arkady;e:arkady=contemplative;i=
 
-“I think; here I lie under a haystack.﻿ ﻿… The tiny space I occupy is so infinitely small in comparison with the rest of space, in which I am not, and which has nothing to do with me; and the period of time in which it is my lot to live is so petty beside the eternity in which I have not been, and shall not be.﻿ ﻿…”
-s=bazarov;e:bazarov=serious
+“I think; here I lie under a haystack.﻿ ﻿… The tiny space I occupy is so infinitely small in comparison with the rest of space, in which I am not, and which has nothing to do with me;”
+s=bazarov;e:bazarov=serious;e:bazarov=seriouslookdown;i=
+
+“and the period of time in which it is my lot to live is so petty beside the eternity in which I have not been, and shall not be.﻿ ﻿…”
+;e:bazarov=nervous;i=2;e:bazarov=suspicious;i=2
 
 “And in this atom, this mathematical point, the blood is circulating, the brain is working and wanting something.﻿ ﻿… Isn’t it loathsome? Isn’t it petty?”
-e:bazarov=weary
+e:bazarov=weary;e:bazarov=nervous;i=2
 
 “Allow me to remark that what you’re saying applies to men in general.”
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=neutral;e:arkady=suspicious;i=
 
 “You are right,” Bazarov cut in.
 s=bazarov;e:bazarov=thinking
 
 “I was going to say that they now﻿—my parents, I mean﻿—are absorbed and don’t trouble themselves about their own nothingness; it doesn’t sicken them﻿ ﻿… while I﻿ ﻿… I feel nothing but weariness and anger.”
-s=bazarov
+s=bazarov;e:bazarov=weary;i=2
 
 “Anger? why anger?”
-s=arkady;e:arkady=curious
+s=arkady;e:arkady=curious;e:arkady=nervous;i=
 
 “Why? How can you ask why? Have you forgotten?”
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=curious;e:bazarov=nervous;i=
 
 “I remember everything, but still I don’t admit that you have any right to be angry. You’re unlucky, I’ll allow, but﻿ ﻿…”
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=neutral;e:arkady=thinking;i=
 
-“Pooh! then you, Arkady Nikolaevitch, I can see, regard love like all modern young men; cluck, cluck, cluck you call to the hen, but if the hen comes near you, you run away. I’m not like that.”<e>"cocks" are referenced elsewhere in the book. Missed opportunity for that here.</e>
-s=bazarov;e:bazarov=serious
+“Pooh! then you, Arkady Nikolaevitch, I can see, regard love like all modern young men; cluck, cluck, cluck you call to the hen, but if the hen comes near you, you run away. I’m not like that.”<e>"cocks" used elsewhere in the book. Missed opportunity here.</e>
+s=bazarov;e:bazarov=serious;e:bazarov=annoyed;i=
 
 “But that’s enough of that. What can’t be helped, it’s shameful to talk about.”
-
+;e:bazarov=thinking;i=
 
 He turned over on his side.
 s=none
 
 “Aha! there goes a valiant ant dragging off a half-dead fly. Take her, brother, take her! Don’t pay attention to her resistance; it’s your privilege as an animal to be free from the sentiment of pity﻿—make the most of it﻿—not like us conscientious self-destructive animals!”
-s=bazarov;e:bazarov=seriouslook
+s=bazarov;e:bazarov=seriouslook;e:bazarov=;i=2
 
 “You shouldn’t say that, Yevgeny! When have you destroyed yourself?”
-s=arkady;e:arkady=upset
+s=arkady;e:arkady=upset;e:arkady=confused;i=
 
 Bazarov raised his head.
 s=none
 
 “That’s the only thing I pride myself on. I haven’t crushed myself, so a woman can’t crush me. Amen! It’s all over! You shall not hear another word from me about it.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=serious;i=2
 
 Both the friends lay for some time in silence.
-s=none;f:b:bazarov-haystack=blur(3px)
+s=none;
 
 “Yes,” began Bazarov, “man’s a strange animal. When one gets a side view from a distance of the dead-alive life our ‘fathers’ lead here, one thinks, What could be better?”
-s=bazarov;e:bazarov=weary;f:b:bazarov-haystack=
+s=bazarov;e:bazarov=weary;f:b:bazarov-haystack=;e:bazarov=weary;i=2
 
 “You eat and drink, and know you are acting in the most reasonable, most judicious manner. But if not, you’re devoured by ennui. One wants to have to do with people if only to abuse them.”
-
+;e:bazarov=contemplative;i=
 
 “One ought so to order one’s life that every moment in it should be of significance,” Arkady affirmed reflectively.
-s=arkady;e:arkady=thinking
+s=arkady;e:arkady=thinking;e:arkady=thinking;i=2
 
 “I dare say! What’s of significance is sweet, however mistaken; one could make up one’s mind to what’s insignificant even. But pettiness, pettiness, that’s what’s insufferable.”
 s=bazarov;e:bazarov=serious
 
 “Pettiness doesn’t exist for a man so long as he refuses to recognise it.”
-s=arkady
+s=arkady;e:arkady=contemplative;i=
 
 “H’m﻿ ﻿… what you’ve just said is a commonplace reversed.”<e>Oh my <book>Sequences</book>!</e>
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=seriouslookdown;i=
 
 “What? What do you mean by that term?”
-s=arkady;e:arkady=curious
+s=arkady;e:arkady=curious;e:arkady=confused;i=
 
 “I’ll tell you; saying, for instance, that education is beneficial, that’s a commonplace; but to say that education is injurious, that’s a commonplace turned upside down. There’s more style about it, so to say, but in reality it’s one and the same.”
-s=bazarov
+s=bazarov;e:bazarov=thinking;i=
 
 “And the truth is﻿—where, which side?”
-s=arkady
+s=arkady;e:arkady=thinking;i=2
 
 “Where? Like an echo I answer, Where?”
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=curious;e:bazarov=thinking;i=;e:bazarov=weary;i=2
 
 “You’re in a melancholy mood today, Yevgeny.”
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=neutral;e:arkady=contemplative;i=
 
 “Really? The sun must have softened my brain, I suppose, and I can’t stand so many raspberries either.”
-s=bazarov;e:bazarov=bored
+s=bazarov;e:bazarov=bored;e:bazarov=nervous;i=2
 
 “In that case, a nap’s not a bad thing,” observed Arkady.
-s=arkady
+s=arkady;e:arkady=thinking;i=
 
 “Certainly; only don’t look at me; every man’s face is stupid when he’s asleep.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=seriouslookdown;i=
 
 “But isn’t it all the same to you what people think of you?”
-s=arkady;e:arkady=curious
+s=arkady;e:arkady=curious;e:arkady=thinking;i=;e:arkady=smirking;i=;e:arkady=suspicious;i=
 
 “I don’t know what to say to you. A real man ought not to care; a real man is one whom it’s no use thinking about, whom one must either obey or hate.”
-s=bazarov
+s=bazarov;e:bazarov=suspicious;i=2;e:bazarov=suspicious;i=
 
 “It’s funny! I don’t hate anybody,” observed Arkady, after a moment’s thought.
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=neutral;e:arkady=thinking;i=2
 
 “And I hate so many. You are a softhearted, mawkish creature; how could you hate anyone?﻿ ﻿… You’re timid; you don’t rely on yourself much.”
 s=bazarov;e:bazarov=annoyed
 
 “And you,” interrupted Arkady, “do you expect much of yourself? Have you a high opinion of yourself?”
-s=arkady;e:arkady=curious
+s=arkady;e:arkady=curious;e:arkady=serious;i=
 
 Bazarov paused.
 s=none
