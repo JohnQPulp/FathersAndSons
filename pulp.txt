@@ -3766,7 +3766,10 @@ There were crowds of people, and no lack of dancing men; the civilians were for 
 He pronounced them to perfection with genuine Parisian chic, and at the same time he said “*si j’aurais*” for “*si j’avais*,” “*absolument*” in the sense of “absolutely,” expressed himself, in fact, in that Great Russo-French jargon which the French ridicule so when they have no reason for assuring us that we speak French like angels, “*comme des anges*.”
 
 
-Arkady, as we are aware, danced badly, while Bazarov did not dance at all; they both took up their position in a corner; Sitnikov joined himself on to them, with an expression of contemptuous scorn on his face, and giving vent to spiteful comments, he looked insolently about him, and seemed to be really enjoying himself.
+Arkady, as we are aware, danced badly, while Bazarov did not dance at all; they both took up their position in a corner;
+
+
+Sitnikov joined himself on to them, with an expression of contemptuous scorn on his face, and giving vent to spiteful comments, he looked insolently about him, and seemed to be really enjoying himself.
 
 
 Suddenly his face changed, and turning to Arkady, he said, with some show of embarrassment it seemed,
@@ -3778,29 +3781,29 @@ s=sitnikov;e:sitnikov=wary
 Arkady looked round, and saw a tall woman in a black dress standing at the door of the room.
 s=none
 
-He was struck by the dignity of her carriage.
+He was struck by the dignity of her carriage. Her bare arms lay gracefully beside her slender waist; gracefully some light sprays of fuchsia drooped from her shining hair on to her sloping shoulders;
 
 
-Her bare arms lay gracefully beside her slender waist; gracefully some light sprays of fuchsia drooped from her shining hair on to her sloping shoulders; her clear eyes looked out from under a rather overhanging white brow, with a tranquil and intelligent expression﻿—tranquil it was precisely, not pensive﻿—and on her lips was a scarcely perceptible smile.
+her clear eyes looked out from under a rather overhanging white brow, with a tranquil and intelligent expression﻿—tranquil it was precisely, not pensive﻿—and on her lips was a scarcely perceptible smile.
 
 
 There was a kind of gracious and gentle force about her face.
 
 
 “Do you know her?” Arkady asked Sitnikov.
-s=arkady;e:arkady=awe
+s=arkady;e:arkady=awe;e:arkady=nervous;i=2;e:arkady=confused;i=
 
 “Intimately. Would you like me to introduce you?”
-s=sitnikov;e:sitnikov=curious
+s=sitnikov;e:sitnikov=curious;e:sitnikov=contemplative;i=2;e:sitnikov=contemplative;i=
 
 “Please﻿ ﻿… after this quadrille.”
-s=arkady;e:arkady=contemplative
+s=arkady;e:arkady=contemplative;e:arkady=nervous;i=
 
 Bazarov’s attention, too, was directed to Madame Odintsov.
 s=none
 
 “That’s a striking figure,” he remarked. “Not like the other females.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=smirkinglook;i=
 
 After waiting till the end of the quadrille, Sitnikov led Arkady up to Madame Odintsov; but he hardly seemed to be intimately acquainted with her; he was embarrassed in his sentences, while she looked at him in some surprise.
 s=none
@@ -3809,22 +3812,22 @@ But her face assumed an expression of pleasure when she heard Arkady’s surname
 
 
 “Yes.”
-s=arkady;e:arkady=nervous
+s=arkady;e:arkady=nervous;e:arkady=thinking;i=
 
 “I have seen your father twice, and have heard a great deal about him,” she went on; “I am glad to make your acquaintance.”
-n:anna=Madame Odintsov;x:anna=ball;s=anna;e:anna=neutral
+n:anna=Madame Odintsov;x:anna=ball;s=anna;e:anna=neutral;z:anna=88,52,10;e:anna=smirking;i=
 
 At that instant some adjutant flew up to her and begged for a quadrille. She consented.
 s=none
 
 “Do you dance then?” asked Arkady respectfully.
-s=arkady;e:arkady=contemplative
+s=arkady;e:arkady=contemplative;e:arkady=thinking;i=2
 
 “Yes, I dance. Why do you suppose I don’t dance? Do you think I am too old?”
-s=anna;e:anna=curious
+s=anna;e:anna=curious;e:anna=curious;i=2
 
 “Really, how could I possibly.﻿ ﻿… But in that case, let me ask you for a mazurka.”
-s=arkady;e:arkady=nervous;i=2
+s=arkady;e:arkady=nervous;i=2;e:arkady=nervous;i=
 
 Madame Odintsov smiled graciously.
 s=none
@@ -3866,13 +3869,13 @@ She said little, but her words showed a knowledge of life; from some of her obse
 
 
 “Who is that you were standing with?” she asked him, “when Mr. Sitnikov brought you to me?”
-s=anna;e:anna=curious;i=2;f:b:governor-ballroom=
+s=anna;e:anna=curious;i=2;f:b:governor-ballroom=;e:anna=curious;i=2
 
 “Did you notice him?” Arkady asked in his turn.
-s=arkady;e:arkady=happy
+s=arkady;e:arkady=happy;e:arkady=smirking;i=
 
 “He has a splendid face, hasn’t he? That’s Bazarov, my friend.”
-
+;e:arkady=curious;i=
 
 Arkady fell to discussing “his friend.” He spoke of him in such detail, and with such enthusiasm, that Madame Odintsov turned towards him and looked attentively at him.
 s=none;f:b:governor-ballroom=blur(3px)
@@ -3902,49 +3905,49 @@ He bowed low, looked after her (how graceful her figure seemed to him, draped in
 
 
 “This minute she has forgotten my existence,”
-t=arkady;e:arkady=unhappy;m=break,1
+t=arkady;e:arkady=unhappy;m=break,1;e:arkady=confused;i=
 
 was conscious of an exquisite humility in his soul.
-t=none;f:b:governor-ballroom=blur(3px)
+t=none;
 
 “Well?” Bazarov questioned him,
-s=bazarov;e:bazarov=smirking;f=fade;f:b:governor-ballroom=;m=break,1
+s=bazarov;e:bazarov=smirking;f:b:governor-ballroom=;m=break,1;e:bazarov=smirkinglook;i=
 
 directly he had gone back to him in the corner.
 s=none
 
 “Did you have a good time? A gentleman has just been talking to me about that lady; he said, ‘She’s﻿—oh, fie! fie!’ but I fancy the fellow was a fool. What do you think, what is she?﻿—oh, fie! fie!”
-s=bazarov;i=2
+s=bazarov;i=2;e:bazarov=smirking;i=
 
 “I don’t quite understand that definition,” answered Arkady.
 s=arkady;e:arkady=confused
 
 “Oh, my! What innocence!”
-s=bazarov
+s=bazarov;e:bazarov=smirking;i=2
 
 “In that case, I don’t understand the gentleman you quote. Madame Odintsov is very sweet, no doubt, but she behaves so coldly and severely, that.﻿ ﻿…”
-s=arkady;e:arkady=thinking
+s=arkady;e:arkady=thinking;e:arkady=warylookdown;i=
 
-“Still waters﻿ ﻿… you know!” put in Bazarov.
-s=bazarov
-
-“That’s just what gives it piquancy. You like ices, I expect?”
-
+“Still waters﻿ ﻿… you know!” put in Bazarov. “That’s just what gives it piquancy. You like ices, I expect?”
+s=bazarov;e:bazarov=smirking;i=;e:bazarov=smirkinglook;i=
 
 “Perhaps,” muttered Arkady. “I can’t give an opinion about that. She wishes to make your acquaintance, and has asked me to bring you to see her.”
 s=arkady;e:arkady=contemplative
 
-“I can imagine how you’ve described me! But you did very well. Take me. Whatever she may be﻿—whether she’s simply a provincial lioness, or ‘advanced’ after Kukshina’s fashion﻿—anyway she’s got a pair of shoulders such as I’ve not set eyes on for a long while.”
-s=bazarov;e:bazarov=smirkinglook
+“I can imagine how you’ve described me! But you did very well. Take me.”
+s=bazarov;e:bazarov=smirkinglook;e:bazarov=smirking;i=
+
+“Whatever she may be﻿—whether she’s simply a provincial lioness, or ‘advanced’ after Kukshina’s fashion﻿—anyway she’s got a pair of shoulders such as I’ve not set eyes on for a long while.”
+;e:bazarov=;i=
 
 Arkady was wounded by Bazarov’s cynicism, but﻿—as often happens﻿—he reproached his friend not precisely for what he did not like in him﻿ ﻿…
 s=none
 
 “Why are you unwilling to allow freethinking in women?” he said in a low voice.
-s=arkady;e:arkady=annoyed
+s=arkady;e:arkady=annoyed;e:arkady=nervous;i=
 
 “Because, my boy, as far as my observations go, the only freethinkers among women are frights.”
-s=bazarov;e:bazarov=
+s=bazarov;e:bazarov=;e:bazarov=smirking;i=;e:bazarov=smirkinglook;i=
 
 The conversation was cut short at this point. Both the young men went away immediately after supper.
 s=none;f:b:governor-ballroom=blur(3px)
