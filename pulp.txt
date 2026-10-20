@@ -4205,13 +4205,13 @@ It was clear that order reigned supreme in the house; everything was clean, ever
 
 
 “Anna Sergyevna asks you to come to her in half-an-hour,” the steward announced;
-n:steward=Steward;s=steward;e:steward=
+n:steward=Steward;s=steward;e:steward=;z:steward=81,51,8
 
 “will there be orders to give meanwhile?”
 
 
 “No orders,” answered Bazarov; “perhaps you will be so good as to trouble yourself to bring me a glass of vodka.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=contemplative;i=
 
 “Yes, sir,” said the steward,
 s=steward;e:steward=confused;m=break,1
@@ -4223,16 +4223,16 @@ s=
 s=bazarov;e:bazarov=curious
 
 “A nice grand-duchess,” retorted Arkady, “at the very first meeting she invited such great aristocrats as you and me to stay with her.”
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=neutral;e:arkady=smirking;i=
 
 “Especially me, a future doctor, and a doctor’s son, and a village sexton’s grandson.﻿ ﻿…”
-s=bazarov
+s=bazarov;e:bazarov=;i=
 
 “You know, I suppose, I’m the grandson of a sexton? Like the great Speransky,” added Bazarov after a brief pause, contracting his lips.<e>Comrade <book>Pride and Prejudice|William Lucas</book> over here.</e>
-
+;e:bazarov=contemplative;i=2
 
 “At any rate she likes to be comfortable; oh, doesn’t she, this lady! Oughtn’t we to put on evening dress?”
-
+;e:bazarov=suspicious;i=2
 
 Arkady only shrugged his shoulders﻿ ﻿… but he too was conscious of a little nervousness.
 s=none
@@ -4253,7 +4253,7 @@ and turning up his nose, he added,
 s=
 
 “Hadn’t we better bolt﻿ ﻿… ?”
-s=bazarov;e:bazarov=suspicious
+s=bazarov;e:bazarov=suspicious;e:bazarov=nervous;i=2
 
 But at that instant the lady of the house entered.
 s=none
@@ -4262,13 +4262,13 @@ She wore a light barège dress; her hair smoothly combed back behind her ears ga
 
 
 “Thank you for keeping your promise,” she began.
-s=anna;e:anna=neutral
+s=anna;e:anna=neutral;e:anna=contemplative;i=2
 
 “You must stay a little while with me; it’s really not bad here. I will introduce you to my sister; she plays the piano well. That is a matter of indifference to you, Monsieur Bazarov; but you, I think, Monsieur Kirsanov, are fond of music.”
-
+;e:anna=thinking;i=2
 
 “Besides my sister I have an old aunt living with me, and one of our neighbours comes in sometimes to play cards; that makes up all our circle. And now let us sit down.”
-e:anna=thinking
+e:anna=thinking;e:anna=curious;i=2;e:anna=thinking;i=
 
 Madame Odintsov delivered all this little speech with peculiar precision, as though she had learned it by heart; then she turned to Arkady.
 s=none
@@ -4277,7 +4277,7 @@ It appeared that her mother had known Arkady’s mother, and had even been her c
 
 
 “What a tame cat I’m getting!” he was thinking to himself.
-t=bazarov;e:bazarov=confused
+t=bazarov;e:bazarov=confused;e:bazarov=contemplative;i=
 
 A beautiful greyhound with a blue collar on, ran into the drawing-room, tapping on the floor with his paws, and after him entered a girl of eighteen, black-haired and dark-skinned, with a rather round but pleasing face, and small dark eyes.
 t=
@@ -4286,7 +4286,7 @@ In her hands she held a basket filled with flowers.
 
 
 “This is my Katya,” said Madame Odintsov,
-s=anna;e:anna=happylook;m=break,1
+s=anna;e:anna=happylook;m=break,1;e:anna=happy;i=
 
 indicating her with a motion of her head.
 s=
@@ -4298,16 +4298,16 @@ The greyhound, whose name was Fifi, went up to both of the visitors, in turn wag
 
 
 “Did you pick all that yourself?” asked Madame Odintsov.
-s=anna;e:anna=curious
+s=anna;e:anna=curious;e:anna=curious;i=2
 
 “Yes,” answered Katya.
-n:katya=“Katya” Sergyevna Loktev;s=katya;e:katya=happy
+n:katya=“Katya” Sergyevna Loktev;s=katya;e:katya=happy;z:katya=83,53,9;e:katya=contemplative;i=
 
 “Is auntie coming to tea?”
-s=anna;i=2
+s=anna;i=2;e:anna=smirking;i=2
 
 “Yes.”
-s=katya;i=2
+s=katya;i=2;e:katya=happy;i=2
 
 When Katya spoke, she had a very charming smile, sweet, timid, and candid, and looked up from under her eyebrows with a sort of humorous severity.
 s=none
@@ -4319,28 +4319,28 @@ Madame Odintsov turned to Bazarov.
 
 
 “You are looking at pictures from politeness, Yevgeny Vassilyitch,” she began. “That does not interest you. You had better come nearer to us, and let us have a discussion about something.”
-s=anna;e:anna=smirking
+s=anna;e:anna=smirking;e:anna=contemplative;i=2
 
 Bazarov went closer.
 s=none
 
 “What subject have you decided upon for discussion?” he said.
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=curious;e:bazarov=contemplative;i=
 
 “What you like. I warn you, I am dreadfully argumentative.”
-s=anna;i=2
+s=anna;i=2;e:anna=happy;i=
 
 “You?”
-s=bazarov
+s=bazarov;e:bazarov=curious;i=;e:bazarov=contemplative;i=2;e:bazarov=nervous;i=
 
 “Yes. That seems to surprise you. Why?”
-s=anna;e:anna=curious
+s=anna;e:anna=curious;e:anna=smirking;i=
 
 “Because, as far as I can judge, you have a calm, cool character, and one must be impulsive to be argumentative.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=contemplative;i=2
 
 “How can you have had time to understand me so soon? In the first place, I am impatient and obstinate﻿—you should ask Katya; and secondly, I am very easily carried away.”
-s=anna;e:anna=thinking
+s=anna;e:anna=thinking;e:anna=smirking;i=2
 
 Bazarov looked at Anna Sergyevna.
 s=none
@@ -4349,28 +4349,28 @@ s=none
 s=bazarov
 
 “You said so, because you suppose me to have no feeling for art, and as a fact I haven’t any; but these views might be interesting to me from a geological standpoint, for the formation of the mountains, for instance.”
-
+;e:bazarov=contemplative;i=2
 
 “Excuse me; but as a geologist, you would sooner have recourse to a book, to a special work on the subject, and not to a drawing.”
 s=anna;e:anna=curious;i=2
 
 “The drawing shows me at a glance what would be spread over ten pages in a book.”
-s=bazarov
+s=bazarov;e:bazarov=neutrallookdown;i=
 
 Anna Sergyevna was silent for a little.
 s=none
 
 “And so you haven’t the least artistic feeling?” she observed,
-s=anna;e:anna=suspicious;m=break,1
+s=anna;e:anna=suspicious;m=break,1;e:anna=suspicious;i=2
 
 putting her elbow on the table, and by that very action bringing her face nearer to Bazarov.
 s=none
 
 “How can you get on without it?”
-s=anna;i=2
+s=anna;i=2;e:anna=confused;i=
 
 “Why, what is it wanted for, may I ask?”
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=curious;e:bazarov=thinking;i=
 
 “Well, at least to enable one to study and understand men.”
 s=anna;e:anna=smirking
@@ -4379,13 +4379,13 @@ Bazarov smiled.
 s=none
 
 “In the first place, experience of life does that; and in the second, I assure you, studying separate individuals is not worth the trouble.”
-s=bazarov;e:bazarov=smirking
+s=bazarov;e:bazarov=smirking;e:bazarov=curious;i=2
 
 “All people are like one another, in soul as in body; each of us has brain, spleen, heart, and lungs made alike; and the so-called moral qualities are the same in all; the slight variations are of no importance.”
-e:bazarov=thinking
+e:bazarov=thinking;e:bazarov=seriouslookdown;i=
 
 “A single human specimen is sufficient to judge of all by. People are like trees in a forest; no botanist would think of studying each individual birch-tree.”
-
+;e:bazarov=neutrallookdown;i=
 
 Katya, who was arranging the flowers, one at a time in a leisurely fashion, lifted her eyes to Bazarov with a puzzled look, and meeting his rapid and careless glance, she crimsoned up to her ears.
 s=none
@@ -4394,13 +4394,13 @@ Anna Sergyevna shook her head.
 
 
 “The trees in a forest,” she repeated. “Then according to you there is no difference between the stupid and the clever person, between the good-natured and ill-natured?”
-s=anna;e:anna=curious
+s=anna;e:anna=curious;e:anna=;i=
 
 “No, there is a difference, just as between the sick and the healthy. The lungs of a consumptive patient are not in the same condition as yours and mine, though they are made on the same plan.”
-s=bazarov
+s=bazarov;e:bazarov=thinking;i=
 
 “We know approximately what physical diseases come from; moral diseases come from bad education, from all the nonsense people’s heads are stuffed with from childhood up, from the defective state of society; in short, reform society, and there will be no diseases.”
-
+;e:bazarov=nervous;i=;e:bazarov=;i=;e:bazarov=contemplative;i=2
 
 Bazarov said all this with an air, as though he were all the while thinking to himself, “Believe me or not, as you like, it’s all one to me!”
 s=none
@@ -4409,34 +4409,34 @@ He slowly passed his fingers over his whiskers, while his eyes strayed about the
 
 
 “And you conclude,” observed Anna Sergyevna, “that when society is reformed, there will be no stupid nor wicked people?”
-s=anna;e:anna=
+s=anna;e:anna=;e:anna=thinking;i=2
 
 “At any rate, in a proper organisation of society, it will be absolutely the same whether a man is stupid or clever, wicked or good.”
-s=bazarov
+s=bazarov;e:bazarov=nervous;i=
 
 “Yes, I understand; they will all have the same spleen.”
-s=anna;e:anna=neutral
+s=anna;e:anna=neutral;e:anna=smirking;i=
 
 “Precisely so, madam.”
-s=bazarov
+s=bazarov;e:bazarov=thinking;i=
 
 Madame Odintsov turned to Arkady.
 s=none
 
 “And what is your opinion, Arkady Nikolaevitch?”
-s=anna;e:anna=curious
+s=anna;e:anna=curious;e:anna=curious;i=2;e:anna=smirking;i=2
 
 “I agree with Yevgeny,” he answered.
-s=arkady;e:arkady=contemplative
+s=arkady;e:arkady=contemplative;e:arkady=contemplative;i=
 
 Katya looked up at him from under her eyelids.
 s=none
 
 “You amaze me, gentlemen,” commented Madame Odintsov, “but we will have more talk together.”
-s=anna;e:anna=neutral
+s=anna;e:anna=neutral;e:anna=contemplative;i=
 
 “But now I hear my aunt coming to tea; we must spare her.”
-e:anna=neutrallook
+e:anna=neutrallook;e:anna=contemplative;i=2
 
 Anna Sergyevna’s aunt, Princess H﻿—﻿—, a thin little woman with a pinched-up face, drawn together like a fist, and staring ill-natured-looking eyes under a grey front, came in, and, scarcely bowing to the guests, she dropped into a wide velvet covered armchair, upon which no one but herself was privileged to sit.
 s=none
@@ -4445,10 +4445,10 @@ Katya put a footstool under her feet; the old lady did not thank her, did not ev
 
 
 “How have you slept, aunt?” inquired Madame Odintsov, raising her voice.
-s=anna;e:anna=serious
+s=anna;e:anna=serious;e:anna=thinking;i=
 
 “That dog in here again,” the old lady muttered in reply,
-n:aunt=Princess H——;s=aunt;e:aunt=scowling;m=break,1
+n:aunt=Princess H——;s=aunt;e:aunt=scowling;m=break,1;z:aunt=85,51,11
 
 and noticing Fifi was making two hesitating steps in her direction, she cried,
 s=none
@@ -4459,10 +4459,7 @@ s=aunt;e:aunt=angry
 Katya called Fifi and opened the door for him.
 s=none
 
-Fifi rushed out delighted, in the expectation of being taken out for a walk; but when he was left alone outside the door, he began scratching and whining.
-
-
-The princess scowled.
+Fifi rushed out delighted, in the expectation of being taken out for a walk; but when he was left alone outside the door, he began scratching and whining. The princess scowled.
 
 
 Katya was about to go out.﻿ ﻿…
@@ -4472,7 +4469,7 @@ Katya was about to go out.﻿ ﻿…
 s=anna;e:anna=neutral
 
 “Come gentlemen; aunt, will you go in to tea?”
-e:anna=curious
+e:anna=curious;e:anna=happy;i=;e:anna=smirking;i=
 
 The princess got up from her chair without speaking and led the way out of the drawing-room.
 f:b:nikolskoe-drawing=blur(3px);s=
@@ -4493,13 +4490,10 @@ No one made her any reply. Bazarov and Arkady soon guessed that they paid no att
 s=none
 
 “Because of her grand family,” thought Bazarov.﻿ ﻿…
-t=bazarov;e:bazarov=contemplative
+t=bazarov;e:bazarov=contemplative;e:bazarov=contemplative;i=
 
-After tea, Anna Sergyevna suggested they should go out for a walk;
-f:b:nikolskoe-dining=blur(3px)
-
-but it began to rain a little, and the whole party, with the exception of the princess, returned to the drawing-room.
-b=nikolskoe-drawing;t=none;f:b:nikolskoe-drawing=
+After tea, Anna Sergyevna suggested they should go out for a walk; but it began to rain a little, and the whole party, with the exception of the princess, returned to the drawing-room.
+b=nikolskoe-drawing-rain;t=none;f:b:nikolskoe-drawing-rain=blur(3px);f=fade
 
 The neighbour, the devoted cardplayer, arrived; his name was Porfiry Platonitch, a stoutish, greyish man with short, spindly legs, very polite and ready to be amused.
 
@@ -4508,16 +4502,19 @@ Anna Sergyevna, who still talked principally with Bazarov, asked him whether he�
 m=break,1
 
 Bazarov assented, saying “that he ought to prepare himself beforehand for the duties awaiting him as a country doctor.”
-
+m=dialogue,1
 
 “You must be careful,” observed Anna Sergyevna; “Porfiry Platonitch and I will beat you.”
-s=anna;e:anna=smirking
+s=anna;e:anna=smirking;f:b:nikolskoe-drawing-rain=;e:anna=smirking;i=2
 
 “And you, Katya,” she added, “play something to Arkady Nikolaevitch; he is fond of music, and we can listen, too.”
-e:anna=happylook
+e:anna=happylook;e:anna=contemplative;i=2
 
-Katya went unwillingly to the piano; and Arkady, though he certainly was fond of music, unwillingly followed her; it seemed to him that Madame Odintsov was sending him away, and already, like every young man at his age, he felt a vague and oppressive emotion surging up in his heart, like the forebodings of love.
+Katya went unwillingly to the piano; and Arkady, though he certainly was fond of music, unwillingly followed her;
 s=none
+
+it seemed to him that Madame Odintsov was sending him away, and already, like every young man at his age, he felt a vague and oppressive emotion surging up in his heart, like the forebodings of love.
+
 
 Katya raised the top of the piano, and not looking at Arkady, she said in a low voice﻿—
 
@@ -4526,43 +4523,46 @@ Katya raised the top of the piano, and not looking at Arkady, she said in a low 
 s=katya;e:katya=contemplative
 
 “What you like,” answered Arkady indifferently.
-s=arkady;e:arkady=
+s=arkady;e:arkady=;e:arkady=thinking;i=
 
 “What sort of music do you like best?” repeated Katya, without changing her attitude.
-s=katya;i=2
+s=katya;i=2;e:katya=nervous;i=;e:katya=contemplative;i=2
 
 “Classical,” Arkady answered in the same tone of voice.
-s=arkady;e:arkady=thinking
+s=arkady;e:arkady=thinking;e:arkady=contemplative;i=
 
 “Do you like Mozart?”
-s=katya;e:katya=wary
+s=katya;e:katya=wary;e:katya=nervous;i=
 
 “Yes, I like Mozart.”<e>I-like-lamp dialogue.</e>
-s=arkady
+s=arkady;e:arkady=thinking;i=
 
 Katya pulled out Mozart’s Sonata-Fantasia in C minor.
 s=none
 
-She played very well, though rather over correctly and precisely. She sat upright and immovable, her eyes fixed on the notes, and her lips tightly compressed, only at the end of the sonata her face glowed, her hair came loose, and a little lock fell on to her dark brow.
+She played very well, though rather over correctly and precisely.
+f:b:nikolskoe-drawing-rain=blur(3px)
+
+She sat upright and immovable, her eyes fixed on the notes, and her lips tightly compressed, only at the end of the sonata her face glowed, her hair came loose, and a little lock fell on to her dark brow.
 
 
 Arkady was particularly struck by the last part of the sonata, the part in which, in the midst of the bewitching gaiety of the careless melody, the pangs of such mournful, almost tragic suffering, suddenly break in.﻿ ﻿…
 
 
-But the ideas stirred in him by Mozart’s music had no reference to Katya.<e>Turgenev protesting too much. (<i>Hornily.</i>)</e>
+But the ideas stirred in him by Mozart’s music had no reference to Katya.<e>Turgenev protesting too much. (Hornily.)</e>
 
 
 Looking at her, he simply thought,
 
 
 “Well, that young lady doesn’t play badly, and she’s not bad-looking either.”
-t=arkady;e:arkady=contemplative
+m=dialogue,1
 
 When she had finished the sonata, Katya without taking her hands from the keys, asked,
-t=none
+f:b:nikolskoe-drawing-rain=
 
 “Is that enough?”
-s=katya;e:katya=nervouslook
+s=katya;e:katya=nervouslook;e:katya=nervous;i=
 
 Arkady declared that he could not venture to trouble her again, and began talking to her about Mozart; he asked her whether she had chosen that sonata herself, or someone had recommended it to her.
 s=
@@ -4571,7 +4571,7 @@ But Katya answered him in monosyllables; she withdrew into herself, went back in
 s=none
 
 When this happened to her, she did not very quickly come out again; her face even assumed at such times an obstinate, almost stupid expression. She was not exactly shy, but diffident, and rather overawed by her sister, who had educated her, and who had no suspicion of the fact.
-
+f:b:nikolskoe-drawing-rain=blur(3px)
 
 Arkady was reduced at last to calling Fifi to him, and with an affable smile patting him on the head to give himself an appearance of being at home.
 
@@ -4586,13 +4586,13 @@ At supper Anna Sergyevna again turned the conversation on botany.
 b=nikolskoe-dining-night
 
 “We will go for a walk tomorrow morning,” she said to him; “I want you to teach me the Latin names of the wild flowers and their species.”
-s=anna
+s=anna;e:anna=contemplative;i=2;e:anna=curious;i=
 
 “What use are the Latin names to you?” asked Bazarov.
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=curious;e:bazarov=smirkinglook;i=
 
 “Order is needed in everything,” she answered.
-s=anna;e:anna=contemplative
+s=anna;e:anna=contemplative;e:anna=thinking;i=2
 
 “What an exquisite woman Anna Sergyevna is!” cried Arkady,
 b=nikolskoe-guest-night;f=fade;s=arkady;e:arkady=happy;m=break,1
@@ -4601,28 +4601,28 @@ when he was alone with his friend in the room assigned to them.
 s=
 
 “Yes,” answered Bazarov, “a female with brains.”<e>"…and carriage." (canonical)</e>
-s=bazarov;e:bazarov=suspicious
+s=bazarov;e:bazarov=suspicious;e:bazarov=thinking;i=
 
 “Yes, and she’s seen life too.”
-
+;e:bazarov=weary;i=2
 
 “In what sense do you mean that, Yevgeny Vassilyitch?”
 s=arkady;e:arkady=confused
 
 “In a good sense, a good sense, my dear friend, Arkady Nikolaevitch! I’m convinced she manages her estate capitally too. But what’s splendid is not her, but her sister.”
-s=bazarov
+s=bazarov;e:bazarov=seriouslookdown;i=
 
 “What, that little dark thing?”
-s=arkady
+s=arkady;e:arkady=suspicious;i=
 
 “Yes, that little dark thing. She now is fresh and untouched, and shy and silent, and anything you like. She’s worth educating and developing. You might make something fine out of her; but the other’s﻿—a stale loaf.”
-s=bazarov
+s=bazarov;e:bazarov=thinking;i=
 
 Arkady made no reply to Bazarov, and each of them got into bed with rather singular thoughts in his head.
 s=none;f:b:nikolskoe-guest-night=blur(3px)
 
 Anna Sergyevna, too, thought of her guests that evening.
-b=nikolskoe-anna;f=fade;x:anna=night
+b=nikolskoe-anna;f:b:nikolskoe-anna=blur(3px)
 
 She liked Bazarov for the absence of gallantry in him, and even for his sharply defined views. She found in him something new, which she had not chanced to meet before, and she was curious.
 
@@ -4636,7 +4636,10 @@ She had seen many things very clearly; she had been interested in many things, b
 Her intellect was at the same time inquiring and indifferent; her doubts were never soothed to forgetfulness, and they never grew strong enough to distract her. Had she not been rich and independent, she would perhaps have thrown herself into the struggle, and have known passion.
 
 
-But life was easy for her, though she was bored at times, and she went on passing day after day with deliberation, never in a hurry, placid, and only rarely disturbed. Dreams sometimes danced in rainbow colours before her eyes even, but she breathed more freely when they died away, and did not regret them.
+But life was easy for her, though she was bored at times, and she went on passing day after day with deliberation, never in a hurry, placid, and only rarely disturbed.
+
+
+Dreams sometimes danced in rainbow colours before her eyes even, but she breathed more freely when they died away, and did not regret them.
 
 
 Her imagination indeed overstepped the limits of what is reckoned permissible by conventional morality; but even then her blood flowed as quietly as ever in her fascinatingly graceful, tranquil body.
@@ -4651,11 +4654,14 @@ Her soul would be filled with sudden daring, and would flow with generous ardour
 Like all women who have not succeeded in loving, she wanted something, without herself knowing what. Strictly speaking, she wanted nothing; but it seemed to her that she wanted everything.
 
 
-She could hardly endure the late Odintsov (she had married him from prudential motives, though probably she would not have consented to become his wife if she had not considered him a good sort of man), and had conceived a secret repugnance for all men, whom she could only figure to herself as slovenly, heavy, drowsy, and feebly importunate creatures.
+She could hardly endure the late Odintsov (she had married him from prudential motives, though probably she would not have consented to become his wife if she had not considered him a good sort of man),
 m=break,1
 
-Once, somewhere abroad, she had met a handsome young Swede, with a chivalrous expression, with honest blue eyes under an open brow; he had made a powerful impression on her, but it had not prevented her from going back to Russia.
+and had conceived a secret repugnance for all men, whom she could only figure to herself as slovenly, heavy, drowsy, and feebly importunate creatures.
 
+
+Once, somewhere abroad, she had met a handsome young Swede, with a chivalrous expression, with honest blue eyes under an open brow; he had made a powerful impression on her, but it had not prevented her from going back to Russia.
+x:anna=night
 
 “A strange man this doctor!” she thought as she lay in her luxurious bed on lace pillows under a light silk coverlet.﻿ ﻿…
 t=anna;e:anna=thinking;f:b:nikolskoe-anna=
@@ -4673,7 +4679,7 @@ She stretched, smiled, clasped her hands behind her head, then ran her eyes over
 t=none;f:b:nikolskoe-anna=blur(3px)
 
 The following morning Anna Sergyevna went off botanising with Bazarov directly after lunch, and returned just before dinner; Arkady did not go off anywhere, and spent about an hour with Katya.
-b=nikolskoe-garden;f=fade;x:anna=hat;x:bazarov=hat;x:arkady=hat
+b=nikolskoe-garden;f=fade;x:anna=hat;x:bazarov=hat;x:arkady=hat;f:b:nikolskoe-garden=blur(3px)
 
 He was not bored with her; she offered of herself to repeat the sonata of the day before; but when Madame Odintsov came back at last, when he caught sight of her, he felt an instantaneous pang at his heart.
 
@@ -4681,7 +4687,7 @@ He was not bored with her; she offered of herself to repeat the sonata of the da
 She came through the garden with a rather tired step; her cheeks were glowing and her eyes shining more brightly than usual under her round straw hat.
 
 
-She was twirling in her fingers the thin stalk of a wildflower, a light mantle had slipped down to her elbows, and the wide gray ribbons of her hat were clinging to her bosom.<e>"gray" when the rest of the book uses "grey". What a goof!</e>
+She was twirling in her fingers the thin stalk of a wildflower, a light mantle had slipped down to her elbows, and the wide gray ribbons of her hat were clinging to her bosom.<e>Every other instance is spelled "grey". Editor?</e>
 
 
 Bazarov walked behind her, self-confident and careless as usual, but the expression of his face, cheerful and even friendly as it was, did not please Arkady.
@@ -4691,7 +4697,7 @@ Muttering between his teeth, “Good morning!” Bazarov went away to his room, 
 m=dialogue,1
 
 “Good morning!” thought Arkady﻿ ﻿… “As though we had not seen each other already today!”
-t=arkady;e:arkady=confused
+t=arkady;e:arkady=confused;e:arkady=contemplative;i=;f:b:nikolskoe-garden=
 
 ## XVII
 r=title
