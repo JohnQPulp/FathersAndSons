@@ -8314,7 +8314,7 @@ s=pavel;e:pavel=serious;i=2
 “Now, that I don’t approve of at all,” observed Bazarov.
 s=bazarov;e:bazarov=annoyed
 
-“There’s a slight flavour of the French novel about it, something not very plausible.”<e>A deconstructive duel. (Daring today, aren't we.)</e>
+“There’s a slight flavour of the French novel about it, something not very plausible.”<e>Least deconstructive literary duel.</e>
 ;e:bazarov=nervous;i=;e:bazarov=suspicious;i=
 
 “Perhaps. You will agree, however, that it would be unpleasant to incur a suspicion of murder?”
@@ -8389,7 +8389,7 @@ t=bazarov;e:bazarov=serious;e:bazarov=serious;i=2;e:bazarov=annoyed;i=;e:bazarov
 “Bah! isn’t he perhaps in love with her himself? To be sure, he’s in love; it’s as clear as day. What a complication! It’s a nuisance!” he decided at last;
 ;e:bazarov=annoyed;e:bazarov=scowling;i=
 
-“it’s a bad job, look at it which way you will. In the first place, to risk a bullet through one’s brains, and in any case to go away; and then Arkady﻿ ﻿… and that dear innocent pussy, Nikolai Petrovitch. It’s a bad job, an awfully bad job.”<e>The poor dear innocent reader.</e>
+“it’s a bad job, look at it which way you will. In the first place, to risk a bullet through one’s brains, and in any case to go away; and then Arkady﻿ ﻿… and that dear innocent pussy, Nikolai Petrovitch. It’s a bad job, an awfully bad job.”<e>Dear innocent… reader.</e>
 t=bazarov;e:bazarov=serious;i=2
 
 The day passed in a kind of peculiar stillness and languor. Fenitchka gave no sign of her existence; she sat in her little room like a mouse in its hole.
@@ -9661,7 +9661,7 @@ s=arkady;e:arkady=confused;i=
 “My dear soul, there’s no great harm in that. One gets tired of much more than that in this life. And now I suppose we’d better say goodbye, hadn’t we?”
 s=bazarov;e:bazarov=thinking;i=2
 
-“Ever since I’ve been here I’ve had such a loathsome feeling, just as if I’d been reading Gogol’s effusions to the governor of Kalouga’s wife. By the way, I didn’t tell them to take the horses out.”<e>Total waste of a Gogol reference.</e>
+“Ever since I’ve been here I’ve had such a loathsome feeling, just as if I’d been reading Gogol’s effusions to the governor of Kalouga’s wife. By the way, I didn’t tell them to take the horses out.”<e>Waste of a Gogol reference.</e>
 ;e:bazarov=thinking;i=;e:bazarov=serious;i=
 
 “Upon my word, this is too much!”
@@ -9874,7 +9874,7 @@ Here, in the midst of the shade and coolness, she used to read and work, or to g
 The day after Bazarov’s arrival Katya was sitting on her favourite stone seat, and beside her again was sitting Arkady. He had besought her to come with him to the “temple.”
 ;f:b:nikolskoe-temple=
 
-There was about an hour still to lunchtime; the dewy morning had already given place to a sultry day.<e>Sultry book.</e>
+There was about an hour still to lunchtime; the dewy morning had already given place to a sultry day.<e>Sultry <i>book</i>.</e>
 
 
 Arkady’s face retained the expression of the preceding day;
@@ -11095,7 +11095,7 @@ s=bazarov;e:bazarov=annoyed;i=;e:bazarov=seriouslookdown;i=
 “People like them aren’t to be found in your great world if you look by daylight with a candle.﻿ ﻿… I was needed by Russia.﻿ ﻿… No, it’s clear, I wasn’t needed.”
 ;e:bazarov=unhappy;i=
 
-“And who is needed? The shoemaker’s needed, the tailor’s needed, the butcher﻿ ﻿… gives us meat﻿ ﻿… the butcher﻿ ﻿… wait a little, I’m getting mixed.﻿ ﻿… There’s a forest here﻿ ﻿…”<e>For the… love of… pacing… die already…</e>
+“And who is needed? The shoemaker’s needed, the tailor’s needed, the butcher﻿ ﻿… gives us meat﻿ ﻿… the butcher﻿ ﻿… wait a little, I’m getting mixed.﻿ ﻿… There’s a forest here﻿ ﻿…”<e>"Must… die… loquaciously…"</e>
 ;e:bazarov=weary;i=2;e:bazarov=confused;i=
 
 Bazarov put his hand to his brow.
@@ -11320,7 +11320,7 @@ b=petersburg-wide;f:b:petersburg-wide=blur(3px)
 There is a story that someone recently gave him a beating; but he was avenged upon him; in an obscure little article, hidden in an obscure little journal, he has hinted that the man who beat him was a coward.
 
 
-He calls this irony. His father bullies him as before, while his wife regards him as a fool﻿ ﻿… and a literary man.<e>Quite a few "lmao gottems" this chapter, really.</e>
+He calls this irony. His father bullies him as before, while his wife regards him as a fool﻿ ﻿… and a literary man.<e><i>Many</i> "lmao gottems" this chapter.</e>
 
 
 There is a small village graveyard in one of the remote corners of Russia.
@@ -11356,5 +11356,5 @@ Can it be that their prayers, their tears are fruitless? Can it be that love, sa
 However passionate, sinning, and rebellious the heart hidden in the tomb, the flowers growing over it peep serenely at us with their innocent eyes; they tell us not of eternal peace alone, of that great peace of “indifferent” nature; tell us too of eternal reconciliation and of life without end.
 ;f:b:graveyard=blur(6px)
 
-<e>The End. (Would it seem.) Points to Turgenev for wrapping up his book in a mostly-pleasing manner; and, more important than anything else, in a quick manner. But points <i>off</i> for only just writing about dueling, rather than actually giving Tolstoy satisfaction — a missed opportunity that could have saved us the ending of <book>War and Peace</book>.</e>
+<e>The End. (Would it seem.) Points to Turgenev for wrapping up his book pleasingly (mostly) and also <i>quickly</i>. But points <i>off</i> for only just writing about dueling, rather than actually giving Tolstoy satisfaction — a missed opportunity that could have saved us the not-so-quick ending of <book>War and Peace</book>.</e>
 
