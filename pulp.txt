@@ -8195,175 +8195,166 @@ Two hours later he knocked at Bazarov’s door.
 b=maryino-guest
 
 “I must apologise for hindering you in your scientific pursuits,” he began,
-s=pavel;e:pavel=serious;m=break,1;x:pavel=fez
+s=pavel;e:pavel=serious;m=break,1;x:pavel=fez;e:pavel=suspicious;i=
 
 seating himself on a chair in the window, and leaning with both hands on a handsome walking-stick with an ivory knob (he usually walked without a stick),
 s=none
 
 “but I am constrained to beg you to spare me five minutes of your time﻿ ﻿… no more.”
-s=pavel;i=2
+s=pavel;i=2;e:pavel=annoyed;i=2
 
 “All my time is at your disposal,” answered Bazarov,
-s=bazarov;e:bazarov=serious;m=break,1
+s=bazarov;e:bazarov=serious;m=break,1;e:bazarov=suspicious;i=
 
 over whose face there passed a quick change of expression directly Pavel Petrovitch crossed the threshold.
 s=none
 
 “Five minutes will be enough for me. I have come to put a single question to you.”
-s=pavel
+s=pavel;e:pavel=serious;i=
 
 “A question? What is it about?”
-s=bazarov
+s=bazarov;e:bazarov=contemplative;i=
 
-“I will tell you, if you will kindly hear me out.”
-s=pavel;e:pavel=thinking
+“I will tell you, if you will kindly hear me out. At the commencement of your stay in my brother’s house, before I had renounced the pleasure of conversing with you, it was my fortune to hear your opinions on many subjects;”
+s=pavel;e:pavel=thinking;e:pavel=serious;i=2
 
-“At the commencement of your stay in my brother’s house, before I had renounced the pleasure of conversing with you, it was my fortune to hear your opinions on many subjects; but so far as my memory serves, neither between us, nor in my presence, was the subject of single combats and duelling in general broached.”
-
-
-“Allow me to hear what are your views on that subject?”
-e:pavel=
+“but so far as my memory serves, neither between us, nor in my presence, was the subject of single combats and duelling in general broached. Allow me to hear what are your views on that subject?”
+e:pavel=;e:pavel=suspicious;i=2
 
 Bazarov, who had risen to meet Pavel Petrovitch, sat down on the edge of the table and folded his arms.
 s=none
 
 “My view is,” he said, “that from the theoretical standpoint, duelling is absurd; from the practical standpoint, now﻿—it’s quite a different matter.”
-s=bazarov;e:bazarov=suspicious
+s=bazarov;e:bazarov=suspicious;e:bazarov=nervous;i=;e:bazarov=thinking;i=
 
 “That is, you mean to say, if I understand you right, that whatever your theoretical views on duelling, you would not in practice allow yourself to be insulted without demanding satisfaction?”
 s=pavel
 
 “You have guessed my meaning absolutely.”
-s=bazarov;i=2
+s=bazarov;i=2;e:bazarov=serious;i=;e:bazarov=seriouslookdown;i=
 
 “Very good. I am very glad to hear you say so. Your words relieve me from a state of incertitude.”
-s=pavel
+s=pavel;e:pavel=thinking;i=
 
 “Of uncertainty, you mean to say.”
-s=bazarov
+s=bazarov;e:bazarov=smirking;i=;e:bazarov=smirkinglook;i=
 
 “That is all the same! I express myself so as to be understood; I﻿ ﻿… am not a seminary rat. Your words save me from a rather deplorable necessity. I have made up my mind to fight you.”
-s=pavel;e:pavel=scowling
+s=pavel;e:pavel=scowling;e:pavel=serious;i=
 
 Bazarov opened his eyes wide.
 s=none
 
 “Me?”
-s=bazarov;e:bazarov=surprised
+s=bazarov;e:bazarov=surprised;e:bazarov=nervous;i=
 
 “Undoubtedly.”
-s=pavel
+s=pavel;e:pavel=serious;i=2
 
 “But what for, pray?”
-s=bazarov;e:bazarov=annoyed
+s=bazarov;e:bazarov=annoyed;e:bazarov=serious;i=;e:bazarov=suspicious;i=2
 
 “I could explain the reason to you,” began Pavel Petrovitch, “but I prefer to be silent about it. To my idea your presence here is superfluous; I cannot endure you; I despise you; and if that is not enough for you﻿ ﻿…”
-s=pavel
+s=pavel;e:pavel=suspicious;i=;e:pavel=annoyedlook;i=
 
 Pavel Petrovitch’s eyes glittered﻿ ﻿… Bazarov’s too were flashing.
 s=none
 
 “Very good,” he assented. “No need of further explanations. You’ve a whim to try your chivalrous spirit upon me. I might refuse you this pleasure, but﻿—so be it!”
-s=bazarov
+s=bazarov;e:bazarov=angry;i=
 
 “I am sensible of my obligation to you,” replied Pavel Petrovitch; “and may reckon then on your accepting my challenge without compelling me to resort to violent measures.”
-s=pavel
+s=pavel;e:pavel=angry;i=2
 
-“That means, speaking without metaphor, to that stick?” Bazarov remarked coolly.
-s=bazarov;e:bazarov=serious
+“That means, speaking without metaphor, to that stick?” Bazarov remarked coolly. “That is precisely correct. It’s quite unnecessary for you to insult me. Indeed, it would not be a perfectly safe proceeding.”
+s=bazarov;e:bazarov=serious;e:bazarov=serious;i=2;e:bazarov=suspicious;i=
 
-“That is precisely correct. It’s quite unnecessary for you to insult me. Indeed, it would not be a perfectly safe proceeding. You can remain a gentleman.﻿ ﻿… I accept your challenge, too, like a gentleman.”
-e:bazarov=serious
+“You can remain a gentleman.﻿ ﻿… I accept your challenge, too, like a gentleman.”
+e:bazarov=serious;e:bazarov=serious;i=2;e:bazarov=annoyed;i=
 
 “That is excellent,” observed Pavel Petrovitch,
-s=pavel;m=break,1;e:pavel=seriouslookdown
+s=pavel;m=break,1;e:pavel=seriouslookdown;e:pavel=annoyed;i=2
 
 putting his stick in the corner.
 s=
 
 “We will say a few words directly about the conditions of our duel; but I should like first to know whether you think it necessary to resort to the formality of a trifling dispute, which might serve as a pretext for my challenge?”
-s=pavel;e:pavel=serious
+s=pavel;e:pavel=serious;e:pavel=seriousmoustache;i=
 
 “No; it’s better without formalities.”
-s=bazarov
+s=bazarov;e:bazarov=seriouslookdown;i=
 
 “I think so myself. I presume it is also out of place to go into the real grounds of our difference. We cannot endure one another. What more is necessary?”
-s=pavel
+s=pavel;e:pavel=suspicious;i=
 
 “What more, indeed?” repeated Bazarov ironically.
-s=bazarov;e:bazarov=smirking
+s=bazarov;e:bazarov=smirking;e:bazarov=thinking;i=
 
 “As regards the conditions of the meeting itself, seeing that we shall have no seconds﻿—for where could we get them?”
-s=pavel
+s=pavel;e:pavel=suspicious;i=2
 
 “Exactly so; where could we get them?”
-s=bazarov;e:bazarov=
+s=bazarov;e:bazarov=;e:bazarov=suspicious;i=
 
 “Then I have the honour to lay the following proposition before you: The combat to take place early tomorrow, at six, let us say, behind the copse, with pistols, at a distance of ten paces.﻿ ﻿…”
-s=pavel
+s=pavel;e:pavel=annoyedlook;i=
 
 “At ten paces? that will do; we hate one another at that distance.”
-s=bazarov
+s=bazarov;e:bazarov=annoyed;i=
 
 “We might have it eight,” remarked Pavel Petrovitch.
-s=pavel
+s=pavel;e:pavel=serious;i=
 
 “We might.”
 s=bazarov;e:bazarov=serious
 
 “To fire twice; and, to be ready for any result, let each put a letter in his pocket, in which he accuses himself of his end.”
-s=pavel
+s=pavel;e:pavel=serious;i=2
 
 “Now, that I don’t approve of at all,” observed Bazarov.
 s=bazarov;e:bazarov=annoyed
 
-“There’s a slight flavour of the French novel about it, something not very plausible.”<e>Write a non-deconstructive dueling scene as a Russian novelist. (Challenge: impossible.)</e>
-
+“There’s a slight flavour of the French novel about it, something not very plausible.”<e>A deconstructive duel. (Daring today, aren't we.)</e>
+;e:bazarov=nervous;i=;e:bazarov=suspicious;i=
 
 “Perhaps. You will agree, however, that it would be unpleasant to incur a suspicion of murder?”
 s=pavel;e:pavel=serious
 
 “I agree as to that. But there is a means of avoiding that painful reproach. We shall have no seconds, but we can have a witness.”
-s=bazarov
+s=bazarov;e:bazarov=thinking;i=;e:bazarov=suspicious;i=;e:bazarov=seriouslookdown;i=
 
 “And whom, allow me to inquire?”
-s=pavel
+s=pavel;e:pavel=seriousmoustache;i=
 
 “Why, Piotr.”
-s=bazarov
+s=bazarov;e:bazarov=thinking;i=
 
 “What Piotr?”
-s=pavel
+s=pavel;e:pavel=confused;i=
 
 “Your brother’s valet. He’s a man who has attained to the acme of contemporary culture, and he will perform his part with all the *comilfo* (*comme il faut*) necessary in such cases.”
-s=bazarov
+s=bazarov;e:bazarov=suspicious;i=2
 
 “I think you are joking, sir.”
-s=pavel
+s=pavel;e:pavel=suspicious;i=
 
-“Not at all. If you think over my suggestion, you will be convinced that it’s full of common sense and simplicity.”
-s=bazarov
-
-“You can’t hide a candle under a bushel; but I’ll undertake to prepare Piotr in a fitting manner, and bring him on to the field of battle.”
-
+“Not at all. If you think over my suggestion, you will be convinced that it’s full of common sense and simplicity. You can’t hide a candle under a bushel; but I’ll undertake to prepare Piotr in a fitting manner, and bring him on to the field of battle.”
+s=bazarov;e:bazarov=annoyed;i=
 
 “You persist in jesting still,” Pavel Petrovitch declared, getting up from his chair.
-s=pavel;e:pavel=annoyed
+s=pavel;e:pavel=annoyed;e:pavel=annoyed;i=2
 
-“But after the courteous readiness you have shown me, I have no right to pretend to lay down.﻿ ﻿… And so, everything is arranged.﻿ ﻿…”
-e:pavel=thinking
-
-“By the way, perhaps you have no pistols?”
-
+“But after the courteous readiness you have shown me, I have no right to pretend to lay down.﻿ ﻿… And so, everything is arranged.﻿ ﻿… By the way, perhaps you have no pistols?”
+e:pavel=thinking;e:pavel=contemplativelookdown;i=
 
 “How should I have pistols, Pavel Petrovitch? I’m not in the army.”
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=curious;e:bazarov=annoyed;i=;e:bazarov=serious;i=
 
 “In that case, I offer you mine. You may rest assured that it’s five years now since I shot with them.”
-s=pavel
+s=pavel;e:pavel=suspicious;i=2
 
 “That’s a very consoling piece of news.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=suspicious;i=
 
 Pavel Petrovitch took up his stick.﻿ ﻿…
 s=none
@@ -8372,67 +8363,64 @@ s=none
 s=pavel
 
 “Till we have the pleasure of meeting again, my dear sir,” said Bazarov, conducting his visitor to the door.
-s=bazarov
+s=bazarov;e:bazarov=nervous;i=;e:bazarov=serious;i=;e:bazarov=annoyed;i=
 
 Pavel Petrovitch went out, while Bazarov remained standing a minute before the door, and suddenly exclaimed,
 s=none
 
 “Pish, well, I’m dashed! how fine, and how foolish! A pretty farce we’ve been through!”
-s=bazarov;e:bazarov=angry
+s=bazarov;e:bazarov=angry;e:bazarov=scowling;i=2
 
 “Like trained dogs dancing on their hind-paws. But to decline was out of the question; why, I do believe he’d have struck me, and then﻿ ﻿…”
-e:bazarov=annoyed
+e:bazarov=annoyed;e:bazarov=nervous;i=
 
 (Bazarov turned white at the very thought; all his pride was up in arms at once)﻿—
 s=none;m=nospace,1;m=break,1
 
 “then it might have come to my strangling him like a cat.”
-s=bazarov
+s=bazarov;e:bazarov=angry;i=
 
 He went back to his microscope, but his heart was beating, and the composure necessary for taking observations had disappeared.
 s=none
 
 “He caught sight of us today,” he thought; “but would he really act like this on his brother’s account? And what a mighty matter is it﻿—a kiss? There must be something else in it.”
-t=bazarov;e:bazarov=serious
+t=bazarov;e:bazarov=serious;e:bazarov=serious;i=2;e:bazarov=annoyed;i=;e:bazarov=contemplative;i=;e:bazarov=annoyed;i=
 
 “Bah! isn’t he perhaps in love with her himself? To be sure, he’s in love; it’s as clear as day. What a complication! It’s a nuisance!” he decided at last;
-;e:bazarov=annoyed
+;e:bazarov=annoyed;e:bazarov=scowling;i=
 
-“it’s a bad job, look at it which way you will. In the first place, to risk a bullet through one’s brains, and in any case to go away; and then Arkady﻿ ﻿… and that dear innocent pussy, Nikolai Petrovitch. It’s a bad job, an awfully bad job.”<e>Bad job, bad pussy.</e>
+“it’s a bad job, look at it which way you will. In the first place, to risk a bullet through one’s brains, and in any case to go away; and then Arkady﻿ ﻿… and that dear innocent pussy, Nikolai Petrovitch. It’s a bad job, an awfully bad job.”<e>The poor dear innocent reader.</e>
 t=bazarov;e:bazarov=serious;i=2
 
-The day passed in a kind of peculiar stillness and languor.
-t=none;f:b:maryino-guest=blur(3px)
+The day passed in a kind of peculiar stillness and languor. Fenitchka gave no sign of her existence; she sat in her little room like a mouse in its hole.
+t=none;;f:b:maryino-guest=blur(3px)
 
-Fenitchka gave no sign of her existence; she sat in her little room like a mouse in its hole.
-b=maryino-wide;f:b:maryino-wide=blur(3px)
-
-Nikolai Petrovitch had a careworn air. He had just heard that blight had begun to appear in his wheat, upon which he had in particular rested his hopes.
-
-
-Pavel Petrovitch overwhelmed everyone, even Prokofitch, with his icy courtesy.
+Nikolai Petrovitch had a careworn air. He had just heard that blight had begun to appear in his wheat, upon which he had in particular rested his hopes. Pavel Petrovitch overwhelmed everyone, even Prokofitch, with his icy courtesy.
 
 
 Bazarov began a letter to his father, but tore it up, and threw it under the table.
-b=maryino-guest-night;f:b:maryino-guest-night=blur(3px)
+b=maryino-guest;f:b:maryino-guest=
 
 “If I die,” he thought, “they will find it out; but I’m not going to die. No, I shall struggle along in this world a good while yet.”
-;t=bazarov;f:b:maryino-guest-night=;e:bazarov=scowling
+;t=bazarov;f:b:maryino-guest=;e:bazarov=scowling;e:bazarov=annoyed;i=
 
 He gave Piotr orders to come to him on important business the next morning directly it was light. Piotr imagined that he wanted to take him to Petersburg with him.
 t=none
 
 Bazarov went late to bed, and all night long he was harassed by disordered dreams.﻿ ﻿…
-;f:b:maryino-guest=blur(3px)
+b=maryino-guest-night;;f:b:maryino-guest-night=blur(3px)
 
 Madame Odintsov kept appearing in them, now she was his mother, and she was followed by a kitten with black whiskers, and this kitten seemed to be Fenitchka; then Pavel Petrovitch took the shape of a great wood, with which he had yet to fight.
-
+;f:b:maryino-guest-night=blur(6px)
 
 Piotr waked him up at four o’clock; he dressed at once, and went out with him.
-b=maryino-copse;f=fade;f:b:maryino-copse=blur(3px)
+b=maryino-guest;f:b:maryino-guest=blur(6px)
 
-It was a lovely, fresh morning; tiny flecked clouds hovered overhead in little curls of foam on the pale clear blue; a fine dew lay in drops on the leaves and grass, and sparkled like silver on the spiders’ webs; the damp, dark earth seemed still to keep traces of the rosy dawn; from the whole sky the songs of larks came pouring in showers.
-b=maryino-copse;f=fade;x:bazarov=hat;x:piotr=hat
+It was a lovely, fresh morning; tiny flecked clouds hovered overhead in little curls of foam on the pale clear blue;
+b=maryino-copse;x:bazarov=hat;x:piotr=hat;f:b:maryino-copse=blur(3px)
+
+a fine dew lay in drops on the leaves and grass, and sparkled like silver on the spiders’ webs; the damp, dark earth seemed still to keep traces of the rosy dawn; from the whole sky the songs of larks came pouring in showers.
+
 
 Bazarov walked as far as the copse, sat down in the shade at its edge, and only then disclosed to Piotr the nature of the service he expected of him.
 f:b:maryino-copse=
@@ -8441,19 +8429,19 @@ The refined valet was mortally alarmed; but Bazarov soothed him by the assurance
 
 
 “And meantime,” he added, “only think what an important part you have to play!”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=annoyed;i=2
 
 Piotr threw up his hands, looked down, and leaned against a birch-tree, looking green with terror.
 s=none
 
-The road from Maryino skirted the copse; a light dust lay on it, untouched by wheel or foot since the previous day.
+The road from Maryino skirted the copse; a light dust lay on it, untouched by wheel or foot since the previous day. Bazarov unconsciously stared along this road, picked and gnawed a blade of grass, while he kept repeating to himself,
 
 
-Bazarov unconsciously stared along this road, picked and gnawed a blade of grass, while he kept repeating to himself, “What a piece of foolery!”
-m=dialogue,1
+“What a piece of foolery!”
+s=bazarov;e:bazarov=seriouslookdown;i=
 
 The chill of the early morning made him shiver twice.﻿ ﻿… Piotr looked at him dejectedly, but Bazarov only smiled; he was not afraid.
-t=none
+t=none;s=
 
 The tramp of horses’ hoofs was heard along the road.﻿ ﻿… A peasant came into sight from behind the trees.
 
@@ -8465,109 +8453,115 @@ He was driving before him two horses hobbled together, and as he passed Bazarov 
 t=bazarov;e:bazarov=suspicious
 
 “Fancy the gentleman’s coming,” Piotr faltered suddenly.
-s=piotr;t=none;e:piotr=wary
+s=piotr;t=none;e:piotr=wary;e:piotr=fearful;i=2
 
 Bazarov raised his head and saw Pavel Petrovitch. Dressed in a light check jacket and snow-white trousers, he was walking rapidly along the road; under his arm he carried a box wrapped up in green cloth.
 x:pavel=hat,lightcoat;s=none
 
 “I beg your pardon, I believe I have kept you waiting,” he observed,
-s=pavel;m=break,1;e:pavel=serious
+s=pavel;m=break,1;e:pavel=serious;e:pavel=seriouslookdown;i=
 
 bowing first to Bazarov, then to Piotr, whom he treated respectfully at that instant, as representing something in the nature of a second.
 s=none
 
 “I was unwilling to wake my man.”
-s=pavel;e:pavel=thinking
+s=pavel;e:pavel=thinking;e:pavel=suspicious;i=;e:pavel=weary;i=3;e:pavel=suspicious;i=;e:pavel=;i=;e:pavel=scowling;i=2
 
 “It doesn’t matter,” answered Bazarov; “we’ve only just arrived ourselves.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=annoyed;i=2
 
 “Ah! so much the better!”
-s=pavel;e:pavel=serious;i=2
+s=pavel;e:pavel=serious;i=2;e:pavel=suspicious;i=
 
 Pavel Petrovitch took a look round.
 s=none
 
 “There’s no one in sight; no one hinders us. We can proceed?”
-s=pavel
+s=pavel;e:pavel=scowling;i=2
 
 “Let us proceed.”
-s=bazarov
+s=bazarov;e:bazarov=serious;i=2
 
 “You do not, I presume, desire any fresh explanations?”
-s=pavel;e:pavel=suspicious
+s=pavel;e:pavel=suspicious;e:pavel=annoyed;i=
 
 “No, I don’t.”
-s=bazarov
+s=bazarov;e:bazarov=suspicious;i=
 
 “Would you like to load?” inquired Pavel Petrovitch,
-s=pavel;m=break,1;e:pavel=seriouslookdown
+s=pavel;m=break,1;e:pavel=seriouslookdown;e:pavel=seriouslookdown;i=
 
 taking the pistols out of the box.
 s=
 
-“No; you load, and I will measure out the paces. My legs are longer,” added Bazarov with a smile.
+“No; you load, and I will measure out the paces.”
+s=bazarov;e:bazarov=annoyed;i=2
+
+“My legs are longer,” added Bazarov with a smile.
 s=bazarov;e:bazarov=smirking
 
 “One, two, three.”
-e:bazarov=seriouslookdown
+e:bazarov=seriouslookdown;e:bazarov=seriouslookdown;i=2;e:bazarov=annoyedlookdown;i=
 
 “Yevgeny Vassilyevitch,” Piotr faltered with an effort (he was shaking as though he were in a fever),
 s=piotr;e:piotr=fearful
 
 “say what you like, I am going farther off.”
-e:piotr=wary
+e:piotr=wary;e:piotr=fearful;i=2
 
 “Four﻿ ﻿… five.﻿ ﻿… Good. Move away, my good fellow, move away; you may get behind a tree even, and stop up your ears, only don’t shut your eyes; and if anyone falls, run and pick him up. Six﻿ ﻿… seven﻿ ﻿… eight.﻿ ﻿…”
-s=bazarov;e:bazarov=seriouslook
+s=bazarov;e:bazarov=seriouslook;e:bazarov=seriouslookdown;i=2
 
 Bazarov stopped.
 s=none
 
 “Is that enough?” he said, turning to Pavel Petrovitch;
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=suspicious;i=
 
 “or shall I add two paces more?”
-
+;e:bazarov=seriouslookdown;i=2;e:bazarov=annoyed;i=2
 
 “As you like,” replied the latter,
-s=pavel;m=break,1;e:pavel=seriouslookdown
+s=pavel;m=break,1;e:pavel=seriouslookdown;e:pavel=annoyed;i=;e:pavel=seriouslookdown;i=
 
 pressing down the second bullet.
 s=
 
 “Well, we’ll make it two paces more.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=seriouslookdown;i=
 
 Bazarov drew a line on the ground with the toe of his boot.
 s=none
 
 “There’s the barrier then. By the way, how many paces may each of us go back from the barrier? That’s an important question too. That point was not discussed yesterday.”
-s=bazarov;e:bazarov=curious
+s=bazarov;e:bazarov=curious;e:bazarov=seriouslook;i=;e:bazarov=suspicious;i=2
 
 “I imagine, ten,” replied Pavel Petrovitch,
-s=pavel;m=break,1;e:pavel=thinking;i=2
+s=pavel;m=break,1;e:pavel=thinking;i=2;e:pavel=scowling;i=;e:pavel=serious;i=
 
 handing Bazarov both pistols.
 s=
 
 “Will you be so good as to choose?”
-s=pavel;e:pavel=
+s=pavel;e:pavel=;e:pavel=seriouslookdown;i=
 
 “I will be so good. But, Pavel Petrovitch, you must admit our combat is singular to the point of absurdity. Only look at the countenance of our second.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=smirking;i=2
 
 “You are disposed to laugh at everything,” answered Pavel Petrovitch.
-s=pavel;e:pavel=scowling
+s=pavel;e:pavel=scowling;e:pavel=suspicious;i=
 
 “I acknowledge the strangeness of our duel, but I think it my duty to warn you that I intend to fight seriously. *A bon entendeur, salut!*”
+;e:pavel=annoyed;i=
 
+“Oh! I don’t doubt that we’ve made up our minds to make away with each other; but why not laugh too and unite *utile dulci*?”
+s=bazarov;e:bazarov=smirking;e:bazarov=annoyed;i=2
 
-“Oh! I don’t doubt that we’ve made up our minds to make away with each other; but why not laugh too and unite *utile dulci*? You talk to me in French, while I talk to you in Latin.”
+“You talk to me in French, while I talk to you in Latin.”
 s=bazarov;e:bazarov=smirking
 
 “I am going to fight in earnest,” repeated Pavel Petrovitch,
-s=pavel;e:pavel=annoyed;m=break,1
+s=pavel;e:pavel=annoyed;m=break,1;e:pavel=scowling;i=
 
 and he walked off to his place.
 s=
@@ -8582,7 +8576,7 @@ s=pavel;e:pavel=serious
 s=bazarov;e:bazarov=serious
 
 “We can approach one another.”
-s=pavel
+s=pavel;e:pavel=suspicious;i=;e:pavel=seriouslookdown;i=;e:pavel=serious;i=
 
 Bazarov moved slowly forward, and Pavel Petrovitch, his left hand thrust in his pocket, walked towards him, gradually raising the muzzle of his pistol.﻿ ﻿…
 s=none
@@ -8594,13 +8588,13 @@ Something whizzed sharply by his very ear, and at the same instant there was the
 t=none;f:b:maryino-copse=blur(3px)
 
 “I heard it, so it must be all right,” had time to flash through Bazarov’s brain.
-m=dialogue,1;f:b:maryino-copse=
+m=dialogue,1;
 
 He took one more step, and without taking aim, pressed the spring.
 t=none;f:b:maryino-copse=blur(3px)
 
 Pavel Petrovitch gave a slight start, and clutched at his thigh. A stream of blood began to trickle down his white trousers.
-
+;f:b:maryino-copse=
 
 Bazarov flung aside the pistol, and went up to his antagonist.
 ;f:b:maryino-copse=
@@ -8609,43 +8603,49 @@ Bazarov flung aside the pistol, and went up to his antagonist.
 s=bazarov;e:bazarov=seriouslookdown
 
 “You had the right to call me up to the barrier,” said Pavel Petrovitch, “but that’s of no consequence. According to our agreement, each of us has the right to one more shot.”
-s=pavel;e:pavel=weary
+s=pavel;e:pavel=weary;e:pavel=wearylook;i=
 
 “All right, but, excuse me, that’ll do another time,” answered Bazarov,
-s=bazarov;m=break,1;i=2
+s=bazarov;m=break,1;i=2;e:bazarov=annoyed;i=2
 
 catching hold of Pavel Petrovitch, who was beginning to turn pale.
 s=
 
-“Now, I’m not a duellist, but a doctor, and I must have a look at your wound before anything else. Piotr! come here, Piotr! where have you got to?”
-e:bazarov=seriouslook
+“Now, I’m not a duellist, but a doctor, and I must have a look at your wound before anything else.”
+e:bazarov=seriouslook;s=bazarov;e:bazarov=seriouslookdown;i=
+
+“Piotr! come here, Piotr! where have you got to?”
+;e:bazarov=annoyedlook;i=
 
 “That’s all nonsense.﻿ ﻿… I need no one’s aid,” Pavel Petrovitch declared jerkily, “and﻿ ﻿… we must﻿ ﻿… again﻿ ﻿…”
-s=pavel;e:pavel=weary;i=2
+s=pavel;e:pavel=weary;i=2;e:pavel=weary;i=
 
 He tried to pull at his moustaches, but his hand failed him, his eyes grew dim, and he lost consciousness.
 s=none
 
 “Here’s a pretty pass! A fainting fit! What next!” Bazarov cried unconsciously, as he laid Pavel Petrovitch on the grass.
-s=bazarov;e:bazarov=annoyedlookdown
+s=bazarov;e:bazarov=annoyedlookdown;e:bazarov=seriouslookdown;i=
 
 “Let’s have a look what’s wrong.”
-e:bazarov=seriouslookdown
+e:bazarov=seriouslookdown;e:bazarov=annoyedlookdown;i=
 
 He pulled out a handkerchief, wiped away the blood, and began feeling round the wound.﻿ ﻿…
 s=
 
-“The bone’s not touched,” he muttered through his teeth; “the ball didn’t go deep; one muscle, *vastus externus*, grazed. He’ll be dancing about in three weeks!﻿ ﻿… And to faint! Oh, these nervous people, how I hate them! My word, what a delicate skin!”
-e:bazarov=scowlinglookdown
+“The bone’s not touched,” he muttered through his teeth;
+e:bazarov=scowlinglookdown;s=bazarov;e:bazarov=annoyed;i=2
+
+“the ball didn’t go deep; one muscle, *vastus externus*, grazed. He’ll be dancing about in three weeks!﻿ ﻿… And to faint! Oh, these nervous people, how I hate them! My word, what a delicate skin!”
+;e:bazarov=annoyed;i=;e:bazarov=scowling;i=;e:bazarov=annoyed;i=
 
 “Is he killed?” the quaking voice of Piotr came rustling behind his back.
-s=piotr;e:piotr=fearful;i=2
+s=piotr;e:piotr=fearful;i=2;e:piotr=wary;i=;e:piotr=fearful;i=2
 
 Bazarov looked round.
 s=none
 
 “Go for some water as quick as you can, my good fellow, and he’ll outlive us yet.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=annoyedlook;i=
 
 But the modern servant seemed not to understand his words, and he did not stir.
 s=none
@@ -8660,7 +8660,7 @@ and he began crossing himself.
 s=
 
 “You are right﻿ ﻿… What an imbecile countenance!” remarked the wounded gentleman with a forced smile.
-s=pavel;e:pavel=wearysmile
+s=pavel;e:pavel=wearysmile;e:pavel=wearysmirking;i=
 
 “Well, go for the water, damn you!” shouted Bazarov.
 s=bazarov;e:bazarov=angry
@@ -8669,19 +8669,22 @@ s=bazarov;e:bazarov=angry
 s=pavel;e:pavel=weary
 
 “The duel, if you are willing, shall not be renewed. You have behaved honourably﻿ ﻿… today, today﻿—observe.”
-i=3
+i=3;e:pavel=wearylook;i=
 
 “There’s no need to recall the past,” rejoined Bazarov; “and as regards the future, it’s not worth while for you to trouble your head about that either, for I intend being off without delay.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=annoyed;i=2
 
-“Let me bind up your leg now; your wound’s not serious, but it’s always best to stop bleeding. But first I must bring this corpse to his senses.”
+“Let me bind up your leg now; your wound’s not serious, but it’s always best to stop bleeding.”
+;e:bazarov=seriouslookdown;i=;e:bazarov=seriouslookdown;i=2
 
+“But first I must bring this corpse to his senses.”
+;e:bazarov=seriouslook;i=
 
 Bazarov shook Piotr by the collar, and sent him for a droshky.
 s=none
 
 “Mind you don’t frighten my brother,” Pavel Petrovitch said to him; “don’t dream of informing him.”
-s=pavel;e:pavel=wearylook
+s=pavel;e:pavel=wearylook;e:pavel=wearylook;i=
 
 Piotr flew off; and while he was running for a droshky, the two antagonists sat on the ground and said nothing.
 s=none
@@ -8699,31 +8702,31 @@ That is pleasant to friends, and always very unpleasant to those who are not fri
 
 
 “Haven’t I bound up your leg too tight?” inquired Bazarov at last.
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=seriouslookdown;i=
 
 “No, not at all; it’s capital,” answered Pavel Petrovitch;
-s=pavel;e:pavel=weary
+s=pavel;e:pavel=weary;e:pavel=wearysmile;i=
 
 and after a brief pause, he added,
 s=none
 
 “There’s no deceiving my brother; we shall have to tell him we quarrelled over politics.”
-s=pavel;i=2
+s=pavel;i=2;e:pavel=weary;i=3
 
-“Very good,” assented Bazarov. “You can say I insulted all anglomaniacs.”<e>Slavo<i>phil</i> on one side. Anglo<i>maniac</i> on the other. Who's side are you on, Garnett?</e>
-s=bazarov;e:bazarov=
+“Very good,” assented Bazarov. “You can say I insulted all anglomaniacs.”<e>Anglo<i>maniac</i>, but previously: Slavo<i>phil</i>. Biased novel.</e>
+s=bazarov;e:bazarov=;e:bazarov=seriouslookdown;i=2
 
 “That will do capitally. What do you imagine that man thinks of us now?” continued Pavel Petrovitch,
-s=pavel;e:pavel=wearylook;i=2;m=break,1
+s=pavel;e:pavel=wearylook;i=2;m=break,1;e:pavel=wearysmile;i=
 
 pointing to the same peasant, who had driven the hobbled horses past Bazarov a few minutes before the duel, and going back again along the road, took off his cap at the sight of the “gentlefolk.”
 s=none
 
 “Who can tell!” answered Bazarov; “it’s quite likely he thinks nothing. The Russian peasant is that mysterious unknown about whom Mrs. Radcliffe used to talk so much. Who is to understand him! He doesn’t understand himself!”
-s=bazarov;e:bazarov=scowling
+s=bazarov;e:bazarov=scowling;e:bazarov=annoyed;i=2
 
 “Ah! so that’s your idea!” Pavel Petrovitch began;
-s=pavel;e:pavel=weary
+s=pavel;e:pavel=weary;e:pavel=weary;i=3
 
 and suddenly he cried,
 s=none
@@ -8741,25 +8744,28 @@ He jumped out of it before it had stopped, and rushed up to his brother.
 s=nikolai;e:nikolai=upset
 
 “Yevgeny Vassilyitch, pray, what is this?”
+;e:nikolai=wary;i=
 
+“Nothing,” answered Pavel Petrovitch; “they have alarmed you for nothing.”
+s=pavel;e:pavel=weary;e:pavel=wearylook;i=;e:pavel=weary;i=3
 
-“Nothing,” answered Pavel Petrovitch; “they have alarmed you for nothing. I had a little dispute with Mr. Bazarov, and I have had to pay for it a little.”
-s=pavel;e:pavel=weary
+“I had a little dispute with Mr. Bazarov, and I have had to pay for it a little.”
+;e:pavel=wearysmile;i=
 
 “But what was it all about, mercy on us!”
-s=nikolai
+s=nikolai;e:nikolai=fearful;i=
 
 “How can I tell you? Mr. Bazarov alluded disrespectfully to Sir Robert Peel. I must hasten to add that I am the only person to blame in all this, while Mr. Bazarov has behaved most honourably. I called him out.”
-s=pavel;e:pavel=wearysmirking
+s=pavel;e:pavel=wearysmirking;e:pavel=weary;i=2
 
 “But you’re covered with blood, good Heavens!”
-s=nikolai;e:nikolai=fearful
+s=nikolai;e:nikolai=fearful;e:nikolai=unhappy;i=
 
 “Well, did you suppose I had water in my veins? But this bloodletting is positively beneficial to me. Isn’t that so, doctor? Help me to get into the droshky, and don’t give way to melancholy. I shall be quite well tomorrow.”
-s=pavel;e:pavel=weary
+s=pavel;e:pavel=weary;e:pavel=wearylook;i=
 
 “That’s it; capital. Drive on, coachman.”
-e:pavel=wearylook
+e:pavel=wearylook;e:pavel=seriouslookdown;i=
 
 Nikolai Petrovitch walked after the droshky; Bazarov was remaining where he was.﻿ ﻿…
 s=none
@@ -8768,22 +8774,22 @@ s=none
 s=nikolai;e:nikolai=serious
 
 “till we get another doctor from the town.”
-
+;e:nikolai=nervous;i=
 
 Bazarov nodded his head without speaking.
 s=
 
-In an hour’s time Pavel Petrovitch was already lying in bed with a skilfully bandaged leg.
-b=maryino-pavel;x:pavel=night,fez;x:bazarov=;x:nikolai=;s=none
+In an hour’s time Pavel Petrovitch was already lying in bed with a skilfully bandaged leg. The whole house was alarmed; Fenitchka fainted.
+b=maryino-pavel;x:pavel=night,fez;x:bazarov=;x:nikolai=;s=none;f:b:maryino-pavel=blur(3px)
 
-The whole house was alarmed; Fenitchka fainted.
+Nikolai Petrovitch kept stealthily wringing his hands, while Pavel Petrovitch laughed and joked, especially with Bazarov;
 
 
-Nikolai Petrovitch kept stealthily wringing his hands, while Pavel Petrovitch laughed and joked, especially with Bazarov; he had put on a fine cambric nightshirt, an elegant morning wrapper, and a fez, did not allow the blinds to be drawn down, and humorously complained of the necessity of being kept from food.
+he had put on a fine cambric nightshirt, an elegant morning wrapper, and a fez, did not allow the blinds to be drawn down, and humorously complained of the necessity of being kept from food.
 
 
 Towards night, however, he began to be feverish; his head ached. The doctor arrived from the town.
-f:b:maryino-pavel=blur(3px)
+f:b:maryino-pavel=blur(5px) brightness(85%)
 
 (Nikolai Petrovitch would not listen to his brother, and indeed Bazarov himself did not wish him to; he sat the whole day in his room, looking yellow and vindictive, and only went in to the invalid for as brief a time as possible; twice he happened to meet Fenitchka, but she shrank away from him with horror.)
 
@@ -8801,16 +8807,16 @@ Nikolai Petrovitch sent Fenitchka twice to take him a glass of lemonade; Pavel P
 
 
 Towards morning the fever had increased a little; there was slight delirium. At first Pavel Petrovitch uttered incoherent words;
-
+f:b:maryino-pavel=blur(3px)
 
 then suddenly he opened his eyes, and seeing his brother near his bed bending anxiously over him, he said,
 f:b:maryino-pavel=
 
 “Don’t you think, Nikolai, Fenitchka has something in common with Nellie?”
-s=pavel;e:pavel=confused
+s=pavel;e:pavel=confused;e:pavel=wearysmile;i=
 
 “What Nellie, Pavel dear?”
-s=nikolai;e:nikolai=confused
+s=nikolai;e:nikolai=confused;e:nikolai=unhappy;i=
 
 “How can you ask? Princess R﻿—﻿—. Especially in the upper part of the face. *C’est de la même famille.*”
 s=pavel;e:pavel=unhappy
@@ -8822,7 +8828,7 @@ s=none
 t=nikolai;e:nikolai=sadsmile
 
 “Ah, how I love that lightheaded creature!” moaned Pavel Petrovitch,
-s=pavel;t=none;e:pavel=upsethands;m=break,1
+s=pavel;t=none;e:pavel=upsethands;m=break,1;e:pavel=upset;i=2
 
 clasping his hands mournfully behind his head.
 s=
@@ -8830,23 +8836,20 @@ s=
 “I can’t bear any insolent upstart to dare to touch﻿ ﻿…” he whispered a few minutes later.
 s=pavel;e:pavel=unhappy
 
-Nikolai Petrovitch only sighed;
+Nikolai Petrovitch only sighed; he did not even suspect to whom these words referred.
 s=
-
-he did not even suspect to whom these words referred.
-s=none;f:b:maryino-pavel=blur(3px)
 
 Bazarov presented himself before him at eight o’clock the next day. He had already had time to pack, and to set free all his frogs, insects, and birds.
 b=maryino-nikolai-study;f=fade
 
 “You have come to say goodbye to me?” said Nikolai Petrovitch, getting up to meet him.
-s=nikolai;e:nikolai=contemplative
+s=nikolai;e:nikolai=contemplative;e:nikolai=wary;i=
 
 “Yes.”
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=contemplative;i=
 
 “I understand you, and approve of you fully. My poor brother, of course, is to blame; and he is punished for it. He told me himself that he made it impossible for you to act otherwise.”
-s=nikolai;e:nikolai=thinking
+s=nikolai;e:nikolai=thinking;e:nikolai=unhappy;i=
 
 “I believe that you could not avoid this duel, which﻿ ﻿… which to some extent is explained by the almost constant antagonism of your respective views.”
 
@@ -8855,43 +8858,46 @@ s=nikolai;e:nikolai=thinking
 s=
 
 “My brother is a man of the old school, hot-tempered and obstinate.﻿ ﻿… Thank God that it has ended as it has. I have taken every precaution to avoid publicity.”
-s=nikolai
+s=nikolai;e:nikolai=sadsmile;i=2
 
 “I’m leaving you my address, in case there’s any fuss,” Bazarov remarked casually.
-s=bazarov;e:bazarov=
+s=bazarov;e:bazarov=;e:bazarov=nervous;i=;e:bazarov=seriouslookdown;i=
 
 “I hope there will be no fuss, Yevgeny Vassilyitch.﻿ ﻿… I am very sorry your stay in my house should have such a﻿ ﻿… such an end. It is the more distressing to me through Arkady’s﻿ ﻿…”
 s=nikolai;e:nikolai=unhappy
 
 “I shall be seeing him, I expect,” replied Bazarov,
-s=bazarov;m=break,1
+s=bazarov;m=break,1;e:bazarov=thinking;i=
 
 in whom “explanations” and “protestations” of every sort always aroused a feeling of impatience;
 s=none
 
 “in case I don’t, I beg you to say goodbye to him for me, and accept the expression of my regret.”
-s=bazarov
+s=bazarov;e:bazarov=contemplative;i=
 
 “And I beg﻿ ﻿…” answered Nikolai Petrovitch.
-s=nikolai;e:nikolai=confused
+s=nikolai;e:nikolai=confused;e:nikolai=unhappy;i=2;e:nikolai=wary;i=
 
 But Bazarov went off without waiting for the end of his sentence.
 s=none;f:b:maryino-nikolai-study=blur(3px)
 
-When he heard of Bazarov’s going, Pavel Petrovitch expressed a desire to see him, and shook his hand. But even then he remained as cold as ice; he realised that Pavel Petrovitch wanted to play the magnanimous.
-b=maryino-wide;f:b:maryino-wide=blur(3px)
+When he heard of Bazarov’s going, Pavel Petrovitch expressed a desire to see him, and shook his hand.
+b=maryino-pavel;f:b:maryino-pavel=blur(3px)
+
+But even then he remained as cold as ice; he realised that Pavel Petrovitch wanted to play the magnanimous.
+f:b:maryino-pavel=blur(3px)
 
 He did not succeed in saying goodbye to Fenitchka; he only exchanged glances with her at the window. Her face struck him as looking dejected.
-
+b=maryino-wide;f:b:maryino-wide=blur(3px)
 
 “She’ll come to grief, perhaps,” he said to himself.﻿ ﻿… “But who knows? she’ll pull through somehow, I dare say!”
-t=bazarov;e:bazarov=serious;x:bazarov=hat;;f:b:maryino-wide=
+m=dialogue,1;x:bazarov=hat;
 
 Piotr, however, was so overcome that he wept on his shoulder, till Bazarov damped him by asking if he’d a constant supply laid on in his eyes; while Dunyasha was obliged to run away into the wood to hide her emotion.
-t=none
+s=none
 
 The originator of all this woe got into a light cart, smoked a cigar, and when at the third mile, at the bend in the road, the Kirsanovs’ farm, with its new house, could be seen in a long line, he merely spat, and muttering, “Cursed snobs!” wrapped himself closer in his cloak.
-;f:b:maryino-wide=blur(3px);m=dialogue,1
+;f:b:maryino-wide=blur(6px);m=dialogue,1
 
 Pavel Petrovitch was soon better; but he had to keep his bed about a week.
 b=maryino-pavel;f:b:maryino-pavel=blur(3px)
@@ -8902,7 +8908,10 @@ He bore his captivity, as he called it, pretty patiently, though he took great p
 Nikolai Petrovitch used to read him the journals; Fenitchka waited on him as before, brought him lemonade, soup, boiled eggs, and tea; but she was overcome with secret dread whenever she went into his room.
 
 
-Pavel Petrovitch’s unexpected action had alarmed everyone in the house, and her more than anyone; Prokofitch was the only person not agitated by it; he discoursed upon how gentlemen in his day used to fight, but only with real gentlemen; low curs like that they used to order a horsewhipping in the stable for their insolence.
+Pavel Petrovitch’s unexpected action had alarmed everyone in the house, and her more than anyone;
+
+
+Prokofitch was the only person not agitated by it; he discoursed upon how gentlemen in his day used to fight, but only with real gentlemen; low curs like that they used to order a horsewhipping in the stable for their insolence.
 
 
 Fenitchka’s conscience scarcely reproached her; but she was tormented at times by the thought of the real cause of the quarrel; and Pavel Petrovitch too looked at her so strangely﻿ ﻿… that even when her back was turned, she felt his eyes upon her.
@@ -8918,16 +8927,16 @@ Fenitchka brought him a cup of tea, and setting it down on a little table, was a
 
 
 “Where are you going in such a hurry, Fedosya Nikolaevna?” he began; “are you busy?”
-s=pavel;e:pavel=contemplative
+s=pavel;e:pavel=contemplative;e:pavel=contemplative;i=
 
 “… I have to pour out tea.”
-s=fenitchka;e:fenitchka=fearful;x:fenitchka=kerchief
+s=fenitchka;e:fenitchka=fearful;x:fenitchka=kerchief;e:fenitchka=confused;i=
 
 “Dunyasha will do that without you; sit a little while with a poor invalid.”
-s=pavel;e:pavel=thinking
+s=pavel;e:pavel=thinking;e:pavel=unhappy;i=
 
 “By the way, I must have a little talk with you.”
-e:pavel=serious
+e:pavel=serious;e:pavel=seriousmoustache;i=;e:pavel=suspicious;i=
 
 Fenitchka sat down on the edge of an easy-chair, without speaking.
 s=none
@@ -8936,7 +8945,7 @@ s=none
 s=pavel;e:pavel=seriousmoustache
 
 “I?”
-s=fenitchka;e:fenitchka=wary
+s=fenitchka;e:fenitchka=wary;e:fenitchka=nervous;i=
 
 “Yes, you. You never look at me, as though your conscience were not at rest.”
 s=pavel;e:pavel=serious
@@ -8945,22 +8954,25 @@ Fenitchka crimsoned, but looked at Pavel Petrovitch. He impressed her as looking
 s=none
 
 “Is your conscience at rest?” he questioned her.
-s=pavel;e:pavel=serious;i=2
+s=pavel;e:pavel=serious;i=2;e:pavel=unhappy;i=
 
 “Why should it not be at rest?” she faltered.
-s=fenitchka;e:fenitchka=confused
+s=fenitchka;e:fenitchka=confused;e:fenitchka=upset;i=2
 
-“Goodness knows why! Besides, whom can you have wronged? Me? That is not likely. Any other people in the house here? That, too, is something incredible. Can it be my brother? But you love him, don’t you?”
-s=pavel;e:pavel=thinking;i=2
+“Goodness knows why! Besides, whom can you have wronged? Me? That is not likely. Any other people in the house here? That, too, is something incredible.”
+s=pavel;e:pavel=thinking;i=2;e:pavel=confused;i=
+
+“Can it be my brother? But you love him, don’t you?”
+;e:pavel=serious;i=
 
 “I love him.”
-s=fenitchka;e:fenitchka=nervous
+s=fenitchka;e:fenitchka=nervous;e:fenitchka=nervous;i=2
 
 “With your whole soul, with your whole heart?”
-s=pavel
+s=pavel;e:pavel=seriousmoustache;i=
 
 “I love Nikolai Petrovitch with my whole heart.”
-s=fenitchka;e:fenitchka=serious
+s=fenitchka;e:fenitchka=serious;e:fenitchka=upset;i=
 
 “Truly? Look at me, Fenitchka.”
 s=pavel;e:pavel=serious
@@ -8969,55 +8981,58 @@ s=pavel;e:pavel=serious
 s=none
 
 “You know, it’s a great sin telling lies!”
-s=pavel;e:pavel=suspicious
+s=pavel;e:pavel=suspicious;e:pavel=confused;i=
 
 “I am not telling lies, Pavel Petrovitch. Not love Nikolai Petrovitch﻿—I shouldn’t care to live after that.”
-s=fenitchka;e:fenitchka=unhappy
+s=fenitchka;e:fenitchka=unhappy;e:fenitchka=fearful;i=
 
 “And will you never give him up for anyone?”
 s=pavel;e:pavel=serious
 
 “For whom could I give him up?”
-s=fenitchka;e:fenitchka=upset
+s=fenitchka;e:fenitchka=upset;e:fenitchka=unhappy;i=
 
 “For whom indeed! Well, how about that gentleman who has just gone away from here?”
-s=pavel;e:pavel=suspicious
+s=pavel;e:pavel=suspicious;e:pavel=suspicious;i=
 
 Fenitchka got up.
 s=none
 
 “My God, Pavel Petrovitch, what are you torturing me for? What have I done to you? How can such things be said?”﻿ ﻿…
-s=fenitchka;e:fenitchka=upset
+s=fenitchka;e:fenitchka=upset;e:fenitchka=upset;i=2
 
 “Fenitchka,” said Pavel Petrovitch, in a sorrowful voice,
 s=pavel;e:pavel=unhappy
 
 “you know I saw﻿ ﻿…”
-
+;e:pavel=serious;i=
 
 “What did you see?”
-s=fenitchka;e:fenitchka=unhappy
+s=fenitchka;e:fenitchka=unhappy;e:fenitchka=upset;i=
 
 “Well, there﻿ ﻿… in the arbour.”
-s=pavel;e:pavel=serious
+s=pavel;e:pavel=serious;e:pavel=unhappy;i=
 
 Fenitchka crimsoned to her hair and to her ears.
 s=none
 
 “How was I to blame for that?” she articulated with an effort.
-s=fenitchka;e:fenitchka=unhappy;i=2
+s=fenitchka;e:fenitchka=unhappy;i=2;e:fenitchka=unhappy;i=
 
 Pavel Petrovitch raised himself up.
 s=none
 
 “You were not to blame? No? Not at all?”
-s=pavel;e:pavel=contemplative
+s=pavel;e:pavel=contemplative;e:pavel=confused;i=
 
-“I love Nikolai Petrovitch, and no one else in the world, and I shall always love him!” cried Fenitchka with sudden force, while her throat seemed fairly breaking with sobs.
-s=fenitchka;e:fenitchka=upset
+“I love Nikolai Petrovitch, and no one else in the world, and I shall always love him!” cried Fenitchka with sudden force,
+s=fenitchka;e:fenitchka=upset;m=break,1
+
+while her throat seemed fairly breaking with sobs.
+s=
 
 “As for what you saw, at the dreadful day of judgment I will say I’m not to blame, and wasn’t to blame for it, and I would rather die at once if people can suspect me of such a thing against my benefactor, Nikolai Petrovitch.”
-
+s=fenitchka;e:fenitchka=upset;i=2;e:fenitchka=unhappy;i=
 
 But here her voice broke, and at the same time she felt that Pavel Petrovitch was snatching and pressing her hand.﻿ ﻿…
 s=none
@@ -9038,7 +9053,7 @@ But what were her feelings when Pavel Petrovitch, Pavel Petrovitch himself, put 
 
 
 “Goodness,” she thought, “isn’t it some attack coming on him?”﻿ ﻿…
-t=fenitchka;e:fenitchka=confused
+t=fenitchka;e:fenitchka=confused;e:fenitchka=wary;i=
 
 At that instant his whole ruined life was stirred up within him.
 t=none
@@ -9059,13 +9074,13 @@ Nikolai Petrovitch was surprised; Fenitchka, the reserved and staid Fenitchka, h
 
 
 “What’s the matter?” he said,
-s=nikolai;e:nikolai=confused;m=break,1
+s=nikolai;e:nikolai=confused;m=break,1;e:nikolai=unhappy;i=
 
 and, glancing at his brother, he gave her Mitya.
 s=
 
 “You don’t feel worse?” he inquired, going up to Pavel Petrovitch.
-;e:nikolai=wary
+;e:nikolai=wary;s=nikolai;e:nikolai=confused;i=;e:nikolai=unhappy;i=2
 
 He buried his face in a cambric handkerchief.
 s=none
@@ -9073,14 +9088,17 @@ s=none
 “No﻿ ﻿… not at all﻿ ﻿… on the contrary, I am much better.”
 s=pavel;e:pavel=wearylookdown
 
-“You were in too great a hurry to move on to the sofa. Where are you going?” added Nikolai Petrovitch, turning round to Fenitchka;
-s=nikolai;e:nikolai=confused;i=2
+“You were in too great a hurry to move on to the sofa.”
+s=nikolai;e:nikolai=confused;i=2;e:nikolai=unhappy;i=
+
+“Where are you going?” added Nikolai Petrovitch, turning round to Fenitchka;
+;e:nikolai=wary;i=
 
 but she had already closed the door behind her.
 s=none
 
 “I was bringing in my young hero to show you, he’s been crying for his uncle. Why has she carried him off? What’s wrong with you, though? Has anything passed between you, eh?”
-s=nikolai;e:nikolai=confused
+s=nikolai;e:nikolai=confused;e:nikolai=confused;i=2
 
 “Brother!” said Pavel Petrovitch solemnly.
 s=pavel;e:pavel=unhappy
@@ -9092,70 +9110,70 @@ s=none
 s=pavel;e:pavel=serious
 
 “What request? Tell me.”
-s=nikolai;e:nikolai=confused;i=2
+s=nikolai;e:nikolai=confused;i=2;e:nikolai=unhappy;i=
 
 “It is very important; the whole happiness of your life, to my idea, depends on it. I have been thinking a great deal all this time over what I want to say to you now.﻿ ﻿…”
-s=pavel
+s=pavel;e:pavel=unhappy;i=
 
 “Brother, do your duty, the duty of an honest and generous man; put an end to the scandal and bad example you are setting﻿—you, the best of men!”
-
+;e:pavel=upset;i=2;e:pavel=upset;i=
 
 “What do you mean, Pavel?”
-s=nikolai;e:nikolai=wary
+s=nikolai;e:nikolai=wary;e:nikolai=confused;i=
 
 “Marry Fenitchka.﻿ ﻿… She loves you; she is the mother of your son.”
-s=pavel
+s=pavel;e:pavel=wearysmile;i=;e:pavel=confused;i=
 
 Nikolai Petrovitch stepped back a pace, and flung up his hands.
 s=none
 
-“Do you say that, Pavel? you whom I have always regarded as the most determined opponent of such marriages! You say that? Don’t you know that it has simply been out of respect for you that I have not done what you so rightly call my duty?”
-s=nikolai;e:nikolai=surprised
+“Do you say that, Pavel? you whom I have always regarded as the most determined opponent of such marriages!”
+s=nikolai;e:nikolai=surprised;e:nikolai=sadsmile;i=;e:nikolai=unhappy;i=
+
+“You say that? Don’t you know that it has simply been out of respect for you that I have not done what you so rightly call my duty?”
+;e:nikolai=sadsmile;i=
 
 “You were wrong to respect me in that case,” Pavel Petrovitch responded, with a weary smile.
 s=pavel;e:pavel=wearysmile
 
 “I begin to think Bazarov was right in accusing me of snobbishness. No dear brother, don’t let us worry ourselves about appearances and the world’s opinion any more; we are old folks and humble now; it’s time we laid aside vanity of all kinds.”
-e:pavel=thinking
+e:pavel=thinking;e:pavel=unhappy;i=
 
 “Let us, just as you say, do our duty; and mind, we shall get happiness that way into the bargain.”
-
+;e:pavel=wearysmile;i=
 
 Nikolai Petrovitch rushed to embrace his brother.
 s=none
 
 “You have opened my eyes completely!” he cried. “I was right in always declaring you the wisest and kindest-hearted fellow in the world, and now I see you are just as reasonable as you are noble-hearted.”
-s=nikolai;e:nikolai=sadsmile
+s=nikolai;e:nikolai=sadsmile;e:nikolai=sadsmile;i=2
 
-“Quietly, quietly,” Pavel Petrovitch interrupted him; “don’t hurt the leg of your reasonable brother, who at close upon fifty has been fighting a duel like an ensign.”
-s=pavel;e:pavel=thinking
-
-“So, then, it’s a settled matter; Fenitchka is to be my﻿ ﻿… *belle soeur*.”
-e:pavel=contemplative
+“Quietly, quietly,” Pavel Petrovitch interrupted him; “don’t hurt the leg of your reasonable brother, who at close upon fifty has been fighting a duel like an ensign. So, then, it’s a settled matter; Fenitchka is to be my﻿ ﻿… *belle soeur*.”
+s=pavel;e:pavel=thinking;e:pavel=unhappy;i=
 
 “My dearest Pavel! But what will Arkady say?”
-s=nikolai;e:nikolai=unhappy
+s=nikolai;e:nikolai=unhappy;e:nikolai=unhappy;i=
 
 “Arkady? he’ll be in ecstasies, you may depend upon it! Marriage is against his principles, but then the sentiment of equality in him will be gratified. And, after all, what sense have class distinctions *au dix-neuvième siècle*?”
-s=pavel;e:pavel=serious
+s=pavel;e:pavel=serious;e:pavel=wearysmile;i=
 
 “Ah, Pavel, Pavel! let me kiss you once more! Don’t be afraid, I’ll be careful.”
-s=nikolai;e:nikolai=sadsmile;i=2
+s=nikolai;e:nikolai=sadsmile;i=2;e:nikolai=sadsmile;i=
 
 The brothers embraced each other.
 s=none
 
 “What do you think, should you not inform her of your intention now?” queried Pavel Petrovitch.
-s=pavel;e:pavel=thinking
+s=pavel;e:pavel=thinking;e:pavel=serious;i=
 
 “Why be in a hurry?” responded Nikolai Petrovitch. “Has there been any conversation between you?”
-s=nikolai;e:nikolai=contemplative
+s=nikolai;e:nikolai=contemplative;e:nikolai=wary;i=
 
 “Conversation between us? *Quelle idée!*”
-s=pavel
+s=pavel;e:pavel=unhappy;i=
 
 “Well, that is all right then. First of all, you must get well, and meanwhile there’s plenty of time. We must think it over well, and consider﻿ ﻿…”
-s=nikolai;e:nikolai=thinking
+s=nikolai;e:nikolai=thinking;e:nikolai=confused;i=
 
 “But your mind is made up, I suppose?”
 s=pavel;e:pavel=serious
@@ -9163,11 +9181,8 @@ s=pavel;e:pavel=serious
 “Of course, my mind is made up, and I thank you from the bottom of my heart. I will leave you now; you must rest; any excitement is bad for you.﻿ ﻿… But we will talk it over again. Sleep well, dear heart, and God bless you!”
 s=nikolai;e:nikolai=sadsmile
 
-“What is he thanking me like that for?” thought Pavel Petrovitch, when he was left alone.
-s=none;t=pavel;f=fade;e:pavel=thinking
-
-“As though it did not depend on him! I will go away directly he is married, somewhere a long way off﻿—to Dresden or Florence, and will live there till I﻿—”
-
+“What is he thanking me like that for?” thought Pavel Petrovitch, when he was left alone. “As though it did not depend on him! I will go away directly he is married, somewhere a long way off﻿—to Dresden or Florence, and will live there till I﻿—”
+s=none;;f=fade;t=pavel;e:pavel=thinking;i=
 
 Pavel Petrovitch moistened his forehead with eau de cologne, and closed his eyes.
 t=none
