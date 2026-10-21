@@ -7111,7 +7111,7 @@ s=vassily;e:vassily=happy;e:vassily=curious;i=
 “I never gaze up to heaven except when I want to sneeze,” growled Bazarov,
 s=bazarov;e:bazarov=serious;m=break,1;e:bazarov=annoyed;i=
 
-and turning to Arkady he added in an undertone.
+and turning to Arkady he added in an undertone.<e>Period?</e>
 s=
 
 “Pity he interrupted us.”
@@ -7501,14 +7501,14 @@ r=title
 In silence, only rarely exchanging a few insignificant words, our friends travelled as far as Fedot’s.
 b=country-road-2;x:arkady=hat;x:bazarov=hat;x:coachman1=hat
 
-Bazarov was not altogether pleased with himself. Arkady was displeased with him.
+Bazarov was not altogether pleased with himself. Arkady was displeased with him. He was feeling, too, that causeless melancholy which is only known to very young people.
 
 
-He was feeling, too, that causeless melancholy which is only known to very young people. The coachman changed the horses, and getting up on to the box, inquired,
+The coachman changed the horses, and getting up on to the box, inquired,
 
 
 “To the right or to the left?”
-s=coachman1;e:coachman1=
+s=coachman1;e:coachman1=;e:coachman1=contemplative;i=
 
 Arkady started. The road to the right led to the town, and from there home; the road to the left led to Madame Odintsov’s.
 s=none
@@ -7517,22 +7517,22 @@ He looked at Bazarov.
 
 
 “Yevgeny,” he queried; “to the left?”
-s=arkady;e:arkady=contemplative
+s=arkady;e:arkady=contemplative;e:arkady=contemplativelook;i=
 
 Bazarov turned away.
 s=none
 
 “What folly is this?” he muttered.
-s=bazarov;e:bazarov=annoyed
+s=bazarov;e:bazarov=annoyed;e:bazarov=seriouslookdown;i=;e:bazarov=seriouslookdown;i=2
 
 “I know it’s folly,” answered Arkady.﻿ ﻿… “But what does that matter? It’s not the first time.”
-s=arkady
+s=arkady;e:arkady=thinking;i=;e:arkady=contemplative;i=2
 
 Bazarov pulled his cap down over his brows.
 s=none
 
 “As you choose,” he said at last.
-s=bazarov;e:bazarov=serious
+s=bazarov;e:bazarov=serious;e:bazarov=seriouslookdown;i=
 
 “Turn to the left,” shouted Arkady.
 s=arkady;e:arkady=seriouslook
@@ -7540,11 +7540,14 @@ s=arkady;e:arkady=seriouslook
 The coach rolled away in the direction of Nikolskoe. But having resolved on the folly, the friends were even more obstinately silent than before, and seemed positively ill-humoured.
 s=none;f:b:country-road-2=blur(3px)
 
-Directly the steward met them on the steps of Madame Odintsov’s house, the friends could perceive that they had acted injudiciously in giving way so suddenly to a passing impulse. They were obviously not expected.
-b=nikolskoe-wide;x:arkady=;x:bazarov=
+Directly the steward met them on the steps of Madame Odintsov’s house, the friends could perceive that they had acted injudiciously in giving way so suddenly to a passing impulse.
+b=nikolskoe-wide;x:arkady=;x:bazarov=;f:b:nikolskoe-wide=blur(3px)
+
+They were obviously not expected.
+
 
 They sat rather a long while, looking rather foolish, in the drawing-room.
-b=nikolskoe-drawing
+b=nikolskoe-drawing;f:b:nikolskoe-drawing=blur(3px)
 
 Madame Odintsov came in to them at last. She greeted them with her customary politeness, but was surprised at their hasty return; and, so far as could be judged from the deliberation of her gestures and words, she was not over pleased at it.
 
@@ -7565,28 +7568,31 @@ It was only quite at parting that her former friendliness seemed, as it were, to
 f:b:nikolskoe-drawing=
 
 “I have an attack of spleen just now,” she said; “but you must not pay attention to that, and come again﻿—I say this to both of you﻿—before long.”
-s=anna;e:anna=neutral
+s=anna;e:anna=neutral;e:anna=thinking;i=2
 
 Both Bazarov and Arkady responded with a silent bow,
 m=break,1;s=;f:b:nikolskoe-drawing=blur(3px)
 
-took their seats in the coach, and without stopping again anywhere, went straight home to Maryino, where they arrived safely on the evening of the following day.
+took their seats in the coach,
+b=nikolskoe-wide;m=break,1
+
+and without stopping again anywhere, went straight home to Maryino, where they arrived safely on the evening of the following day.
 b=country-road;f:b:country-road=blur(3px);s=none
 
 During the whole course of the journey neither one nor the other even mentioned the name of Madame Odintsov; Bazarov, in particular, scarcely opened his mouth, and kept staring in a side direction away from the road, with a kind of exasperated intensity.
 
 
 At Maryino everyone was exceedingly delighted to see them.
-b=maryino-wide-night;f:b:maryino-wide-night=blur(3px)
+b=maryino-wide;f:b:maryino-wide=blur(3px)
 
 The prolonged absence of his son had begun to make Nikolai Petrovitch uneasy; he uttered a cry of joy, and bounced about on the sofa, dangling his legs, when Fenitchka ran to him with sparkling eyes, and informed him of the arrival of the “young gentlemen”;
 
 
 even Pavel Petrovitch was conscious of some degree of agreeable excitement, and smiled condescendingly as he shook hands with the returned wanderers.
-b=maryino-dining-night;f:b:maryino-dining-night=blur(3px)
+
 
 Talk, questions followed; Arkady talked most, especially at supper, which was prolonged long after midnight.
-
+b=maryino-dining-night;f:b:maryino-dining-night=blur(3px)
 
 Nikolai Petrovitch ordered up some bottles of porter which had only just been sent from Moscow, and partook of the festive beverage till his cheeks were crimson, and he kept laughing in a half-childish, half-nervous little chuckle.
 
@@ -7598,7 +7604,7 @@ The strings gave forth a sweet and plaintive sound in the still air; but with th
 
 
 But meanwhile things were not going over harmoniously at Maryino, and poor Nikolai Petrovitch was having a bad time of it.
-
+f:b:maryino-dining-night=blur(6px)
 
 Difficulties on the farm sprang up every day﻿—senseless, distressing difficulties. The troubles with the hired labourers had become insupportable.
 b=maryino-wide;f:b:maryino-wide=blur(3px)
@@ -7624,10 +7630,10 @@ Nikolai Petrovitch would fix a money fine for damages, but the matter usually en
 To crown all, the peasants began quarrelling among themselves; brothers asked for a division of property, their wives could not get on together in one house;
 
 
-all of a sudden the squabble, as though at a given signal, came to a head, and at once the whole village came running to the countinghouse steps, crawling to the master often drunken and with battered face, demanding justice and judgment; then arose an uproar and clamour, the shrill wailing of the women mixed with the curses of the men.
+all of a sudden the squabble, as though at a given signal, came to a head, and at once the whole village came running to the countinghouse steps, crawling to the master often drunken and with battered face, demanding justice and judgment;
 
 
-Then one had to examine the contending parties, and shout oneself hoarse, knowing all the while that one could never anyway arrive at a just decision.﻿ ﻿…
+then arose an uproar and clamour, the shrill wailing of the women mixed with the curses of the men. Then one had to examine the contending parties, and shout oneself hoarse, knowing all the while that one could never anyway arrive at a just decision.﻿ ﻿…
 
 
 There were not hands enough for the harvest; a neighbouring small owner, with the most benevolent countenance, contracted to supply him with reapers for a commission of two roubles an acre, and cheated him in the most shameless fashion;
@@ -7637,22 +7643,19 @@ his peasant women demanded unheard-of sums, and the corn meanwhile went to waste
 
 
 “I can do nothing!” Nikolai Petrovitch cried more than once in despair.
-b=maryino-nikolai-study;s=nikolai;e:nikolai=upset;f=fade
+b=maryino-nikolai-study;s=nikolai;e:nikolai=upset;f=fade;e:nikolai=unhappy;i=
 
 “I can’t flog them myself; and as for calling in the police captain, my principles don’t allow of it, while you can do nothing with them without the fear of punishment!”
-
+;e:nikolai=wary;i=
 
 “*Du calme, du calme*,” Pavel Petrovitch would remark upon this,
-s=pavel;e:pavel=serious;m=break,1
+s=pavel;e:pavel=serious;m=break,1;x:pavel=fez;e:pavel=seriousmoustache;i=
 
 but even he hummed to himself, knitted his brows, and tugged at his moustache.
 s=none
 
-Bazarov held aloof from these matters, and indeed as a guest it was not for him to meddle in other people’s business.
-b=maryino-wide;n:youngdriver=Young driver;x:youngdriver=hat;f=fade
-
-The day after his arrival at Maryino, he set to work on his frogs, his infusoria, and his chemical experiments, and was forever busy with them.
-
+Bazarov held aloof from these matters, and indeed as a guest it was not for him to meddle in other people’s business. The day after his arrival at Maryino, he set to work on his frogs, his infusoria, and his chemical experiments, and was forever busy with them.
+;n:youngdriver=Young driver;x:youngdriver=hat;f:b:maryino-nikolai-study=blur(3px)
 
 Arkady, on the contrary, thought it his duty, if not to help his father, at least to make a show of being ready to help him. He gave him a patient hearing, and once offered him some advice, not with any idea of its being acted upon, but to show his interest.
 
@@ -7667,13 +7670,13 @@ He tried going long walks till he was tired, but that was no use.
 
 
 In conversation with his father one day, he found out that Nikolai Petrovitch had in his possession rather interesting letters, written by Madame Odintsov’s mother to his wife, and he gave him no rest till he got hold of the letters, for which Nikolai Petrovitch had to rummage in twenty drawers and boxes.
-b=maryino-nikolai-study
+b=maryino-nikolai-study;f:b:maryino-nikolai-study=
 
 Having gained possession of these half-crumbling papers, Arkady felt, as it were, soothed, just as though he had caught a glimpse of the goal towards which he ought now to go.
 
 
 “I mean that for both of you,” he was constantly whispering﻿—
-s=arkady;m=break,1;m=nospace,1;e:arkady=contemplative;x:arkady=
+s=arkady;m=break,1;m=nospace,1;e:arkady=contemplative;x:arkady=;e:arkady=warylookdown;i=
 
 she had added that herself!
 s=
@@ -7685,28 +7688,28 @@ But he recalled the last visit, the cold reception, and his former embarrassment
 s=;f:b:maryino-nikolai-study=blur(3px)
 
 The “go-ahead” feeling of youth, the secret desire to try his luck, to prove his powers in solitude, without the protection of anyone whatever, gained the day at last.
-;f:b:maryino-nikolai-study=blur(6px)
+;f:b:maryino-nikolai-study=blur(3px)
 
 Before ten days had passed after his return to Maryino, on the pretext of studying the working of the Sunday schools, he galloped off to the town again, and from there to Nikolskoe.
-b=country-road-2;x:arkady=hat;f:b:country-road-2=blur(3px)
+b=town-wide;x:arkady=hat,cloak;f:b:town-wide=blur(3px)
 
 Urging the driver on without intermission, he flew along, like a young officer riding to battle; and he felt both frightened and lighthearted, and was breathless with impatience.
 
 
 “The great thing is﻿—one mustn’t think,” he kept repeating to himself.
-m=dialogue,1
+m=dialogue,1;f:b:town-wide=;s=arkady;e:arkady=unhappy;i=2;e:arkady=serious;i=2
 
 His driver happened to be a lad of spirit; he halted before every public house, saying, “A drink or not a drink?” but, to make up for it, when he had drunk he did not spare his horses.
-m=dialogue,1
+m=dialogue,1;f:b:town-wide=blur(3px);s=
 
 At last the lofty roof of the familiar house came in sight.﻿ ﻿…
-b=nikolskoe-wide;s=none
+b=nikolskoe-wide;s=none;f:b:nikolskoe-wide=
 
 “What am I to do?” flashed through Arkady’s head.
-t=arkady;e:arkady=wary
+t=arkady;e:arkady=wary;e:arkady=contemplative;i=;e:arkady=unhappy;i=
 
 “Well, there’s no turning back now!”
-e:arkady=serious
+e:arkady=serious;e:arkady=contemplative;i=
 
 The three horses galloped in unison; the driver whooped and whistled at them. And now the bridge was groaning under the hoofs and wheels, and now the avenue of lopped pines seemed running to meet them.﻿ ﻿…
 t=none
@@ -7721,13 +7724,13 @@ Arkady told the driver to stop the galloping horses, leaped out of the carriage,
 
 
 “It’s you!” she cried, gradually flushing all over;
-s=katya;e:katya=surprised
+s=katya;e:katya=surprised;x:katya=hat;e:katya=wary;i=;e:katya=contemplative;i=;e:katya=confused;i=;e:katya=wary;i=2;e:katya=confused;i=
 
 “let us go to my sister, she’s here in the garden; she will be pleased to see you.”
-e:katya=nervous
+e:katya=nervous;e:katya=wary;i=2;e:katya=contemplative;i=;e:katya=;i=2
 
 Katya led Arkady into the garden.
-b=nikolskoe-garden;x:arkady=hat;x:anna=hat;s=none
+b=nikolskoe-garden;x:arkady=hat;x:anna=hat;s=none;f=fade
 
 His meeting with her struck him as a particularly happy omen; he was delighted to see her, as though she were of his own kindred. Everything had happened so splendidly; no steward, no formal announcement.
 
@@ -7742,19 +7745,19 @@ Arkady felt confused again, but the first words she uttered soothed him at once.
 
 
 “Welcome back, runaway!” she said in her even, caressing voice,
-s=anna;e:anna=happy;m=break,1
+s=anna;e:anna=happy;m=break,1;e:anna=happy;i=2
 
 and came to meet him, smiling and frowning to keep the sun and wind out of her eyes.
 s=none;m=
 
 “Where did you pick him up, Katya?”
-s=anna;e:anna=smirking
+s=anna;e:anna=smirking;e:anna=smirkinglookdown;i=;e:anna=happy;i=;e:anna=thinking;i=
 
 “I have brought you something, Anna Sergyevna,” he began, “which you certainly don’t expect.”
-s=arkady;e:arkady=neutral
+s=arkady;e:arkady=neutral;e:arkady=wary;i=
 
 “You have brought yourself; that’s better than anything.”
-s=anna;e:anna=thinking
+s=anna;e:anna=thinking;e:anna=happy;i=;e:anna=smirkinglookdown;i=
 
 ## XXIII
 r=title
